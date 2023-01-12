@@ -8,7 +8,8 @@
     </head>
     <body>
 
-
+        @include('incs.navbar')
+        
         @yield('content')
 
 
