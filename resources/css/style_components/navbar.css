@@ -6,7 +6,7 @@ nav {
     padding: 15px 25px;
     background: #fafafa;
     box-shadow: inset 0px -1px 0px #c5c5c6;
-    font-family: var(--typo-links);
+    font-family: var(--font-links);
 }
 
 .nav-icon {
@@ -53,18 +53,22 @@ nav {
     margin-left: 100px;
 }
 
-.signs-btn button {
-    font-family: var(--typo-btn);
+.signs-btn button{
+    padding: 15px 20px 15px 20px;
+    cursor: var(--pointer-btn);
+    transition:  0.5s;
+    color: var(--color-text-btn);
+    font-family: var(--font-btn);
     font-size: var(--size-text-btn);
     font-weight: var(--weight-btn);
-    min-width: 90px;
-    padding: 15px;
-    margin: 0 5px;
     border-radius: var(--radius-btn);
-    cursor: var(--pointer-btn);
+    background-size: 200%;
+    background-image: linear-gradient(to right,#F28C28 0%, #f7c955 100%);
     border: none;
-    background: #F28C28;
-    color: #fafafa;
+    box-shadow: 0px 10px 15px -3px #ce78229c;
+}
+.signs-btn button:hover{
+    background-position: right;
 }
 
 .sign-user {

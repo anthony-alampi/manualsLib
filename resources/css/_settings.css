@@ -60,17 +60,17 @@
     --size-h1 : 80px;
     --weight-h1 : 500px;
     --color-h1 : #333;
-    --typo-h1 : 'Rubik',sans-serif;
+    --font-h1 : 'Rubik',sans-serif;
 
     --size-h2 : 58px;
     --weight-h2 : 500px;
     --color-h2 : #333;
-    --typo-h2 : 'gilroy-black';
+    --font-h2 : 'gilroy-black';
 
     --size-h3 : 36px;
     --weight-h3 : 500px;
     --color-h3 : #333;
-    --typo-h3 : 'gilroy-bold';
+    --font-h3 : 'gilroy-bold';
 
     /* Texts */
     --size-text: 18px;
@@ -78,22 +78,22 @@
     --height-line-text: 1.7em;
     --color-text: #333;
     --color-link: #F28C28;
-    --typo-text: 'Roboto', sans-serif;
+    --font-text: 'Roboto', sans-serif;
 
         /* Links */
     --size-links: 18px;
     --weight-links: 600;
     --color-links: #333;
     --color-hover-links-: #F28C28;
-    --typo-links: 'Rubik', sans-serif;
+    --font-links: 'Rubik', sans-serif;
 
     /* Button */
     --color-btn: #F28C28;
     --color-hover-btn: #FFB942;
-    --radius-btn: 50px;
+    --radius-btn: 10px;
     --size-text-btn: 16px;
-    --weight-btn: 700;
-    --typo-btn: 'Roboto', sans-serif;
+    --weight-btn: 600;
+    --font-btn: 'Roboto', sans-serif;
     --pointer-btn: pointer;
     --color-text-btn: #fafafa;
     --padding-btn: 15px;
