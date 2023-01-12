@@ -1,4 +1,3 @@
-<header>
     <nav>
         <a href="#" class="nav-icon" aria-label="visit homepage" aria-current="page">
             <img src="{{asset('assets/img/logo-manualsLib-rogn.jpg')}}" alt="">
@@ -30,7 +29,7 @@
             </div>
         </div>
     </nav>
-</header>
+
 
 
 

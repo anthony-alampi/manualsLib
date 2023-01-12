@@ -1,4 +1,9 @@
+body{
+    height: 200vh;
+}
+
 nav {
+    position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;

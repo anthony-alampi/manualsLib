@@ -1,6 +1,13 @@
 @extends('base')
 
 @section('content')
+<header>
+    <div>bon</div>
+    <div>jour</div>
+    <div>salut</div>
+    <div>helo</div>
+    <div>hole</div>
+</header>
 <h1>Bonjour le titre</h1>
 <h2>bonjour</h2>
 <h3>bonjour</h3>
