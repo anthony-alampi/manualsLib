@@ -1,6 +1,6 @@
     <nav>
         <a href="#" class="nav-icon" aria-label="visit homepage" aria-current="page">
-            <img src="{{asset('assets/img/logo-manualsLib-rogn.jpg')}}" alt="">
+            <img src="{{asset('assets/img/logo 3 Vector file.svg')}}" alt="">
         </a>
 
         <div class="main-navlinks">
@@ -14,7 +14,7 @@
                 <a href="#">Manuals</a>
                 <a href="#">Features</a>
                 <a href="#">Brands</a>
-                <a href="#">Pricing</a>
+                <a href="#">Pricing</a> 
                 <a href="#">Api</a>
                 <a href="#">Press</a>
                 <a href="#">About</a>

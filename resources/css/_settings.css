@@ -1,5 +1,8 @@
-/* Import  style-component */
+/* Import  style-components */
 @import './style_components/navbar.css';
+
+/* Import style-pages*/
+@import './style_pages/home.css';
 
 /* Import online font*/
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
@@ -57,15 +60,14 @@
     --third-color : #333;
 
     /* Titles h1,h2,h3 */
-    --size-h1 : 80px;
-    --weight-h1 : 500px;
-    --color-h1 : #333;
-    --font-h1 : 'Rubik',sans-serif;
+    --size-h1 : 70px;
+    --color-h1 : #111;
+    --font-h1 : 'gilroy-black';
 
-    --size-h2 : 58px;
+    --size-h2 : 34px;
     --weight-h2 : 500px;
-    --color-h2 : #333;
-    --font-h2 : 'gilroy-black';
+    --color-h2 : #222;
+    --font-h2 : 'Rubik',sans-serif;
 
     --size-h3 : 36px;
     --weight-h3 : 500px;
