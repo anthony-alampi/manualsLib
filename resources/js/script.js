@@ -1,4 +1,19 @@
 import './bootstrap';
+//--------------------------------Sticky navbar effect--------------------------------//
+// Récupération de la barre de navigation
+var navbar = document.querySelector("nav");
+// Ajout de l'écouteur d'événement de défilement
+window.addEventListener("scroll", () => {
+  // Récupération de la position de défilement
+  var scrollPos = window.scrollY;
+  // Ajout ou suppression de la classe "scrolled" en fonction de la position de défilement
+  if (scrollPos > 50) {
+    navbar.classList.add("scrolled");
+  } else {
+    navbar.classList.remove("scrolled");
+  }
+});
+
 
 //--------------------------------------Hamburger-------------------------------------//
 const hamburgerToggler = document.querySelector(".hamburger");
