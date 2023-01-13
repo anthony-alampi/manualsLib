@@ -12,6 +12,8 @@
         
         @yield('content')
 
+        @include('incs.footer')
+
 
     </body>
 </html>

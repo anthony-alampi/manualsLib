@@ -1,5 +1,6 @@
 /* Import  style-components */
 @import './style_components/navbar.css';
+@import './style_components/footer.css';
 
 /* Import style-pages*/
 @import './style_pages/home.css';

@@ -109,6 +109,9 @@
 .illustration{
     display: block;
 }
+.illustration img:nth-child(1){
+    width: 800px;
+}
 
 .title-information{
     margin-top: 100px;

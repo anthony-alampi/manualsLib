@@ -14,7 +14,7 @@
         </div>
     </div>
     <div class="illustration">
-        <img src="{{asset('assets/img/ils-01.png')}}" alt="">
+        <img src="{{asset('assets/img/test1.jpg')}}" alt="">
         <img src="{{asset('assets/img/smartphone.svg')}}" class="floating-image floating-image1" />
         <img src="{{asset('assets/img/ipad.svg')}}" class="floating-image floating-image2" />
         <img src="{{asset('assets/img/watch-tv.svg')}}" class="floating-image floating-image3" />
