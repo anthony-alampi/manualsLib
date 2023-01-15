@@ -6,8 +6,7 @@ return
 //----------------------------------------------------------PAGE TITLES--------------------------------------------------------------------------------//
         
         //* Manuals Form *//
-        'STR_TITLE_FORM_1/2' => 'Find for your',
-        'STR_TITLE_FORM_2/2' => 'device\'s manual',
+        'STR_TITLE_FORM_1' => 'Find for your device\'s manual',
         'STR_TITLE_FORM_2' => 'Search by brand, model or serial number',
         'STR_TITLE_FORM_3' => 'Access more than 50 000 Manuals available from our database',
         'STR_TITLE_FORM_4' => 'Get remote assistance for all your devices',

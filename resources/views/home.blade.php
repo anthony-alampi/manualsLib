@@ -3,15 +3,14 @@
 
 <header class="home-header">
     <div class="title-form">
-        <h1>{{ trans('lang.STR_TITLE_FORM_1/2') }}</h1>
-        {{-- <img src="{{asset('assets/img/line-shape-1.svg')}}" alt="line custom"> --}}
-        <h1>{{ trans('lang.STR_TITLE_FORM_2/2') }}</h1>
+        <h1>{{ trans('lang.STR_TITLE_FORM_1') }}</h1>
+        {{-- <h1>{{ trans('lang.STR_TITLE_FORM_2/2') }}</h1> --}}
         <h2>{{ trans('lang.STR_TITLE_FORM_2') }}</h2>
-        {{-- Formulaire de recherche par marque, model, SN --}}
-        <div class="btns-container">
+        @include('incs.formManuals')
+        {{-- <div class="btns-container">
             <button>Manuals</button>
             <button>Brands</button>
-        </div>
+        </div> --}}
     </div>
     <div class="illustration">
         <img src="{{asset('assets/img/test1.jpg')}}" alt="">
