@@ -3,9 +3,9 @@
 
 <header class="home-header">
     <div class="title-form">
-        <h1>{{ trans('lang.STR_TITLE_FORM_1') }}</h1>
+        {{-- <h1>{{ trans('lang.STR_TITLE_FORM_1') }}</h1> --}}
         {{-- <h1>{{ trans('lang.STR_TITLE_FORM_2/2') }}</h1> --}}
-        <h2>{{ trans('lang.STR_TITLE_FORM_2') }}</h2>
+        {{-- <h2>{{ trans('lang.STR_TITLE_FORM_2') }}</h2> --}}
         @include('incs.formManuals')
         {{-- <div class="btns-container">
             <button>Manuals</button>
@@ -13,7 +13,7 @@
         </div> --}}
     </div>
     <div class="illustration">
-        <img src="{{asset('assets/img/test1.jpg')}}" alt="">
+        <img src="{{asset('assets/img/header-illustration.png')}}" alt="">
         <img src="{{asset('assets/img/smartphone.svg')}}" class="floating-image floating-image1" />
         <img src="{{asset('assets/img/ipad.svg')}}" class="floating-image floating-image2" />
         <img src="{{asset('assets/img/watch-tv.svg')}}" class="floating-image floating-image3" />
@@ -62,13 +62,6 @@
 		            </div>
                     <div class="slide">
 			            <img src="{{asset('assets/img/whirlpool.png')}}" alt="Brands logo" />
-		            </div>
-                    div class="slide">
-			            <img src="{{asset('assets/img/whirlpool.png')}}" alt="Brands logo" />
-		            </div>
-                    <div class="slide">
-			            <img src="{{asset('assets/img/whirlpool.png')}}" alt="Brands logo" />
-		            </div>
 	            </div>
             </div>
         </div>

@@ -1,46 +1,70 @@
 .search-form {
     margin-top: 50px;
-    border: solid 2px #F28C28 ;
+    border: solid 3px var(--primary-color);
     border-radius: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.381);
-    padding: 50px;
+    padding: 20px;
 }
-.search-form h2{
+
+.search-form .input-fields .STR_TITLE_FORM_1{
    margin-bottom: 20px;
-   
-
+   font-size: var(--size-h1);
+   font-family: var(--font-h1);
+   color: var(--color-h1);
+}
+.search-form .input-fields .STR_TITLE_FORM_2{
+    font-size: var(--size-h3);
+    font-family: var(--font-h3);
+    color: var(--color-h3);
+    margin-bottom: 25px;
 }
 
-.input-fields {
+.search-form .input-fields {
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-direction: column;
     align-items: center;
 }
 
-.styled-input {
-    padding: 12px;
-    border: solid 2px #F28C28;
-    border-radius: 20px;
-    /* border-bottom: 2px solid #F28C28; */
-    margin-right: 10px;
-    width: 100%;
+.input-fields .styled-input {
+    padding: 10px;
+    border: solid 2px var(--primary-color);
+    border-radius: 15px;
+    width: 50%;
     font-size: 16px;
-    color: #F28C28;
+}
+
+.input-fields label{
+    margin-top: 20px;
+    font-family: var(--font-text);
+    font-weight: var(--weight-text);
+    color: var(--color-text);
+    letter-spacing: 2px;
 }
 
 #search-button {
-    background-color: #F28C28;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    width: 40%;
-    margin-top: 50px;
+    padding: 7px 0px 7px 0px;
+    width: 50%;
+    margin-top: 20px;
+    cursor: var(--pointer-btn);
+    transition: 0.5s;
+    color: var(--color-text-btn);
+    font-family: var(--font-btn);
+    font-size: var(--size-text-btn);
+    font-weight: var(--weight-btn);
+    border-radius: var(--radius-btn);
     letter-spacing: 2px;
-    font-size: var(--size-btn);
-}
+    background-size: 200%;
+    background-image: linear-gradient(to right, var(--color-btn) 0%, var(--color-hover-btn) 100%);
+    border: none;
+    box-shadow: 0px 10px 15px -3px #ce78229c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
 
 #search-button:hover {
-    background-color: #e57f22;
+    background-position: right;
+}
+#search-button img{
+    width: 40px;
 }

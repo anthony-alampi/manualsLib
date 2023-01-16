@@ -62,16 +62,16 @@
     --third-color : #333;
 
     /* Titles h1,h2,h3 */
-    --size-h1 : 70px;
-    --color-h1 : #111;
+    --size-h1 : 40px;
+    --color-h1 : #333;
     --font-h1 : 'gilroy-black';
 
-    --size-h2 : 34px;
+    --size-h2 : 30px;
     --weight-h2 : 500px;
     --color-h2 : #222;
     --font-h2 : 'Rubik',sans-serif;
 
-    --size-h3 : 36px;
+    --size-h3 : 25px;
     --weight-h3 : 500px;
     --color-h3 : #333;
     --font-h3 : 'gilroy-bold';

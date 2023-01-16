@@ -1,10 +1,12 @@
 .home-header{
-    position: relative;
+    /* position: relative; */
     height: 100vh;
+    padding: 0 16px 0 16px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    padding-top: 120px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 100px;
 
 }
 /*-------floating image--------------*/
@@ -21,7 +23,7 @@
     position: absolute;
     width: 20%;
     top: 40%;
-    left: 42%;
+    left: 47%;
     animation: floating 4s infinite;
     width: 50px;
 }
@@ -61,7 +63,7 @@
 
 
 /*----------------------------------------*/
-.title-form{
+/* .title-form{
     display: inline-block;
     align-self: center;
     width: 40%;
@@ -104,13 +106,13 @@
 
 .title-form .btns-container button:hover {
     background-position: right;
-}
+} */
 
 .illustration{
-    display: block;
+    /* display: block; */
 }
 .illustration img:nth-child(1){
-    width: 800px;
+    width: 700px;
 }
 
 .title-information{
@@ -130,7 +132,7 @@
     }
 
     100% {
-        transform: translateX(calc(-250px * 7))
+        transform: translateX(calc(-200px * 7))
     }
 }
 
@@ -166,7 +168,7 @@
 .slider .slide-track {
     animation: scroll 45s linear infinite;
     display: flex;
-    width: calc(200px * 13);
+    /* width: calc(200px * 13); */
 }
 
 .slider .slide-track .slide img {
