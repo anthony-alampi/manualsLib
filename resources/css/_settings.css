@@ -60,6 +60,7 @@
     --primary-color: #F28C28;
     --secondary-color: #FFB942;
     --third-color : #333;
+    --footer-bg : #dddddd;
 
     /* Titles h1,h2,h3 */
     --size-h1 : 40px;
@@ -88,7 +89,7 @@
     --size-links: 18px;
     --weight-links: 600;
     --color-links: #333;
-    --color-hover-links-: #F28C28;
+    --color-hover-links: #F28C28;
     --font-links: 'Rubik', sans-serif;
 
     /* Button */
@@ -102,4 +103,3 @@
     --color-text-btn: #fafafa;
     --padding-btn: 15px;
 }
-

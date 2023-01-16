@@ -1,5 +1,9 @@
 .home-header{
     /* position: relative; */
+    /* background-image: url(/public/assets/img/test2.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
     height: 100vh;
     padding: 0 16px 0 16px;
     display: flex;
