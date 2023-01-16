@@ -102,10 +102,10 @@
                     <h2>{{ trans('lang.STR_TITLE_1') }}</h2>
                     <p>{{ trans('lang.STR_TEXT_1') }}</p>
                 </div>
-                <img src="{{asset('assets/img/user-guide.jpg')}}" alt="">
+                <img src="{{asset('assets/img/user-manual-block1.png')}}" alt="">
             </article>
 
-            <article class="title-text reveal-1">
+            <article class="title-text order-resp reveal-1">
                 <img src="{{asset('assets/img/user-guide.jpg')}}" alt="">
                 <div class="text-container">
                     <h2>{{ trans('lang.STR_TITLE_2') }}</h2>
@@ -118,7 +118,7 @@
                     <h2>{{ trans('lang.STR_TITLE_3') }}</h2>
                     <p>{{ trans('lang.STR_TEXT_3') }}</p>
                 </div>
-                <img src="{{asset('assets/img/user-guide.jpg')}}" alt="">
+                <img src="{{asset('assets/img/faq-block3.png')}}" alt="">
             </article>
 
             <div class="hero reveal-1">

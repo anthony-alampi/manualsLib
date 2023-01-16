@@ -1,9 +1,10 @@
 .home-header{
     /* position: relative; */
-    /* background-image: url(/public/assets/img/test2.jpg); */
+    background-image: url(/public/assets/img/background-header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment:fixed;
+    background-position:left;
     height: 100vh;
     padding: 0 16px 0 16px;
     display: flex;
@@ -16,7 +17,6 @@
 /*-------floating image--------------*/
 .floating-image1 {
     position: absolute;
-    width: 20%;
     top: 20%;
     left: 20%;
     animation: floating 5s infinite;
@@ -25,7 +25,6 @@
 
 .floating-image2 {
     position: absolute;
-    width: 20%;
     top: 40%;
     left: 47%;
     animation: floating 4s infinite;
@@ -219,13 +218,13 @@
 .title-text{
     margin-top: 150px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    padding: 0 16px 0 16px;
 }
 
 .title-text .text-container{
-    width: 40%;
-    word-break:keep-all;
+    width: 50%;
 }
 
 .text-container h2{
@@ -243,12 +242,13 @@
 }
 .title-text img{
     object-fit: contain;
+    width: 700px;
 }
 
 /*-----------CUSTOMERS FEEDBACKS----------------*/
 .hero{
     width: 100%;
-    background: #f6fbff;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -259,6 +259,7 @@
     font-weight: var(--weight-text);
     color: var(--color-text);
     font-size: 16px;
+    padding: 16px;
 
 }
 .hero .testimonial-title{

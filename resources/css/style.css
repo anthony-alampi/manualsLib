@@ -1,2 +1,228 @@
 @import '_settings.css';
 
+/*--------------------Form responsive--------------*/
+@media (max-width: 1024px) {
+    .search-form .input-fields .STR_TITLE_FORM_1{
+        font-size: 25px;
+    }
+    .search-form .input-fields .STR_TITLE_FORM_2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .input-fields .styled-input {
+        padding: 5px;
+        border: solid 2px var(--primary-color);
+        border-radius: 15px;
+        width: 50%;
+        font-size: 16px;
+    }
+    .input-fields label {
+        margin-top: 10px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .search-form .input-fields .STR_TITLE_FORM_1 {
+        font-size: 20px;
+    }
+
+    .search-form .input-fields .STR_TITLE_FORM_2 {
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+
+    .input-fields .styled-input {
+        padding: 3px;
+        border: solid 2px var(--primary-color);
+        border-radius: 15px;
+        width: 70%;
+        font-size: 16px;
+    }
+
+    .input-fields label {
+        margin-top: 0px;
+    }
+    #search-button {
+        padding: 0px 0px 0px 0px;
+        width: 60%;
+        margin-top: 10px;
+        font-size: 15px;
+        letter-spacing: 0px;
+    }
+    #search-button img {
+        width: 30px;
+        margin-left: 10px;
+    }
+}
+
+
+
+/*----------------------Homepage Responsive----------------------*/
+@media (max-width: 1316px) {
+    .illustration img:nth-child(1) {
+        /* width: 700px; */
+        display: none;
+    }
+    .home-header {
+        padding-top: 55px;
+        display: flex;
+        justify-content: center;
+    }
+.floating-image2 {
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    animation: floating 4s infinite;
+    width: 50px;
+}
+}
+
+
+@media (max-width: 1024px){
+    .home-header {
+        padding-top: 55px;
+        display: flex;
+        justify-content: center;
+    }
+    .floating-image1 {
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        width: 40px;
+    }
+    .floating-image2 {
+        position: absolute;
+        top: 35%;
+        left: 90%;
+        width: 40px;
+    }
+
+    .floating-image3 {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    width: 40px;
+    }
+    .floating-image4 {
+        position: absolute;
+        top: 80%;
+        left: 90%;
+        width: 40px;
+    }
+    .illustration img:nth-child(1) {
+        display: none;
+    }
+    .title-information h2 {
+        text-align: center;
+        font-family: var(--font-h2);
+        font-size: 25px;
+        color: var(--color-h2);
+        padding: 5px 16px 0 16px;
+    }
+    .slider {
+        height: 60px;
+    }
+    .slider .slide-track .slide img {
+        height: 50px;
+        width: 100px;
+        margin-right: 60px;
+    }
+
+    .devices-cover h2 {
+        font-size: 25px;
+    }
+    .title-text {
+        margin-top: 0px;
+        flex-wrap: wrap;
+    }
+    .title-text .text-container {
+        width: 100%;
+    }
+    .title-text img {
+        width: 400px;
+    }
+    .order-resp img{
+        order: 2;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .home-header {
+        padding-top: 55px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .floating-image1 {
+        display: none;
+    }
+
+    .floating-image2 {
+        display: none;
+    }
+
+    .floating-image3 {
+        display: none;
+    }
+
+    .floating-image4 {
+        display: none;
+    }
+
+    .illustration img:nth-child(1) {
+        display: none;
+    }
+    .title-information {
+        margin-top: 20px;
+    }
+    .slider {
+        margin-top: 50px;
+    }
+    .title-information h2 {
+        text-align: center;
+        font-family: var(--font-h2);
+        font-size: 20px;
+        color: var(--color-h2);
+        padding: 5px 16px 0 16px;
+    }
+
+    .slider {
+        height: 60px;
+    }
+
+    .slider .slide-track .slide img {
+        height: 50px;
+        width: 100px;
+        margin-right: 60px;
+    }
+
+    .devices-cover h2 {
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .container-devices {
+        margin-top: 20px;
+    }
+    .title-text {
+        margin-top: 0px;
+        flex-wrap: wrap;
+    }
+
+    .title-text .text-container {
+        width: 100%;
+    }
+
+    .title-text img {
+        width: 200px;
+    }
+
+    .order-resp img {
+        order: 2;
+    }
+    .text-container p {
+        font-size: 15px;
+        }
+
+}
