@@ -2,28 +2,68 @@
     font-family: var(--font-h1);
     font-size: var(--size-h1);
     font-weight: var(--weight-h1);
-    color: var(--color-h1);
+    color: #f0f0f0;
     text-align: center;
     padding-top: 200px;
     height: 50vh;
+    background-image: url(/public/assets/img/background-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-
-/*----------------TEXT LBLOCK FEATURES----------------------*/
-.features-container{
+/*------------FEATURES LISTING X3-----------*/
+.features-listing-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
+}
+
+.features-listing-container .item {
+    margin: 80px;
+    width: 300px;
+}
+
+.features-listing-container .item h2 {
+    font-family: var(--font-h2);
+    font-weight: 700;
+    text-decoration-line: underline;
+    text-decoration-color: var(--primary-color);
+    text-decoration-thickness: 3px;
+}
+
+.features-listing-container .item p {
+    font-family: var(--font-text);
+    font-weight: var(--weight-text);
+    color: var(--color-text);
+    font-size: 18px;
+    padding: 16px;
+}
+
+.features-listing-container .item img {
+    width: 50px;
+    padding-bottom: 30px;
+}
+/*----------------TEXT BLOCK FEATURES----------------------*/
+.features-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0 100px 0;
     padding: 0 16px 0 16px;
 }   
 
 .features-block{
-    width: 30%;
+    width: 40%;
 }
 
 .features-block h2{
         font-family: var(--font-h1);
         font-size: 60px;
         color: var(--color-h2);
+        
 }
 
 .features-block p {
@@ -33,24 +73,11 @@
     font-size: var(--size-text);
     color: var(--font-color);
     line-height: var(--height-line-text);
-    text-align: justify;
+    width: 80%;
 }
-/*------------FEATURES LISTING X3-----------*/
-.features-listing-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.features-container img{
+    width: 400px;
 }
-.features-listing-container .item{
-    margin: 80px;
-    width: 300px;
-}
-.features-listing-container .item h2{
-
-}
-.features-listing-container .item p{
-
-}
-.features-listing-container .item img{
-    width: 60px;
+.features-container .resize-svg {
+    width: 800px;
 }
