@@ -42,7 +42,7 @@
                     <h2>{{ trans('lang.STR_TITLE_16') }}</h2>
                     <p> {{ trans('lang.STR_TEXT_13') }} </p>
                 </div>
-                <img class="svg" src="{{ asset('assets/img/more-manuals.svg') }}" alt="">
+                <img class="svg" src="{{ asset('assets/img/is-more-manuals.svg') }}" alt="">
             </article>
 
             <article class="features-container reveal-1">
