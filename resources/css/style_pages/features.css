@@ -1,0 +1,56 @@
+.features-header{
+    font-family: var(--font-h1);
+    font-size: var(--size-h1);
+    font-weight: var(--weight-h1);
+    color: var(--color-h1);
+    text-align: center;
+    padding-top: 200px;
+    height: 50vh;
+}
+
+/*----------------TEXT LBLOCK FEATURES----------------------*/
+.features-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 16px 0 16px;
+}   
+
+.features-block{
+    width: 30%;
+}
+
+.features-block h2{
+        font-family: var(--font-h1);
+        font-size: 60px;
+        color: var(--color-h2);
+}
+
+.features-block p {
+    margin-top: 30px;
+    font-family: var(--font-text);
+    font-weight: var(--weight-text);
+    font-size: var(--size-text);
+    color: var(--font-color);
+    line-height: var(--height-line-text);
+    text-align: justify;
+}
+/*------------FEATURES LISTING X3-----------*/
+.features-listing-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.features-listing-container .item{
+    margin: 80px;
+    width: 300px;
+}
+.features-listing-container .item h2{
+
+}
+.features-listing-container .item p{
+
+}
+.features-listing-container .item img{
+    width: 60px;
+}

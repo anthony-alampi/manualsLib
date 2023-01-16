@@ -1,6 +1,6 @@
     <nav>
-        <a href="#" class="nav-icon" aria-label="visit homepage" aria-current="page">
-            <img src="{{asset('assets/img/logo 3 Vector file.svg')}}" alt="">
+        <a href="{{route('home')}}" class="nav-icon" aria-label="visit homepage" aria-current="page">
+            <img src="{{asset('assets/img/logo 3 Vector file.svg')}}" alt="ManualsLib logo">
         </a>
 
         <div class="main-navlinks">
@@ -12,7 +12,7 @@
             <div class="navlinks-container">
                 <a href="#" aria-current="page"></a>
                 <a href="#">Manuals</a>
-                <a href="#">Features</a>
+                <a href="{{route('features')}}">Features</a>
                 <a href="#">Brands</a>
                 <a href="#">Pricing</a> 
                 <a href="#">Api</a>

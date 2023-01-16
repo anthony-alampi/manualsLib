@@ -2,13 +2,13 @@
     <div class="link-footer-container">
         <img src="{{asset('assets/img/logo 3 Vector file.svg')}}" alt="">
         <div class="links-container">
-            <a href="#" class="link-item">Home</a>
+            <a href="{{route('home')}}" class="link-item">Home</a>
             <a href="#" class="link-item">Press</a>
             <a href="#" class="link-item">Pricing</a>
             <a href="#" class="link-item">About</a>
         </div>
         <div class="links-container">
-            <a href="#" class="link-item">Features</a>
+            <a href="{{route('features')}}" class="link-item">Features</a>
             <a href="#" class="link-item">Manuals</a>
             <a href="#" class="link-item">Api</a>
             <a href="#" class="link-item">Faq</a>
