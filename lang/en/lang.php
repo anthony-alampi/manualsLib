@@ -17,6 +17,14 @@ return
         'STR_TITLE_2' => 'Get the manuals you need and in your own language',    
         'STR_TITLE_3' => 'Need assistance ? We\'re here to help',    
         'STR_TITLE_4' => 'Customers Feedback',   
+        'STR_TITLE_4/1' => 'Home appliance',   
+        'STR_TITLE_4/2' => 'High tech',   
+        'STR_TITLE_4/3' => 'Smartphones & tablets',   
+        'STR_TITLE_4/4' => 'Laptop & computers',   
+        'STR_TITLE_4/5' => 'TV',   
+        'STR_TITLE_4/6' => 'Remote',   
+        'STR_TITLE_4/7' => 'Rooter',   
+        'STR_TITLE_4/8' => 'Audio & video devices',   
 
         //* Manuals - Title *//
         'STR_TITLE_5' => 'Get full documentation and guides for your device',    

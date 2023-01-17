@@ -1,15 +1,9 @@
 .home-header{
-    /* position: relative; */
-    background-image: url(/public/assets/img/background-header.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment:fixed;
-    background-position:left;
     height: 100vh;
     padding: 0 16px 0 16px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     padding-top: 100px;
 
@@ -17,59 +11,32 @@
 /*-------floating image--------------*/
 .floating-image1 {
     position: absolute;
-    top: 20%;
-    left: 20%;
-    animation: floating 5s infinite;
-    width: 50px;
+    top: 35%;
+    left: 45%;
+    animation: floating 6s infinite;
+    width: 300px;
 }
 
 .floating-image2 {
     position: absolute;
-    top: 40%;
-    left: 47%;
-    animation: floating 4s infinite;
-    width: 50px;
+    top: 55%;
+    left: 45%;
+    animation: floating 5s infinite;
+    width: 300px;
 }
 
 .floating-image3 {
     position: absolute;
-    width: 20%;
-    top: 20%;
-    left: 80%;
+    top: 60%;
+    left: 75%;
     animation: floating 5.5s infinite;
-    width: 50px;
+    width: 300px;
 }
 
-.floating-image4 {
-    position: absolute;
-    width: 20%;
-    top: 80%;
-    left: 90%;
-    animation: floating 5s infinite;
-    width: 50px;
-}
-
-@keyframes floating {
-    0% {
-        transform: translateY(0%);
-    }
-
-    50% {
-        transform: translateY(-50%);
-    }
-
-    100% {
-        transform: translateY(0%);
-    }
-}
-
-
-
-/*----------------------------------------*/
-/* .title-form{
+.title-form{
     display: inline-block;
     align-self: center;
-    width: 40%;
+    width: 30%;
     text-align: center;
 }
 .title-form h1{
@@ -86,36 +53,12 @@
     color: var(--color-h2);
     text-align: left;
 }
-.title-form .btns-container{
-    display: flex;
-    flex-wrap: wrap;
-}
-.title-form .btns-container button{
-    margin-top: 40px;
-    margin-right: 10px;
-    padding: 15px 50px 15px 50px;
-    cursor: var(--pointer-btn);
-    transition: 0.5s;
-    color: var(--color-text-btn);
-    font-family: var(--font-btn);
-    font-size: 25px;
-    font-weight: var(--weight-btn);
-    border-radius: 5px;
-    background-size: 200%;
-    background-image: linear-gradient(to right, #F28C28 0%, #f7c955 100%);
-    border: none;
-    box-shadow: 0px 10px 15px -3px #ce78229c;
-}
-
-.title-form .btns-container button:hover {
-    background-position: right;
-} */
 
 .illustration{
-    /* display: block; */
+    display: block;
 }
 .illustration img:nth-child(1){
-    width: 700px;
+    width: 900px;
 }
 
 .title-information{
@@ -128,16 +71,7 @@
     color: var(--color-h2);
 }
 
-/*-----------------------Brands animation----------------*/
-@keyframes scroll {
-    0% {
-        transform: translateX(0);
-    }
-
-    100% {
-        transform: translateX(calc(-200px * 7))
-    }
-}
+/*---------------Brands animation----------------*/
 
 .slider {
     background: white;
@@ -171,7 +105,6 @@
 .slider .slide-track {
     animation: scroll 45s linear infinite;
     display: flex;
-    /* width: calc(200px * 13); */
 }
 
 .slider .slide-track .slide img {
@@ -181,58 +114,224 @@
 }
 
 /*---------------Devices cards----------------*/
+
+/*-------------Rotate Circle--------------*/
+.effect{
+    position: absolute;
+}
+.effect .floating-image1 {
+    position: relative;
+    width: 150px;
+    top: 150px;
+    left: -650px;
+}
+.effect .rotate-image1 {
+    position: relative;
+    animation: rotation 50s infinite linear;
+    width: 200px;
+    top: 570px;
+    left: 600px;
+}
+.effect .flock-item1 {
+    position: absolute;
+    width: 300px;
+    top: 150px;
+    left: 550px;
+}
+.effect .flock-item2 {
+    position: absolute;
+    width: 300px;
+    top: 500px;
+    left: -550px;
+    transform: rotate(180deg);
+}
+
+.devices-cover article{
+    background: #fff;
+    z-index: 1;
+}
+.devices-cover{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .devices-cover h2{
     margin-top: 80px;
     text-align: center;
-    font-family: var(--font-h2);
-    font-size: var(--size-h2);
+    font-family: var(--font-h1);
+    font-size: 60px;
     color: var(--color-h2);
+    margin-bottom: 100px;
 }
 
-.container-devices{
-    margin-top: 50px;
+.container-1{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
-
-.container-devices .device-card{
+.container-2 {
+    display: flex;
+    justify-content: space-between;
+}
+.device-card{
     margin: 15px;
     padding: 40px;
-    border-radius: 10px ;
+    border-radius: 5px ;
     cursor: pointer;
-    box-shadow: 0px 10px 10px -3px #f28d2843;
     transition: transform .3s;
 }
 
-.container-devices .device-card:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 10px 10px -3px #f28d287b;
+.device-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 8px 7px 30px -3px #00000022;
 }
 
-.container-devices .device-card .device{
-    width: 45px;
+.device-card .device{
+    width: 80px;
+}
+.device-card h3{
+    font-size: 20px;
+    font-family: var(--font-h3);
+    color: var(--color-h3);
+    text-decoration-line: underline;
+    text-decoration-color: var(--primary-color);
+    text-decoration-thickness: 3px;
+
 }
 
 /*----------------TITLE & TEXT BLOCK--------------------*/
+.effect-text-block {
+    position: absolute;
+    /* z-index: 10; */
+}
+.effect-text-block .floating-image1 {
+    position: relative;
+    width: 150px;
+    top: 30px;
+    left: 600px;
+}
+
+.effect-text-block .rotate-image1 {
+    position: relative;
+    animation: rotation 50s infinite linear;
+    width: 200px;
+    top: 210px;
+    left: 820px;
+}
+.effect-text-block .rotate-image2 {
+    position: relative;
+    animation: rotation 15s infinite linear;
+    width: 20px;
+    top: 210px;
+    left: 820px;
+}
+.effect-text-block .rotate-image3 {
+    position: relative;
+    animation: rotation 15s infinite linear;
+    width: 20px;
+    top: -360px;
+    left: 600px;
+}
+.effect-text-block .floating-image4 {
+    position: relative;
+    animation: floating 5s infinite linear;
+    width: 7px;
+    top: -360px;
+    left: 800px;
+}
+.effect-text-block .floating-image5 {
+    position: relative;
+    animation: floating 5s infinite linear;
+    width: 10px;
+    top: -360px;
+    left: 990px;
+}
+.effect-text-block .floating-image6 {
+    position: relative;
+    animation: floating 5s infinite linear;
+    width: 20px;
+    top: -80px;
+    left: 580px;
+    opacity: 0.4;
+}
+.effect-text-block .floating-image7 {
+    position: relative;
+    animation: floating 5s infinite linear;
+    width: 7px;
+    top: 200px;
+    left: 880px;
+    opacity: 0.4;
+}
+.effect-text-block .rotate-image8 {
+    position: relative;
+    animation: rotation 20s infinite linear;
+    width: 200px;
+    /* top: 0px; */
+    left: 430px;
+}
+.effect-text-block .floating-image9 {
+    position: relative;
+    animation: floating 5s infinite linear;
+    width: 110px;
+    top: -200px;
+    left: -218px;
+}
+.effect-text-block .floating-image10 {
+    position: relative;
+    animation: floating 5s infinite linear;
+    width: 15px;
+    top: 250px;
+    left: 200px;
+}
+.effect-text-block .floating-image11 {
+    position: relative;
+    animation: floating 5s infinite linear;
+    width: 20px;
+    top: 210px;
+    left: -218px;
+}
+.effect-text-block .floating-image12 {
+    position: relative;
+    animation: floating 5s infinite linear;
+    width: 15px;
+    top: -400px;
+    left: 200px;
+    opacity: 0.5;
+}
+.effect-text-block .rotate-image13 {
+    position: relative;
+    animation: rotation 20s infinite linear;
+    width: 180px;
+    top: 200px;
+    left: 1270px;
+}
+.effect-text-block .floating-image14 {
+    position: relative;
+    animation: floating 5s infinite linear;
+    width: 110px;
+    top: -120px;
+    left: 730px;
+}
+
 .title-text{
-    margin-top: 150px;
+    margin-top: 100px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 0 16px 0 16px;
 }
 
 .title-text .text-container{
     width: 50%;
+    margin-left: 100px;
 }
 
 .text-container h2{
     text-align: left;
+    margin-bottom: 20px;
 }
 
 .text-container p{
-    margin-top: 30px;
     font-family: var(--font-text);
     font-weight: var(--weight-text);
     font-size: var(--size-text);
@@ -241,12 +340,13 @@
     text-align: justify;
 }
 .title-text img{
-    object-fit: contain;
-    width: 700px;
+    /* object-fit: contain; */
+    width: 600px;
+    z-index: 10;
 }
 
 /*-----------CUSTOMERS FEEDBACKS----------------*/
-.hero{
+/* .hero{
     width: 100%;
     height: auto;
     display: flex;
@@ -345,7 +445,7 @@
     border-radius: 50%;
     cursor: pointer;
     transform:rotate(180deg);
-}
+} */
 
 /*-------------reveal observer------------------*/
 [class*="reveal-"] {

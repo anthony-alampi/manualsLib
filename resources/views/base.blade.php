@@ -3,8 +3,10 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Laravel</title>
+        <title>ManualsLib</title>
+        <link rel="shortcut icon" href="{{ asset('assets/img/favicon.ico') }}">
         @vite(['resources/css/style.css', 'resources/js/script.js'])
+        
     </head>
     <body>
 
@@ -16,4 +18,5 @@
 
 
     </body>
+    
 </html>
