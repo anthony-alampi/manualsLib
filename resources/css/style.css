@@ -323,7 +323,7 @@
         }
 }
 @media (max-width: 500px) {
-.features-header {
+.custom-page-header {
     height: auto;
 }
     .features-block h2 {
@@ -396,4 +396,16 @@
     .features-container .resize-svg {
         width: 250px;
     }
+}
+
+/*----------------FAQ RESPONSIVE-------------------*/
+@media (max-width: 1024px) {
+.faq-block {
+        width: 80%;
+        text-align: center;
+    }
+
+.faq-container img{
+    width: 200px;
+}
 }

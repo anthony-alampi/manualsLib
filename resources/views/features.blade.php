@@ -2,9 +2,8 @@
 
 @section('content')
 
-<header class="features-header">
+<header class="custom-page-header">
     <h1>{{ trans('lang.STR_TITLE_12/5') }}</h1>
-
 </header>
 <main>
     <article>
