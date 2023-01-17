@@ -7,6 +7,7 @@
 @import './style_pages/home.css';
 @import './style_pages/features.css';
 @import './style_pages/faq.css';
+@import './style_pages/about.css';
 
 /* Import online font*/
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');

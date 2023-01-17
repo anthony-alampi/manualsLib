@@ -17,7 +17,7 @@
                 <a href="#">Pricing</a> 
                 <a href="#">Api</a>
                 <a href="#">Press</a>
-                <a href="#">About</a>
+                <a href="{{route('about')}}">About</a>
             </div>
         </div>
             <div class="nav-authentication">

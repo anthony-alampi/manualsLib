@@ -67,6 +67,7 @@
                         <h2>{{ trans('lang.STR_TITLE_54') }}</h2>
                         <p> {{ trans('lang.STR_TEXT_42') }} </p>
                     </div>
+                </article>
 
                 <article class="faq-container reveal-1">
                     <div class="faq-block">

@@ -5,7 +5,7 @@
             <a href="{{route('home')}}" class="link-item">Home</a>
             <a href="#" class="link-item">Press</a>
             <a href="#" class="link-item">Pricing</a>
-            <a href="#" class="link-item">About</a>
+            <a href="{{route('about')}}" class="link-item">About</a>
         </div>
         <div class="links-container">
             <a href="{{route('features')}}" class="link-item">Features</a>
