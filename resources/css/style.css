@@ -401,10 +401,9 @@
 /*----------------FAQ RESPONSIVE-------------------*/
 @media (max-width: 1024px) {
 .faq-block {
-        width: 80%;
-        text-align: center;
+    width: 80%;
+    text-align: center;
     }
-
 .faq-container img{
     width: 200px;
 }

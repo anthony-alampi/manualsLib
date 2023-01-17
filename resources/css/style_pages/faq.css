@@ -13,13 +13,21 @@
 }
 
 .faq{
-    margin-left: 50%;
     margin-top: 100px;
-    transform: translateX(-50%);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .faq .faq-question{
-    margin: 20px;
+    margin: 60px;
+    padding: 20px;
+    border: solid 3px var(--primary-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.381);
+    width: 50%;
+    word-break:keep-all;
 }
 
 .faq .faq-question h2{
@@ -47,7 +55,7 @@
 }
 
 .faq-block{
-    width: 40%; /*responsive ici*/
+    width: 40%;
     padding: 0 16px 0 16px;
 }
 .faq-container img{
