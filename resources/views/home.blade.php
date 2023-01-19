@@ -8,8 +8,8 @@
     </div>
     <div class="grid">
         <img src="{{asset('assets/imgs/float-message-1.png')}}" class="child1" />
-        <img src="{{asset('assets/imgs/float-message-1.png')}}" class="child2" />
-        <img src="{{asset('assets/imgs/float-message-1.png')}}" class="child3" />
+        <img src="{{asset('assets/imgs/float-message-2.png')}}" class="child2" />
+        <img src="{{asset('assets/imgs/float-message-3.png')}}" class="child3" />
     </div>
 </header>
 
@@ -63,43 +63,96 @@
             <img src="{{asset('assets/imgs/flock-1.svg')}}" class="flock-item1" />
             <img src="{{asset('assets/imgs/flock-3.svg')}}" class="flock-item2" />
             <div class="grid-devices">
-                <div class="grid-item card">
+                <div class="card">
                     <img src="{{asset('assets/imgs/triangle-effect-1.svg')}}" class="flock-item4" />
                     <img src="{{asset('assets/img/electric-appliance.svg')}}" alt="">
                     <h2>{{ trans('lang.STR_TITLE_DEVICE_1') }}</h2>
                 </div>
-                <div class="grid-item card">
+                <div class="card reveal-1">
                     <img src="{{asset('assets/img/amplifier.svg')}}" alt="">
                     <h2>{{ trans('lang.STR_TITLE_DEVICE_2') }}</h2>
                 </div>
-                <div class="grid-item card">
+                <div class="card reveal-2">
                     <img src="{{asset('assets/img/ipad.svg')}}" alt="">
                     <h2>{{ trans('lang.STR_TITLE_DEVICE_3') }}</h2>
                 </div>
-                <div class="grid-item card">
+                <div class="card reveal-3">
                     <img src="{{asset('assets/img/computer.svg')}}" alt="">
                     <h2>{{ trans('lang.STR_TITLE_DEVICE_4') }}</h2>
                 </div>
-                <div class="grid-item card">
+                <div class="card reveal-1">
                     <img src="{{asset('assets/img/watch-tv.svg')}}" alt="">
                     <h2>{{ trans('lang.STR_TITLE_DEVICE_5') }}</h2>
                 </div>
-                <div class="grid-item card">
+                <div class="card reveal-2">
                     <img src="{{asset('assets/img/remote-control.svg')}}" alt="">
                     <h2>{{ trans('lang.STR_TITLE_DEVICE_6') }}</h2>
                 </div>
-                <div class="grid-item card">
+                <div class="card reveal-3">
                     <img src="{{asset('assets/img/wifi.svg')}}" alt="">
                     <h2>{{ trans('lang.STR_TITLE_DEVICE_7') }}</h2>
                 </div>
-                <div class="grid-item card">
+                <div class="card ">
                     <img src="{{asset('assets/img/amplifier.svg')}}" alt="">
                     <h2>{{ trans('lang.STR_TITLE_DEVICE_8') }}</h2>
                     <img src="{{asset('assets/imgs/circle-effect-1.svg')}}" class="flock-item3" />
                 </div>
             </div>
         </div>
-        
+
+        <section class='content-block1'>
+            <div class='title'>
+                <img src="{{asset('assets/img/manual.svg')}}" alt="">
+                <h2>{{ trans('lang.STR_TITLE_HOMEPAGE_6') }}</h2>
+                <p>{{trans('lang.STR_TEXT_1')}}</p>
+            </div>
+            <div class="grid">
+                <img src="{{asset('assets/imgs/more.svg')}}" class="child-more1" />
+                <img src="{{asset('assets/imgs/backslash.svg')}}" class="child-backslash" />
+                <img src="{{asset('assets/imgs/more.svg')}}" class="child-more2" />
+                <img src="{{asset('assets/imgs/carre.svg')}}" class="child-square1" />
+                <img src="{{asset('assets/imgs/carre.svg')}}" class="child-square2" />
+                <img src="{{asset('assets/imgs/carre.svg')}}" class="child-square3" />
+                <img src="{{asset('assets/imgs/circle-effect-1.svg')}}" class="child-circle" />
+            </div>
+        </section>
+
+        <section class='content-block2 reveal-1'>
+            <div class="images">
+                <img src="{{asset('assets/img/more-translate.png')}}" alt="" class="illustration">
+                <img src="{{asset('assets/imgs/orange-triangle.svg')}}" class="child-triangle" alt=''/>
+                <img src="{{asset('assets/imgs/carre.svg')}}" class="child-square1" alt=''/>
+                <img src="{{asset('assets/imgs/carre.svg')}}" class="child-square2" alt=''/>
+                <img src="{{asset('assets/imgs/carre.svg')}}" class="child-square3" alt=''/>
+                <img src="{{asset('assets/imgs/carre.svg')}}" class="child-square4" alt=''/>
+                <img src="{{asset('assets/imgs/carre.svg')}}" class="child-square5" alt=''/>
+            </div>
+            <div class='title-text'>
+                <img src="{{asset('assets/img/translation.svg')}}" class="icon"alt="">
+                <h2>{{ trans('lang.STR_TITLE_HOMEPAGE_7') }}</h2>
+                <p>{{trans('lang.STR_TEXT_2')}}</p>
+            </div>
+        </section>
+<div class="custom-line">
+    <img src="{{asset('assets/img/line-shape-4.svg')}}" alt="">
+</div>
+        <section class='content-block3 reveal-1'>
+            <div class='title-text'>
+                <img src="{{asset('assets/img/operator.svg')}}" class="icon"alt="">
+                <h2>{{ trans('lang.STR_TITLE_HOMEPAGE_8') }}</h2>
+                <p>{{trans('lang.STR_TEXT_3')}}</p>
+            </div>
+            <div class="images">
+                <img src="{{asset('assets/img/more-assist.png')}}" alt="" class="illustration">
+            </div>
+        </section>
+
+
+
+
+
+
+
     </article>
 </main>
 
