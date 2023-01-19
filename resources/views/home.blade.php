@@ -1,10 +1,131 @@
 @extends('base')
+
+
+<header class='home-header'>
+    <div class="title-and-form">
+        <h1>{{ trans('lang.STR_TITLE_HOMEPAGE_1') }}</h1>
+        @include('incs.formManuals')
+    </div>
+    <div class="grid">
+        <img src="{{asset('assets/imgs/float-message-1.png')}}" class="child1" />
+        <img src="{{asset('assets/imgs/float-message-1.png')}}" class="child2" />
+        <img src="{{asset('assets/imgs/float-message-1.png')}}" class="child3" />
+    </div>
+</header>
+
+<main>
+    <article>
+        <section>
+            <div class="slider">
+	            <div class="slide-track">
+		            <div class="slide">
+			            <img src="{{asset('assets/img/Bosch-logo.png')}}" alt="Brands logo" />
+		            </div>
+		            <div class="slide">
+			            <img src="{{asset('assets/img/Electrolux-Logo.png')}}" alt="Brands logo" />
+		            </div>
+		            <div class="slide">
+			            <img src="{{asset('assets/img/electronics-lg.png')}}"  alt="Brands logo" />
+		            </div>
+		            <div class="slide">
+			            <img src="{{asset('assets/img/HIGH-ONE-Logo.png')}}"  alt="Brands logo" />
+		            </div>
+		            <div class="slide">
+			            <img src="{{asset('assets/img/Liebherr-Logo.png')}}"  alt="Brands logo" />
+		            </div>
+		            <div class="slide">
+			            <img src="{{asset('assets/img/Logo-CANDY-Simple-3.png')}}" alt="Brands logo" />
+		            </div>
+		            <div class="slide">
+			            <img src="{{asset('assets/img/Panasonic-Logo.png')}}" alt="Brands logo" />
+		            </div>
+		            <div class="slide">
+			            <img src="{{asset('assets/img/Samsung_Logo.png')}}" alt="Brands logo" />
+		            </div>
+		            <div class="slide">
+			            <img src="{{asset('assets/img/Sony-Logo.png')}}" alt="Brands logo" />
+		            </div>
+		            <div class="slide">
+			            <img src="{{asset('assets/img/whirlpool.png')}}" alt="Brands logo" />
+		            </div>
+                    <div class="slide">
+			            <img src="{{asset('assets/img/whirlpool.png')}}" alt="Brands logo" />
+		            </div>
+                    <div class="slide">
+			            <img src="{{asset('assets/img/whirlpool.png')}}" alt="Brands logo" />
+	                </div>
+                </div>
+            </div>
+        </section>
+        <div class="homepage-subtitle">
+            <h2>{{ trans('lang.STR_TITLE_HOMEPAGE_3') }}</h2>
+            <h3>{{ trans('lang.STR_TITLE_HOMEPAGE_4') }}</h3>
+            <img src="{{asset('assets/imgs/flock-1.svg')}}" class="flock-item1" />
+            <img src="{{asset('assets/imgs/flock-3.svg')}}" class="flock-item2" />
+            <div class="grid-devices">
+                <div class="grid-item card">
+                    <img src="{{asset('assets/imgs/triangle-effect-1.svg')}}" class="flock-item4" />
+                    <img src="{{asset('assets/img/electric-appliance.svg')}}" alt="">
+                    <h2>{{ trans('lang.STR_TITLE_DEVICE_1') }}</h2>
+                </div>
+                <div class="grid-item card">
+                    <img src="{{asset('assets/img/amplifier.svg')}}" alt="">
+                    <h2>{{ trans('lang.STR_TITLE_DEVICE_2') }}</h2>
+                </div>
+                <div class="grid-item card">
+                    <img src="{{asset('assets/img/ipad.svg')}}" alt="">
+                    <h2>{{ trans('lang.STR_TITLE_DEVICE_3') }}</h2>
+                </div>
+                <div class="grid-item card">
+                    <img src="{{asset('assets/img/computer.svg')}}" alt="">
+                    <h2>{{ trans('lang.STR_TITLE_DEVICE_4') }}</h2>
+                </div>
+                <div class="grid-item card">
+                    <img src="{{asset('assets/img/watch-tv.svg')}}" alt="">
+                    <h2>{{ trans('lang.STR_TITLE_DEVICE_5') }}</h2>
+                </div>
+                <div class="grid-item card">
+                    <img src="{{asset('assets/img/remote-control.svg')}}" alt="">
+                    <h2>{{ trans('lang.STR_TITLE_DEVICE_6') }}</h2>
+                </div>
+                <div class="grid-item card">
+                    <img src="{{asset('assets/img/wifi.svg')}}" alt="">
+                    <h2>{{ trans('lang.STR_TITLE_DEVICE_7') }}</h2>
+                </div>
+                <div class="grid-item card">
+                    <img src="{{asset('assets/img/amplifier.svg')}}" alt="">
+                    <h2>{{ trans('lang.STR_TITLE_DEVICE_8') }}</h2>
+                    <img src="{{asset('assets/imgs/circle-effect-1.svg')}}" class="flock-item3" />
+                </div>
+            </div>
+        </div>
+        
+    </article>
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @section('content')
 
-<header class="home-header">
-    <div class="title-form">
-        <h1>{{ trans('lang.STR_TITLE_FORM_1') }}</h1>
-        <h2>{{ trans('lang.STR_TITLE_FORM_2') }}</h2>
+{{-- ancien coooooooooooooooooooooooooooooooooooooooooooooode  --}}
+{{-- <header class="home-header">
+    <div class="title-homepage">
+        <h1>{{ trans('lang.STR_TITLE_HOMEPAGE_1') }}</h1>
+        <h2>{{ trans('lang.STR_TITLE_HOMEPAGE_2') }}</h2>
         @include('incs.formManuals')
 
     </div>
@@ -14,8 +135,8 @@
         <img src="{{asset('assets/imgs/float-message-2.png')}}" class="floating-image floating-image2" />
         <img src="{{asset('assets/imgs/float-message-3.png')}}" class="floating-image floating-image3" />
     </div>
-</header>
-<main>
+</header> --}}
+{{-- <main>
     <article>
         <div class="title-information">
             <h2>{{ trans('lang.STR_TITLE_FORM_3') }}</h2>
@@ -156,7 +277,7 @@
                     <p>{{ trans('lang.STR_TEXT_3') }}</p>
                 </div>
                 <img src="{{asset('assets/imgs/assistance.png')}}" alt="">
-            </article>
+            </article> --}}
             {{-- <div class="hero reveal-1">
                 <h2 class='testimonial-title'>{{ trans('lang.STR_TITLE_4') }}</h2>
                 <div class="review-box">

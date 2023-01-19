@@ -59,9 +59,8 @@
 
 
 /*----------------------Homepage Responsive----------------------*/
-@media (max-width: 1316px) {
+/* @media (max-width: 1316px) {
     .illustration img:nth-child(1) {
-        /* width: 700px; */
         display: none;
     }
     .home-header {
@@ -76,7 +75,7 @@
     animation: floating 4s infinite;
     width: 50px;
 }
-}
+} */
 
 
 @media (max-width: 1024px){
@@ -427,7 +426,7 @@
 
 
 /*-------------------CSS Animation ----------------*/
-@keyframes rotation {
+/* @keyframes rotation {
     from {
         transform: rotate(0deg);
     }
@@ -435,10 +434,10 @@
     to {
         transform: rotate(360deg);
     }
-}
+} */
 
 
-@keyframes scroll {
+/* @keyframes scroll {
     0% {
         transform: translateX(0);
     }
@@ -446,9 +445,9 @@
     100% {
         transform: translateX(calc(-200px * 7))
     }
-}
+} */
 
-@keyframes floating {
+/* @keyframes floating {
     0% {
         transform: translateY(0%);
     }
@@ -460,4 +459,4 @@
     100% {
         transform: translateY(0%);
     }
-}
+} */

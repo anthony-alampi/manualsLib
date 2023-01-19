@@ -5,26 +5,27 @@ return
     [
 //----------------------------------------------------------PAGE TITLES--------------------------------------------------------------------------------//
         
-        //* Manuals Form *//
-        'STR_TITLE_FORM_1' => 'Find for your device\'s manual',
-        'STR_TITLE_FORM_2' => 'Search by brand, model or serial number',
-        'STR_TITLE_FORM_3' => 'Access more than 50 000 Manuals available from our database',
-        'STR_TITLE_FORM_4' => 'Get remote assistance for all your devices',
-        'STR_TITLE_FORM_5' => 'Some of the devices we cover',
-
         //* Home - Title *//
-        'STR_TITLE_1' => 'We\'ve got user manuals and troubleshooting guides for all devices',    
-        'STR_TITLE_2' => 'Get the manuals you need and in your own language',    
-        'STR_TITLE_3' => 'Need assistance ? We\'re here to help',    
-        'STR_TITLE_4' => 'Customers Feedback',   
-        'STR_TITLE_4/1' => 'Home appliance',   
-        'STR_TITLE_4/2' => 'High tech',   
-        'STR_TITLE_4/3' => 'Smartphones & tablets',   
-        'STR_TITLE_4/4' => 'Laptop & computers',   
-        'STR_TITLE_4/5' => 'TV',   
-        'STR_TITLE_4/6' => 'Remote',   
-        'STR_TITLE_4/7' => 'Rooter',   
-        'STR_TITLE_4/8' => 'Audio & video devices',   
+        'STR_TITLE_HOMEPAGE_1' => 'Find for your device\'s manual',
+        'STR_TITLE_HOMEPAGE_2' => 'Search by brand, model or serial number',
+        'STR_TITLE_HOMEPAGE_3' => 'Access more than 50 000 Manuals available from our database',
+        'STR_TITLE_HOMEPAGE_4' => 'Get remote assistance for all your devices',
+        'STR_TITLE_HOMEPAGE_5' => 'Some of the devices we cover',
+
+        // * Home - Title 
+        'STR_TITLE_HOMEPAGE_6' => 'We\'ve got user manuals and troubleshooting guides for all devices',    
+        'STR_TITLE_HOMEPAGE_7' => 'Get the manuals you need and in your own language',    
+        'STR_TITLE_HOMEPAGE_8' => 'Need assistance ? We\'re here to help',    
+        'STR_TITLE_HOMEPAGE_9' => 'Customers Feedback',   
+
+        'STR_TITLE_DEVICE_1' => 'Home appliance',   
+        'STR_TITLE_DEVICE_2' => 'High tech',   
+        'STR_TITLE_DEVICE_3' => 'Smartphones & tablets',   
+        'STR_TITLE_DEVICE_4' => 'Laptop & computers',   
+        'STR_TITLE_DEVICE_5' => 'TV',   
+        'STR_TITLE_DEVICE_6' => 'Remote',   
+        'STR_TITLE_DEVICE_7' => 'Rooter',   
+        'STR_TITLE_DEVICE_8' => 'Audio & video devices',   
 
         //* Manuals - Title *//
         'STR_TITLE_5' => 'Get full documentation and guides for your device',    

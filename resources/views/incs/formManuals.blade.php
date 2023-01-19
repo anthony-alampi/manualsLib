@@ -1,5 +1,6 @@
 
     <form class="search-form">
+            <h2>{{ trans('lang.STR_TITLE_HOMEPAGE_2') }}</h2>
   <div class="input-fields">
     <label for="brand">Brand</label>
     <input type="text" id="brand" name="brand" class="styled-input">
