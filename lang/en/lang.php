@@ -11,13 +11,12 @@ return
         'STR_TITLE_HOMEPAGE_3' => 'Access more than 50 000 Manuals available from our database',
         'STR_TITLE_HOMEPAGE_4' => 'Get remote assistance for all your devices',
         'STR_TITLE_HOMEPAGE_5' => 'Some of the devices we cover',
-
-        // * Home - Title 
         'STR_TITLE_HOMEPAGE_6' => 'We\'ve got user manuals and troubleshooting guides for all devices',    
         'STR_TITLE_HOMEPAGE_7' => 'Get the manuals you need and in your own language',    
         'STR_TITLE_HOMEPAGE_8' => 'Need assistance ? We\'re here to help',    
         'STR_TITLE_HOMEPAGE_9' => 'Customers Feedback',   
 
+        //* HOME - TITLE DEVICES *//
         'STR_TITLE_DEVICE_1' => 'Home appliance',   
         'STR_TITLE_DEVICE_2' => 'High tech',   
         'STR_TITLE_DEVICE_3' => 'Smartphones & tablets',   
@@ -30,6 +29,7 @@ return
         //* Manuals - Title *//
         'STR_TITLE_5' => 'Get full documentation and guides for your device',    
         'STR_TITLE_6' => 'Get help using and troubleshooting your devices',    
+
         //* Manuals details - Title *//
         'STR_TITLE_7' => 'Here\'s the manual for [PRODUCT MODEL]',    
         'STR_TITLE_8' => 'Looking for another manual ?',    
@@ -160,9 +160,12 @@ return
         'STR_TEXT_2' => 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.',
         'STR_TEXT_3' => 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. ',
             //->Customers feedbacks - Homepage //
-            'STR_4' => 'Vivamus elementum semper nisi. Aenean,Vivamus elementum semper nisi. AeneanVivamus elementum semper nisi. Aenean',
-            'STR_5' => 'Vivamus elementum semper nisi. AeneanVivamus elementum semper nisi. AeneanVivamus elementum semper nisi. Aenean',
-            'STR_6' => 'Vivamus elementum semper nisi. AeneanVivamus elementum semper nisi. AeneanVivamus elementum semper nisi. Aenean',
+            'STR_FEEDBACK_1' => 'Vivamus elementum semper nisi. Aenean,Vivamus elementum semper nisi. AeneanVivamus elementum semper nisi. Aenean',
+            'STR_FEEDBACK_2' => 'Vivamus elementum semper nisi. AeneanVivamus elementum semper nisi. AeneanVivamus elementum semper nisi. Aenean',
+            'STR_FEEDBACK_3' => 'Vivamus elementum semper nisi. AeneanVivamus elementum semper nisi. AeneanVivamus elementum semper nisi. Aenean',
+            'STR_FEEDBACK_4' => 'Vivamus elementum semper nisi. AeneanVivamus elementum semper nisi. AeneanVivamus elementum semper nisi. Aenean',
+            'STR_FEEDBACK_5' => 'Vivamus elementum semper nisi. AeneanVivamus elementum semper nisi. AeneanVivamus elementum semper nisi. Aenean',
+            'STR_FEEDBACK_6' => 'Vivamus elementum semper nisi. AeneanVivamus elementum semper nisi. AeneanVivamus elementum semper nisi. Aenean',
 
         //* Manuals - Text *//
         'STR_TEXT_4' => 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.',

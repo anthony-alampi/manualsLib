@@ -51,25 +51,64 @@ const handleIntersect = function (entries, observer) {
         }
     });
 };
-const observer = new IntersectionObserver(handleIntersect, option);
-document.querySelectorAll('[class*="reveal-"]').forEach(function (r) {
+    const observer = new IntersectionObserver(handleIntersect, option);
+    document.querySelectorAll('[class*="reveal-"]').forEach(function (r) {
     observer.observe(r);
 });
 //--------------------Customers Feeadbacks-------------------------//
-let slide = document.getElementById('slide');
-let upArrow = document.getElementById('upArrow');
-let downArrow = document.getElementById('downArrow');
-let x = 0;
 
-upArrow.addEventListener("click", () => {
-    if( x > "-900"){
-        x = x - 300;
-        slide.style.top = x + "px";
+document.addEventListener("DOMContentLoaded", () => {
+
+    const __ms = document.querySelector(".micro-slider");
+    const __msSlider = new MicroSlider(__ms, {
+        indicators: true,
+        indicatorText: "",
+    });
+    const hammer = new Hammer(__ms);
+    const __msTimer = 4000;
+    let __msAutoplay = setInterval(() => __msSlider.next(), __msTimer);
+
+    __ms.onmouseenter = function (e) {
+        clearInterval(__msAutoplay);
+        console.log(e.type + " mouse detected");
+    };
+
+
+    __ms.onmouseleave = function (e) {
+        clearInterval(__msAutoplay);
+        __msAutoplay = setInterval(() => __msSlider.next(), __msTimer);
+        console.log(e.type + " mouse detected");
+    };
+
+
+    __ms.onclick = function (e) {
+        clearInterval(__msAutoplay);
+        console.log(e.type + " mouse detected");
+    };
+
+
+    hammer.on("tap", function (e) {
+        clearInterval(__msAutoplay);
+        console.log(e.type + " gesture detected");
+    });
+
+    hammer.on("swipe", function (e) {
+        clearInterval(__msAutoplay);
+        __msAutoplay = setInterval(() => __msSlider.next(), __msTimer);
+        console.log(e.type + " gesture detected");
+    });
+
+    let slideLink = document.querySelectorAll(".slider-item");
+    if (slideLink && slideLink !== null && slideLink.length > 0) {
+        slideLink.forEach((el) =>
+            el.addEventListener("click", (e) => {
+                e.preventDefault();
+                let href = el.dataset.href;
+                let target = el.dataset.target;
+                if (href !== "#") window.open(href, target);
+            })
+        );
     }
-});
-downArrow.addEventListener("click", () => {
-    if( x < 0 ){
-        x = x + 300;
-        slide.style.top = x + "px";
-    }
+
+    //===== MICRO-SLIDER end
 });
