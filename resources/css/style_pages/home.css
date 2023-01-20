@@ -1,5 +1,6 @@
 .home-header{
     margin-top: 50px;
+    margin-bottom: 100px;
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
@@ -9,7 +10,7 @@
 
 
 .title-and-form{
-    width: 30%;
+    width: 40%;
 }
 
 .title-and-form h1{
@@ -152,10 +153,9 @@
     justify-content: center;
     width: 100%;
     padding-bottom: 100px;
-    border: solid 1px rgb(29, 30, 95);
     position: relative;
-
 }
+
 .device {
     flex-basis: 300px;
     margin: 10px;
@@ -167,13 +167,14 @@
     transition: 0.5s;
     z-index: 2;
     box-shadow: 0px 5px 18px 0px rgba(0, 0, 0, 0.15);
-
 }
+
 .device:hover{
     transform:scale(1.02);
     transform:translateY(-5px);
     box-shadow: 0px 5px 18px 0px rgba(0, 0, 0, 0.15);
 }
+
 .device img{
     width: 70px;
 }
@@ -209,7 +210,7 @@
 }
 .devices-container .rotate-circle{
     position: absolute;
-    right: 0;
+    right: 2%;
     bottom:0;
     z-index: 1;
     animation: rotation 40s infinite;
@@ -348,7 +349,7 @@
 
 .content-block2 .title-text .icon {
     width: 50px;
-    margin-bottom: 20px;
+    padding-top: 20px;
 }
 
 .content-block2 .title-text h2 {

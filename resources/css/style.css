@@ -59,91 +59,119 @@
 
 
 /*----------------------Homepage Responsive----------------------*/
-/* @media (max-width: 1316px) {
-    .illustration img:nth-child(1) {
-        display: none;
+@media (max-width: 1170px){
+    .home-header{
+        /* margin-top: 50px; */
     }
-    .home-header {
-        padding-top: 55px;
-        display: flex;
-        justify-content: center;
-    }
-.floating-image2 {
-    position: absolute;
-    top: 70%;
-    left: 15%;
-    animation: floating 4s infinite;
+    .title-and-form{
+        width: 40%;
+}
+   .title-and-form h1 {
+    font-family: var(--font-h1);
+    font-size: 55px;
+    color: var(--color-h1);
+    font-weight: var(--weight-h1);
+}
+   .home-header .floating-illustration .illustration {
+    width: 500px;
+}
+.homepage-subtitle h2 {
+    font-size: 35px;
+}
+.device {
+    height: 200px;
+}
+.device img {
     width: 50px;
 }
-} */
+.device h2 {
+    padding-top: 20px;
+    font-size: 22px;
+}
+.devices-container .rotate-circle {
+    right: 6%;
+}
+
+/*----- CONTENT BLOCK 1------*/
+.content-block1{
+    margin-top: 50px;
+    padding: 0 16px 0 16px;
+}
+
+.content-block1 .title img {
+    width: 35px;
+    margin-bottom: 0px;
+}
+
+.content-block1 .title h2 {
+    font-size: 35px;
+}
+
+.content-block1 .title p {
+    font-size: 15px;
+}
+
+.content-block1 .right-block .illustration {
+    width: 550px;
+}
+
+/*-----CONTENT-BLOCK N°2---*/
+.content-block2{
+    margin-top: 50px;
+    padding: 0 16px 0 16px;
+}
+.content-block2 .title-text .icon {
+    width: 35px;
+}
+.content-block2 .title-text h2 {
+    font-size: 35px;
+}
+.content-block2 .title-text p {
+    font-size: 15px;
+}
+.content-block2 .images .illustration {
+    width: 550px;
+}
+
+/*----CONTENT BLOCK 3------*/
+.content-block3 {
+    margin-top: 50px;
+    padding: 0 16px 0 16px;
+}
+
+.content-block3 .title-text .icon {
+    width: 35px;
+}
+
+.content-block3 .title-text h2 {
+    font-size: 33px;
+}
+
+.content-block3 .title-text p {
+    font-size: 15px;
+}
+
+.content-block3 .images .illustration {
+    width: 550px;
+}
+
+/*-------- FEEDBACK CUSTOMERS-----------*/
+.feedback .container1 h2 {
+    font-size: 70px;
+}
 
 
-@media (max-width: 1024px){
-    .home-header {
-        padding-top: 55px;
-        display: flex;
-        justify-content: center;
-    }
-    .floating-image1 {
-        position: absolute;
-        top: 30%;
-        left: 10%;
-        width: 40px;
-    }
-    .floating-image2 {
-        position: absolute;
-        top: 35%;
-        left: 90%;
-        width: 40px;
-    }
 
-    .floating-image3 {
-    position: absolute;
-    top: 80%;
-    left: 10%;
-    width: 40px;
-    }
-    .floating-image4 {
-        position: absolute;
-        top: 80%;
-        left: 90%;
-        width: 40px;
-    }
-    .illustration img:nth-child(1) {
-        display: none;
-    }
-    .title-information h2 {
-        text-align: center;
-        font-family: var(--font-h2);
-        font-size: 25px;
-        color: var(--color-h2);
-        padding: 5px 16px 0 16px;
-    }
-    .slider {
-        height: 60px;
-    }
-    .slider .slide-track .slide img {
-        height: 50px;
-        width: 100px;
-        margin-right: 60px;
-    }
 
-    .devices-cover h2 {
-        font-size: 25px;
-    }
-    .title-text {
-        margin-top: 0px;
-        flex-wrap: wrap;
-    }
-    .title-text .text-container {
-        width: 100%;
-    }
-    .title-text img {
-        width: 400px;
-    }
-    .order-resp img{
-        order: 2;
-    }
+
+
+
+
+
+
+
+
+
 
 }
 @media (max-width: 500px) {

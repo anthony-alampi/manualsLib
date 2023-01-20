@@ -1,12 +1,11 @@
 import './bootstrap';
 //--------------------------------Sticky navbar effect--------------------------------//
-// Récupération de la barre de navigation
+
 var navbar = document.querySelector("nav");
-// Ajout de l'écouteur d'événement de défilement
+
 window.addEventListener("scroll", () => {
-  // Récupération de la position de défilement
-  var scrollPos = window.scrollY;
-  // Ajout ou suppression de la classe "scrolled" en fonction de la position de défilement
+  let scrollPos = window.scrollY;
+
   if (scrollPos > 50) {
     navbar.classList.add("scrolled");
   } else {
@@ -46,8 +45,6 @@ const handleIntersect = function (entries, observer) {
         if (entry.intersectionRatio > ratio) {
             entry.target.classList.add("reveal-visible");
             observer.unobserve(entry.target);
-        } else {
-            console.log("invisible");
         }
     });
 };
@@ -55,8 +52,7 @@ const handleIntersect = function (entries, observer) {
     document.querySelectorAll('[class*="reveal-"]').forEach(function (r) {
     observer.observe(r);
 });
-//--------------------Customers Feeadbacks-------------------------//
-
+//--------------------Customers Feedback-------------------------//
 document.addEventListener("DOMContentLoaded", () => {
 
     const __ms = document.querySelector(".micro-slider");
@@ -109,6 +105,4 @@ document.addEventListener("DOMContentLoaded", () => {
             })
         );
     }
-
-    //===== MICRO-SLIDER end
 });
