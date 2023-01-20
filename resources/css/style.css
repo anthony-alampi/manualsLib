@@ -61,194 +61,501 @@
 /*----------------------Homepage Responsive----------------------*/
 @media (max-width: 1170px){
     .home-header{
-        /* margin-top: 50px; */
+        padding: 0 16px 0 16px;
     }
     .title-and-form{
         width: 40%;
-}
+    }
    .title-and-form h1 {
     font-family: var(--font-h1);
     font-size: 55px;
     color: var(--color-h1);
     font-weight: var(--weight-h1);
-}
-   .home-header .floating-illustration .illustration {
-    width: 500px;
-}
-.homepage-subtitle h2 {
-    font-size: 35px;
-}
-.device {
-    height: 200px;
-}
-.device img {
-    width: 50px;
-}
-.device h2 {
-    padding-top: 20px;
-    font-size: 22px;
-}
-.devices-container .rotate-circle {
-    right: 6%;
-}
+    }
+    .home-header .floating-illustration .illustration {
+        width: 500px;
+    }
+    .homepage-subtitle h2 {
+        font-size: 35px;
+    }
+    .device {
+        height: 200px;
+    }
+    .device img {
+        width: 50px;
+    }
+    .device h2 {
+        padding-top: 20px;
+        font-size: 22px;
+    }
+    .devices-container .rotate-circle {
+        right: 6%;
+    }
 
 /*----- CONTENT BLOCK 1------*/
-.content-block1{
-    margin-top: 50px;
-    padding: 0 16px 0 16px;
-}
+    .content-block1{
+        margin-top: 50px;
+        padding: 0 16px 0 16px;
+    }
 
-.content-block1 .title img {
-    width: 35px;
-    margin-bottom: 0px;
-}
+    .content-block1 .title img {
+        width: 35px;
+        margin-bottom: 0px;
+    }
 
-.content-block1 .title h2 {
-    font-size: 35px;
-}
+    .content-block1 .title h2 {
+        font-size: 35px;
+    }
 
-.content-block1 .title p {
-    font-size: 15px;
-}
+    .content-block1 .title p {
+        font-size: 15px;
+    }
 
-.content-block1 .right-block .illustration {
-    width: 550px;
-}
+    .content-block1 .right-block .illustration {
+        width: 550px;
+    }
 
 /*-----CONTENT-BLOCK N°2---*/
-.content-block2{
-    margin-top: 50px;
-    padding: 0 16px 0 16px;
-}
-.content-block2 .title-text .icon {
-    width: 35px;
-}
-.content-block2 .title-text h2 {
-    font-size: 35px;
-}
-.content-block2 .title-text p {
-    font-size: 15px;
-}
-.content-block2 .images .illustration {
-    width: 550px;
-}
+    .content-block2{
+        margin-top: 50px;
+        padding: 0 16px 0 16px;
+    }
+    .content-block2 .title-text .icon {
+        width: 35px;
+    }
+    .content-block2 .title-text h2 {
+        font-size: 35px;
+    }
+    .content-block2 .title-text p {
+        font-size: 15px;
+    }
+    .content-block2 .images .illustration {
+        width: 550px;
+    }
 
 /*----CONTENT BLOCK 3------*/
-.content-block3 {
-    margin-top: 50px;
-    padding: 0 16px 0 16px;
-}
+    .content-block3 {
+        margin-top: 50px;
+        padding: 0 16px 0 16px;
+    }
 
-.content-block3 .title-text .icon {
-    width: 35px;
-}
+    .content-block3 .title-text .icon {
+        width: 35px;
+    }
 
-.content-block3 .title-text h2 {
-    font-size: 33px;
-}
+    .content-block3 .title-text h2 {
+        font-size: 33px;
+    }
 
-.content-block3 .title-text p {
-    font-size: 15px;
-}
+    .content-block3 .title-text p {
+        font-size: 15px;
+    }
 
-.content-block3 .images .illustration {
-    width: 550px;
-}
+    .content-block3 .images .illustration {
+        width: 550px;
+    }
 
 /*-------- FEEDBACK CUSTOMERS-----------*/
-.feedback .container1 h2 {
-    font-size: 70px;
+    .feedback .container1 h2 {
+        font-size: 70px;
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-@media (max-width: 500px) {
+@media (max-width: 1024px) {
     .home-header {
-        padding-top: 55px;
-        display: flex;
-        justify-content: center;
+        /* margin-top: 50px; */
     }
 
-    .floating-image1 {
-        display: none;
+    .title-and-form {
+        width: 43%;
     }
 
-    .floating-image2 {
-        display: none;
+    .title-and-form h1 {
+        font-size: 40px;
     }
 
-    .floating-image3 {
-        display: none;
+    .home-header .floating-illustration .illustration {
+        width: 400px;
     }
 
-    .floating-image4 {
-        display: none;
+    .homepage-subtitle h2 {
+        font-size: 35px;
+    }
+    .floating-illustration .float-message1 {
+        width: 150px;
+        bottom: 10%;
+        left: 0;
     }
 
-    .illustration img:nth-child(1) {
-        display: none;
+    .floating-illustration .float-message2 {
+    width: 150px;
+    top: 20%;
+    left: 0;
     }
-    .title-information {
-        margin-top: 20px;
+
+    .floating-illustration .float-message3 {
+        width: 150px;
+        bottom: 20%;
+        left: 50%;
     }
     .slider {
-        margin-top: 50px;
+        height: 80px;
+        margin:170px 0 50px 0;
     }
-    .title-information h2 {
-        text-align: center;
-        font-family: var(--font-h2);
-        font-size: 20px;
-        color: var(--color-h2);
-        padding: 5px 16px 0 16px;
-    }
-
-    .slider {
-        height: 60px;
-    }
-
     .slider .slide-track .slide img {
-        height: 50px;
+        height: 80px;
+        width: 180px;
+        margin-right: 30px;
+    }
+    .device {
+        height: 200px;
+    }
+
+    .device img {
+        width: 50px;
+    }
+
+    .device h2 {
+        padding-top: 20px;
+        font-size: 22px;
+    }
+
+    .devices-container .rotate-circle {
+        right: 6%;
+    }
+
+    /*----- CONTENT BLOCK 1------*/
+    .content-block1 {
+        margin-top: 50px;
+        padding: 0 16px 0 16px;
+    }
+
+    .content-block1 .title img {
+        width: 35px;
+        margin-bottom: 0px;
+    }
+
+    .content-block1 .title h2 {
+        font-size: 25px;
+    }
+
+    .content-block1 .title p {
+        font-size: 15px;
+    }
+
+    .content-block1 .right-block .illustration {
+        width: 400px;
+    }
+
+    /*-----CONTENT-BLOCK N°2---*/
+    .content-block2 {
+        margin-top: 50px;
+        padding: 0 16px 0 16px;
+    }
+
+    .content-block2 .title-text .icon {
+        width: 35px;
+    }
+
+    .content-block2 .title-text h2 {
+        font-size: 25px;
+    }
+
+    .content-block2 .title-text p {
+        font-size: 15px;
+        padding-bottom: 50px;
+    }
+
+    .content-block2 .images .illustration {
+        width: 400px;
+    }
+
+    /*----CONTENT BLOCK 3------*/
+    .content-block3 {
+        margin-top: 50px;
+        padding: 0 16px 0 16px;
+    }
+
+    .content-block3 .title-text .icon {
+        width: 35px;
+    }
+
+    .content-block3 .title-text h2 {
+        font-size: 30px;
+    }
+
+    .content-block3 .title-text p {
+        font-size: 15px;
+    }
+
+    .content-block3 .images .illustration {
+        width: 400px;
+    }
+
+    /*-------- FEEDBACK CUSTOMERS-----------*/
+    .feedback .container1 h2 {
+        font-size: 50px;
+    }
+    .feedback .container1 .child-face1 {
+        position: absolute;
+        bottom: -70%;
+    }
+    
+    .feedback .container1 .child-face2 {
+
+        position: absolute;
+        right: 50%;
+        bottom: -60%;
+    }
+    
+    .feedback .container1 .child-face3 {
+        width: 50px;
+        position: absolute;
+        left: 5%;
+        top: 50%;
+    }
+    
+    .feedback .container1 .child-face4 {
+        width: 50px;
+        position: absolute;
+        left: 15%;
+        top: -45%;
+        }
+    
+    .feedback .container1 .child-triangle {
         width: 100px;
-        margin-right: 60px;
+        position: absolute;
+        top: -35%;
+        left: 40%;
+        }
+}
+@media (max-width: 768px) {
+    .home-header {
+        margin-top: 150px;
+        text-align: center;
     }
 
-    .devices-cover h2 {
-        margin-top: 30px;
-        font-size: 20px;
-    }
-    .title-text {
-        margin-top: 0px;
-        flex-wrap: wrap;
-    }
-
-    .title-text .text-container {
+    .title-and-form {
         width: 100%;
     }
 
-    .title-text img {
-        width: 200px;
+    .title-and-form h1 {
+        font-size: 40px;
     }
 
-    .order-resp img {
-        order: 2;
+    .home-header .floating-illustration .illustration {
+        width: 300px;
     }
-    .text-container p {
+    .floating-illustration .float-message1 {
+        width: 150px;
+        bottom: 10%;
+        left: 0;
+    }
+
+    .floating-illustration .float-message2 {
+        width: 150px;
+        top: 20%;
+        left: 0;
+    }
+
+    .floating-illustration .float-message3 {
+        width: 150px;
+        bottom: 20%;
+        left: 50%;
+    }
+
+    .homepage-subtitle h2 {
+        font-size: 25px;
+    }
+    .homepage-subtitle h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+    
+    .device {
+        height: 200px;
+    }
+
+    .device img {
+        width: 50px;
+    }
+
+    .device h2 {
+        padding-top: 20px;
+        font-size: 22px;
+    }
+
+    .devices-container .rotate-circle {
+        right: 6%;
+        width: 100px;
+    }
+    .devices-container .floating-triangle{
+    top: 10%;
+    }
+
+    /*----- CONTENT BLOCK 1------*/
+    .content-block1 {
+        margin-top: 50px;
+        padding: 0 16px 0 16px;
+    }
+    .content-block1 .title {
+        width: 100%;
+        text-align: center;
+    }
+    .content-block1 .title img {
+        width: 30px;
+        margin-bottom: 0px;
+    }
+
+    .content-block1 .title h2 {
+        font-size: 20px;
+    }
+
+    .content-block1 .title p {
         font-size: 15px;
-        }
+    }
 
+    .content-block1 .right-block .illustration {
+        width: 300px;
+    }
+
+    /*-----CONTENT-BLOCK N°2---*/
+    .content-block2 {
+        margin-top: 50px;
+        padding: 0 16px 0 16px;
+    }
+    .content-block2 .title-text {
+        width: 100%;
+        text-align: center;
+    }
+    .content-block2 .title-text .icon {
+        width: 30px;
+    }
+
+    .content-block2 .title-text h2 {
+        font-size: 20px;
+    }
+
+    .content-block2 .title-text p {
+        font-size: 15px;
+    }
+
+    .content-block2 .images .illustration {
+        width: 300px;
+        margin-top: 10px;
+    }
+
+    /*----CONTENT BLOCK 3------*/
+    .content-block3 {
+        margin-top: 50px;
+        padding: 0 16px 0 16px;
+    }
+    .content-block3 .title-text {
+        width: 100%;
+        text-align: center;
+    }
+    .content-block3 .title-text .icon {
+        width: 30px;
+    }
+
+    .content-block3 .title-text h2 {
+        width: 100%;
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+
+    .content-block3 .title-text p {
+        font-size: 15px;
+    }
+
+    .content-block3 .images .illustration {
+        width: 300px;
+    }
+/*-------- TRANSPARANCY FEEDBACK TITLE---------*/
+    .title-custom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1rem;
 }
+    /*-------- FEEDBACK CUSTOMERS-----------*/
+.feedback {
+    display: flex;
+    flex-direction: column;
+}
+    .feedback .container1 h2 {
+        font-size: 30px;
+    }
+    .feedback .container1 .child-face1 {
+        width: 30px;
+        top: 0;
+        left: 100%;
+    }
+    
+    .feedback .container1 .child-face2 {
+        width: 30px;
+        position: absolute;
+        left: 30%;
+        bottom: -40%;
+    }
+    
+    .feedback .container1 .child-face3 {
+        width: 30px;
+        position: absolute;
+        left: -20%;
+        top: 50%;
+    }
+    
+    .feedback .container1 .child-face4 {
+        width: 30px;
+        position: absolute;
+        left: 15%;
+        top: -45%;
+        }
+    
+    .feedback .container1 .child-triangle {
+        width: 50px;
+        position: absolute;
+        top: -35%;
+        left: 40%;
+        }
+        
+    .micro-slider {
+        height: 380px;
+        position: relative;
+        width: 100%;
+    }
+
+    .slider-item {
+        background: rgb(255, 255, 255);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .06), 0 1px 2px rgba(0, 0, 0, .12);
+        height: 320px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 520px;
+        cursor: pointer;
+        padding: 25px;
+    }
+    .micro-slider .slider-item p {
+        font-weight: 600;
+        margin-top: 25px;
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+    .micro-slider .slider-item .quote{
+        width: 90px;
+        margin-left: 25px;
+        margin-bottom: 20px;
+    }
+    .micro-slider .slider-item .stars{
+        width: 150px;
+        margin-left: 25px;
+        margin-bottom: 20px;
+    }
+}
+
 /*----------------------Features Responsive----------------------*/
 @media (max-width: 1380px){
 .features-block h2 {

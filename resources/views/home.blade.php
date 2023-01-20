@@ -146,9 +146,9 @@
                 <p>{{trans('lang.STR_TEXT_2')}}</p>
             </div>
         </section>
-        {{-- <div class="custom-line">
+        <div class="custom-line">
             <img src="{{asset('assets/img/line-shape-4.svg')}}" alt="">
-        </div> --}}
+        </div>
 
         <section class='content-block3 reveal-1'>
             <div class='title-text'>
@@ -181,33 +181,33 @@
             <div class="micro-slider">
                 <div class="slider-item">
                     <img src="{{asset('assets/img/quote.svg')}}" class="quote" alt="">
-                    <img src="{{asset('assets/img/stars.svg')}}" alt="">
+                    <img src="{{asset('assets/img/stars.svg')}}" class="stars" alt="">
                     <p>{{trans('lang.STR_FEEDBACK_1')}}</p>
 
                 </div>
                 <div class="slider-item">
                     <img src="{{asset('assets/img/quote.svg')}}" class="quote" alt="">
-                    <img src="{{asset('assets/img/stars.svg')}}" alt="">
+                    <img src="{{asset('assets/img/stars.svg')}}" class="stars" alt="">
                     <p>{{trans('lang.STR_FEEDBACK_2')}}</p>
                 </div>
                 <div class="slider-item">
                     <img src="{{asset('assets/img/quote.svg')}}" class="quote" alt="">
-                    <img src="{{asset('assets/img/stars.svg')}}" alt="">
+                    <img src="{{asset('assets/img/stars.svg')}}" class="stars" alt="">
                     <p>{{trans('lang.STR_FEEDBACK_3')}}</p>
                 </div>
                 <div class="slider-item">
                     <img src="{{asset('assets/img/quote.svg')}}" class="quote" alt="">
-                    <img src="{{asset('assets/img/stars.svg')}}" alt="">
+                    <img src="{{asset('assets/img/stars.svg')}}" class="stars" alt="">
                     <p>{{trans('lang.STR_FEEDBACK_4')}}</p>
                 </div>
                 <div class="slider-item">
                     <img src="{{asset('assets/img/quote.svg')}}" class="quote" alt="">
-                    <img src="{{asset('assets/img/stars.svg')}}" alt="">
+                    <img src="{{asset('assets/img/stars.svg')}}" class="stars" alt="">
                     <p>{{trans('lang.STR_FEEDBACK_5')}}</p>
                 </div>
                 <div class="slider-item">
                     <img src="{{asset('assets/img/quote.svg')}}" class="quote" alt="">
-                    <img src="{{asset('assets/img/stars.svg')}}" alt="">
+                    <img src="{{asset('assets/img/stars.svg')}}" class="stars" alt="">
                     <p>{{trans('lang.STR_FEEDBACK_6')}}</p>
                 </div>
             </div>
