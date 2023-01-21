@@ -1,16 +1,61 @@
-.custom-page-header{
+.features-header{
     font-family: var(--font-h1);
-    font-size: var(--size-h1);
+    font-size: 40px;
     font-weight: var(--weight-h1);
-    color: #f0f0f0;
+    color: var(--color-h1);
     text-align: center;
     padding-top: 200px;
-    height: 50vh;
-    background-image: url(/public/assets/img/background-header.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    height: 70vh;
+    background: #fff7ef;
+    position: relative;
 }
+
+.features-header .square-item1{
+    position: absolute;
+    width: 7px;
+    top: 55%;
+    left: 10%;
+    animation: float-item 5s infinite;
+}
+.features-header .square-item2{
+    position: absolute;
+    width: 10px;
+    top: 30%;
+    left: 25%;
+    animation: float-item 5s infinite;
+}
+.features-header .square-item3{
+    position: absolute;
+    width: 10px;
+    top: 85%;
+    left: 25%;
+    opacity: 0.5;
+    animation: float-item 5s infinite;
+}
+.features-header .square-item4{
+    position: absolute;
+    width: 10px;
+    top: 55%;
+    right: 10%;
+    opacity: 0.5;
+    animation: float-item 5s infinite;
+}
+.features-header .square-item5{
+    position: absolute;
+    width: 7px;
+    top: 30%;
+    right: 25%;
+    animation: float-item 5s infinite;
+}
+.features-header .square-item6{
+    position: absolute;
+    width: 10px;
+    top: 85%;
+    right: 25%;
+    animation: float-item 5s infinite;
+}
+
+
 /*------------FEATURES LISTING X3-----------*/
 .features-listing-container {
     display: flex;
@@ -38,23 +83,24 @@
     font-weight: var(--weight-text);
     color: var(--color-text);
     font-size: 18px;
-    padding: 16px;
+    margin-top: 10px;
 }
 
 .features-listing-container .item img {
     width: 50px;
     padding-bottom: 30px;
 }
-/*----------------TEXT BLOCK FEATURES----------------------*/
-.features-container{
+/*----------------FEATURE CONTAINER 1 ----------------------*/
+.features-container1{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    margin: 25px 0 100px 0;
-    padding: 0 16px 0 16px;
+    /* margin: px 0 100px 0; */
+    padding: 50px 16px 50px 16px;
 }   
 
+/*---------------Features container BG-block 1 ----------*/
 .features-block{
     width: 40%;
 }
@@ -63,7 +109,6 @@
         font-family: var(--font-h1);
         font-size: 60px;
         color: var(--color-h2);
-        
 }
 
 .features-block p {
@@ -73,11 +118,337 @@
     font-size: var(--size-text);
     color: var(--font-color);
     line-height: var(--height-line-text);
-    width: 80%;
+    width: 90%;
 }
-.features-container img{
+.features-container1 .image-block {
+    width: 600px;
+}
+.features-container1 img{
     width: 400px;
 }
-.features-container .resize-svg {
-    width: 800px;
+.features-container1 .illustration {
+    width: 600px;
+    border-radius: 20px;
+}
+
+.bg-block{
+    background-image: url(/public/assets/img/bg4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.features-container1 .square-item1 {
+    position: absolute;
+    width: 15px;
+    top: 0;
+    left: 25%;
+    animation: float-item 5s infinite;
+}
+.features-container1 .square-item2 {
+    position: absolute;
+    width: 10px;
+    top: 60%;
+    left: 3%;
+    opacity: 0.5;
+    animation: float-item 5s infinite;
+}
+.features-container1 .square-item3 {
+    position: absolute;
+    width: 15px;
+    top: 50%;
+    right: 5%;
+    animation: float-item 5s infinite;
+}
+.features-container1 .square-item4 {
+    position: absolute;
+    width: 13px;
+    bottom: 5%;
+    left: 10%;
+    animation: float-item 5s infinite;
+}
+.features-container1 .circle-item {
+    position: absolute;
+    width: 200px;
+    bottom: 20%;
+    right: 5%;
+    animation: rotation 35s infinite;
+}
+
+/*---------- FEATURES container 2 -----------------*/
+.features-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 16px 50px 16px;
+    position: relative;
+}
+.features-block {
+    width: 40%;
+}
+
+.features-block h2 {
+    font-family: var(--font-h1);
+    font-size: 60px;
+    color: var(--color-h2);
+}
+
+.features-block p {
+    margin-top: 30px;
+    font-family: var(--font-text);
+    font-weight: var(--weight-text);
+    font-size: var(--size-text);
+    color: var(--font-color);
+    line-height: var(--height-line-text);
+    width: 90%;
+}
+
+.features-container2 .image-block {
+    width: 600px;
+    border-radius: 20px;
+}
+
+.features-container2 img {
+    width: 400px;
+}
+
+.features-container2 .illustration {
+    width: 600px;
+    border-radius: 20px;
+}
+
+.features-container2 .flock-item1{
+    position: absolute;
+    width: 150px;
+    top: 7%;
+    left: 3%;
+}
+.features-container2 .flock-item2{
+    position: absolute;
+    width: 150px;
+    bottom: 5%;
+    left: 40%;
+    transform: rotate(180deg);
+}
+.features-container2 .triangle-item{
+    position: absolute;
+    width: 150px;
+    top: 10%;
+    left: 40%;
+    animation: floating 5s infinite;
+    z-index: -1;
+}
+
+/*-----------FEATURE CONTAINER 3 ---------*/
+.features-container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 16px 50px 16px;
+    position: relative;
+}
+.features-container3 .image-block {
+    width: 500px;
+    border-radius: 20px;
+}
+.bg-block2{
+    background-color: #FFF6EC;;
+
+}
+.features-container3 .flock-item1 {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+.features-container3 .flock-item2 {
+    position: absolute;
+    bottom: 0%;
+    right: 30%;
+}
+.features-container3 .circle-item {
+    position: absolute;
+    width: 160px;
+    bottom: 10%;
+    right: 3%;
+    animation: rotation 35s infinite;
+    z-index: -1;
+}
+
+/*---------- FEATURES container 4-----------------*/
+.features-container4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 16px 50px 16px;
+    position: relative;
+}
+
+.features-block {
+    width: 40%;
+}
+
+.features-block h2 {
+    font-family: var(--font-h1);
+    font-size: 50px;
+    color: var(--color-h2);
+}
+
+.features-block p {
+    margin-top: 30px;
+    font-family: var(--font-text);
+    font-weight: var(--weight-text);
+    font-size: var(--size-text);
+    color: var(--font-color);
+    line-height: var(--height-line-text);
+    width: 90%;
+}
+
+.features-container4 .image-block {
+    width: 600px;
+    border-radius: 20px;
+}
+
+.features-container4 img {
+    width: 400px;
+}
+
+.features-container4 .illustration {
+    width: 600px;
+    border-radius: 20px;
+}
+
+.features-container4 .triangle-item {
+    position: absolute;
+    width: 150px;
+    top: 10%;
+    left: 40%;
+    animation: floating 5s infinite;
+    z-index: -1;
+}
+
+.features-container4 .square-item1 {
+    position: absolute;
+    width: 10px;
+    top: 15%;
+    left: 5%;
+    animation: float-item 5s infinite;
+}
+
+.features-container4 .square-item2 {
+    position: absolute;
+    width: 10px;
+    top: 85%;
+    left: 8%;
+    opacity: 0.5;
+    animation: float-item 5s infinite;
+}
+
+.features-container4 .square-item3 {
+    position: absolute;
+    width: 10px;
+    top: 70%;
+    left: 40%;
+    opacity: 0.5;
+    animation: float-item 5s infinite;
+}
+
+/*---------- FEATURES container 5-----------------*/
+.features-container5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 16px 50px 16px;
+    position: relative;
+}
+
+.features-block {
+    width: 40%;
+}
+
+.features-block h2 {
+    font-family: var(--font-h1);
+    font-size: 50px;
+    color: var(--color-h2);
+}
+
+.features-block p {
+    margin-top: 30px;
+    font-family: var(--font-text);
+    font-weight: var(--weight-text);
+    font-size: var(--size-text);
+    color: var(--font-color);
+    line-height: var(--height-line-text);
+    width: 90%;
+}
+
+.features-container5 .image-block {
+    width: 600px;
+    border-radius: 20px;
+}
+
+.features-container img {
+    width: 400px;
+}
+
+.features-container5 .illustration {
+    width: 600px;
+    border-radius: 20px;
+}
+
+.features-container5 .circle-item {
+    position: absolute;
+    width: 150px;
+    bottom: 0;
+    right: 15%;
+    animation: rotation 35s infinite;
+    z-index: -1;
+}
+
+.features-container5 .square-item1 {
+    position: absolute;
+    width: 10px;
+    top: 15%;
+    left: 5%;
+    animation: float-item 5s infinite;
+}
+
+.features-container5 .square-item2 {
+    position: absolute;
+    width: 15px;
+    bottom: 0;
+    left: 10%;
+    opacity: 0.5;
+    animation: float-item 5s infinite;
+}
+
+.features-container5 .square-item3 {
+    position: absolute;
+    width: 13px;
+    top: 10%;
+    left: 45%;
+    animation: float-item 5s infinite;
+}
+.features-container5 .backslash-item {
+    position: absolute;
+    width: 15px;
+    top: 10%;
+    right: 25%;
+}
+.features-container5 .more-item1 {
+    position: absolute;
+    width: 20px;
+    top: 10%;
+    right: 35%;
+    animation: rotation 35s infinite;
+    z-index: -1;
+}
+.features-container5 .more-item2 {
+    position: absolute;
+    width: 20px;
+    bottom: 10%;
+    left: 50%;
+    animation: rotation 35s infinite;
 }

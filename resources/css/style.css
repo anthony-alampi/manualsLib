@@ -161,10 +161,6 @@
     }
 }
 @media (max-width: 1024px) {
-    .home-header {
-        /* margin-top: 50px; */
-    }
-
     .title-and-form {
         width: 43%;
     }
@@ -556,102 +552,18 @@
     }
 }
 
-/*----------------------Features Responsive----------------------*/
-@media (max-width: 1380px){
-.features-block h2 {
-    font-family: var(--font-h1);
-    font-size: 40px;
-    color: var(--color-h2);
-}
+/*----------------------Features Responsive--------------*/
 
-.features-block p {
-    margin-top: 20px;
-    font-size: 18px;
-    width: 100%;
-}
-
-.features-container img {
-    width: 400px;
-}
-
-.features-container .resize-svg {
-    width: 500px;
-}
-
-.features-listing-container .item {
-    margin: 30px;
-    width: 300px;
-}
-}
 @media (max-width: 1024px){
-.features-block h2 {
-        font-family: var(--font-h1);
-        font-size: 25px;
-        color: var(--color-h2);
-    }
 
-    .features-block p {
-        margin-top: 10px;
-        font-size: 16px;
-        width: 100%;
-    }
 
-    .features-container img {
-        width: 200px;
-    }
 
-    .features-container .resize-svg {
-        width: 250px;
-    }
 
-    .features-listing-container .item {
-        margin: 16px;
-        width: 300px;
-    }
-        /*----------------TEXT BLOCK FEATURES----------------------*/
-        .features-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-            margin: 25px 0 100px 0;
-            /* padding: 0 16px 0 16px; */
-        }
-    
-        .features-block {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            padding: 0 16px 0 16px;
-        }
-    
-        .features-block h2 {
-            font-family: var(--font-h1);
-            font-size: 30px;
-            text-align: center;
-            color: var(--color-h2);
-    
-        }
-    
-        .features-block p {
-            margin-top: 30px;
-            font-family: var(--font-text);
-            font-weight: var(--weight-text);
-            font-size: var(--size-text);
-            color: var(--font-color);
-            line-height: var(--height-line-text);
-            text-align: justify;
-            width: 80%;
-        }
-    
-        .features-container img {
-            width: 200px;
-        }
-    
-        .features-container .resize-svg {
-            width: 400px;
-        }
+
+
+
+
+
 }
 @media (max-width: 500px) {
 .custom-page-header {
