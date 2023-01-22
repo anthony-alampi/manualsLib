@@ -107,6 +107,14 @@ return
         'STR_TITLE_61' => 'Our mission',    
         'STR_TITLE_62' => 'Our solutions',    
         'STR_TITLE_63' => 'Our team',    
+            'STR_TITLE_NAME_1' => 'Lorem Ipsum',
+            'STR_TITLE_NAME_2' => 'Lorem Ipsum',
+            'STR_TITLE_NAME_3' => 'Lorem Ipsum',
+            'STR_TITLE_NAME_4' => 'Lorem Ipsum',
+            'STR_TITLE_NAME_5' => 'Lorem Ipsum',
+            'STR_TITLE_NAME_6' => 'Lorem Ipsum',
+            'STR_TITLE_NAME_7' => 'Lorem Ipsum',
+            'STR_TITLE_NAME_8' => 'Lorem Ipsum',
 
         //* Carrers - Title *//
         'STR_TITLE_64' => 'Welcome to our Careers Portal !',    

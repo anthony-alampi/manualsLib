@@ -15,7 +15,7 @@
     <article>
         <section>
 
-            <article class="features-container1 reveal-1">
+            <article class="features-container reveal-1">
                 <img class="illustration" src="{{ asset('assets/img/need-user-manual.jpg') }}" alt="">
                 <div class="features-block">
                     <h2>{{ trans('lang.STR_TITLE_12') }}</h2>
@@ -78,7 +78,7 @@
             </article>
 
             <article class="features-container4 reveal-1">
-                <img src="{{ asset('assets/img/maintenance-calendar.svg') }}" alt="">
+                <img src="{{ asset('assets/img/maintenance-calendar.svg') }}" class="image-block" alt="">
                 <div class="features-block">
                     <h2>{{ trans('lang.STR_TITLE_19') }}</h2>
                     <p> {{ trans('lang.STR_TEXT_16') }} </p>

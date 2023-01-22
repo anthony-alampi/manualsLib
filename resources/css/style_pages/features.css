@@ -3,9 +3,12 @@
     font-size: 40px;
     font-weight: var(--weight-h1);
     color: var(--color-h1);
-    text-align: center;
-    padding-top: 200px;
-    height: 70vh;
+    /* text-align: center; */
+    /* padding-top: 200px; */
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #fff7ef;
     position: relative;
 }
@@ -55,7 +58,35 @@
     animation: float-item 5s infinite;
 }
 
+/*----------------FEATURE CONTAINER ----------------------*/
+.features-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
 
+.features-block h2{
+    font-family: var(--font-h1);
+    font-size: 60px;
+    color: var(--color-h2);
+}
+
+.features-block p {
+    margin-top: 30px;
+    font-family: var(--font-text);
+    font-weight: var(--weight-text);
+    font-size: var(--size-text);
+    color: var(--font-color);
+    line-height: var(--height-line-text);
+    width: 90%;
+}
+
+.features-container .illustration {
+    width: 500px;
+    border-radius: 20px;
+}
 /*------------FEATURES LISTING X3-----------*/
 .features-listing-container {
     display: flex;
@@ -66,7 +97,7 @@
 }
 
 .features-listing-container .item {
-    margin: 80px;
+    margin: 20px;
     width: 300px;
 }
 
@@ -90,25 +121,24 @@
     width: 50px;
     padding-bottom: 30px;
 }
-/*----------------FEATURE CONTAINER 1 ----------------------*/
-.features-container1{
+
+/*---------------Features container1 BG-block 1 ----------*/
+.features-container1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    /* margin: px 0 100px 0; */
     padding: 50px 16px 50px 16px;
-}   
+}
 
-/*---------------Features container BG-block 1 ----------*/
-.features-block{
+.features-block {
     width: 40%;
 }
 
-.features-block h2{
-        font-family: var(--font-h1);
-        font-size: 60px;
-        color: var(--color-h2);
+.features-block h2 {
+    font-family: var(--font-h1);
+    font-size: 60px;
+    color: var(--color-h2);
 }
 
 .features-block p {
@@ -120,15 +150,9 @@
     line-height: var(--height-line-text);
     width: 90%;
 }
+
 .features-container1 .image-block {
-    width: 600px;
-}
-.features-container1 img{
-    width: 400px;
-}
-.features-container1 .illustration {
-    width: 600px;
-    border-radius: 20px;
+    width: 500px;
 }
 
 .bg-block{
@@ -140,7 +164,7 @@
 .features-container1 .square-item1 {
     position: absolute;
     width: 15px;
-    top: 0;
+    top: 10%;
     left: 25%;
     animation: float-item 5s infinite;
 }
@@ -183,17 +207,17 @@
     padding: 50px 16px 50px 16px;
     position: relative;
 }
-.features-block {
+.features-container2 .features-block {
     width: 40%;
 }
 
-.features-block h2 {
+.features-container2 .features-block h2 {
     font-family: var(--font-h1);
     font-size: 60px;
     color: var(--color-h2);
 }
 
-.features-block p {
+.features-container2 .features-block p {
     margin-top: 30px;
     font-family: var(--font-text);
     font-weight: var(--weight-text);
@@ -204,15 +228,6 @@
 }
 
 .features-container2 .image-block {
-    width: 600px;
-    border-radius: 20px;
-}
-
-.features-container2 img {
-    width: 400px;
-}
-
-.features-container2 .illustration {
     width: 600px;
     border-radius: 20px;
 }
@@ -285,17 +300,17 @@
     position: relative;
 }
 
-.features-block {
+.features-container4 .features-block {
     width: 40%;
 }
 
-.features-block h2 {
+.features-container4 .features-block h2 {
     font-family: var(--font-h1);
     font-size: 50px;
     color: var(--color-h2);
 }
 
-.features-block p {
+.features-container4 .features-block p {
     margin-top: 30px;
     font-family: var(--font-text);
     font-weight: var(--weight-text);
@@ -306,15 +321,6 @@
 }
 
 .features-container4 .image-block {
-    width: 600px;
-    border-radius: 20px;
-}
-
-.features-container4 img {
-    width: 400px;
-}
-
-.features-container4 .illustration {
     width: 600px;
     border-radius: 20px;
 }
@@ -385,15 +391,6 @@
 }
 
 .features-container5 .image-block {
-    width: 600px;
-    border-radius: 20px;
-}
-
-.features-container img {
-    width: 400px;
-}
-
-.features-container5 .illustration {
     width: 600px;
     border-radius: 20px;
 }
