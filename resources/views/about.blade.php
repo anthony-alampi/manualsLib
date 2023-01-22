@@ -96,8 +96,6 @@
 
             </article>
         </section>
-
-
     </article>
 </main>
 

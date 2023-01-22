@@ -952,6 +952,30 @@
     width: 200px;
 }
 }
+@media (max-width: 600px) {
+.faq-header {
+        height: 50vh;
+        text-align: center;
+        font-size: 35px;
+    }
+.faq-container .image-block {
+    width: 300px;
+}
+.faq .faq-question{
+    background-color: #fff;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px -3px rgba(0, 0, 0, 0.212);
+    width: 60%;
+    height: auto;
+}
+
+
+
+
+
+}
 
 /*----------------ABOUT RESPONSIVE-------------------*/
 @media (max-width: 1024px) {

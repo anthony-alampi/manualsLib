@@ -1,33 +1,95 @@
-.custom-page-header {
-    font-family: var(--font-h1);
-    font-size: var(--size-h1);
-    font-weight: var(--weight-h1);
-    color: #f0f0f0;
-    text-align: center;
-    padding-top: 200px;
-    height: 50vh;
-    background-image: url(/public/assets/img/background-header.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+.faq-header {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: var(--font-h2);
+    font-size: 35px;
 }
+.faq-header .circle-anim1 {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    background: rgba(241, 166, 26, 0.411);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    animation: moveCircle 10s infinite linear;
+}
+
+.faq-header .circle-anim2 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    background: rgba(35, 172, 236, 0.363);
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    animation: moveCircle 12s infinite linear;
+}
+
+.faq-header .circle-anim3 {
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    background: rgba(245, 99, 220, 0.363);
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    animation: moveCircle 14s infinite linear;
+}
+
+.faq-header .circle-anim4 {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    background: rgba(241, 166, 26, 0.411);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    animation: moveCircle 10s infinite linear;
+}
+
+.faq-header.circle-anim5 {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    background: rgba(35, 172, 236, 0.363);
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    animation: moveCircle 12s infinite linear;
+}
+
+.faq-header .circle-anim6 {
+    position: absolute;
+    top: 65%;
+    right: 10%;
+    background: rgba(245, 99, 220, 0.363);
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    animation: moveCircle 14s infinite linear;
+}
+
 
 .faq{
     margin-top: 100px;
     display:flex;
     flex-direction: column;
     align-items: center;
-
+    background: linear-gradient(45deg, #fffbf2, #edfffd);
 }
 
 .faq .faq-question{
-    margin: 60px;
+    background-color: #fff;
+    margin: 50px;
     padding: 20px;
-    border: solid 3px var(--primary-color);
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.381);
-    width: 50%;
-    word-break:keep-all;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px -3px rgba(0, 0, 0, 0.212);
+    width: 60%;
+    height: 200px;
 }
 
 .faq .faq-question h2{
@@ -41,9 +103,6 @@
     font-family: var(--font-text);
     font-weight: var(--weight-text);
     font-size: var(--size-text);
-}
-.faq .faq-custom-bg{
-    background: rgba(175, 175, 175, 0.245);
 }
 
 .faq-container{
@@ -62,12 +121,14 @@
     width: 300px;
     padding: 0 25px 0 25px;
 }
+.faq-container .image-block{
+    width: 600px;
+}
 
 .faq-block h2 {
     font-family: var(--font-h1);
     font-size: 40px;
     color: var(--color-h2);
-
 }
 
 .faq-block p {
@@ -77,5 +138,4 @@
     font-size: var(--size-text);
     color: var(--font-color);
     line-height: var(--height-line-text);
-    /* width: 80%; */
 }
