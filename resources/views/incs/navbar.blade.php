@@ -14,7 +14,7 @@
                 <a href="#">Manuals</a>
                 <a href="{{route('features')}}">Features</a>
                 <a href="#">Brands</a>
-                <a href="#">Pricing</a> 
+                <a href="{{route('pricing')}}">Pricing</a> 
                 <a href="{{route('api')}}">Api</a>
                 <a href="#">Press</a>
                 <a href="{{route('about')}}">About</a>

@@ -3,8 +3,6 @@
     font-size: 40px;
     font-weight: var(--weight-h1);
     color: var(--color-h1);
-    /* text-align: center; */
-    /* padding-top: 200px; */
     height: 75vh;
     display: flex;
     justify-content: center;

@@ -63,15 +63,29 @@ return
         'STR_TITLE_28' => 'Get support for [Brandname] products',    
 
         //* Pricing - Title *//
-        'STR_TITLE_29' => 'Chose the plan that suits your needs',    
-        'STR_TITLE_30' => 'Free plan',    
-        'STR_TITLE_31' => 'Trial plan',    
-        'STR_TITLE_32' => 'Access to user\'s manual & guides with our Free plan',    
-        'STR_TITLE_33' => 'Try our service with a trial plan',    
-        'STR_TITLE_34' => 'Choose the a plan that suits your needs',    
-        'STR_TITLE_35' => 'Provide digital user manuals & guides for the products you sell',    
-        'STR_TITLE_36' => 'How can I switch to a different plan ?',    
-        'STR_TITLE_37' => 'Payment schedules ',    
+        'STR_TITLE_PRICING_1' => 'Chose the plan that suits your needs',    
+
+        'STR_TITLE_PRICING_2' => 'Free plan',    
+            'STR_TEXT_1_CARD_1' => 'Includes :',    
+            'STR_TEXT_2_CARD_1' => 'X manuals / month',    
+
+        'STR_TITLE_PRICING_3' => 'Trial plan',    
+            'STR_TEXT_1_CARD_2' => 'X€ / manual',    
+            'STR_TEXT_2_CARD_2' => 'Then X€ / month',    
+            'STR_TEXT_3_CARD_2' => 'X Assistance',    
+            
+        'STR_TITLE_PRICING_4' => 'Premium plan',    
+            'STR_TEXT_1_CARD_3' => 'X€ / month :',    
+            'STR_TEXT_2_CARD_3' => 'Unlimited access',    
+            'STR_TEXT_3_CARD_3' => 'X Assistance',    
+            
+        'STR_TITLE_PRICING_5' => 'Access to user\'s manual & guides with our Free plan',    
+        'STR_TITLE_PRICING_6' => 'Try our service with a trial plan',    
+        'STR_TITLE_PRICING_7' => 'Choose the a plan that suits your needs',    
+        'STR_TITLE_PRICING_8' => 'Provide digital user manuals & guides for the products you sell',    
+        'STR_TITLE_PRICING_9' => 'How can I switch to a different plan ?',    
+        'STR_TITLE_PRICING_10' => 'Payment schedules ',    
+
 
         //* Api - Title *//
         'STR_TITLE_38' => 'Save time and automate with our API',    
