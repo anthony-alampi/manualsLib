@@ -22,6 +22,8 @@
 
 }
 
+
+
 @media (max-width: 500px) {
     .search-form .input-fields .STR_TITLE_FORM_1 {
         font-size: 20px;
@@ -1133,7 +1135,14 @@
     font-size: 50px;
 }
 }
+/*----------------API RESPONSIVE-----------------*/
+@media (max-width: 768px) {
 
+.api-container .title-text{
+    margin-bottom: 100px;
+    width: 80%;
+}
+}
 
 /*-------------------CSS Animation ----------------*/
 /* @keyframes rotation {

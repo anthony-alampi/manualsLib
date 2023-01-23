@@ -15,7 +15,7 @@
                 <a href="{{route('features')}}">Features</a>
                 <a href="#">Brands</a>
                 <a href="#">Pricing</a> 
-                <a href="#">Api</a>
+                <a href="{{route('api')}}">Api</a>
                 <a href="#">Press</a>
                 <a href="{{route('about')}}">About</a>
             </div>

@@ -10,7 +10,7 @@
         <div class="links-container">
             <a href="{{route('features')}}" class="link-item">Features</a>
             <a href="#" class="link-item">Manuals</a>
-            <a href="#" class="link-item">Api</a>
+            <a href="{{route('api')}}" class="link-item">Api</a>
             <a href="{{route('faq')}}" class="link-item">Faq</a>
         </div>
         <div class="links-container">
