@@ -4,12 +4,12 @@
 
 <header class="features-header">
     <h1>{{ trans('lang.STR_TITLE_12/5') }}</h1>
-    <img src="{{asset('assets/imgs/carre.svg')}}" class="square-item1" />
-    <img src="{{asset('assets/imgs/carre.svg')}}" class="square-item2" />
-    <img src="{{asset('assets/imgs/carre.svg')}}" class="square-item3" />
-    <img src="{{asset('assets/imgs/carre.svg')}}" class="square-item4" />
-    <img src="{{asset('assets/imgs/carre.svg')}}" class="square-item5" />
-    <img src="{{asset('assets/imgs/carre.svg')}}" class="square-item6" />
+    <img src="{{asset('assets/img/carre.svg')}}" class="square-item1" />
+    <img src="{{asset('assets/img/carre.svg')}}" class="square-item2" />
+    <img src="{{asset('assets/img/carre.svg')}}" class="square-item3" />
+    <img src="{{asset('assets/img/carre.svg')}}" class="square-item4" />
+    <img src="{{asset('assets/img/carre.svg')}}" class="square-item5" />
+    <img src="{{asset('assets/img/carre.svg')}}" class="square-item6" />
 </header>
 <main>
     <article>
@@ -48,11 +48,11 @@
                     <p> {{ trans('lang.STR_TEXT_13') }} </p>
                 </div>
                 <img src="{{ asset('assets/img/more-product.png') }}" class="image-block" alt="">
-                <img src="{{asset('assets/imgs/carre.svg')}}" class="square-item1" />
-                <img src="{{asset('assets/imgs/carre.svg')}}" class="square-item2" />
-                <img src="{{asset('assets/imgs/carre.svg')}}" class="square-item3" />
-                <img src="{{asset('assets/imgs/carre.svg')}}" class="square-item4" />
-                <img src="{{asset('assets/imgs/circle-effect-1.svg')}}" class="circle-item" />
+                <img src="{{asset('assets/img/carre.svg')}}" class="square-item1" />
+                <img src="{{asset('assets/img/carre.svg')}}" class="square-item2" />
+                <img src="{{asset('assets/img/carre.svg')}}" class="square-item3" />
+                <img src="{{asset('assets/img/carre.svg')}}" class="square-item4" />
+                <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="circle-item" />
             </article>
 
             <article class="features-container2 reveal-1">
@@ -63,7 +63,7 @@
                 </div>
                 <img src="{{asset('assets/img/red-flock.svg')}}" class="flock-item1" />
                 <img src="{{asset('assets/img/red-flock.svg')}}" class="flock-item2" />
-                <img src="{{asset('assets/imgs/triangle-effect-1.svg')}}" class="triangle-item" />
+                <img src="{{asset('assets/img/triangle-effect-1.svg')}}" class="triangle-item" />
             </article>
 
                 <article class="features-container3 bg-block2 reveal-1">
@@ -72,9 +72,9 @@
                     <p> {{ trans('lang.STR_TEXT_15') }} </p>
                 </div>
                 <img class="image-block" src="{{ asset('assets/img/language-docs.jpeg') }}" alt="">
-                <img src="{{asset('assets/imgs/flock-1.svg')}}" class="flock-item1" />
-                <img src="{{asset('assets/imgs/flock-3.svg')}}" class="flock-item2" />
-                <img src="{{asset('assets/imgs/circle-effect-1.svg')}}" class="circle-item" />
+                <img src="{{asset('assets/img/flock-1.svg')}}" class="flock-item1" />
+                <img src="{{asset('assets/img/flock-3.svg')}}" class="flock-item2" />
+                <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="circle-item" />
             </article>
 
             <article class="features-container4 reveal-1">
@@ -83,10 +83,10 @@
                     <h2>{{ trans('lang.STR_TITLE_19') }}</h2>
                     <p> {{ trans('lang.STR_TEXT_16') }} </p>
                 </div>
-                <img src="{{asset('assets/imgs/carre.svg')}}" class="square-item1" />
-                <img src="{{asset('assets/imgs/carre.svg')}}" class="square-item2" />
-                <img src="{{asset('assets/imgs/carre.svg')}}" class="square-item3" />
-                <img src="{{asset('assets/imgs/triangle-effect-1.svg')}}" class="triangle-item" />
+                <img src="{{asset('assets/img/carre.svg')}}" class="square-item1" />
+                <img src="{{asset('assets/img/carre.svg')}}" class="square-item2" />
+                <img src="{{asset('assets/img/carre.svg')}}" class="square-item3" />
+                <img src="{{asset('assets/img/triangle-effect-1.svg')}}" class="triangle-item" />
             </article>
 
                 <article class="features-container5 reveal-1">
@@ -95,13 +95,13 @@
                     <p> {{ trans('lang.STR_TEXT_17') }} </p>
                 </div>
                 <img class="image-block" src="{{ asset('assets/img/more-assist.png') }}" alt="">
-                <img src="{{asset('assets/imgs/carre.svg')}}" class="square-item1" />
-                <img src="{{asset('assets/imgs/carre.svg')}}" class="square-item2" />
-                <img src="{{asset('assets/imgs/carre.svg')}}" class="square-item3" />
-                <img src="{{asset('assets/imgs/backslash.svg')}}" class="backslash-item" />
-                <img src="{{asset('assets/imgs/more.svg')}}" class="more-item1" />
-                <img src="{{asset('assets/imgs/more.svg')}}" class="more-item2" />
-                <img src="{{asset('assets/imgs/circle-effect-1.svg')}}" class="circle-item" />
+                <img src="{{asset('assets/img/carre.svg')}}" class="square-item1" />
+                <img src="{{asset('assets/img/carre.svg')}}" class="square-item2" />
+                <img src="{{asset('assets/img/carre.svg')}}" class="square-item3" />
+                <img src="{{asset('assets/img/backslash.svg')}}" class="backslash-item" />
+                <img src="{{asset('assets/img/more.svg')}}" class="more-item1" />
+                <img src="{{asset('assets/img/more.svg')}}" class="more-item2" />
+                <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="circle-item" />
             </article>
 
         </section>
