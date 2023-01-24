@@ -2,37 +2,41 @@
 
 /*--------------------Form responsive--------------*/
 @media (max-width: 1024px) {
-    .search-form .input-fields .STR_TITLE_FORM_1{
-        font-size: 25px;
-    }
-    .search-form .input-fields .STR_TITLE_FORM_2 {
-        font-size: 20px;
-        margin-bottom: 10px;
-    }
+
     .input-fields .styled-input {
-        padding: 5px;
+        margin-right: 5px;
         border: solid 2px var(--primary-color);
-        border-radius: 15px;
+        border-radius: 6px;
         width: 50%;
         font-size: 16px;
     }
-    .input-fields label {
+    /* .input-fields label {
         margin-top: 10px;
-    }
+    } */
 
 }
 
+@media (max-width: 768px){
+    .search-form {
+        margin: 0 100px 0 100px;
+    }
+    .search-form .input-fields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-fields .styled-input {
+    padding: 7px;
+    margin-bottom: 5px;
+    border: solid 2px var(--third-color);
+    border-radius: 6px;
+    width: 50%;
+    font-size: 16px;
+}
+}
 
 
 @media (max-width: 500px) {
-    .search-form .input-fields .STR_TITLE_FORM_1 {
-        font-size: 20px;
-    }
-
-    .search-form .input-fields .STR_TITLE_FORM_2 {
-        font-size: 15px;
-        margin-bottom: 0px;
-    }
 
     .input-fields .styled-input {
         padding: 3px;
@@ -42,9 +46,9 @@
         font-size: 16px;
     }
 
-    .input-fields label {
+    /* .input-fields label {
         margin-top: 0px;
-    }
+    } */
     #search-button {
         padding: 0px 0px 0px 0px;
         width: 60%;

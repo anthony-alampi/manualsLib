@@ -1,46 +1,41 @@
 .search-form {
     background-color: #fff;
     margin-top: 5px;
-    /* border: solid 3px var(--third-color); */
-    border-radius: 25px;
-    box-shadow: 2px 4px 8px 1px rgba(0, 0, 0, 0.381);
-    /* padding: 10px; */
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px -5px rgba(0, 0, 0, 0.381);
+    padding: 10px;
 }
 
-.search-form .input-fields .STR_TITLE_FORM_1{
-   /* margin-bottom: 0px; */
-   font-size: var(--size-h1);
-   font-family: var(--font-h1);
-   color: var(--color-h1);
+.search-form h2{
+    font-family: var(--font-h2);
+    font-size: 25px;
+    font-weight: var(--weight-h2);
+    color: var(--color-h2);
+    text-align: center;
+    margin-bottom: 15px;
 }
-.search-form .input-fields .STR_TITLE_FORM_2{
-    font-size: var(--size-h3);
-    font-family: var(--font-h3);
-    color: var(--color-h3);
-    /* margin-bottom: 0px; */
-}
+
 
 .search-form .input-fields {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .input-fields .styled-input {
     padding: 7px;
     border: solid 2px var(--third-color);
     border-radius: 10px;
-    width: 20%;
+    width: 30%;
     font-size: 16px;
 }
-
+/* 
 .input-fields label{
     margin-top: 10px;
     font-family: var(--font-text);
     font-weight: var(--weight-text);
     color: var(--color-text);
-    letter-spacing: 2px;
-}
+} */
 
 #search-button {
     padding: 7px 0px 7px 0px;
@@ -61,6 +56,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 50%;
+    transform: translateX(-50%)
     }
 
 #search-button:hover {
