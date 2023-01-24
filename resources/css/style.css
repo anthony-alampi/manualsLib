@@ -972,11 +972,6 @@
     width: 60%;
     height: auto;
 }
-
-
-
-
-
 }
 
 /*----------------ABOUT RESPONSIVE-------------------*/
@@ -1143,6 +1138,312 @@
     width: 80%;
 }
 }
+
+/*------------------PRICING RESPONSIVE-------------------*/
+
+@media (max-width: 1024px) {
+.pricing-header h1{
+    width: 100%;
+    margin-top: 0px;
+    text-align: center;
+}
+.pricing-header .square-item1 {
+    width: 15px;
+    top: 50%;
+    left: 3%;
+}
+.pricing-table{
+row-gap: 100px;
+   
+}
+.pricing-container1{
+    height: 500px;
+    margin-top: -100px;
+    z-index: 0;
+}
+.pricing-container2{
+    height: 500px;
+}
+.pricing-container3{
+    height: 500px;
+}
+.pricing-containers .pricing-section1 .triangle-item {
+    width: 150px;
+    position: absolute;
+    top: 35%;
+    left: 3%;
+}
+/*--------- section text-block 2 -----------------*/
+
+
+.pricing-section2 .pricing-block {
+    width: 70%;
+    text-align: center;
+}
+
+.pricing-section2 .pricing-block h2 {
+    font-family: var(--font-h1);
+    font-size: 60px;
+    color: var(--color-h2);
+}
+
+.pricing-section2 .pricing-block p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: var(--font-text);
+    font-weight: var(--weight-text);
+    font-size: var(--size-text);
+    color: var(--font-color);
+    line-height: var(--height-line-text);
+}
+
+.pricing-section2 .image-block {
+    width: 400px;
+}
+
+
+/* .pricing-section4 .pricing-block {
+    width: 70%;
+}
+
+.pricing-section4 .pricing-block h2 {
+    font-family: var(--font-h1);
+    font-size: 60px;
+    color: var(--color-h2);
+}
+
+.pricing-section4 .pricing-block p {
+    margin-top: 30px;
+    font-family: var(--font-text);
+    font-weight: var(--weight-text);
+    font-size: var(--size-text);
+    color: var(--font-color);
+    line-height: var(--height-line-text);
+}
+
+.pricing-section4 .image-block {
+    width: 500px;
+} */
+
+}
+
+@media (max-width: 500px) {
+
+.pricing-header h1 {
+        width: 100%;
+        font-size: 30px;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .pricing-header .square-item1 {
+        width: 15px;
+        top: 50%;
+        left: 3%;
+    }
+
+    .pricing-table {
+        row-gap: 100px;
+
+    }
+.pricing-table .triangle-item {
+    width: 100px;
+    }
+    
+    .pricing-container1 {
+        height: 500px;
+        margin-top: -100px;
+        z-index: 0;
+    }
+
+    .pricing-container2 {
+        height: 500px;
+    }
+
+    .pricing-container3 {
+        height: 500px;
+    }
+    .pricing-containers .pricing-section1 h2{
+    font-size: 30px;
+}
+    .pricing-containers .pricing-section1 p{
+    font-size: 15px;
+    width: 100%;
+}
+    .pricing-containers .pricing-section1 .triangle-item {
+        width: 80px;
+        position: absolute;
+        top: 49%;
+        left: 3%;
+    }
+    .pricing-containers .pricing-section1 .circle-item {
+        width: 100px;
+        top: 80%;
+        right: 15%;
+    }
+
+    .pricing-containers img{
+    width: 300px;
+}
+    /*--------- section text-block 2 -----------------*/
+    .pricing-section2{
+        padding-bottom: 0px ;
+    }
+
+    .pricing-section2 .pricing-block {
+        width: 100%;
+        text-align: center;
+    }
+
+    .pricing-section2 .pricing-block h2 {
+        font-size: 30px;
+    }
+
+    .pricing-section2 .pricing-block p {
+        font-size: 15px;
+    }
+
+    .pricing-section2 .image-block {
+        width: 300px;
+    }
+    
+/*--------- section text-block 3 -----------------*/
+.pricing-section3 {
+    padding: 50 16px 50px 16px;
+}
+
+.pricing-section3 .pricing-block {
+    width: 100%;
+    text-align: center;
+}
+
+.pricing-section3 .pricing-block h2 {
+    font-size: 30px;
+}
+
+.pricing-section3 .pricing-block p {
+    font-size: 15px;
+}
+
+.pricing-section3 .image-block {
+    width: 300px;
+}
+
+/*--------- section text-block 4 -----------------*/
+.pricing-section4 {
+    padding: 50px 16px 50px 16px;
+
+}
+
+.pricing-section4 .pricing-block {
+    width: 100%;
+    text-align: center;
+}
+
+.pricing-section4 .pricing-block h2 {
+    font-family: var(--font-h1);
+    font-size: 30px;
+    color: var(--color-h2);
+}
+
+.pricing-section4 .pricing-block p {
+    font-size: 15px;
+    color: var(--font-color);
+}
+
+.pricing-section4 .image-block {
+    width: 300px;
+}
+.pricing-section4 .circle-item {
+    width: 70px;
+    top: 12%;
+    left: 65%;
+}
+.pricing-section4 .square-item1 {
+    width: 15px;
+    top: 5%;
+    left: 25%;
+}
+/*--------- section text-block 5 -----------------*/
+.pricing-section5 {
+    padding: 50px 16px 0px 16px;
+}
+
+.pricing-section5 .pricing-block {
+    width: 100%;
+    text-align: center;
+}
+
+.pricing-section5 .pricing-block h2 {
+    font-size: 30px;
+}
+
+.pricing-section5 .pricing-block p {
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.pricing-section5 .image-block {
+    width: 300px;
+}
+
+/*------SWITCH / PAYMENT CONTAINER----------*/
+
+.switch-payment-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.switch-payment-container .switchPayment {
+    text-align: center;
+    width: 100%;
+}
+
+.switch-payment-container .switchPayment p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.switch-payment-container .switchPayment img {
+    width: 70px;
+    margin-bottom: 30px;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*-------------------CSS Animation ----------------*/
 /* @keyframes rotation {
