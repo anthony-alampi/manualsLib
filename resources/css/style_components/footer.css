@@ -1,8 +1,8 @@
 footer{
     padding: 50px 0 0 0;
     margin-top: 100px;
-    background-color: var(--footer-bg);
     text-align: center;
+    position: relative;
 }
 footer .link-footer-container{
     display: flex;
@@ -21,11 +21,11 @@ footer .link-footer-container .links-container{
 
 .link-footer-container .links-container .link-item{
     text-decoration: none;
-    font-size: var(--size-links);
+    font-size: 15px;
     font-family: var(--font-links);
-    font-weight: var(--weight-links);
+    /* font-weight: var(--weight-links); */
     color: var(--color-links);
-    padding: 5px;
+    padding: 10px;
 }
 .link-footer-container .links-container .link-item:hover{
     color: var(--color-hover-links);
@@ -36,9 +36,23 @@ footer .link-footer-container .links-container{
 }
 .copyright{
     font-family: var(--font-text);
+    margin-top: 30vh;
+    margin-bottom: 5vh;
 }
 .copyright a{
     text-decoration: none;
     font-weight: var(--weight-links);
     color: var(--color-links);
+}
+.triangle-item-footer{
+    position:absolute;
+    bottom: -20%;
+    left: 15%;
+    width: 200px;
+}
+.square-item-footer{
+    position:absolute;
+    bottom: 20%;
+    right: 20%;
+    width: 10px;
 }

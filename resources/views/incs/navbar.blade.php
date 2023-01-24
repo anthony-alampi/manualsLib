@@ -11,19 +11,28 @@
             </button>
             <div class="navlinks-container">
                 <a href="#" aria-current="page"></a>
+                <div class="separate"></div>
                 <a href="#">Manuals</a>
+                <div class="separate"></div>
                 <a href="{{route('features')}}">Features</a>
+                <div class="separate"></div>
                 <a href="#">Brands</a>
-                <a href="{{route('pricing')}}">Pricing</a> 
+                <div class="separate"></div>
+                <a href="{{route('pricing')}}">Pricing</a>
+                <div class="separate"></div> 
                 <a href="{{route('api')}}">Api</a>
+                <div class="separate"></div>
                 <a href="#">Press</a>
+                <div class="separate"></div>
                 <a href="{{route('about')}}">About</a>
+                <div class="separate"></div>
+                <a href="{{route('about')}}">Login</a>
             </div>
         </div>
             <div class="nav-authentication">
-                <a href="#" class="sign-user" aria-label="Sign in page">
+                {{-- <a href="#" class="sign-user" aria-label="Sign in page">
                     <img src=" {{asset('assets/img/user-avatar-filled.svg')}} " alt="user-icon">
-                </a>
+                </a> --}}
                 <div class="signs-btn">
                 <button type="button">Sign in / Sign up</button>
             </div>

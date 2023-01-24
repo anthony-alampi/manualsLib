@@ -37,7 +37,9 @@
 
 
 @media (max-width: 500px) {
-
+    .search-form{
+        margin: 0 0 0 0;
+    }
     .input-fields .styled-input {
         padding: 3px;
         border: solid 2px var(--primary-color);

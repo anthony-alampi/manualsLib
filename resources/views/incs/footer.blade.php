@@ -31,4 +31,6 @@
     </div>
 
     <p class="copyright">Copyright 2023 - <a href="#">ManualsLib</a></p>
+    <img src="{{asset('assets/img/triangle-effect-1.svg')}}" class="triangle-item-footer" alt="">
+    <img src="{{asset('assets/img/carre.svg')}}" class="square-item-footer" alt="">
 </footer>
