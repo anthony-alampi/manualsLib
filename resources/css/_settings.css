@@ -10,6 +10,10 @@
 @import './style_pages/about.css';
 @import './style_pages/api.css';
 @import './style_pages/pricing.css';
+@import './style_pages/terms.css';
+@import './style_pages/privacy.css';
+@import './style_pages/cookies.css';
+@import './style_pages/subscription.css';
 
 /* Import online font*/
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');

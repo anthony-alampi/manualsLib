@@ -1,0 +1,216 @@
+.moreInfo-header{
+    height: 30vh;
+    margin-top: 200px;
+    font-family: var(--font-h1);
+    font-size: var(--size-h2);
+    color: var(--color-h1);
+    text-align: center;
+}
+.main-bg-custom-1{
+    background-color: #fbf3ec;
+}
+.main-bg-custom-2{
+    background-image: url(/public/assets/img/bg4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.moreInfo-container{
+    padding: 100px 0 100px 0;
+    position: relative;
+}
+.moreInfo-container .title-text{
+    margin: 0 10% 25px 10%;
+    border: solid 1px rgb(228, 228, 228);
+    border-radius: 7px;
+    background: #fff;
+    transition-duration: .5s;
+}
+.moreInfo-container .title-text:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.8);
+}
+
+.moreInfo-container .title-text h2{
+    font-family: var(--font-h2);
+    font-size: var(--size-h2);
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 25px;
+}
+.moreInfo-container .title-text p{
+    font-family: var(--font-text);
+    font-size: var(--size-text);
+    font-weight: var(--weight-text);
+    line-height: var(--height-line-text);
+    text-align: justify;
+    padding: 16px;
+}
+
+.moreInfo-header .circle-anim1 {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    background: rgba(241, 166, 26, 0.411);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    animation: moveCircle 10s infinite linear;
+}
+
+.moreInfo-header .circle-anim2 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    background: rgba(35, 172, 236, 0.363);
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    animation: moveCircle 12s infinite linear;
+}
+
+.moreInfo-header .circle-anim3 {
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    background: rgba(245, 99, 220, 0.363);
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    animation: moveCircle 14s infinite linear;
+}
+
+.moreInfo-header .circle-anim4 {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    background: rgba(241, 166, 26, 0.411);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    animation: moveCircle 10s infinite linear;
+}
+
+.moreInfo-header .circle-anim5 {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    background: rgba(35, 172, 236, 0.363);
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    animation: moveCircle 12s infinite linear;
+}
+
+.moreInfo-container .circle-anim6 {
+    position: absolute;
+    top: 65%;
+    right: 10%;
+    background: rgba(245, 99, 220, 0.363);
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    animation: moveCircle 14s infinite linear;
+}
+.moreInfo-container .circle-scale1 {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    background: rgba(165, 48, 211, 0.40);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    animation: scaleCircle 3s infinite;
+    transform: scale(1);
+    transition: transform 1s ease-out;
+}
+.moreInfo-container .circle-scale2 {
+    position: absolute;
+    top: 8%;
+    right: 5%;
+    background: rgba(233, 219, 30, 0.40);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    animation: scaleCircle 3s infinite;
+    transform: scale(1);
+    transition: transform 1s ease-out;
+}
+.moreInfo-container .circle-scale3 {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    background: rgba(255, 0, 179, 0.40);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    animation: scaleCircle 3s infinite;
+    transform: scale(1);
+    transition: transform 1s ease-out;
+}
+
+.moreInfo-container .circle-scale4 {
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    background: rgba(12, 138, 8, 0.40);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    animation: scaleCircle 3s infinite;
+    transform: scale(1);
+    transition: transform 1s ease-out;
+}
+.moreInfo-container .circle-scale5 {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    background: rgba(233, 219, 30, 0.40);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    animation: scaleCircle 3s infinite;
+    transform: scale(1);
+    transition: transform 1s ease-out;
+}
+
+.moreInfo-container .circle-scale6 {
+    position: absolute;
+    top: 45%;
+    right: 5%;
+    background: rgb(83, 158, 243);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    animation: scaleCircle 3s infinite;
+    transform: scale(1);
+    transition: transform 1s ease-out;
+}
+.moreInfo-container .rotate-circle1 {
+    position: absolute;
+    width: 70px;
+    left: 3%;
+    top: 50%;
+    animation: rotation 40s infinite;
+}
+.moreInfo-container .rotate-circle2 {
+    position: absolute;
+    width: 70px;
+    right: 3%;
+    top: 65%;
+    animation: rotation 40s infinite;
+}
+.moreInfo-container .rotate-circle3 {
+    position: absolute;
+    width: 70px;
+    left: 3%;
+    top: 81%;
+    animation: rotation 40s infinite;
+}
+.moreInfo-container .rotate-circle4 {
+    position: absolute;
+    width: 70px;
+    right: 3%;
+    top: 12%;
+    animation: rotation 40s infinite;
+}

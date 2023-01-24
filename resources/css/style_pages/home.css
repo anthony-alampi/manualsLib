@@ -162,11 +162,12 @@
     height: 250px;
     background: #fff;
     padding-top: 30px;
-    padding-left: 30px;
+    /* padding-left: 30px; */
     border-radius: 3px;
     transition: 0.5s;
     z-index: 2;
     box-shadow: 0px 5px 18px 0px rgba(0, 0, 0, 0.15);
+    text-align: center;
 }
 
 .device:hover{
@@ -187,7 +188,7 @@
     font-weight: 700;
     text-decoration: underline var(--primary-color);
     text-decoration-thickness: 3px;
-    text-align: left;
+    text-align: center;
     width: 100%;
 }
 

@@ -1,7 +1,5 @@
 @extends('base')
-
 @section('content')
-
 <header class="pricing-header">
     <h1>{{ trans('lang.STR_TITLE_PRICING_1') }}</h1>
     <img src="{{asset('assets/img/carre.svg')}}" class="square-item1" />

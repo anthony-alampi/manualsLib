@@ -1,0 +1,18 @@
+.title-text .plans-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 20px;
+}
+.title-text .plans-container .plan{
+    width: 250px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.8);
+    margin: 16px;
+}
+.title-text .plans-container .plan .icons-plan {
+    width: 70px;
+    margin-left: 50%;
+    padding-top: 50px;
+    transform: translateX(-50%);
+}
