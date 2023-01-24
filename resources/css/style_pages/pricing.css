@@ -273,9 +273,6 @@
     margin-bottom: 100px;
 }
 
-
-
-
 /*--------- section text-block 2 -----------------*/
 .pricing-section2 {
     display: flex;
@@ -363,7 +360,7 @@
 }
 
 .pricing-section3 .pricing-block {
-    width: 30%;
+    width: 40%;
 }
 
 .pricing-section3 .pricing-block h2 {
@@ -512,7 +509,7 @@
 }
 
 .pricing-section5 .pricing-block {
-    width: 30%;
+    width: 40%;
 }
 
 .pricing-section5 .pricing-block h2 {
@@ -563,7 +560,7 @@
     position: absolute;
     width: 13px;
     bottom: 5%;
-    left: 60%;
+    left: 40%;
     animation: float-item 5s infinite;
 }
 
