@@ -11,7 +11,7 @@
     font-size: var(--size-h1);
     font-weight: var(--weight-h1);
     color: var(--color-h1);
-    width: 50%;
+    width: 70%;
     margin-top: -100px;
     text-align: center;
 }
@@ -587,11 +587,11 @@
     background: #fff;
     margin: 25px;
     padding: 50px;
-    transition-duration: .3s;
+    transition-duration: .5s;
     cursor: pointer;
 }
 .switch-payment-container .switchPayment:hover{
-    transform: translateY(-7px);
+    transform: translateY(-10px);
     box-shadow: 1px 10px 14px -7px rgba(0, 0, 0, 0.137);
 }
 
