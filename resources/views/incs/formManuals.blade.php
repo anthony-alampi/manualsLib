@@ -13,7 +13,7 @@
   </div>
       <button type="submit" id="search-button">Go Search
       <img src="{{asset('assets/img/search.svg')}}" alt="search icon">
-    </button>
+      </button>
 
   {{-- <button type="submit" id="search-button">Go Search</button> --}}
 </form>

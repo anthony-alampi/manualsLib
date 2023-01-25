@@ -2,6 +2,7 @@
 @import './style_components/navbar.css';
 @import './style_components/footer.css';
 @import './style_components/formManuals.css';
+@import './style_components/formContactCarreers.css';
 
 /* Import style-pages*/
 @import './style_pages/home.css';
@@ -14,6 +15,8 @@
 @import './style_pages/privacy.css';
 @import './style_pages/cookies.css';
 @import './style_pages/subscription.css';
+@import './style_pages/contact.css';
+@import './style_pages/cancellation.css';
 
 /* Import online font*/
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');

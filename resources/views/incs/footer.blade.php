@@ -15,14 +15,14 @@
         </div>
         <div class="links-container">
             <a href="{{route('subscription')}}" class="link-item">Subscription</a>
-            <a href="#" class="link-item">Cancellation</a>
+            <a href="{{route('cancellation')}}" class="link-item">Cancellation</a>
             <a href="{{route('cookies')}}" class="link-item">Cookies</a>
             <a href="{{route('terms')}}" class="link-item">Terms</a>
             <a href="{{route('privacy')}}" class="link-item">Privacy</a>
         </div>
         <div class="links-container">
             <a href="#" class="link-item">Carreers</a>
-            <a href="#" class="link-item">Contact</a>
+            <a href="{{route('contact')}}" class="link-item">Contact</a>
         </div>
             <div class="links-container">
         <img src="{{asset('assets/img/paypal.svg')}}" alt="Paypal payment">

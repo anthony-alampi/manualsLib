@@ -1,0 +1,90 @@
+.contactCarreers-form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.contactCarreers-form-container .identity-container{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+}
+
+.contactCarreers-form-container .identity-container input {
+    width: 500px;
+    height: 100%;
+    border: none;
+    border-bottom: solid 2px #111;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    color: #111;
+    background: transparent;
+}
+
+.contactCarreers-form-container .identity-container :focus {
+    outline: 0;
+}
+
+.contactCarreers-form-container label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-family: var(--font-text);
+    font-weight: var(--weight-text);
+    opacity: 0.4;
+}
+
+.contactCarreers-form-container .email-message-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+
+}
+.contactCarreers-form-container .email-message-container input,textarea {
+    width: 1050px;
+    height: 100%;
+    border: none;
+    border-bottom: solid 2px #111;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    color: #111;
+    background: transparent;
+}
+
+.contactCarreers-form-container .email-message-container :focus {
+    outline: 0;
+}
+
+.contactCarreers-form-container .email-message-container input{
+    margin-bottom: 50px;
+}
+
+.contactCarreers-form-container .email-message-container textarea{
+    height: 200px;
+    resize: none;
+}
+
+.contactCarreers-form-container button{
+    padding: 20px 40px 20px 40px;
+    margin-top: 20px;
+    cursor: var(--pointer-btn);
+    transition: 0.5s;
+    color: var(--color-text-btn);
+    font-family: var(--font-h2);
+    font-size: var(--size-text-btn);
+    font-weight: var(--weight-btn);
+    border-radius: 6px;
+    letter-spacing: 2px;
+    background-size: 200%;
+    background-image: linear-gradient(to right, var(--color-btn) 0%, var(--color-hover-btn) 100%);
+    border: none;
+    box-shadow: 0px 10px 15px -3px #ce78229c;
+}
+
+.contactCarreers-form-container button:hover{
+    background-position: right;
+}
+

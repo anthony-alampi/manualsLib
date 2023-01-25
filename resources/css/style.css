@@ -1,69 +1,33 @@
 @import '_settings.css';
 
 /*--------------------Form responsive--------------*/
-@media (max-width: 1024px) {
-
-    .input-fields .styled-input {
-        margin-right: 5px;
-        border: solid 2px var(--primary-color);
-        border-radius: 6px;
-        width: 50%;
-        font-size: 16px;
-    }
-    /* .input-fields label {
-        margin-top: 10px;
-    } */
-
+@media (max-width: 1055px) {
+.contactCarreers-form-container{
+    padding: 0 10px 0 10px;
 }
-
-@media (max-width: 768px){
-    .search-form {
-        margin: 0 100px 0 100px;
-    }
-    .search-form .input-fields {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.contactCarreers-form-container .identity-container input {
+    width: 40vw;
+    font-size: 20px;
 }
-.input-fields .styled-input {
-    padding: 7px;
-    margin-bottom: 5px;
-    border: solid 2px var(--third-color);
-    border-radius: 6px;
-    width: 50%;
-    font-size: 16px;
+.contactCarreers-form-container .email-message-container input,textarea {
+    width: 90vw;
+    height: 100%;
+    font-size: 20px;
+}
+.contactCarreers-form-container .email-message-container textarea{
+    height: 100px;
 }
 }
-
-
-@media (max-width: 500px) {
-    .search-form{
-        margin: 0 0 0 0;
+@media (max-width: 415px) {
+.contactCarreers-form-container .identity-container input {
+        width: 90vw;
+        font-size: 20px;
+        margin: 10px;
     }
-    .input-fields .styled-input {
-        padding: 3px;
-        border: solid 2px var(--primary-color);
-        border-radius: 15px;
-        width: 70%;
-        font-size: 16px;
-    }
-
-    /* .input-fields label {
-        margin-top: 0px;
-    } */
-    #search-button {
-        padding: 0px 0px 0px 0px;
-        width: 60%;
-        margin-top: 10px;
-        font-size: 15px;
-        letter-spacing: 0px;
-    }
-    #search-button img {
-        width: 30px;
-        margin-left: 10px;
-    }
+.contactCarreers-form-container .identity-container label{
+    display: none;
 }
-
+}
 
 
 /*----------------------Homepage Responsive----------------------*/
@@ -1458,13 +1422,14 @@ row-gap: 100px;
     margin-bottom: 30px;
 }
 
-
-
-
 }
 
 
-
+@media (max-width: 768px) {
+.contact-block {
+    flex-basis: 90%;
+}
+}
 
 
 

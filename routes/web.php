@@ -1,15 +1,16 @@
 <?php
-
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ApiController;
 use App\Http\Controllers\FaqController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\TermsController;
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\CookiesController;
 use App\Http\Controllers\PricingController;
 use App\Http\Controllers\PrivacyController;
 use App\Http\Controllers\FeaturesController;
+use App\Http\Controllers\CancellationController;
 use App\Http\Controllers\SubscriptionController;
 
 Route::get('/', [ HomeController::class, 'home' ])->name('home');
@@ -25,3 +26,6 @@ Route::get('/terms', [TermsController::class, 'terms'])->name('terms');
 Route::get('/privacy', [PrivacyController::class, 'privacy'])->name('privacy');
 Route::get('/cookies', [CookiesController::class, 'cookies'])->name('cookies');
 Route::get('/subscription', [SubscriptionController::class, 'subscription'])->name('subscription');
+
+Route::get('/contact', [ContactController::class, 'contact'])->name('contact');
+Route::get('/cancellation', [CancellationController::class, 'cancellation'])->name('cancellation');
