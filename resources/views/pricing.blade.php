@@ -105,21 +105,9 @@
             <article class="pricing-section3">
                 <img src="{{ asset('assets/img/service-plan.jpg') }}" class="image-block" alt="">
                 <div class="pricing-block">
-                    <h2>{{ trans('lang.STR_TITLE_PRICING_6') }}</h2>
+                    <h2>{{ trans('lang.STR_TITLE_PRICING_7') }}</h2>
                     <p> {{ trans('lang.STR_TEXT_22') }} </p>
                 </div>
-                <img src="{{asset('assets/img/carre.svg')}}" class="square-item1" />
-                <img src="{{asset('assets/img/carre.svg')}}" class="square-item2" />
-                <img src="{{asset('assets/img/carre.svg')}}" class="square-item3" />
-                <img src="{{asset('assets/img/carre.svg')}}" class="square-item4" />
-                <img src="{{asset('assets/img/triangle-effect-1.svg')}}" class="circle-item" />
-            </article>
-            <article class="pricing-section4">
-                <div class="pricing-block">
-                    <h2>{{ trans('lang.STR_TITLE_PRICING_7') }}</h2>
-                    <p> {{ trans('lang.STR_TEXT_23') }} </p>
-                </div>
-                <img src="{{ asset('assets/img/need-plan.jpg') }}" class="image-block" alt="">
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item1" />
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item2" />
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item3" />
