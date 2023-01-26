@@ -138,7 +138,34 @@
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item4" />
                 <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="circle-item" />
             </article>
-            <article class="switch-payment-container">
+
+            <article class="pricing-section6">
+                <div class="pricing-block">
+                    <h2>{{ trans('lang.STR_TITLE_PRICING_9') }}</h2>
+                    <p> {{ trans('lang.STR_TEXT_25') }} </p>
+                </div>
+                <img src="{{ asset('assets/img/switch.svg') }}" class="image-block" alt="">
+                <img src="{{asset('assets/img/carre.svg')}}" class="square-item1" />
+                <img src="{{asset('assets/img/carre.svg')}}" class="square-item2" />
+                <img src="{{asset('assets/img/carre.svg')}}" class="square-item3" />
+                <img src="{{asset('assets/img/carre.svg')}}" class="square-item4" />
+                <img src="{{asset('assets/img/triangle-effect-1.svg')}}" class="circle-item" />
+            </article>
+            
+            <article class="pricing-section7">
+                <img src="{{ asset('assets/img/payment-calendar.svg') }}" class="image-block" alt="">
+                <div class="pricing-block">
+                    <h2>{{ trans('lang.STR_TITLE_PRICING_10') }}</h2>
+                    <p> {{ trans('lang.STR_TEXT_26') }} </p>
+                </div>
+                <img src="{{asset('assets/img/carre.svg')}}" class="square-item1" />
+                <img src="{{asset('assets/img/carre.svg')}}" class="square-item2" />
+                <img src="{{asset('assets/img/carre.svg')}}" class="square-item3" />
+                <img src="{{asset('assets/img/carre.svg')}}" class="square-item4" />
+                <img src="{{asset('assets/img/triangle-effect-1.svg')}}" class="circle-item" />
+            </article>
+            
+            {{-- <article class="switch-payment-container">
                 <div class="switchPayment reveal-1">
                     <img src="{{asset('assets/img/switch.svg')}}" alt="">
                     <h2>{{ trans('lang.STR_TITLE_PRICING_9') }}</h2>
@@ -149,7 +176,7 @@
                     <h2>{{ trans('lang.STR_TITLE_PRICING_10') }}</h2>
                     <p> {{ trans('lang.STR_TEXT_26') }} </p>
                 </div>
-            </article>
+            </article> --}}
     </article>
 </main>
 @endsection

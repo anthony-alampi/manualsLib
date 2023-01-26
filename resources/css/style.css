@@ -1214,8 +1214,8 @@
 @media (max-width: 1024px) {
 .pricing-header h1{
     width: 100%;
-    /* margin-top: 0px; */
     text-align: center;
+    margin-bottom: 50px;
 }
 .pricing-header .square-item1 {
     width: 15px;
@@ -1228,8 +1228,6 @@ row-gap: 100px;
 }
 .pricing-container1{
     height: 500px;
-    margin-top: -100px;
-    z-index: 0;
 }
 .pricing-container2{
     height: 500px;
@@ -1243,62 +1241,167 @@ row-gap: 100px;
     top: 35%;
     left: 3%;
 }
-/*--------- section text-block 2 -----------------*/
-
+/*--------- section text-block  -----------------*/
+.pricing-section2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 16px 50px 16px;
+    position: relative;
+}
 
 .pricing-section2 .pricing-block {
     width: 70%;
-    text-align: center;
 }
 
 .pricing-section2 .pricing-block h2 {
-    font-family: var(--font-h1);
-    font-size: 60px;
-    color: var(--color-h2);
+    text-align: center;
 }
 
 .pricing-section2 .pricing-block p {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-family: var(--font-text);
-    font-weight: var(--weight-text);
-    font-size: var(--size-text);
-    color: var(--font-color);
-    line-height: var(--height-line-text);
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .pricing-section2 .image-block {
     width: 400px;
 }
+/*----*/
+.pricing-section3 .pricing-block {
+    width: 70%;
+}
 
+.pricing-section3 .pricing-block h2 {
+    text-align: center;
+}
 
-/* .pricing-section4 .pricing-block {
+.pricing-section3 .pricing-block p {
+    text-align: center;
+}
+
+.pricing-section3 .image-block {
+    width: 400px;
+}
+/*----*/
+.pricing-section4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 16px 50px 16px;
+    position: relative;
+}
+
+.pricing-section4 .pricing-block {
     width: 70%;
 }
 
 .pricing-section4 .pricing-block h2 {
-    font-family: var(--font-h1);
-    font-size: 60px;
-    color: var(--color-h2);
+    text-align: center;
 }
 
 .pricing-section4 .pricing-block p {
-    margin-top: 30px;
-    font-family: var(--font-text);
-    font-weight: var(--weight-text);
-    font-size: var(--size-text);
-    color: var(--font-color);
-    line-height: var(--height-line-text);
+    text-align: center;
+}
+.pricing-section4 .image-block {
+    width: 400px;
+}
+/*-----*/
+
+.pricing-section5 .pricing-block {
+    width: 70%;
 }
 
-.pricing-section4 .image-block {
-    width: 500px;
-} */
+.pricing-section5 .pricing-block h2 {
+    text-align: center;
+}
+.pricing-section5 .pricing-block p {
+    text-align: center;
+}
+.pricing-section5 .image-block {
+    width: 400px;
+}
+/*-----*/
+.pricing-section6 .pricing-block {
+    width: 70%;
+}
+
+.pricing-section6 .pricing-block h2 {
+    text-align: center;
+}
+
+.pricing-section6 .pricing-block p {
+    text-align: center;
+}
+
+.pricing-section6 .image-block {
+    width: 200px;
+}
+/*-----*/
+.pricing-section7 .pricing-block {
+    width: 70%;
+}
+
+.pricing-section7 .pricing-block h2 {
+    text-align: center;
+}
+
+.pricing-section7 .pricing-block p {
+    text-align: center;
+}
+
+.pricing-section7 .image-block {
+    width: 200px;
+}
+}
+@media (max-width: 768px) {
+.pricing-table{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: -180px;
+    /* margin-bottom: 150px; */
+    padding: 0 16px 0 16px;
+}
+.pricing-header {
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items:unset;
+        background: #ecf6ff;
+        padding-top: 120px;
+    }
+.pricing-header h1 {
+        width: 100%;
+        font-size: 30px;
+        margin-top:100px;
+        text-align: center;
+    }
 
 }
 
 @media (max-width: 500px) {
-
+.pricing-table{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: -100px;
+    margin-bottom: 150px;
+    padding: 0 16px 0 16px;
+}
+.pricing-header {
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: unset;
+        background: #ecf6ff;
+        /* padding-top: 120px; */
+    }
 .pricing-header h1 {
         width: 100%;
         font-size: 30px;
@@ -1334,7 +1437,7 @@ row-gap: 100px;
         height: 500px;
     }
     .pricing-containers .pricing-section1 h2{
-    font-size: 30px;
+    font-size: 23px;
 }
     .pricing-containers .pricing-section1 p{
     font-size: 15px;
@@ -1352,8 +1455,8 @@ row-gap: 100px;
         right: 15%;
     }
 
-    .pricing-containers img{
-    width: 300px;
+    .pricing-containers .pricing-section1 img{
+    width: 250px;
 }
     /*--------- section text-block 2 -----------------*/
     .pricing-section2{
@@ -1366,7 +1469,7 @@ row-gap: 100px;
     }
 
     .pricing-section2 .pricing-block h2 {
-        font-size: 30px;
+        font-size: 23px;
     }
 
     .pricing-section2 .pricing-block p {
@@ -1374,7 +1477,7 @@ row-gap: 100px;
     }
 
     .pricing-section2 .image-block {
-        width: 300px;
+    width: 250px;
     }
     
 /*--------- section text-block 3 -----------------*/
@@ -1388,7 +1491,7 @@ row-gap: 100px;
 }
 
 .pricing-section3 .pricing-block h2 {
-    font-size: 30px;
+    font-size: 23px;
 }
 
 .pricing-section3 .pricing-block p {
@@ -1396,7 +1499,7 @@ row-gap: 100px;
 }
 
 .pricing-section3 .image-block {
-    width: 300px;
+    width: 250px;
 }
 
 /*--------- section text-block 4 -----------------*/
@@ -1411,9 +1514,7 @@ row-gap: 100px;
 }
 
 .pricing-section4 .pricing-block h2 {
-    font-family: var(--font-h1);
-    font-size: 30px;
-    color: var(--color-h2);
+    font-size: 23px;
 }
 
 .pricing-section4 .pricing-block p {
@@ -1422,7 +1523,7 @@ row-gap: 100px;
 }
 
 .pricing-section4 .image-block {
-    width: 300px;
+    width: 250px;
 }
 .pricing-section4 .circle-item {
     width: 70px;
@@ -1445,7 +1546,7 @@ row-gap: 100px;
 }
 
 .pricing-section5 .pricing-block h2 {
-    font-size: 30px;
+    font-size: 23px;
 }
 
 .pricing-section5 .pricing-block p {
@@ -1454,32 +1555,15 @@ row-gap: 100px;
 }
 
 .pricing-section5 .image-block {
-    width: 300px;
+    width: 250px;
 }
-
-/*------SWITCH / PAYMENT CONTAINER----------*/
-
-.switch-payment-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+/**----*/
+.pricing-section6 .pricing-block h2 {
+    font-size: 23px;
 }
-
-.switch-payment-container .switchPayment {
-    text-align: center;
-    width: 100%;
+.pricing-section7 .pricing-block h2 {
+    font-size: 23px;
 }
-
-.switch-payment-container .switchPayment p {
-    font-size: 14px;
-    text-align: center;
-}
-
-.switch-payment-container .switchPayment img {
-    width: 70px;
-    margin-bottom: 30px;
-}
-
 }
 
 

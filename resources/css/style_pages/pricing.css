@@ -272,7 +272,7 @@
     right: 10%;
     animation: rotation 35s infinite;
 }
-.pricing-containers img{
+.pricing-containers .pricing-section1 img{
     width: 400px;
     border-radius: 10px;
     margin-bottom: 100px;
@@ -585,45 +585,157 @@
     left: 3%;
     animation: floating 35s infinite;
 }
-/*------SWITCH / PAYMENT CONTAINER----------*/
 
-.switch-payment-container{
+/*--------- section text-block 6 -----------------*/
+.pricing-section6 {
     display: flex;
-    /* flex-wrap: wrap; */
-    justify-content: center;
-    /* align-items: center; */
-}
-.switch-payment-container .switchPayment{
-    text-align: center;
-    width: 50%;
-    border: solid 1px rgba(218, 218, 218, 0.575);
-    border-radius: 3px;
-    background: #fff;
-    margin: 25px;
-    padding: 50px;
-    transition-duration: .5s;
-    cursor: pointer;
-}
-.switch-payment-container .switchPayment:hover{
-    transform: translateY(-10px);
-    box-shadow: 1px 10px 14px -7px rgba(0, 0, 0, 0.137);
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 16px 50px 16px;
+    position: relative;
 }
 
-.switch-payment-container .switchPayment h2{
+.pricing-section6 .pricing-block {
+    width: 50%;
+}
+
+.pricing-section6 .pricing-block h2 {
     font-family: 'Rubik', sans-serif;
     color: #202020;
     font-size: 42px;
     line-height: 1.35em;
     margin-bottom: 20px;
 }
-.switch-payment-container .switchPayment p{
+
+.pricing-section6 .pricing-block p {
+    margin-top: 30px;
     font-family: var(--font-text);
     font-size: var(--size-text);
     color: var(--color-text);
     line-height: var(--line-text);
     font-weight: var(--weight-text);
 }
-.switch-payment-container .switchPayment img{
-    width: 80px;
-    margin-bottom: 50px;
+
+.pricing-section6 .image-block {
+    width: 300px;
+}
+
+.pricing-section6 .square-item1 {
+    position: absolute;
+    width: 15px;
+    top: 10%;
+    left: 25%;
+    animation: float-item 5s infinite;
+}
+
+.pricing-section6 .square-item2 {
+    position: absolute;
+    width: 10px;
+    top: 60%;
+    left: 3%;
+    opacity: 0.5;
+    animation: float-item 5s infinite;
+}
+
+.pricing-section6 .square-item3 {
+    position: absolute;
+    width: 15px;
+    top: 50%;
+    right: 5%;
+    animation: float-item 5s infinite;
+}
+
+.pricing-section6 .square-item4 {
+    position: absolute;
+    width: 13px;
+    bottom: -10%;
+    left: 60%;
+    animation: float-item 5s infinite;
+}
+
+.pricing-section6 .circle-item {
+    position: absolute;
+    width: 120px;
+    top: 8%;
+    left: 36%;
+    animation: rotation 35s infinite;
+    z-index: -1;
+}
+
+/*--------- section text-block 7 -----------------*/
+.pricing-section7 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px 16px 50px 16px;
+    position: relative;
+    background: #fdf3e7;
+}
+
+.pricing-section7 .pricing-block {
+    width: 40%;
+}
+
+.pricing-section7 .pricing-block h2 {
+    font-family: 'Rubik', sans-serif;
+    color: #202020;
+    font-size: 42px;
+    line-height: 1.35em;
+    margin-bottom: 20px;
+}
+
+.pricing-section7 .pricing-block p {
+    margin-top: 30px;
+    font-family: var(--font-text);
+    font-size: var(--size-text);
+    color: var(--color-text);
+    line-height: var(--line-text);
+    font-weight: var(--weight-text);
+}
+
+.pricing-section7 .image-block {
+    width: 300px;
+}
+
+.pricing-section7 .square-item1 {
+    position: absolute;
+    width: 15px;
+    top: 10%;
+    left: 25%;
+    animation: float-item 5s infinite;
+}
+
+.pricing-section7 .square-item2 {
+    position: absolute;
+    width: 10px;
+    top: 60%;
+    left: 3%;
+    opacity: 0.5;
+    animation: float-item 5s infinite;
+}
+
+.pricing-section7 .square-item3 {
+    position: absolute;
+    width: 15px;
+    top: 50%;
+    right: 5%;
+    animation: float-item 5s infinite;
+}
+
+.pricing-section7 .square-item4 {
+    position: absolute;
+    width: 13px;
+    bottom: 5%;
+    left: 60%;
+    animation: float-item 5s infinite;
+}
+
+.pricing-section7 .circle-item {
+    position: absolute;
+    width: 100px;
+    top: 12%;
+    left: 3%;
+    animation: floating 35s infinite;
 }

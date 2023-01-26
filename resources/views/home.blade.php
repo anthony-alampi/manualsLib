@@ -70,11 +70,8 @@
                 </div>
             </div>
         </section>
-
             <h3>{{ trans('lang.STR_TITLE_HOMEPAGE_4') }}</h3>
-
             <img src="{{asset('assets/img/flock-1.svg')}}" class="flock-top" />
-
             <div class="devices-container">
             <img src="{{asset('assets/img/triangle-effect-1.svg')}}" class="floating-triangle" />
                 <div class="device">
@@ -118,7 +115,7 @@
                 </div> 
                 <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="rotate-circle"/>
             </div>
-       <img src="{{asset('assets/img/flock-3.svg')}}" class="flock-bottom" />
+            <img src="{{asset('assets/img/flock-3.svg')}}" class="flock-bottom" />
         </div>
 
         <section class='content-block1'>
