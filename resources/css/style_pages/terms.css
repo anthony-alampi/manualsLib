@@ -1,9 +1,9 @@
 .moreInfo-header{
     height: 30vh;
     margin-top: 200px;
-    font-family: var(--font-h1);
-    font-size: var(--size-h2);
-    color: var(--color-h1);
+    font-family: 'gilroy-bold', sans-serif;
+    font-size: 42px;
+    color: #101621;
     text-align: center;
 }
 .main-bg-custom-1{
@@ -32,8 +32,8 @@
 }
 
 .moreInfo-container .title-text h2{
-    font-family: var(--font-h2);
-    font-size: var(--size-h2);
+    font-family: 'gilroy-semibold', sans-serif;
+    font-size: 28px;
     text-align: center;
     margin-bottom: 20px;
     padding-top: 25px;
@@ -41,8 +41,9 @@
 .moreInfo-container .title-text p{
     font-family: var(--font-text);
     font-size: var(--size-text);
+    color: var(--color-text);
+    line-height: var(--line-text);
     font-weight: var(--weight-text);
-    line-height: var(--height-line-text);
     text-align: justify;
     padding: 16px;
 }

@@ -8,16 +8,34 @@
     align-items: center;
 }
 
-
 .title-and-form{
     width: 40%;
+    position: relative;
 }
-
+.header-title-custom{
+    text-align: left;
+    position: relative;
+}
+.header-title-custom .shape-header{
+    width: 80%;
+    position: absolute;
+    top: 35%;
+    z-index: -1;
+}
 .title-and-form h1{
-    font-family: var(--font-h1) ;
-    font-size: var(--size-h1);
-    color: var(--color-h1);
-    font-weight: var(--weight-h1) ;
+    font-family: var(--home-font-h1) ;
+    font-size: var(--home-size-h1);
+    color: var(--home-color-h1);
+    font-weight: var(--home-weight-h1) ;
+    line-height: var(--home-line-h1);
+}
+.title-and-form h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #565657;
+    line-height: 1.5em;
 }
 
 .home-header .floating-illustration{
@@ -72,8 +90,9 @@
     background: white;
     box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
     height: 100px;
-    margin: 100px 0 100px 0;
-    overflow: hidden;
+
+    margin: 30px 0 30px 0;
+    /* overflow: hidden; */
     position: relative;
     /* width: 100%; */
 }
@@ -124,20 +143,33 @@
     align-items: center;
     height: auto;
     background-color: #FFF6EC;
-    margin: 0 20px 0 20px;
+    margin: 0 100px 0 100px;
     position: relative;
+    overflow: hidden;
+
 }
 
-.homepage-subtitle h2 {
-    font-family: var(--font-h1);
-    font-weight: var(--weight-h2);
-    font-size: 58px;
-    color: var(--color-h2);
+.homepage-subtitle .device-title-custom h2 {
+    font-family: 'gilroy-black' ;
+    font-size: 50px ;
+    line-height : 1.15em;
+    color: #101621;
     text-align: center;
-    width: 70%;
     padding-top: 50px;
 }
+.homepage-subtitle .device-title-custom {
+    position: relative;
+    width: 80%;
+    text-align: center;
+}
 
+.device-title-custom .shape-header {
+    width: 50%;
+    position: absolute;
+    right: 0%;
+    bottom: 25%;
+
+}
 .homepage-subtitle h3 {
     font-family: var(--font-h2);
     font-weight: var(--weight-h2);
@@ -157,12 +189,11 @@
 }
 
 .device {
-    flex-basis: 300px;
+    flex-basis: 250px;
     margin: 10px;
     height: 250px;
     background: #fff;
     padding-top: 30px;
-    /* padding-left: 30px; */
     border-radius: 3px;
     transition: 0.5s;
     z-index: 2;
@@ -184,8 +215,7 @@
     padding-top: 20px;
     font-size: 20px;
     color: var(--color-h1);
-    font-family: var(--font-h2);
-    font-weight: 700;
+    font-family: 'gilroy-bold';
     text-decoration: underline var(--primary-color);
     text-decoration-thickness: 3px;
     text-align: center;
@@ -200,7 +230,7 @@
 .homepage-subtitle .flock-top{
     position: absolute;
     right: 0;
-    top:20%;
+    top:30%;
 }
 .devices-container .floating-triangle{
     position: absolute;
@@ -234,6 +264,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    margin-top: 50px;
 }
 
 .content-block1 .title {
@@ -242,22 +273,21 @@
 
 .content-block1 .title img {
     width: 50px;
-    margin-bottom: 20px;
 }
 
 .content-block1 .title h2 {
-    font-family: var(--font-h1);
-    font-size: 58px;
-    color: var(--color-h1);
-    font-weight: var(--weight-h1);
+    font-family: 'gilroy-black';
+    font-size: 48px;
+    color: #101621;
+    line-height: 1.18em;
 }
 .content-block1 .title p{
     margin-top: 20px;
     font-family: var(--font-text);
     font-size: var(--size-text);
-    font-weight: var(--weight-text);
     color: var(--color-text);
-    line-height: var(--height-line-text);
+    line-height: var(--line-text);
+    font-weight: var(--weight-text);
 }
 
 .right-block{
@@ -342,6 +372,7 @@
     background-image: url(/public/assets/img/bg.svg);
     background-size: cover;
     background-repeat: no-repeat;
+    padding: 100px 0 100px 0;
 }
 
 .content-block2 .title-text{
@@ -354,19 +385,18 @@
 }
 
 .content-block2 .title-text h2 {
-    font-family: var(--font-h1);
-    color: var(--color-h2);
-    font-weight: var(--weight-h1);
-    font-size: 50px;
+    font-family: 'Rubik', sans-serif;
+    color: #101621;
+    font-size: 42px;
 }
 
 .content-block2 .title-text p{
     margin-top: 20px;
     font-family: var(--font-text);
     font-size: var(--size-text);
-    font-weight: var(--weight-text);
     color: var(--color-text);
-    line-height: var(--height-line-text);
+    line-height: var(--line-text);
+    font-weight: var(--weight-text);
 }
 
 
@@ -424,11 +454,8 @@
     animation: float-item 4s infinite;
     opacity: 0.5;
 }
-/*----CUSTOM LINE-------*/
-.custom-line{
-    text-align: center;
-    margin-top: 100px;
-}
+
+
 /*----CONTENT BLOCK 3------*/
 .content-block3 {
     display: flex;
@@ -446,17 +473,17 @@
 
 .content-block3 .title-text h2 {
     width: 70%;
-    font-family: var(--font-h1);
-    color: var(--color-h2);
+    font-family: 'gilroy-black', sans-serif;
+    color: #101621;
     font-size: 50px;
 }
 
 .content-block3 .title-text p {
     font-family: var(--font-text);
     font-size: var(--size-text);
-    font-weight: var(--weight-text);
     color: var(--color-text);
-    line-height: var(--height-line-text);
+    line-height: var(--line-text);
+    font-weight: var(--weight-text);
 }
 
 .content-block3 .images {
@@ -522,11 +549,9 @@
 /*-------- TRANSPARANCY FEEDBACK TITLE---------*/
 .title-custom{
     text-align: end;
-
-    font-family: var(--font-h1);
-    font-size: 100px;
-    letter-spacing: 1rem;
-    color: rgba(206, 206, 206, 0.295);
+    font-family: 'gilroy-bold', sans-serif;
+    font-size: 160px;
+    color: #F9FAFC;
 }
 /*-------- FEEDBACK CUSTOMERS-----------*/
 .feedback{
@@ -539,7 +564,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    width: 50%;
+    width: 40%;
     text-align: center;
     background-image: url(/public/assets/img/bg-grey.png);
     background-size: contain;
@@ -549,9 +574,9 @@
 }
 
 .feedback .container1 h2{
-    font-family: var(--font-h1);
-    font-size: 100px;
-    color: var(--color-h1);
+    font-family: 'gilroy-black', sans-serif;
+    font-size: 70px;
+    color: #101621;
 }
 
 .feedback .container1 .child-face1{

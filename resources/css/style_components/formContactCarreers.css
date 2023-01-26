@@ -73,18 +73,17 @@
     cursor: var(--pointer-btn);
     transition: 0.5s;
     color: var(--color-text-btn);
-    font-family: var(--font-h2);
+    font-family: var(--font-btn);
     font-size: var(--size-text-btn);
-    font-weight: var(--weight-btn);
+    border: 2px solid #fd6a5e;
     border-radius: 6px;
     letter-spacing: 2px;
-    background-size: 200%;
-    background-image: linear-gradient(to right, var(--color-btn) 0%, var(--color-hover-btn) 100%);
-    border: none;
-    box-shadow: 0px 10px 15px -3px #ce78229c;
+    background-color: var(--color-btn);
+    box-shadow: 0px 10px 15px -3px #33333349;
 }
 
 .contactCarreers-form-container button:hover{
-    background-position: right;
+    background-color: #fff;
+    color: #fd6a5e;
 }
 

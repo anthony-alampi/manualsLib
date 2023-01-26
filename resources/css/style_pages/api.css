@@ -45,15 +45,16 @@
     width: 50%;
 }
 .api-container .title-text h2{
-    font-family: var(--font-h2);
-    font-size: var(--size-h2);
-    color: var(--color-h2);
+    font-family: 'gilroy-semibold', sans-serif;
+    font-size: 28px;
+    color: #101621;
     margin-bottom: 20px;
 }
 .api-container .title-text p{
     font-family: var(--font-text);
     font-size: var(--size-text);
+    color: #2A2A2A;
+    line-height: var(--line-text);
     font-weight: var(--weight-text);
-    line-height: var(--height-line-text);
 }
 

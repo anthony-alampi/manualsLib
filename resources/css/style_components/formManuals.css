@@ -1,69 +1,39 @@
 .search-form {
-    background-color: #fff;
-    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border: solid 2px black;
     border-radius: 10px;
     box-shadow: 2px 4px 8px -5px rgba(0, 0, 0, 0.381);
-    padding: 10px;
 }
-
-.search-form h2{
-    font-family: var(--font-h2);
-    font-size: 25px;
-    font-weight: var(--weight-h2);
-    color: var(--color-h2);
-    text-align: center;
-    margin-bottom: 15px;
-}
-
-
-.search-form .input-fields {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.input-fields .styled-input {
+.styled-input {
     padding: 7px;
-    border: solid 2px var(--third-color);
-    border-radius: 10px;
-    width: 30%;
-    font-size: 16px;
+    border: none;
+    width: 67%;
+    height: 54px;
+    font-size: 20px;
+    background: transparent;
+    margin-right: 5px;
 }
-/* 
-.input-fields label{
-    margin-top: 10px;
-    font-family: var(--font-text);
-    font-weight: var(--weight-text);
-    color: var(--color-text);
-} */
-
+.styled-input:focus {
+    outline: 0;
+}
 #search-button {
-    padding: 7px 0px 7px 0px;
-    width: 50%;
-    margin-top: 20px;
+    width: 185px;
+    height: 54px;
     cursor: var(--pointer-btn);
     transition: 0.5s;
     color: var(--color-text-btn);
     font-family: var(--font-btn);
     font-size: var(--size-text-btn);
-    font-weight: var(--weight-btn);
-    border-radius: var(--radius-btn);
+    border: 2px solid #fd6a5e;
+    border-radius: 6px;
     letter-spacing: 2px;
-    background-size: 200%;
-    background-image: linear-gradient(to right, var(--color-btn) 0%, var(--color-hover-btn) 100%);
-    border: none;
-    box-shadow: 0px 10px 15px -3px #ce78229c;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 50%;
-    transform: translateX(-50%)
+    background-color: var(--color-btn);
+    box-shadow: 0px 10px 15px -3px #33333349;
     }
 
 #search-button:hover {
-    background-position: right;
-}
-#search-button img{
-    width: 30px;
-    margin-left: 10px;
+    background-color: #fff;
+    color: #fd6a5e;
 }

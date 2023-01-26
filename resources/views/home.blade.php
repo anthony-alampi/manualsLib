@@ -4,7 +4,11 @@
 
 <header class='home-header'>
     <div class="title-and-form">
+        <div class="header-title-custom">
         <h1>{{ trans('lang.STR_TITLE_HOMEPAGE_1') }}</h1>
+        <img src="{{asset('assets/img/line-shape-1.svg')}}" class="shape-header" alt="">
+        </div>
+        <h2>{{ trans('lang.STR_TITLE_HOMEPAGE_2') }}</h2>
         @include('incs.formManuals')
     </div>
     <div class="floating-illustration">
@@ -16,8 +20,15 @@
 </header>
 
 <main>
+
     <article>
-        <section>
+        <div class="homepage-subtitle">
+            <div class="device-title-custom">
+                <h2>{{ trans('lang.STR_TITLE_HOMEPAGE_3') }}</h2>
+                <img src="{{asset('assets/img/line-shape-1.svg')}}" class="shape-header" alt="">
+            </div>
+
+            <section>
             <div class="slider">
 	            <div class="slide-track">
 		            <div class="slide">
@@ -60,9 +71,8 @@
             </div>
         </section>
 
-        <div class="homepage-subtitle">
-            <h2>{{ trans('lang.STR_TITLE_HOMEPAGE_3') }}</h2>
             <h3>{{ trans('lang.STR_TITLE_HOMEPAGE_4') }}</h3>
+
             <img src="{{asset('assets/img/flock-1.svg')}}" class="flock-top" />
 
             <div class="devices-container">
@@ -103,7 +113,7 @@
                 </div>
 
                 <div class="device">
-                    <img src="{{asset('assets/img/amplifier.svg')}}" alt="">
+                    <img src="{{asset('assets/img/casque-audio.svg')}}" alt="">
                     <h2>{{ trans('lang.STR_TITLE_DEVICE_8') }}</h2>
                 </div> 
                 <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="rotate-circle"/>

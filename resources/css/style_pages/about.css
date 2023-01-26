@@ -13,19 +13,16 @@
 }
 
 .about-header .title-text h1{
-    font-family: var(--font-h2);
-    font-size: var(--size-h1);
-    font-weight: var(--weight-h1);
-    color: var(--color-h1);
+    font-family: 'Rubik', sans-serif;
+    font-size: 80px;
+    color: #101621;
 }
 .about-header .title-text p{
     margin-top: 30px;
-    font-family: var(--font-text);
+    font-family: 'Rubik', sans-serif;
     font-size: 24px;
-    font-weight: var(--weight-h1);
-    line-height: var(--height-line-text);
-    font-weight: bold;
-    color: var(--color-text);
+    line-height: 1.75em;
+    color: #73737B;
 }
 
 .about-header .circle-anim1{
@@ -220,6 +217,7 @@
     align-items: center;
     margin-top: 120px;
     padding: 0 16px 0 16px;
+    
 }
 
 .our-mission .text-block{
@@ -227,16 +225,17 @@
     padding-right: 70px;
 }
 .our-mission .text-block h2{
-    font-family: var(--font-h1);
-    font-size: var(--size-h1);
-    color: var(--color-h1);
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    color: #181818;
+    line-height: 1.15em;
 }
 .our-mission .text-block p{
     font-family: var(--font-text);
     font-size: var(--size-text);
-    font-weight: var(--weight-text);
-    line-height: var(--height-line-text);
     color: var(--color-text);
+    line-height: var(--line-text);
+    font-weight: var(--weight-text);
 }
 
 .our-mission .image-block img{
@@ -283,17 +282,18 @@
 }
 
 .our-solution .text-block h2 {
-    font-family: var(--font-h1);
-    font-size: var(--size-h1);
-    color: var(--color-h1);
+    font-family: 'gilroy-black', sans-serif;
+    font-size: 50px;
+    color: #101621;
+    line-height: 1.15em;
 }
 
 .our-solution .text-block p {
     font-family: var(--font-text);
     font-size: var(--size-text);
-    font-weight: var(--weight-text);
-    line-height: var(--height-line-text);
     color: var(--color-text);
+    line-height: var(--line-text);
+    font-weight: var(--weight-text);
 }
 
 .our-solution .image-block img {
@@ -343,17 +343,17 @@
 }
 
 .our-team .text-block h2 {
-    font-family: var(--font-h1);
-    font-size: var(--size-h1);
-    color: var(--color-h1);
+    font-family: 'gilroy-black', sans-serif;
+    font-size: 58px;
+    color: #101621;
 }
 
 .our-team .text-block p {
     font-family: var(--font-text);
-    font-size: var(--size-text);
-    font-weight: var(--weight-text);
-    line-height: var(--height-line-text);
-    color: var(--color-text);
+        font-size: var(--size-text);
+        color: var(--color-text);
+        line-height: var(--line-text);
+        font-weight: var(--weight-text);
 }
 .team-custom-line{
     width: 50%;
@@ -380,8 +380,8 @@
 }
 .our-team .members-block .member h3{
     margin-top: 20px;
-    font-family: var(--font-h3);
-    color: var(--color-h1);
-    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #101621;
+    font-size: 24px;
 
 }

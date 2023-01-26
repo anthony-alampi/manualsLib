@@ -77,7 +77,22 @@ body{
     --third-color : #333;
     --footer-bg : #dddddd;
 
-    /* Titles h1,h2,h3 */
+
+    /*h1*/
+    --home-size-h1 : 78px;
+    --home-font-h1 : 'gilroy-black';
+    --home-line-h1 : 1.11em;
+    --home-weight-h1 : 400;
+    --home-color-h1 : #101621;
+
+    /*TEXT ALL WEBSITE*/
+    --font-text: 'Roboto', sans-serif;
+    --size-text: 20px;
+    --color-text: #73737b;
+    --line-text : 1.54em;
+    --weight-text: 600;
+
+
     --size-h1 : 78px;
     --color-h1 : #333;
     --font-h1 : 'gilroy-black';
@@ -92,29 +107,38 @@ body{
     --color-h3 : #333;
     --font-h3 : 'gilroy-bold';
 
-    /* Texts */
-    --size-text: 18px;
-    --weight-text : 700;
-    --height-line-text: 1.7em;
-    --color-text: #333;
-    --color-link: #F28C28;
-    --font-text: 'Roboto', sans-serif;
+
 
         /* Links */
     --size-links: 18px;
     --weight-links: 600;
-    --color-links: #333;
-    --color-hover-links: #F28C28;
+    --color-links: #2B2C2E;
+    --color-hover-links: #6f55ff;;
     --font-links: 'Rubik', sans-serif;
 
     /* Button */
-    --color-btn: #F28C28;
+    --color-btn: #FD6A5E;
     --color-hover-btn: #FFB942;
-    --radius-btn: 10px;
-    --size-text-btn: 16px;
+    --radius-btn: 50px;
+    --size-text-btn: 18px;
     --weight-btn: 600;
-    --font-btn: 'Roboto', sans-serif;
+    --font-btn: 'gilroy-semibold', sans-serif;
     --pointer-btn: pointer;
     --color-text-btn: #fafafa;
     --padding-btn: 15px;
 }
+
+/* button */
+
+        /* padding: 20px 40px 20px 40px;
+        margin-top: 20px;
+        cursor: var(--pointer-btn);
+        transition: 0.5s;
+        color: var(--color-text-btn);
+        font-family: var(--font-btn);
+        font-size: var(--size-text-btn);
+        border: 2px solid #fd6a5e;
+        border-radius: 6px;
+        letter-spacing: 2px;
+        background-color: var(--color-btn);
+        box-shadow: 0px 10px 15px -3px #33333349; */

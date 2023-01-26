@@ -4,13 +4,12 @@
     justify-content: center;
     align-items: center;
     background: #ecf6ff;
-    position: relative;
 }
 .pricing-header h1{
-    font-family: var(--font-h1);
-    font-size: var(--size-h1);
-    font-weight: var(--weight-h1);
-    color: var(--color-h1);
+    font-family: var(--home-font-h1);
+    font-size: 80px;
+    font-weight: var(--home-weight-h1);
+    color: var(--home-color-h1);
     width: 70%;
     margin-top: -100px;
     text-align: center;
@@ -47,6 +46,7 @@
     flex-wrap: wrap;
     justify-content: center;
     position: relative;
+    margin-top: -250px;
     margin-bottom: 150px;
     padding: 0 16px 0 16px;
 }
@@ -68,11 +68,11 @@
     z-index: -1;
 }
 /*----------Pricing container1----------*/
+
 .pricing-container1{
     border: solid 1px rgba(219, 219, 219, 0.356);
     background-color: #fff;
     padding: 20px 20px 200px 20px;
-    margin-top: -100px;
     z-index: 1;
 }
 .pricing-table .pricing-container1 .icons-plan {
@@ -82,24 +82,26 @@
 }
 
 .pricing-container1 h2{
-    font-family: var(--font-h1);
-    font-size: 25px;
-    color: var(--color-h2);
+    font-family: 'gilroy-semibold';
+    font-size: 18px;
+    color: #202020;
     text-align: center;
     text-transform: uppercase;
+    letter-spacing: 2.1px;
     margin-top: 20px;
 }
 .pricing-container1 .includes{
-    font-family: var(--font-h3);
+    font-family: 'Roboto', sans-serif;
     font-size: 25px;
-    color: var(--color-h2);
+    font-weight: 700;
+    color: #202020;
     text-align: center;
     margin: 70px 0 70px 0;
 }
 .pricing-container1 .manuals{
-    font-family: var(--font-h1);
+    font-family: 'gilroy-semibold', sans-serif;
     font-size: 30px;
-    color: var(--color-h1);
+    color: #101621;
     text-align: center;
 }
 
@@ -108,7 +110,6 @@
     border: solid 1px rgba(219, 219, 219, 0.356);
     background-color: #fff;
     padding: 20px 20px 200px 20px;
-    margin-top: -100px;
 
 }
 .pricing-table .pricing-container2 .icons-plan {
@@ -117,24 +118,26 @@
     transform: translateX(-50%);
 }
 .pricing-container2 h2 {
-    font-family: var(--font-h1);
-    font-size: 25px;
-    color: var(--color-h2);
+    font-family: 'gilroy-semibold';
+    font-size: 18px;
+    color: #202020;
     text-align: center;
     text-transform: uppercase;
+    letter-spacing: 2.1px;
     margin-top: 20px;
 }
 .pricing-container2 .includes {
-    font-family: var(--font-h3);
+    font-family: 'Roboto', sans-serif;
     font-size: 25px;
-    color: var(--color-h2);
+    font-weight: 700;
+    color: #202020;
     text-align: center;
     margin: 70px 0 70px 0;
 }
 .pricing-container2 .manuals {
-    font-family: var(--font-h1);
+    font-family: 'gilroy-semibold', sans-serif;
     font-size: 30px;
-    color: var(--color-h1);
+    color: #101621;
     text-align: center;
 }
 /*----------Pricing container3----------*/
@@ -142,7 +145,6 @@
     border: solid 1px rgba(219, 219, 219, 0.356);
     background-color: #fff;
     padding: 20px 20px 200px 20px;
-    margin-top: -100px;
 
 }
 .pricing-table .pricing-container3 .icons-plan {
@@ -151,23 +153,26 @@
     transform: translateX(-50%);
 }
 .pricing-container3 h2 {
-    font-family: var(--font-h1);
-    font-size: 25px;
-    color: var(--color-h2);
+    font-family: 'gilroy-semibold';
+    font-size: 18px;
+    color: #202020;
     text-align: center;
     text-transform: uppercase;
+    letter-spacing: 2.1px;
     margin-top: 20px;
 }
 .pricing-container3 .includes {
-    font-family: var(--font-h3);
+    font-family: 'Roboto', sans-serif;
     font-size: 25px;
-    color: var(--color-h2);
-    text-align: center;margin: 70px 0 70px 0;
+    font-weight: 700;
+    color: #202020;
+    text-align: center;
+    margin: 70px 0 70px 0;
 }
 .pricing-container3 .manuals {
-    font-family: var(--font-h1);
+    font-family: 'gilroy-semibold', sans-serif;
     font-size: 30px;
-    color: var(--color-h1);
+    color: #101621;
     text-align: center;
 }
 
@@ -190,18 +195,18 @@
     justify-content: center;
 }
 .pricing-containers .pricing-section1 h2{
-    font-family: var(--font-h1);
-    color: var(--color-h1);
-    font-size: 50px;
+    font-family: 'Rubik', sans-serif;
+    color: #202020;
+    font-size: 42px;
+    line-height: 1.35em;
     margin-bottom: 20px;
 }
 .pricing-containers .pricing-section1 p{
     font-family: var(--font-text);
     font-size: var(--size-text);
-    font-weight: var(--weight-text);
     color: var(--color-text);
-    line-height: var(--height-line-text);
-    margin-bottom: 20px;
+    line-height: var(--line-text);
+    font-weight: var(--weight-text);
     width: 60%;
 }
 .pricing-containers .pricing-section1 .more-item1{
@@ -271,6 +276,7 @@
     width: 400px;
     border-radius: 10px;
     margin-bottom: 100px;
+    margin-top: 20px;
 }
 
 /*--------- section text-block 2 -----------------*/
@@ -288,18 +294,20 @@
 }
 
 .pricing-section2 .pricing-block h2 {
-    font-family: var(--font-h1);
-    font-size: 60px;
-    color: var(--color-h2);
+    font-family: 'Rubik', sans-serif;
+    color: #202020;
+    font-size: 42px;
+    line-height: 1.35em;
+    margin-bottom: 20px;
 }
 
 .pricing-section2 .pricing-block p {
     margin-top: 30px;
     font-family: var(--font-text);
-    font-weight: var(--weight-text);
     font-size: var(--size-text);
-    color: var(--font-color);
-    line-height: var(--height-line-text);
+    color: var(--color-text);
+    line-height: var(--line-text);
+    font-weight: var(--weight-text);
 }
 
 .pricing-section2 .image-block {
@@ -364,18 +372,20 @@
 }
 
 .pricing-section3 .pricing-block h2 {
-    font-family: var(--font-h1);
-    font-size: 60px;
-    color: var(--color-h2);
+    font-family: 'Rubik', sans-serif;
+    color: #202020;
+    font-size: 42px;
+    line-height: 1.35em;
+    margin-bottom: 20px;
 }
 
 .pricing-section3 .pricing-block p {
     margin-top: 30px;
     font-family: var(--font-text);
-    font-weight: var(--weight-text);
     font-size: var(--size-text);
-    color: var(--font-color);
-    line-height: var(--height-line-text);
+    color: var(--color-text);
+    line-height: var(--line-text);
+    font-weight: var(--weight-text);
 }
 
 .pricing-section3 .image-block {
@@ -438,18 +448,20 @@
 }
 
 .pricing-section4 .pricing-block h2 {
-    font-family: var(--font-h1);
-    font-size: 60px;
-    color: var(--color-h2);
+    font-family: 'Rubik', sans-serif;
+    color: #202020;
+    font-size: 42px;
+    line-height: 1.35em;
+    margin-bottom: 20px;
 }
 
 .pricing-section4 .pricing-block p {
     margin-top: 30px;
     font-family: var(--font-text);
-    font-weight: var(--weight-text);
     font-size: var(--size-text);
-    color: var(--font-color);
-    line-height: var(--height-line-text);
+    color: var(--color-text);
+    line-height: var(--line-text);
+    font-weight: var(--weight-text);
 }
 
 .pricing-section4 .image-block {
@@ -513,18 +525,20 @@
 }
 
 .pricing-section5 .pricing-block h2 {
-    font-family: var(--font-h1);
-    font-size: 60px;
-    color: var(--color-h2);
+    font-family: 'Rubik', sans-serif;
+    color: #202020;
+    font-size: 42px;
+    line-height: 1.35em;
+    margin-bottom: 20px;
 }
 
 .pricing-section5 .pricing-block p {
     margin-top: 30px;
     font-family: var(--font-text);
-    font-weight: var(--weight-text);
     font-size: var(--size-text);
-    color: var(--font-color);
-    line-height: var(--height-line-text);
+    color: var(--color-text);
+    line-height: var(--line-text);
+    font-weight: var(--weight-text);
 }
 
 .pricing-section5 .image-block {
@@ -596,17 +610,18 @@
 }
 
 .switch-payment-container .switchPayment h2{
-    font-family: var(--font-h3);
-    color: var(--color-h1);
-    font-size: 25px;
-    margin-bottom: 40px;
+    font-family: 'Rubik', sans-serif;
+    color: #202020;
+    font-size: 42px;
+    line-height: 1.35em;
+    margin-bottom: 20px;
 }
 .switch-payment-container .switchPayment p{
     font-family: var(--font-text);
     font-size: var(--size-text);
-    font-weight: var(--weight-text);
     color: var(--color-text);
-    text-align: left;
+    line-height: var(--line-text);
+    font-weight: var(--weight-text);
 }
 .switch-payment-container .switchPayment img{
     width: 80px;

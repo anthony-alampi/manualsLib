@@ -21,14 +21,14 @@ footer .link-footer-container .links-container{
 
 .link-footer-container .links-container .link-item{
     text-decoration: none;
-    font-size: 15px;
+    font-size: 16px;
     font-family: var(--font-links);
     /* font-weight: var(--weight-links); */
-    color: var(--color-links);
+    color: #727272;
     padding: 10px;
 }
 .link-footer-container .links-container .link-item:hover{
-    color: var(--color-hover-links);
+    color: #FD6A5E;
 }
 
 .links-container img{

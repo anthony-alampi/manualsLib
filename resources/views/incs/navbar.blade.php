@@ -26,7 +26,7 @@
                 <div class="separate"></div>
                 <a href="{{route('about')}}">About</a>
                 <div class="separate"></div>
-                <a href="{{route('about')}}">Login</a>
+                {{-- <a href="{{route('about')}}">Login</a> --}}
             </div>
         </div>
             <div class="nav-authentication">
@@ -34,7 +34,8 @@
                     <img src=" {{asset('assets/img/user-avatar-filled.svg')}} " alt="user-icon">
                 </a> --}}
                 <div class="signs-btn">
-                <button type="button">Sign in / Sign up</button>
+                <a href="{{route('about')}}">Login</a>
+                <button type="button">Sign Up</button>
             </div>
         </div>
     </nav>

@@ -44,12 +44,22 @@
     color: var(--color-h1);
     font-weight: var(--weight-h1);
     }
+    .header-title-custom .shape-header{
+    width: 80%;
+    top: 35%;
+}
     .home-header .floating-illustration .illustration {
         width: 500px;
     }
     .homepage-subtitle h2 {
         font-size: 35px;
     }
+
+    .device-title-custom .shape-header {
+    right: 0%;
+    bottom: 50%;
+
+}
     .device {
         height: 200px;
     }
@@ -167,13 +177,25 @@
     }
     .slider {
         height: 80px;
-        margin:170px 0 50px 0;
+        margin: 30px 0 30px 0;
     }
     .slider .slide-track .slide img {
         height: 80px;
         width: 180px;
         margin-right: 30px;
     }
+
+    .homepage-subtitle .device-title-custom {
+        position: relative;
+        width: 90%;
+        text-align: center;
+    }
+   .device-title-custom .shape-header {
+       right: 0%;
+       bottom: 45%;
+
+   }
+
     .device {
         height: 200px;
     }
@@ -309,7 +331,14 @@
     .title-and-form h1 {
         font-size: 40px;
     }
-
+    .header-title-custom {
+    text-align: center;
+}
+    .header-title-custom .shape-header{
+    width: 80%;
+    top: 47%;
+    left: 10%;
+}
     .home-header .floating-illustration .illustration {
         width: 300px;
     }
@@ -339,7 +368,16 @@
     margin-top: 10px;
     margin-bottom: 10px;
     }
-    
+    .homepage-subtitle .device-title-custom {
+        position: relative;
+        width: 97%;
+        text-align: center;
+    }
+   .device-title-custom .shape-header {
+       right: 10%;
+       bottom: 58%;
+
+   }
     .device {
         height: 200px;
     }
@@ -465,7 +503,7 @@
         width: 30px;
         position: absolute;
         left: 30%;
-        bottom: -40%;
+        bottom: -80%;
     }
     
     .feedback .container1 .child-face3 {
@@ -490,7 +528,7 @@
         }
         
     .micro-slider {
-        height: 380px;
+        height: 400px;
         position: relative;
         width: 100%;
     }
@@ -498,20 +536,15 @@
     .slider-item {
         background: rgb(255, 255, 255);
         box-shadow: 0 1px 3px rgba(0, 0, 0, .06), 0 1px 2px rgba(0, 0, 0, .12);
-        height: 320px;
+        height: 420px;
         position: absolute;
         left: 0;
         top: 0;
-        width: 520px;
+        width: 320px;
         cursor: pointer;
         padding: 25px;
     }
-    .micro-slider .slider-item p {
-        font-weight: 600;
-        margin-top: 25px;
-        padding-left: 20px;
-        padding-right: 10px;
-    }
+
     .micro-slider .slider-item .quote{
         width: 90px;
         margin-left: 25px;
@@ -523,7 +556,32 @@
         margin-bottom: 20px;
     }
 }
+@media (max-width: 500px){
+.homepage-subtitle {
+    margin: 0 0px 0 0px;
+}
+.homepage-subtitle .device-title-custom h2 {
+    font-family: 'gilroy-black';
+    font-size: 25px;
+    line-height: 1.15em;
+    color: #101621;
+    text-align: center;
+    padding-top: 50px;
+}
+    .header-title-custom .shape-header{
+    top: 30%;
+}
+    .homepage-subtitle .device-title-custom {
+        position: relative;
+        width: 100;
+        text-align: center;
+    }
+   .device-title-custom .shape-header {
+       right: 25%;
+       bottom: 20%;
 
+   }
+}
 /*----------------------Features Responsive--------------*/
 
 @media (max-width: 1024px){
@@ -1156,7 +1214,7 @@
 @media (max-width: 1024px) {
 .pricing-header h1{
     width: 100%;
-    margin-top: 0px;
+    /* margin-top: 0px; */
     text-align: center;
 }
 .pricing-header .square-item1 {
