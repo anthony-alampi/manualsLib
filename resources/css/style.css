@@ -376,7 +376,9 @@
    .device-title-custom .shape-header {
        right: 10%;
        bottom: 58%;
-
+   }
+   .homepage-subtitle h3 {
+       text-align: center;
    }
     .device {
         height: 200px;
@@ -1199,6 +1201,10 @@
 }
 .api-container .title-text{
     margin-left: 0px;
+}
+.api-ancre ul li a{
+    font-family: var(--font-h2);
+    font-size: 15px;
 }
 .api-container .title-text h2 {
     font-size: 20px;

@@ -9,6 +9,7 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\CookiesController;
 use App\Http\Controllers\PricingController;
 use App\Http\Controllers\PrivacyController;
+use App\Http\Controllers\CarreersController;
 use App\Http\Controllers\FeaturesController;
 use App\Http\Controllers\CancellationController;
 use App\Http\Controllers\SubscriptionController;
@@ -29,3 +30,4 @@ Route::get('/subscription', [SubscriptionController::class, 'subscription'])->na
 
 Route::get('/contact', [ContactController::class, 'contact'])->name('contact');
 Route::get('/cancellation', [CancellationController::class, 'cancellation'])->name('cancellation');
+Route::get('/carreers', [CarreersController::class, 'carreers'])->name('carreers');

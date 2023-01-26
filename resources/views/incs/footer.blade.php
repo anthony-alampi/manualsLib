@@ -21,7 +21,7 @@
             <a href="{{route('privacy')}}" class="link-item">Privacy</a>
         </div>
         <div class="links-container">
-            <a href="#" class="link-item">Carreers</a>
+            <a href="{{route('carreers')}}" class="link-item">Carreers</a>
             <a href="{{route('contact')}}" class="link-item">Contact</a>
         </div>
             <div class="links-container">

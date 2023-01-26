@@ -1,5 +1,5 @@
 .api-ancre{
-    position: fixed;
+    position: sticky;
     top: 200px;
     left: 16px;
     border-right: solid 1px rgba(206, 206, 206, 0.616);
@@ -31,7 +31,7 @@
 
 
 .api-container{
-    margin-top: 200px;
+    margin-top: 0px;
     margin-left: 200px;
     display: flex;
     align-items: center;
