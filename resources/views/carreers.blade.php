@@ -43,7 +43,7 @@
             @include('incs.formContactCarreers')
         </article>
         
-        <img src="{{asset('assets/img/92.svg')}}" class="img-line-custom"alt="">
+        {{-- <img src="{{asset('assets/img/92.svg')}}" class="img-line-custom"alt=""> --}}
     </article>
 </main>
 @endsection

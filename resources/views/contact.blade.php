@@ -44,7 +44,7 @@
         </article>
         </div>
     </article>
-    <img src="{{asset('assets/img/92.svg')}}" class="img-line-custom"alt="">
+    {{-- <img src="{{asset('assets/img/92.svg')}}" class="img-line-custom"alt=""> --}}
 </main>
 
 
