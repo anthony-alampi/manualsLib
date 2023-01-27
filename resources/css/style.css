@@ -1613,7 +1613,8 @@ row-gap: 100px;
     font-family: 'gilroy-black', sans-serif;
     font-size: 30px;
     color: #101621;
-    margin: 0px 0 00px;
+    margin: 50px auto 50px;
+    width: 70%;
 }
 }
 

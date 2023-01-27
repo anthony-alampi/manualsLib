@@ -38,6 +38,7 @@
                     <p class="includes">{{ trans('lang.STR_TEXT_CARREERS_3') }}</p>
                 </article>
             </div>
+            <h2>{{ trans('lang.STR_TITLE_CARREERS_6') }}</h2>
         </section>
         <article>
             @include('incs.formContactCarreers')
