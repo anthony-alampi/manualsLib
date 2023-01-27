@@ -1656,9 +1656,28 @@ row-gap: 100px;
 
 }
 
+/*-------------PRESS RESPONSIVE --------------*/
+@media (max-width: 768px) {
+.aboutBrand{
+    width: 200px;
+    border-radius: 20px;
+}
 
+}
+@media (max-width: 500px) {
+.article .image-container img {
+        width: 250px;
+        height: 150px;
+    }
+.press-header {
+    height: 70vh;
 
+}
+.press-header .title-text h1 {
+    font-size: 50px;
+}
 
+}
 
 
 

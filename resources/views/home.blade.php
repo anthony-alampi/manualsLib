@@ -154,9 +154,6 @@
                 <p>{{trans('lang.STR_TEXT_2')}}</p>
             </div>
         </section>
-        {{-- <div class="custom-line">
-            <img src="{{asset('assets/img/line-shape-4.svg')}}" alt="">
-        </div> --}}
 
         <section class='content-block3 reveal-1'>
             <div class='title-text'>

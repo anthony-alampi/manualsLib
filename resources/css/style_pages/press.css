@@ -1,0 +1,143 @@
+.press-header {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.press-header .title-text h1 {
+    font-family: 'Gilroy-bold', sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    color: #101621;
+    text-align: center;
+}
+
+.press-header .circle-anim1 {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    background: rgba(241, 166, 26, 0.411);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    animation: moveCircle 10s infinite linear;
+}
+
+.press-header .circle-anim2 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    background: rgba(35, 172, 236, 0.363);
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    animation: moveCircle 12s infinite linear;
+}
+
+.press-header .circle-anim3 {
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    background: rgba(245, 99, 220, 0.363);
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    animation: moveCircle 14s infinite linear;
+}
+
+.press-header .circle-anim4 {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    background: rgba(241, 166, 26, 0.411);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    animation: moveCircle 10s infinite linear;
+}
+
+.press-header .circle-anim5 {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    background: rgba(35, 172, 236, 0.363);
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    animation: moveCircle 12s infinite linear;
+}
+
+.press-header .circle-anim6 {
+    position: absolute;
+    top: 65%;
+    right: 10%;
+    background: rgba(245, 99, 220, 0.363);
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    animation: moveCircle 14s infinite linear;
+}
+
+/*----------------- BLOCK ARTICLES------------------------*/
+.press-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 50px;
+    row-gap: 50px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto 0;
+    background: linear-gradient(45deg, #fff9ec, #e4fdfa);
+    padding: 150px 0 100px 0;
+}
+
+.article .image-container{
+    overflow: hidden;
+    width: 100%;
+}
+
+.article .image-container img{
+    width: 350px;
+    height: 200px;
+    transform: scale(1);
+    transition: transform 1s;
+}
+.article .image-container img:hover{
+    transform: scale(1.1);
+}
+
+.article h3{
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    line-height: 1.3em;
+    margin-bottom: 50px;
+    font-weight: 200;
+    padding: 30px;
+
+}
+ .read-article {
+    text-decoration: none;
+    color: #fff;
+    background: var(--color-btn);
+    font-size: var(--size-text-btn);
+    font-family: var(--font-btn);
+    cursor: pointer;
+    padding: 10px;
+    border: solid 2px #FD6A5E;
+    border-radius: 5px;
+    transition: .5s;
+}
+ .read-article:hover{
+    background-color: #fff;
+    color: #fd6a5e;
+        
+}
+/*----------------- TEXT BLOCK------------------------*/
+
+.aboutBrand{
+    width: 320px;
+    border-radius: 20px;
+}

@@ -3,7 +3,7 @@
         <img src="{{asset('assets/img/logo 3 Vector file.svg')}}" alt="">
         <div class="links-container">
             <a href="{{route('home')}}" class="link-item">Home</a>
-            <a href="#" class="link-item">Press</a>
+            <a href="{{route('press')}}" class="link-item">Press</a>
             <a href="{{route('pricing')}}" class="link-item">Pricing</a>
             <a href="{{route('about')}}" class="link-item">About</a>
         </div>

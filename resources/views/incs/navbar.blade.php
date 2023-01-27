@@ -22,7 +22,7 @@
                 <div class="separate"></div> 
                 <a href="{{route('api')}}">Api</a>
                 <div class="separate"></div>
-                <a href="#">Press</a>
+                <a href="{{route('press')}}">Press</a>
                 <div class="separate"></div>
                 <a href="{{route('about')}}">About</a>
                 <div class="separate"></div>

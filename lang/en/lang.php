@@ -111,10 +111,17 @@ return
 
 
         //* Press - Title *//
-        'STR_TITLE_56' => 'They talk about our service !',    
-        'STR_TITLE_57' => 'For press enquiries contact our press center :',    
-        'STR_TITLE_58' => 'About our brand',    
-        'STR_TITLE_59' => 'Our Media tools Logos ',    
+        'STR_TITLE_PRESS_1' => 'They talk about our service !',    
+        'STR_TITLE_PRESS_2' => 'For press enquiries contact our press center :',    
+        'STR_TITLE_PRESS_3' => 'About our brand',    
+        'STR_TITLE_PRESS_4' => 'Our Media tools Logos ',    
+            //* Citation - cards *//
+            'STR_TITLE_CITATION_1' => 'Citation',    
+            'STR_TITLE_CITATION_2' => 'Citation',    
+            'STR_TITLE_CITATION_3' => 'Citation',    
+            'STR_TITLE_CITATION_4' => 'Citation',    
+            'STR_TITLE_CITATION_5' => 'Citation',    
+            'STR_TITLE_CITATION_6' => 'Citation',    
 
         //* About - Title *//
         'STR_TITLE_60' => 'About us',    

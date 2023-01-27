@@ -19,10 +19,12 @@
 @import './style_pages/contact.css';
 @import './style_pages/cancellation.css';
 @import './style_pages/carreers.css';
+@import './style_pages/press.css';
 
 /* Import online font*/
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
 
 /* Import local font */
