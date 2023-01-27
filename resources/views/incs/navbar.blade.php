@@ -16,7 +16,7 @@
                 <div class="separate"></div>
                 <a href="{{route('features')}}">Features</a>
                 <div class="separate"></div>
-                <a href="#">Brands</a>
+                <a href="{{route('brands')}}">Brands</a>
                 <div class="separate"></div>
                 <a href="{{route('pricing')}}">Pricing</a>
                 <div class="separate"></div> 

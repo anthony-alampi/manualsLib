@@ -6,6 +6,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\PressController;
 use App\Http\Controllers\TermsController;
+use App\Http\Controllers\BrandsController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\CookiesController;
 use App\Http\Controllers\PricingController;
@@ -22,6 +23,7 @@ Route::get('/about', [AboutController::class, 'about'])->name('about');
 Route::get('/api', [ApiController::class, 'viewApi'])->name('api');
 Route::get('/pricing', [PricingController::class, 'pricing'])->name('pricing');
 Route::get('/press', [PressController::class, 'press'])->name('press');
+Route::get('/brands', [BrandsController::class, 'brands'])->name('brands');
 
 
 

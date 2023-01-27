@@ -50,10 +50,26 @@ return
         'STR_TITLE_21/1' => 'Get assistance for troubleshooting your devices',    
 
         //* Brands - Title *//
-        'STR_TITLE_20' => 'More than XXX Brands supported',    
-        'STR_TITLE_21' => 'The top 15 most searched brands',    
-        'STR_TITLE_22' => 'Get all user manuals for a specific brand',    
-        'STR_TITLE_23' => 'Need assistance for a specific brand ?',    
+        'STR_TITLE_BRANDS_1' => 'More than XXX Brands supported',    
+        'STR_TITLE_BRANDS_2' => 'The top 15 most searched brands',    
+        'STR_TITLE_BRANDS_3' => 'Get all user manuals for a specific brand',    
+        'STR_TITLE_BRANDS_4' => 'Need assistance for a specific brand ?',    
+            //* Brands item listing *//
+            'STR_TITLE_BRAND_ITEM_1' => 'Panassonic',    
+            'STR_TITLE_BRAND_ITEM_2' => 'Panassonic',    
+            'STR_TITLE_BRAND_ITEM_3' => 'Panassonic',    
+            'STR_TITLE_BRAND_ITEM_4' => 'Panassonic',    
+            'STR_TITLE_BRAND_ITEM_5' => 'Panassonic',    
+            'STR_TITLE_BRAND_ITEM_6' => 'Panassonic',    
+            'STR_TITLE_BRAND_ITEM_7' => 'Panassonic',    
+            'STR_TITLE_BRAND_ITEM_8' => 'Panassonic',    
+            'STR_TITLE_BRAND_ITEM_9' => 'Panassonic',    
+            'STR_TITLE_BRAND_ITEM_10' => 'Panassonic',    
+            'STR_TITLE_BRAND_ITEM_11' => 'Panassonic',    
+            'STR_TITLE_BRAND_ITEM_12' => 'Panassonic',    
+            'STR_TITLE_BRAND_ITEM_13' => 'Panassonic',    
+            'STR_TITLE_BRAND_ITEM_14' => 'Panassonic',    
+            'STR_TITLE_BRAND_ITEM_15' => 'Panassonic',    
 
         //* Brand details - Title *//
         'STR_TITLE_24' => 'About [Brandname] ',    
