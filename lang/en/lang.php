@@ -177,7 +177,8 @@ return
         'STR_TITLE_SUBSCRIPTION_8' => 'Billing shedules & details',    
 
         //* Cancellation - Title *//
-        'STR_TITLE_CANCELLATION_1' => 'About our service & Offers ',    
+        'STR_TITLE_CANCELLATION_1' => 'End your contract ',    
+        'STR_TITLE_CANCELLATION_2' => 'About our service & Offers ',    
 
 
         //-----------------------------------------------------------PAGE TEXT------------------------------------------------------------------------//

@@ -1618,6 +1618,44 @@ row-gap: 100px;
 }
 }
 
+/*-------------------cancellation responsive ----------------------*/
+@media (max-width: 768px) {
+    .cancellation-header {
+        margin-bottom: 200px;
+        padding: 150px 0 0 0;
+    }
+
+    .cancellation-header .title-text h1 {
+        font-family: 'Rubik', sans-serif;
+        font-size: 50px;
+        text-align: center;
+        width: 70%;
+        margin: 0 auto 0;
+        ;
+    }
+
+    .custom-bg-cancellation .text-block {
+        width: 80%;
+    }
+
+    .fullContain .text-block h2 {
+        font-size: 30px;
+    }
+
+    .carreers-block {
+        text-align: center;
+        width: 80%;
+        margin: 0px;
+        padding: 25px;
+        cursor: pointer;
+    }
+
+    .carreers-block p {
+        font-size: 18px;
+    }
+
+}
+
 
 
 

@@ -3,6 +3,7 @@
 @import './style_components/footer.css';
 @import './style_components/formManuals.css';
 @import './style_components/formContactCarreers.css';
+@import './style_components/faqModule.css';
 
 /* Import style-pages*/
 @import './style_pages/home.css';
