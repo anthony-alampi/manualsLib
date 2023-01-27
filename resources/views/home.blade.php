@@ -62,10 +62,10 @@
 			            <img src="{{asset('assets/img/whirlpool.png')}}" alt="Brands logo" />
 		            </div>
                     <div class="slide">
-			            <img src="{{asset('assets/img/whirlpool.png')}}" alt="Brands logo" />
+			            <img src="{{asset('assets/img/asus.png')}}" alt="Brands logo" />
 		            </div>
                     <div class="slide">
-			            <img src="{{asset('assets/img/whirlpool.png')}}" alt="Brands logo" />
+			            <img src="{{asset('assets/img/Toshiba-Logo.png')}}" alt="Brands logo" />
 	                </div>
                 </div>
             </div>
