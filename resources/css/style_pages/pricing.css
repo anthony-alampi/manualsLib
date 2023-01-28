@@ -54,7 +54,7 @@
 .pricing-table .triangle-item {
     position: absolute;
     width: 150px;
-    top: -30%;
+    top: -5%;
     left: 18%;
     animation: floating 5s infinite;
     z-index: 1;
@@ -103,8 +103,8 @@
     font-size: 30px;
     color: #101621;
     text-align: center;
+    margin-top: 170px;
 }
-
 /*----------Pricing container2----------*/
 .pricing-container2 {
     border: solid 1px rgba(219, 219, 219, 0.356);

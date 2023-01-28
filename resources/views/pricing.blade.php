@@ -13,8 +13,8 @@
             <div class="pricing-container1">
                 <img src="{{asset('assets/img/free.svg')}}" class="icons-plan" />
                 <h2>{{ trans('lang.STR_TITLE_PRICING_2') }}</h2>
-                <p class="includes">{{ trans('lang.STR_TEXT_1_CARD_1') }}</p>
-                <p class="manuals">{{ trans('lang.STR_TEXT_2_CARD_1') }}</p>
+                {{-- <p class="includes">{{ trans('lang.STR_TEXT_1_CARD_1') }}</p> --}}
+                <p class="manuals custom-position">{{ trans('lang.STR_TEXT_2_CARD_1') }}</p>
             </div>
             <div class="pricing-container2">
                 <img src="{{asset('assets/img/trial.svg')}}" class="icons-plan" />

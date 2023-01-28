@@ -1676,9 +1676,105 @@ row-gap: 100px;
 .press-header .title-text h1 {
     font-size: 50px;
 }
-
 }
 
+/*-------------BRANDS RESPONSIVE-----------*/
+@media (max-width: 1040px){
+.brand-container1 {
+        padding: 50px 16px 50px 0px;
+    }
+.brand-container1 .brand-block {
+        width: 100%;
+    }
+
+    .brand-container1 .brand-block h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .brand-container1 .brand-block p {
+        font-size: 15px;
+        text-align: center;
+        width: 80%;
+        margin: 0px auto 0;
+    }
+}
+.brand-container1 .image-block {
+    width: 400px;
+}
+.brand-container1 .square-item3 {
+    top: 0;
+}
+
+.brand-container1 .backslash-item {
+    top: 0;
+}
+
+.brand-container1 .more-item1 {
+    top: 0;
+}
+@media (max-width: 500px) {
+.brands-header .line-shape {
+       display: none;
+    }
+    .brands-header h1 {
+    font-size: 50px;
+    width: 90%;
+}
+
+.brands-header p {
+    margin-top: 30px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    line-height: 1.75em;
+    width: 90%;
+    text-align: center;
+    color: #73737B;
+}
+.brands-header .geometric1 {
+    display: none;
+}
+
+.brands-header .geometric2 {
+    display: none;
+}
+.brand-container1 .brand-block {
+    width: 100%;
+}
+
+.brand-container1 .brand-block h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.brand-container1 .brand-block p {
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+}
+.brand-container1 .image-block {
+    width: 300px;
+}
+.brand-container1 .square-item1 {
+    display: none;
+}
+
+.brand-container1 .square-item2 {
+    display: none;
+}
+
+.brand-container1 .square-item3 {
+    display: none;
+}
+
+.brand-container1 .backslash-item {
+    display: none;
+}
+
+.brand-container1 .more-item1 {
+   display: none;
+}
+}
 
 
 
