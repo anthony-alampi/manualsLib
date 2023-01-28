@@ -27,9 +27,13 @@ return
         'STR_TITLE_DEVICE_8' => 'Audio & video devices',   
 
         //* Manuals - Title *//
-        'STR_TITLE_5' => 'Get full documentation and guides for your device',    
-        'STR_TITLE_6' => 'Get help using and troubleshooting your devices',    
-
+        'STR_TITLE_MANUALS_1' => 'Find for your device’s manual',    
+        'STR_TITLE_MANUALS_2' => 'Search by brand, model or serial number',    
+        'STR_TITLE_MANUALS_3' => 'Top 15 most downloaded manuals',    
+        'STR_TITLE_MANUALS_4' => 'Get full documentation and guides for your devices',    
+        'STR_TITLE_MANUALS_5' => 'Most downloaded Manuals by category',    
+        'STR_TITLE_MANUALS_6' => 'Get help using and troubleshooting your devices',
+        
         //* Manuals details - Title *//
         'STR_TITLE_7' => 'Here\'s the manual for [PRODUCT MODEL]',    
         'STR_TITLE_8' => 'Looking for another manual ?',    

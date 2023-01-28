@@ -12,7 +12,7 @@
             <div class="navlinks-container">
                 <a href="#" aria-current="page"></a>
                 <div class="separate"></div>
-                <a href="#">Manuals</a>
+                <a href="{{route('manuals')}}">Manuals</a>
                 <div class="separate"></div>
                 <a href="{{route('features')}}">Features</a>
                 <div class="separate"></div>

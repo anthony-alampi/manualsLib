@@ -9,6 +9,7 @@ use App\Http\Controllers\TermsController;
 use App\Http\Controllers\BrandsController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\CookiesController;
+use App\Http\Controllers\ManualsController;
 use App\Http\Controllers\PricingController;
 use App\Http\Controllers\PrivacyController;
 use App\Http\Controllers\CarreersController;
@@ -25,6 +26,7 @@ Route::get('/pricing', [PricingController::class, 'pricing'])->name('pricing');
 Route::get('/press', [PressController::class, 'press'])->name('press');
 Route::get('/brands', [BrandsController::class, 'brands'])->name('brands');
 
+Route::get('/manuals', [ManualsController::class, 'manuals'])->name('manuals');
 
 
 Route::get('/terms', [TermsController::class, 'terms'])->name('terms');

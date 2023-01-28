@@ -1,0 +1,188 @@
+.manuals-header:before{
+    background-image: url(/public/assets/img/67.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 83%;
+    width: 100%;
+    content: "";
+    position: absolute;
+    bottom: -120px;
+    left: 0;
+    z-index: -1;
+    padding: 40px 0 0;
+
+}
+.manuals-header .content-block{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 50%;
+    margin: 150px auto 0;
+}
+.manuals-header .content-block h1{
+    font-family: 'Rubik', sans-serif ;
+    font-size: 100px;
+    text-align: center;
+    line-height: 1.05em;
+
+}
+.manuals-header .content-block h2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1.39em;
+    text-align: center;
+    padding: 25px 0 45px 0;
+}
+.manuals-header .content-block .block-image{
+    width: 150%;
+    margin:  165px 0 120px -25%;
+}
+.square-left{position: absolute; left: 11%;
+    top: 82%; width: 45px; animation: rotation 25s infinite; }
+.bs-left{position: absolute;left: 21%;
+    top: 65%;}
+.middle-left{position: absolute;left: 5%;
+    top: 54%;}
+.circle-left{position: absolute;left: 16%;
+    top: 57%;animation: floating 2s infinite;}
+.alternate-left{position: absolute;left: 7%;
+    top: 24%;}
+.square-right{position: absolute; right: 15%;
+    top: 24%; width: 35px; animation: rotation 25s infinite;}
+.bs-right{position: absolute;right: 5%;
+    top: 35%;}
+.sl-right{position: absolute;right: 20%;
+    top: 54%;}
+.circle-right{position: absolute;right: 16%;
+    top: 57%; animation: floating 2s infinite;}
+.alternate-right{position: absolute;right:4%;
+    top: 65%; width: 280px;}
+
+/*--------------MOST DOWNLOADED MANUALS------------------*/
+.top-15-container{
+    border: solid 1px blue;
+    position: relative;
+}
+.top-15-container h2{
+    font-family: 'gilroy-black', sans-serif;
+    font-size: 50px;
+    color: #2A2A2A;
+    text-align: center;
+
+}
+.top-15-container .line-custom{
+    width: 40%;
+    margin-top: -20px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.top-15-container .most-manuals-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    row-gap: 20px;
+}
+.top-15-container .most-manuals-container .download{
+    width: 200px;
+    height: 100px;
+    background: #000;
+}
+
+/*--------------TEXT BLOCK ---------------*/
+
+.manuals-block{
+    margin-top: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.manuals-block .text-block{
+    width: 40%;
+}
+.manuals-block .text-block h2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 42px;
+    padding: 20px 0px 30px 0px;
+    line-height: 1.28em;
+    color: #101621;
+}
+.manuals-block .text-block p{
+    font-family: var(--font-text);
+    font-size: var(--size-text);
+    color: var(--color-text);
+    line-height: var(--line-text);
+    font-weight: var(--weight-text);
+}
+.separate-line-custom-manuals{
+    width: 70%;
+    margin: 0 15% 0;
+    margin-top: 100px;
+}
+/*----------HEADBAND ANIMATION-----------------*/
+
+.headband {
+    background: white;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+    height: 100px;
+    margin: 120px 0 120px 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.headband::before,
+.headband::after {
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+}
+
+.headband::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+
+.headband::before {
+    left: 0;
+    top: 0;
+}
+
+.headband .band-track {
+    animation: scroll 40s linear infinite;
+    display: flex;
+}
+
+.headband .band-track .slide img {
+    height: 100px;
+    width: 200px;
+    margin-right: 60px;
+}
+
+/*---------------------*/
+.download-category h2{
+    font-family: 'gilroy-black', sans-serif;
+    font-size: 50px;
+    color: #2A2A2A;
+    text-align: center;
+}
+
+.download-category .line-custom{
+    width: 40%;
+    margin-top: -20px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.rotating-slider{
+    border: solid 1px green;
+    width: 800px;
+    height: 400px;
+    margin: 0 auto 0;
+    margin-top: 50px;
+}
