@@ -70,7 +70,7 @@
                     </div>
                 </div>
             </section>
-            <h3>{{ trans('lang.STR_TITLE_HOMEPAGE_4') }}</h3>
+            <h3>{{ trans('lang.STR_TITLE_HOMEPAGE_5') }}</h3>
             <img src="{{asset('assets/img/flock-1.svg')}}" class="flock-top" />
             <div class="devices-container">
             <img src="{{asset('assets/img/triangle-effect-1.svg')}}" class="floating-triangle" />

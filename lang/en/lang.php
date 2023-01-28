@@ -6,14 +6,14 @@ return
 //----------------------------------------------------------PAGE TITLES--------------------------------------------------------------------------------//
         
         //* Home - Title *//
-        'STR_TITLE_HOMEPAGE_1' => 'Find for your device\'s manual',
+        'STR_TITLE_HOMEPAGE_1' => 'Find the user manual for your device',
         'STR_TITLE_HOMEPAGE_2' => 'Search by brand, model or serial number',
         'STR_TITLE_HOMEPAGE_3' => 'Access more than 50 000 Manuals available from our database',
         'STR_TITLE_HOMEPAGE_4' => 'Get remote assistance for all your devices',
         'STR_TITLE_HOMEPAGE_5' => 'Some of the devices we cover',
         'STR_TITLE_HOMEPAGE_6' => 'We\'ve got user manuals and troubleshooting guides for all devices',    
         'STR_TITLE_HOMEPAGE_7' => 'Get the manuals you need and in your own language',    
-        'STR_TITLE_HOMEPAGE_8' => 'Need assistance ? We\'re here to help',    
+        'STR_TITLE_HOMEPAGE_8' => 'Need Assistance ? Can help you remotely',    
         'STR_TITLE_HOMEPAGE_9' => 'Customers Feedback',   
 
         //* HOME - TITLE DEVICES *//
