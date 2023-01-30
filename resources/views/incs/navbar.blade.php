@@ -34,12 +34,39 @@
                     <img src=" {{asset('assets/img/user-avatar-filled.svg')}} " alt="user-icon">
                 </a> --}}
                 <div class="signs-btn">
-                <a href="{{route('about')}}">Login</a>
-                <button type="button">Sign Up</button>
+                <button type="button" class='btn-form' id="openModalBtn">Sign Up</button>
             </div>
         </div>
     </nav>
 
+
+        <div id="modal">
+        <img class="closeModalBtn" src="{{asset('assets/img/annuler.svg')}}" alt="">
+            <div class="container-onglets">
+                <div class="onglets start" data-anim="1">Log in</div>
+                <div class="onglets" data-anim="2">Sign up</div>
+            </div>
+            
+        <div class="contenu login startContenu" data-anim="1">
+            <h2>Authentication</h2>
+            <form>
+                <input type="email" placeholder="Email address">
+                <input type="password" placeholder="Enter password">
+                <a href="#">Forgot a password</a>
+                <button>Log in</button>
+            </form>
+        </div>
+
+        <div class="contenu signup " data-anim="2">
+            <h2>Register</h2>
+            <form>
+                <input type="email" placeholder="Email address">
+                <input type="password" placeholder="Enter password">
+                <input type="password" placeholder="Verify password">
+                <button>Sign up</button>
+            </form>
+        </div>
+    </div>
 
 
 

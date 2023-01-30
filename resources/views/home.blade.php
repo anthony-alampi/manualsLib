@@ -74,7 +74,7 @@
             <img src="{{asset('assets/img/flock-1.svg')}}" class="flock-top" />
             <div class="devices-container">
             <img src="{{asset('assets/img/triangle-effect-1.svg')}}" class="floating-triangle" />
-                <div class="device">
+                <div class="device reveal-1">
                     <img src="{{asset('assets/img/electric-appliance.svg')}}" alt="">
                     <h2>{{ trans('lang.STR_TITLE_DEVICE_1') }}</h2>
                 </div>
@@ -118,7 +118,7 @@
             <img src="{{asset('assets/img/flock-3.svg')}}" class="flock-bottom" />
         </div>
 
-        <section class='content-block1'>
+        <section class='content-block1 '>
 
             <div class='title'>
                 <img src="{{asset('assets/img/manual.svg')}}" alt="">
@@ -138,7 +138,7 @@
             </div>
         </section>
 
-        <section class='content-block2 reveal-1'>
+        <section class='content-block2'>
             <div class="images">
                 <img src="{{asset('assets/img/more-translate.png')}}" alt="" class="illustration">
                 <img src="{{asset('assets/img/orange-triangle.svg')}}" class="child-triangle" alt=''/>
@@ -155,7 +155,7 @@
             </div>
         </section>
 
-        <section class='content-block3 reveal-1'>
+        <section class='content-block3 '>
             <div class='title-text'>
                 <img src="{{asset('assets/img/operator.svg')}}" class="icon"alt="">
                 <h2>{{ trans('lang.STR_TITLE_HOMEPAGE_8') }}</h2>

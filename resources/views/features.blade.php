@@ -14,7 +14,7 @@
 <main>
     <article>
         <section>
-            <article class="features-container reveal-1">
+            <article class="features-container ">
                 <img class="illustration" src="{{ asset('assets/img/need-user-manual.jpg') }}" alt="">
                 <div class="features-block">
                     <h2>{{ trans('lang.STR_TITLE_12') }}</h2>
@@ -22,7 +22,7 @@
                 </div>
             </article>
             <article class="features-listing-container">
-                <div class="item reveal-1">
+                <div class="item ">
                     <img src="{{ asset('assets/img/manual.svg') }}" alt="">
                     <h2> {{ trans('lang.STR_TITLE_13') }} </h2>
                     <p> {{trans('lang.STR_TEXT_10')}} </p>
@@ -38,7 +38,7 @@
                     <p> {{trans('lang.STR_TEXT_12')}} </p>
                 </div>
             </article>
-            <article class="features-container1 bg-block reveal-1">
+            <article class="features-container1 bg-block ">
                 <div class="features-block">
                     <h2>{{ trans('lang.STR_TITLE_16') }}</h2>
                     <p> {{ trans('lang.STR_TEXT_13') }} </p>
@@ -50,7 +50,7 @@
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item4" />
                 <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="circle-item" />
             </article>
-            <article class="features-container2 reveal-1">
+            <article class="features-container2 ">
                 <img src="{{ asset('assets/img/electro.jpeg') }}" class="image-block" alt="">
                 <div class="features-block">
                     <h2>{{ trans('lang.STR_TITLE_17') }}</h2>
@@ -60,7 +60,7 @@
                 <img src="{{asset('assets/img/red-flock.svg')}}" class="flock-item2" />
                 <img src="{{asset('assets/img/triangle-effect-1.svg')}}" class="triangle-item" />
             </article>
-                <article class="features-container3 bg-block2 reveal-1">
+                <article class="features-container3 bg-block2 ">
                 <div class="features-block">
                     <h2>{{ trans('lang.STR_TITLE_18') }}</h2>
                     <p> {{ trans('lang.STR_TEXT_15') }} </p>
@@ -70,7 +70,7 @@
                 <img src="{{asset('assets/img/flock-3.svg')}}" class="flock-item2" />
                 <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="circle-item" />
             </article>
-            <article class="features-container4 reveal-1">
+            <article class="features-container4 ">
                 <img src="{{ asset('assets/img/maintenance-calendar.svg') }}" class="image-block" alt="">
                 <div class="features-block">
                     <h2>{{ trans('lang.STR_TITLE_19') }}</h2>
@@ -81,7 +81,7 @@
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item3" />
                 <img src="{{asset('assets/img/triangle-effect-1.svg')}}" class="triangle-item" />
             </article>
-            <article class="features-container5 reveal-1">
+            <article class="features-container5 ">
                 <div class="features-block">
                     <h2>{{ trans('lang.STR_TITLE_21/1') }}</h2>
                     <p> {{ trans('lang.STR_TEXT_17') }} </p>
