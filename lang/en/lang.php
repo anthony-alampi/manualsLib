@@ -29,17 +29,48 @@ return
         //* Manuals - Title *//
         'STR_TITLE_MANUALS_1' => 'Find for your device’s manual',    
         'STR_TITLE_MANUALS_2' => 'Search by brand, model or serial number',    
-        'STR_TITLE_MANUALS_3' => 'Top 15 most downloaded manuals',    
+        'STR_TITLE_MANUALS_3' => 'Top 10 most downloaded manuals',    
         'STR_TITLE_MANUALS_4' => 'Get full documentation and guides for your devices',    
         'STR_TITLE_MANUALS_5' => 'Most downloaded Manuals by category',    
         'STR_TITLE_MANUALS_6' => 'Get help using and troubleshooting your devices',
+            
         
-        //* Manuals details - Title *//
-        'STR_TITLE_7' => 'Here\'s the manual for [PRODUCT MODEL]',    
-        'STR_TITLE_8' => 'Looking for another manual ?',    
-        'STR_TITLE_9' => '[Icon Book] + Download or view your manual online',    
-        'STR_TITLE_10' => '[Icon  support] + Need further assistance ? We\'re here to help!',    
-        'STR_TITLE_11' => '[Icon translate]+ Manuals in your own language',
+        //* Manual detail - Title *//
+        'STR_TITLE_MANUAL_1' => 'Here\'s the manual for',    
+        'STR_TITLE_MANUAL_2' => 'Looking for another manual ?',    
+        'STR_TITLE_MANUAL_3' => 'Download or view your manual online',    
+        'STR_TITLE_MANUAL_4' => 'Need further assistance ? We\'re here to help!',    
+        'STR_TITLE_MANUAL_5' => 'Manuals in your own language',
+            //* MOST DOWNLOADED MANUAL *//
+            'STR_TITLE_DOWNLOADED_1' => 'Amplifier',
+            'STR_SUBTITLE_DOWNLOADED_1' => 'MODEL XYZ',
+
+            'STR_TITLE_DOWNLOADED_2' => 'Audio Casque',
+            'STR_SUBTITLE_DOWNLOADED_2' => 'MODEL XYZ',
+
+            'STR_TITLE_DOWNLOADED_3' => 'Computer',
+            'STR_SUBTITLE_DOWNLOADED_3' => 'MODEL XYZ',
+
+            'STR_TITLE_DOWNLOADED_4' => 'Home Appliance',
+            'STR_SUBTITLE_DOWNLOADED_4' => 'MODEL XYZ',
+
+            'STR_TITLE_DOWNLOADED_5' => 'Tablet',
+            'STR_SUBTITLE_DOWNLOADED_5' => 'MODEL XYZ',
+
+            'STR_TITLE_DOWNLOADED_6' => 'Remote Control',
+            'STR_SUBTITLE_DOWNLOADED_6' => 'MODEL XYZ',
+
+            'STR_TITLE_DOWNLOADED_7' => 'Rooter',
+            'STR_SUBTITLE_DOWNLOADED_7' => 'MODEL XYZ',
+
+            'STR_TITLE_DOWNLOADED_8' => 'TV',
+            'STR_SUBTITLE_DOWNLOADED_8' => 'MODEL XYZ',
+
+            'STR_TITLE_DOWNLOADED_9' => 'Smartphone',
+            'STR_SUBTITLE_DOWNLOADED_9' => 'MODEL XYZ',
+
+            'STR_TITLE_DOWNLOADED_10' => 'Laptop',
+            'STR_SUBTITLE_DOWNLOADED_10' => 'MODEL XYZ',
 
     //* Features - Title *//
         'STR_TITLE_12/5' => 'Our Features',

@@ -7,6 +7,7 @@ use App\Http\Controllers\AboutController;
 use App\Http\Controllers\PressController;
 use App\Http\Controllers\TermsController;
 use App\Http\Controllers\BrandsController;
+use App\Http\Controllers\ManualController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\CookiesController;
 use App\Http\Controllers\ManualsController;
@@ -25,8 +26,10 @@ Route::get('/api', [ApiController::class, 'viewApi'])->name('api');
 Route::get('/pricing', [PricingController::class, 'pricing'])->name('pricing');
 Route::get('/press', [PressController::class, 'press'])->name('press');
 Route::get('/brands', [BrandsController::class, 'brands'])->name('brands');
-
 Route::get('/manuals', [ManualsController::class, 'manuals'])->name('manuals');
+
+/*------API------*/
+Route::get('/manual', [ManualController::class, 'getManual'])->name('manual'); /*-- Cette route est chargé d'affiché le manuel rechérché vie les search bar*/
 
 
 Route::get('/terms', [TermsController::class, 'terms'])->name('terms');

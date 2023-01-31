@@ -28,23 +28,109 @@
             <h2>{{trans('lang.STR_TITLE_MANUALS_3')}}</h2>
             <img src="{{asset('assets/img/line-shape-3.svg')}}" class='line-custom'alt="">
             <div class="most-manuals-container">
-                <div class="download"></div>
-                <div class="download"></div>
-                <div class="download"></div>
-                <div class="download"></div>
-                <div class="download"></div>
-                <div class="download"></div>
-                <div class="download"></div>
-                <div class="download"></div>
-                <div class="download"></div>
-                <div class="download"></div>
-                <div class="download"></div>
-                <div class="download"></div>
-                <div class="download"></div>
-                <div class="download"></div>
-                <div class="download"></div>
+
+                <div class="download custom-border-left1">
+                    <div class="icons-manualsTop">
+                        <img src="{{asset('assets/img/amplifier.svg')}}" alt="">
+                    </div>
+                    <div class="text-block">
+                        <h2>{{trans('lang.STR_TITLE_DOWNLOADED_1')}}</h2>
+                        <h3>{{trans('lang.STR_SUBTITLE_DOWNLOADED_1')}}</h3>
+                    </div>
+                </div>
+
+                <div class="download custom-border-left2">
+                    <div class="icons-manualsTop">
+                        <img src="{{asset('assets/img/casque-audio.svg')}}" alt="">
+                    </div>
+                    <div class="text-block">
+                        <h2>{{trans('lang.STR_TITLE_DOWNLOADED_2')}}</h2>
+                        <h3>{{trans('lang.STR_SUBTITLE_DOWNLOADED_2')}}</h3>
+                    </div>
+                </div>
+
+                <div class="download custom-border-left3">
+                    <div class="icons-manualsTop">
+                        <img src="{{asset('assets/img/computer.svg')}}" alt="">
+                    </div>
+                    <div class="text-block">
+                        <h2>{{trans('lang.STR_TITLE_DOWNLOADED_3')}}</h2>
+                        <h3>{{trans('lang.STR_SUBTITLE_DOWNLOADED_3')}}</h3>
+                    </div>
+                </div>
+
+                <div class="download custom-border-left4">
+                    <div class="icons-manualsTop">
+                        <img src="{{asset('assets/img/electric-appliance.svg')}}" alt="">
+                    </div>
+                    <div class="text-block">
+                        <h2>{{trans('lang.STR_TITLE_DOWNLOADED_4')}}</h2>
+                        <h3>{{trans('lang.STR_SUBTITLE_DOWNLOADED_4')}}</h3>
+                    </div>
+                </div>
+
+                <div class="download custom-border-left5">
+                    <div class="icons-manualsTop">
+                        <img src="{{asset('assets/img/ipad.svg')}}" alt="">
+                    </div>
+                    <div class="text-block">
+                        <h2>{{trans('lang.STR_TITLE_DOWNLOADED_5')}}</h2>
+                        <h3>{{trans('lang.STR_SUBTITLE_DOWNLOADED_5')}}</h3>
+                    </div>
+                </div>
+
+                <div class="download custom-border-left6">
+                    <div class="icons-manualsTop">
+                        <img src="{{asset('assets/img/remote-control.svg')}}" alt="">
+                    </div>
+                    <div class="text-block">
+                        <h2>{{trans('lang.STR_TITLE_DOWNLOADED_6')}}</h2>
+                        <h3>{{trans('lang.STR_SUBTITLE_DOWNLOADED_6')}}</h3>
+                    </div>
+                </div>
+
+                <div class="download custom-border-left7">
+                    <div class="icons-manualsTop">
+                        <img src="{{asset('assets/img/wifi.svg')}}" alt="">
+                    </div>
+                    <div class="text-block">
+                        <h2>{{trans('lang.STR_TITLE_DOWNLOADED_7')}}</h2>
+                        <h3>{{trans('lang.STR_SUBTITLE_DOWNLOADED_7')}}</h3>
+                    </div>
+                </div>
+
+                <div class="download custom-border-left8">
+                    <div class="icons-manualsTop">
+                        <img src="{{asset('assets/img/watch-tv.svg')}}" alt="">
+                    </div>
+                    <div class="text-block">
+                        <h2>{{trans('lang.STR_TITLE_DOWNLOADED_8')}}</h2>
+                        <h3>{{trans('lang.STR_SUBTITLE_DOWNLOADED_8')}}</h3>
+                    </div>
+                </div>
+
+                <div class="download custom-border-left9">
+                    <div class="icons-manualsTop">
+                        <img src="{{asset('assets/img/smartphone.svg')}}" alt="">
+                    </div>
+                    <div class="text-block">
+                        <h2>{{trans('lang.STR_TITLE_DOWNLOADED_9')}}</h2>
+                        <h3>{{trans('lang.STR_SUBTITLE_DOWNLOADED_9')}}</h3>
+                    </div>
+                </div>
+
+                <div class="download custom-border-left10">
+                    <div class="icons-manualsTop">
+                        <img src="{{asset('assets/img/laptop.svg')}}" alt="">
+                    </div>
+                    <div class="text-block">
+                        <h2>{{trans('lang.STR_TITLE_DOWNLOADED_10')}}</h2>
+                        <h3>{{trans('lang.STR_SUBTITLE_DOWNLOADED_10')}}</h3>
+                    </div>
+                </div>
             </div>
         </section>
+        
         <section class="manuals-block">
             <div class="text-block">
                 <h2>{{trans('lang.STR_TITLE_MANUALS_4')}}</h2>

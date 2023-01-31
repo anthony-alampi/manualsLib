@@ -22,6 +22,7 @@
 @import './style_pages/press.css';
 @import './style_pages/brands.css';
 @import './style_pages/manuals.css';
+@import './style_pages/manual.css';
 
 /* Import online font*/
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');

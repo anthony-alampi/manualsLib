@@ -1,7 +1,7 @@
 .home-header{
     margin-top: 50px;
-    margin-bottom: 100px;
-    height: 100vh;
+    margin-bottom: 60px;
+    height: 70vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -19,7 +19,7 @@
 .header-title-custom .shape-header{
     width: 80%;
     position: absolute;
-    top: 30%;
+    top: 60px;
     z-index: -1;
 }
 .title-and-form h1{
@@ -155,7 +155,6 @@
     line-height : 1.15em;
     color: #101621;
     text-align: center;
-    padding-top: 50px;
 }
 .homepage-subtitle .device-title-custom {
     position: relative;
@@ -166,8 +165,8 @@
 .device-title-custom .shape-header {
     width: 50%;
     position: absolute;
-    right: 0%;
-    bottom: 24%;
+    right: 200px;
+    top: 40px;
 
 }
 .homepage-subtitle h3 {

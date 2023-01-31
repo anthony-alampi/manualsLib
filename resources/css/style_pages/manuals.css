@@ -13,6 +13,7 @@
     padding: 40px 0 0;
 
 }
+
 .manuals-header .content-block{
     display: flex;
     flex-direction: column;
@@ -62,7 +63,6 @@
 
 /*--------------MOST DOWNLOADED MANUALS------------------*/
 .top-15-container{
-    border: solid 1px blue;
     position: relative;
 }
 .top-15-container h2{
@@ -80,16 +80,38 @@
 }
 .top-15-container .most-manuals-container{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    column-gap: 30px;
     row-gap: 20px;
 }
 .top-15-container .most-manuals-container .download{
-    width: 200px;
-    height: 100px;
-    background: #000;
+    width: 500px;
+    height: 170px;
+    background: #fff;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-radius: 10px;
+    box-shadow: 0 20px 60px rgb(10 30 81 / 4%);
+    margin-top: 35px;
+    padding: 37px 50px;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    cursor: pointer;
+}
+
+.download .icons-manualsTop img{
+    width: 50px;
+}
+.download .text-block h2{
+    font-family: 'Gilroy-semibold', sans-serif;
+    font-size: 28px;
+}
+.download .text-block h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: var(--color-text);
+    font-weight: var(--weight-text);
 }
 
 /*--------------TEXT BLOCK ---------------*/
@@ -181,8 +203,19 @@
 
 .rotating-slider{
     border: solid 1px green;
-    width: 800px;
+    width: 100%;
     height: 400px;
     margin: 0 auto 0;
     margin-top: 50px;
 }
+
+.custom-border-left1{border-color: rgb(255, 92, 92);}
+.custom-border-left2{border-color: rgb(255, 206, 34);}
+.custom-border-left3{border-color: rgb(143, 107, 246);}
+.custom-border-left4{border-color: rgb(99, 234, 169);}
+.custom-border-left5{border-color: rgb(91, 226, 255);}
+.custom-border-left6{border-color: rgb(255, 86, 238);}
+.custom-border-left7{border-color: rgb(255, 92, 92);}
+.custom-border-left8{border-color: rgb(255, 206, 34);}
+.custom-border-left9{border-color: rgb(143, 107, 246);}
+.custom-border-left10{border-color: rgb(99, 234, 169);}
