@@ -14,13 +14,6 @@
 <main>
     <article>
         <section>
-            <article class="features-container">
-                <img class="illustration reveal-left" src="{{ asset('assets/img/need-user-manual.jpg') }}" alt="">
-                <div class="features-block reveal-right">
-                    <h2>{{ trans('lang.STR_TITLE_12') }}</h2>
-                    <p> {{ trans('lang.STR_TEXT_9') }} </p>
-                </div>
-            </article>
             <article class="features-listing-container">
                 <div class="item reveal-left ">
                     <img src="{{ asset('assets/img/manual.svg') }}" alt="">
@@ -36,6 +29,13 @@
                     <img src="{{ asset('assets/img/operator.svg') }}" alt="">
                     <h2> {{ trans('lang.STR_TITLE_15') }} </h2>
                     <p> {{trans('lang.STR_TEXT_12')}} </p>
+                </div>
+            </article>
+            <article class="features-container">
+                <img class="illustration reveal-left" src="{{ asset('assets/img/need-user-manual.jpg') }}" alt="">
+                <div class="features-block reveal-right">
+                    <h2>{{ trans('lang.STR_TITLE_12') }}</h2>
+                    <p> {{ trans('lang.STR_TEXT_9') }} </p>
                 </div>
             </article>
             <article class="features-container1 bg-block ">

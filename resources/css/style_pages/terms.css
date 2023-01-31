@@ -1,10 +1,13 @@
 .moreInfo-header{
     height: 30vh;
     margin-top: 200px;
-    font-family: 'gilroy-bold', sans-serif;
-    font-size: 42px;
+    font-size: var(--home-size-h1);
     color: #101621;
     text-align: center;
+    font-family: var(--home-font-h1);
+    line-height: var(--home-line-h1);
+    font-weight: var(--home-weight-h1);
+    color: var(--home-color-h1);
 }
 .main-bg-custom-1{
     background-color: #fbf3ec;

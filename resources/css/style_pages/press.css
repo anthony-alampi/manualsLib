@@ -7,10 +7,11 @@
 }
 
 .press-header .title-text h1 {
-    font-family: 'Gilroy-bold', sans-serif;
-    font-size: 70px;
-    font-weight: 600;
-    color: #101621;
+    font-family: var(--home-font-h1);
+    font-size: 85px;
+    line-height: var(--home-line-h1);
+    font-weight: var(--home-weight-h1);
+    color: var(--home-color-h1);
     text-align: center;
 }
 

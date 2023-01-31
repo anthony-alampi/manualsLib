@@ -22,10 +22,12 @@
     margin: 150px auto 0;
 }
 .manuals-header .content-block h1{
-    font-family: 'Rubik', sans-serif ;
-    font-size: 100px;
+    font-family: var(--home-font-h1);
+    font-size: 78px;
+    line-height: var(--home-line-h1);
+    font-weight: var(--home-weight-h1);
+    color: var(--home-color-h1);
     text-align: center;
-    line-height: 1.05em;
 
 }
 .manuals-header .content-block h2{

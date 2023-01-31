@@ -7,9 +7,11 @@
 }
 .pricing-header h1{
     font-family: var(--home-font-h1);
-    font-size: 80px;
+    font-size: 85px;
+    line-height: var(--home-line-h1);
     font-weight: var(--home-weight-h1);
     color: var(--home-color-h1);
+    text-align: center;
     width: 70%;
     margin-top: -200px;
     text-align: center;

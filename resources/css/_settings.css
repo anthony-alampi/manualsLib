@@ -88,11 +88,18 @@ body{
 
 
     /*h1*/
-    --home-size-h1 : 78px;
-    --home-font-h1 : 'gilroy-black';
+    --home-size-h1 : 42px;
+    --home-font-h1 : 'gilroy-black', sans-serif;
     --home-line-h1 : 1.11em;
     --home-weight-h1 : 400;
     --home-color-h1 : #101621;
+
+    /* font-family: var(--home-size-h1);
+    font-size: var(--home-size-h1);
+    line-height: var(--home-line-h1);
+    font-weight: var(--home-weight-h1);
+    color: var(--home-color-h1); */
+
 
     /*TEXT ALL WEBSITE*/
     --font-text: 'Roboto', sans-serif;

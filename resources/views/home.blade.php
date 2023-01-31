@@ -20,15 +20,7 @@
 </header>
 
 <main>
-
-    <article>
-        <div class="homepage-subtitle">
-            <div class="device-title-custom">
-                <h2>{{ trans('lang.STR_TITLE_HOMEPAGE_3') }}</h2>
-                <img src="{{asset('assets/img/line-shape-1.svg')}}" class="shape-header" alt="">
-            </div>
-
-            <section>
+<section>
                 <div class="slider">
 	                <div class="slide-track">
 		                <div class="slide">
@@ -70,54 +62,99 @@
                     </div>
                 </div>
             </section>
+    <article>
+        <div class="homepage-subtitle">
+            <div class="device-title-custom">
+                <h2>{{ trans('lang.STR_TITLE_HOMEPAGE_3') }}</h2>
+                <img src="{{asset('assets/img/line-shape-1.svg')}}" class="shape-header" alt="">
+            </div>
             <h3>{{ trans('lang.STR_TITLE_HOMEPAGE_5') }}</h3>
             <img src="{{asset('assets/img/flock-1.svg')}}" class="flock-top" />
+
+
+
             <div class="devices-container">
             <img src="{{asset('assets/img/triangle-effect-1.svg')}}" class="floating-triangle" />
-                <div class="device reveal-1">
+
+            <div class="devices-sub">
+                <div class="device">
                     <img src="{{asset('assets/img/electric-appliance.svg')}}" alt="">
                     <h2>{{ trans('lang.STR_TITLE_DEVICE_1') }}</h2>
                 </div>
-
                 <div class="device">
                     <img src="{{asset('assets/img/amplifier.svg')}}" alt="">
                     <h2>{{ trans('lang.STR_TITLE_DEVICE_2') }}</h2>
                 </div>
-
                 <div class="device">
                     <img src="{{asset('assets/img/ipad.svg')}}" alt="">
                     <h2>{{ trans('lang.STR_TITLE_DEVICE_3') }}</h2>
                 </div>
-
                 <div class="device">
                     <img src="{{asset('assets/img/computer.svg')}}" alt="">
                     <h2>{{ trans('lang.STR_TITLE_DEVICE_4') }}</h2>
                 </div>
+            </div>
 
+            <div class="devices-sub">
                 <div class="device">
                     <img src="{{asset('assets/img/watch-tv.svg')}}" alt="">
                     <h2>{{ trans('lang.STR_TITLE_DEVICE_5') }}</h2>
                 </div>
-
                 <div class="device">
                     <img src="{{asset('assets/img/remote-control.svg')}}" alt="">
                     <h2>{{ trans('lang.STR_TITLE_DEVICE_6') }}</h2>
                 </div>
-
                 <div class="device">
                     <img src="{{asset('assets/img/wifi.svg')}}" alt="">
                     <h2>{{ trans('lang.STR_TITLE_DEVICE_7') }}</h2>
                 </div>
-
                 <div class="device">
                     <img src="{{asset('assets/img/casque-audio.svg')}}" alt="">
                     <h2>{{ trans('lang.STR_TITLE_DEVICE_8') }}</h2>
                 </div> 
                 <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="rotate-circle"/>
+
             </div>
+        </div>
+
+
             <img src="{{asset('assets/img/flock-3.svg')}}" class="flock-bottom" />
         </div>
 
+        <section class='content-block3 '>
+            <div class='title-text reveal-left '>
+                <img src="{{asset('assets/img/operator.svg')}}" class="icon"alt="">
+                <h2>{{ trans('lang.STR_TITLE_HOMEPAGE_8') }}</h2>
+                <p>{{trans('lang.STR_TEXT_3')}}</p>
+            </div>
+            <div class="images">
+                <img src="{{asset('assets/img/more-assist.png')}}" alt="" class="illustration reveal-right">
+                <img src="{{asset('assets/img/orange-triangle.svg')}}" class="child-triangle" alt=''/>
+                <img src="{{asset('assets/img/carre.svg')}}" class="child-square1" alt=''/>
+                <img src="{{asset('assets/img/carre.svg')}}" class="child-square2" alt=''/>
+                <img src="{{asset('assets/img/carre.svg')}}" class="child-square3" alt=''/>
+                <img src="{{asset('assets/img/carre.svg')}}" class="child-square4" alt=''/>
+                <img src="{{asset('assets/img/carre.svg')}}" class="child-square5" alt=''/>
+            </div>
+        </section>
+
+        <section class='content-block2'>
+            <div class="images">
+                <img src="{{asset('assets/img/more-translate.png')}}" alt="" class="illustration reveal-left ">
+                <img src="{{asset('assets/img/orange-triangle.svg')}}" class="child-triangle" alt=''/>
+                <img src="{{asset('assets/img/carre.svg')}}" class="child-square1" alt=''/>
+                <img src="{{asset('assets/img/carre.svg')}}" class="child-square2" alt=''/>
+                <img src="{{asset('assets/img/carre.svg')}}" class="child-square3" alt=''/>
+                <img src="{{asset('assets/img/carre.svg')}}" class="child-square4" alt=''/>
+                <img src="{{asset('assets/img/carre.svg')}}" class="child-square5" alt=''/>
+            </div>
+            <div class='title-text reveal-right'>
+                <img src="{{asset('assets/img/translation.svg')}}" class="icon"alt="">
+                <h2>{{ trans('lang.STR_TITLE_HOMEPAGE_7') }}</h2>
+                <img src="{{asset('assets/img/line-shape-3.svg')}}" class="line-shape" alt="">
+                <p>{{trans('lang.STR_TEXT_2')}}</p>
+            </div>
+        </section>
         <section class='content-block1 '>
             <div class='title reveal-left'>
                 <img src="{{asset('assets/img/manual.svg')}}" alt="">
@@ -136,41 +173,6 @@
                 <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="circle-item" />
             </div>
         </section>
-
-        <section class='content-block2'>
-            <div class="images">
-                <img src="{{asset('assets/img/more-translate.png')}}" alt="" class="illustration reveal-left ">
-                <img src="{{asset('assets/img/orange-triangle.svg')}}" class="child-triangle" alt=''/>
-                <img src="{{asset('assets/img/carre.svg')}}" class="child-square1" alt=''/>
-                <img src="{{asset('assets/img/carre.svg')}}" class="child-square2" alt=''/>
-                <img src="{{asset('assets/img/carre.svg')}}" class="child-square3" alt=''/>
-                <img src="{{asset('assets/img/carre.svg')}}" class="child-square4" alt=''/>
-                <img src="{{asset('assets/img/carre.svg')}}" class="child-square5" alt=''/>
-            </div>
-            <div class='title-text reveal-right'>
-                <img src="{{asset('assets/img/translation.svg')}}" class="icon"alt="">
-                <h2>{{ trans('lang.STR_TITLE_HOMEPAGE_7') }}</h2>
-                <p>{{trans('lang.STR_TEXT_2')}}</p>
-            </div>
-        </section>
-
-        <section class='content-block3 '>
-            <div class='title-text reveal-left '>
-                <img src="{{asset('assets/img/operator.svg')}}" class="icon"alt="">
-                <h2>{{ trans('lang.STR_TITLE_HOMEPAGE_8') }}</h2>
-                <p>{{trans('lang.STR_TEXT_3')}}</p>
-            </div>
-            <div class="images">
-                <img src="{{asset('assets/img/more-assist.png')}}" alt="" class="illustration reveal-right">
-                <img src="{{asset('assets/img/orange-triangle.svg')}}" class="child-triangle" alt=''/>
-                <img src="{{asset('assets/img/carre.svg')}}" class="child-square1" alt=''/>
-                <img src="{{asset('assets/img/carre.svg')}}" class="child-square2" alt=''/>
-                <img src="{{asset('assets/img/carre.svg')}}" class="child-square3" alt=''/>
-                <img src="{{asset('assets/img/carre.svg')}}" class="child-square4" alt=''/>
-                <img src="{{asset('assets/img/carre.svg')}}" class="child-square5" alt=''/>
-            </div>
-        </section>
-        <div class="title-custom">Feedback</div>
 
         <section class="feedback">
             <div class="container1">

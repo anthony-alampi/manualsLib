@@ -5,10 +5,11 @@
 }
 
 .carreers-header .title-text h1 {
-    font-family: 'Rubik', sans-serif;
-    font-size: 80px;
-    font-weight: 400;
-    color: #101621;
+    font-family: var(--home-font-h1);
+    font-size: 78px;
+    line-height: var(--home-line-h1);
+    font-weight: var(--home-weight-h1);
+    color: var(--home-color-h1);
     text-align: center;
 }
 .carreers-header .circle-anim1 {

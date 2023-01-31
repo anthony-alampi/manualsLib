@@ -7,7 +7,8 @@
 
 .contact-header .title-text h1 {
     font-family: var(--home-font-h1);
-    font-size: 80px;
+    font-size: 78px;
+    line-height: var(--home-line-h1);
     font-weight: var(--home-weight-h1);
     color: var(--home-color-h1);
     padding-top: 150px;

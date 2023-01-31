@@ -1,6 +1,7 @@
 .features-header{
     font-family: var(--home-font-h1);
-    font-size: 40px;
+    font-size: 50px;
+    line-height: var(--home-line-h1);
     font-weight: var(--home-weight-h1);
     color: var(--home-color-h1);
     height: 90vh;

@@ -7,11 +7,14 @@
 }
 
 .brands-header h1 {
-    font-family: 'gilroy-black', sans-serif;
-    font-size: 60px;
+    font-family: var(--home-font-h1);
+    font-size: 78px;
+    line-height: var(--home-line-h1);
+    font-weight: var(--home-weight-h1);
+    color: var(--home-color-h1);
+    text-align: center;
     width: 60%;
     color: #101621;
-    text-align: center;
     margin-top: 150px;
 }
 
@@ -39,7 +42,7 @@
 }
 .brands-header .line-shape{
     position: absolute;
-    top: 200px;
+    top: 210px;
     width: 40%;
     z-index: -1;
 }
