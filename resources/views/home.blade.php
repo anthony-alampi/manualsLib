@@ -119,8 +119,7 @@
         </div>
 
         <section class='content-block1 '>
-
-            <div class='title'>
+            <div class='title '>
                 <img src="{{asset('assets/img/manual.svg')}}" alt="">
                 <h2>{{ trans('lang.STR_TITLE_HOMEPAGE_6') }}</h2>
                 <p>{{trans('lang.STR_TEXT_1')}}</p>
@@ -140,7 +139,7 @@
 
         <section class='content-block2'>
             <div class="images">
-                <img src="{{asset('assets/img/more-translate.png')}}" alt="" class="illustration">
+                <img src="{{asset('assets/img/more-translate.png')}}" alt="" class="illustration ">
                 <img src="{{asset('assets/img/orange-triangle.svg')}}" class="child-triangle" alt=''/>
                 <img src="{{asset('assets/img/carre.svg')}}" class="child-square1" alt=''/>
                 <img src="{{asset('assets/img/carre.svg')}}" class="child-square2" alt=''/>
@@ -156,12 +155,12 @@
         </section>
 
         <section class='content-block3 '>
-            <div class='title-text'>
+            <div class='title-text '>
                 <img src="{{asset('assets/img/operator.svg')}}" class="icon"alt="">
                 <h2>{{ trans('lang.STR_TITLE_HOMEPAGE_8') }}</h2>
                 <p>{{trans('lang.STR_TEXT_3')}}</p>
             </div>
-            <div class="images">
+            <div class="images element">
                 <img src="{{asset('assets/img/more-assist.png')}}" alt="" class="illustration">
                 <img src="{{asset('assets/img/orange-triangle.svg')}}" class="child-triangle" alt=''/>
                 <img src="{{asset('assets/img/carre.svg')}}" class="child-square1" alt=''/>

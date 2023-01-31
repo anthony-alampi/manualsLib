@@ -185,7 +185,7 @@
         <div class="download-category">
             <h2>{{trans('lang.STR_TITLE_MANUALS_5')}}</h2>
             <img src="{{asset('assets/img/line-shape-3.svg')}}" class='line-custom'alt="">
-            <div class="rotating-slider">.Rotating images - 2rows</div>
+            {{-- <div class="rotating-slider">.Rotating images - 2rows</div> --}}
         </div>
         <section class="manuals-block">
             <img src="{{asset('assets/img/needs-questions.svg')}}" alt="">
