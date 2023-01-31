@@ -29,66 +29,66 @@
         </div>
 
         <section>
-            <article class="our-mission reveal-1">
-                <div class="text-block">
+            <article class="our-mission">
+                <div class="text-block reveal-left">
                     <h2>{{trans('lang.STR_TITLE_61')}}</h2>
                     <p>{{trans('lang.STR_TEXT_47')}}</p>
                 </div>
-                <div class="image-block">
+                <div class="image-block reveal-right">
                     <img src="{{asset('assets/img/our-mission.jpeg')}}" alt="">
                 </div>
                 <div class="circle-scale1"></div>
                 <div class="circle-scale2"></div>
             </article>
 
-            <article class="our-solution reveal-1">
+            <article class="our-solution">
                 <div class="circle-scale1"></div>
                 <div class="circle-scale2"></div>
-                <div class="image-block">
+                <div class="image-block reveal-left">
                     <img src="{{asset('assets/img/our-solution.jpeg')}}" alt="">
                 </div>
-                <div class="text-block">
+                <div class="text-block reveal-right">
                     <h2>{{trans('lang.STR_TITLE_62')}}</h2>
                     <p>{{trans('lang.STR_TEXT_48')}}</p>
                 </div>
             </article>
 
-            <article class="our-team reveal-1">
-                <div class="text-block">
+            <article class="our-team">
+                <div class="text-block reveal-left" >
                     <h2>{{trans('lang.STR_TITLE_63')}}</h2>
                     <p>{{trans('lang.STR_TEXT_49')}}</p>
                 </div>
                 <div class="team-custom-line"></div>
                 <div class="members-block">
-                    <div class="member">
+                    <div class="member reveal-left">
                         <img src="{{asset('assets/img/member1.png')}}" alt="">
                         <h3>{{trans('lang.STR_TITLE_NAME_1')}}</h3>
                     </div>
-                    <div class="member">
+                    <div class="member reveal-left">
                         <img src="{{asset('assets/img/member2.png')}}" alt="">
                         <h3>{{trans('lang.STR_TITLE_NAME_2')}}</h3>
                     </div>
-                    <div class="member">
+                    <div class="member reveal-left">
                         <img src="{{asset('assets/img/member3.png')}}" alt="">
                         <h3>{{trans('lang.STR_TITLE_NAME_3')}}</h3>
                     </div>
-                    <div class="member">
+                    <div class="member reveal-left">
                         <img src="{{asset('assets/img/member4.png')}}" alt="">
                         <h3>{{trans('lang.STR_TITLE_NAME_4')}}</h3>
                     </div>
-                    <div class="member">
+                    <div class="member reveal-right">
                         <img src="{{asset('assets/img/member5.png')}}" alt="">
                         <h3>{{trans('lang.STR_TITLE_NAME_5')}}</h3>
                     </div>
-                    <div class="member">
+                    <div class="member reveal-right">
                         <img src="{{asset('assets/img/member6.png')}}" alt="">
                         <h3>{{trans('lang.STR_TITLE_NAME_6')}}</h3>
                     </div>
-                    <div class="member">
+                    <div class="member reveal-right">
                         <img src="{{asset('assets/img/member7.png')}}" alt="">
                         <h3>{{trans('lang.STR_TITLE_NAME_7')}}</h3>
                     </div>
-                    <div class="member">
+                    <div class="member reveal-right">
                         <img src="{{asset('assets/img/member8.png')}}" alt="">
                         <h3>{{trans('lang.STR_TITLE_NAME_8')}}</h3>
                     </div>

@@ -16,63 +16,63 @@
             <h2>{{trans('lang.STR_TITLE_BRANDS_2')}}</h2>
 
             <div class="brands-logo-container">
-                <div class="brand-item">
+                <div class="brand-item reveal-left">
                     <h3>{{trans('lang.STR_TITLE_BRAND_ITEM_1')}}</h3>
                     <img src="{{asset('assets/img/panasonic-brand.jpg')}}" alt="">
                 </div>
-                <div class="brand-item">
+                <div class="brand-item reveal-bottom">
                     <h3>{{trans('lang.STR_TITLE_BRAND_ITEM_2')}}</h3>
                     <img src="{{asset('assets/img/sony-brand.jpg')}}" alt="">
                 </div>
-                <div class="brand-item">
+                <div class="brand-item reveal-right">
                     <h3>{{trans('lang.STR_TITLE_BRAND_ITEM_3')}}</h3>
                     <img src="{{asset('assets/img/samsung-brand.png')}}" alt="">
                 </div>
-                <div class="brand-item">
+                <div class="brand-item reveal-bottom ">
                     <h3>{{trans('lang.STR_TITLE_BRAND_ITEM_4')}}</h3>
                     <img src="{{asset('assets/img/apple-brand.jpg')}}" alt="">
                 </div>
-                <div class="brand-item">
+                <div class="brand-item reveal-bottom">
                     <h3>{{trans('lang.STR_TITLE_BRAND_ITEM_5')}}</h3>
                     <img src="{{asset('assets/img/phillips-brand.jpg')}}" alt="">
                 </div>
-                <div class="brand-item">
+                <div class="brand-item reveal-bottom">
                     <h3>{{trans('lang.STR_TITLE_BRAND_ITEM_6')}}</h3>
                     <img src="{{asset('assets/img/electrolux-brand.jpg')}}" alt="">
                 </div>
-                <div class="brand-item">
+                <div class="brand-item reveal-bottom">
                     <h3>{{trans('lang.STR_TITLE_BRAND_ITEM_7')}}</h3>
                     <img src="{{asset('assets/img/tcl-brand.jpg')}}" alt="">
                 </div>
-                <div class="brand-item">
+                <div class="brand-item reveal-bottom">
                     <h3>{{trans('lang.STR_TITLE_BRAND_ITEM_8')}}</h3>
                     <img src="{{asset('assets/img/marshall-brand.jpg')}}" alt="">
                 </div>
-                <div class="brand-item">
+                <div class="brand-item reveal-bottom">
                     <h3>{{trans('lang.STR_TITLE_BRAND_ITEM_9')}}</h3>
                     <img src="{{asset('assets/img/xiaomi-brand.jpg')}}" alt="">
                 </div>
-                <div class="brand-item">
+                <div class="brand-item reveal-bottom">
                     <h3>{{trans('lang.STR_TITLE_BRAND_ITEM_10')}}</h3>
                     <img src="{{asset('assets/img/whirlpool-brand.jpg')}}" alt="">
                 </div>
-                <div class="brand-item">
+                <div class="brand-item reveal-bottom">
                     <h3>{{trans('lang.STR_TITLE_BRAND_ITEM_11')}}</h3>
                     <img src="{{asset('assets/img/bosh-brand.jpg')}}" alt="">
                 </div>
-                <div class="brand-item">
+                <div class="brand-item reveal-bottom">
                     <h3>{{trans('lang.STR_TITLE_BRAND_ITEM_12')}}</h3>
                     <img src="{{asset('assets/img/jbl-brand.jpg')}}" alt="">
                 </div>
-                <div class="brand-item">
+                <div class="brand-item reveal-bottom">
                     <h3>{{trans('lang.STR_TITLE_BRAND_ITEM_13')}}</h3>
                     <img src="{{asset('assets/img/beats-brand.png')}}" alt="">
                 </div>
-                <div class="brand-item">
+                <div class="brand-item reveal-bottom">
                     <h3>{{trans('lang.STR_TITLE_BRAND_ITEM_14')}}</h3>
                     <img src="{{asset('assets/img/gopro-brand.jpg')}}" alt="">
                 </div>
-                <div class="brand-item">
+                <div class="brand-item reveal-bottom">
                     <h3>{{trans('lang.STR_TITLE_BRAND_ITEM_15')}}</h3>
                     <img src="{{asset('assets/img/dyson-brand.jpg')}}" alt="">
                 </div>
@@ -95,7 +95,7 @@
                 <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="circle-item" />
             </article>
 
-            <section class='content-block2 reveal-1'>
+            <section class='content-block2 '>
             <div class="images">
                 <img src="{{asset('assets/img/helpdesk.jpg')}}" alt="" class="illustration">
                 <img src="{{asset('assets/img/orange-triangle.svg')}}" class="child-triangle" alt=''/>

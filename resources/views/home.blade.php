@@ -119,14 +119,14 @@
         </div>
 
         <section class='content-block1 '>
-            <div class='title '>
+            <div class='title reveal-left'>
                 <img src="{{asset('assets/img/manual.svg')}}" alt="">
                 <h2>{{ trans('lang.STR_TITLE_HOMEPAGE_6') }}</h2>
                 <p>{{trans('lang.STR_TEXT_1')}}</p>
             </div>
 
             <div class="right-block">
-                <img src="{{asset('assets/img/user-manual-block1.png')}}" class="illustration" alt="">
+                <img src="{{asset('assets/img/user-manual-block1.png')}}" class="illustration reveal-right" alt="">
                 <img src="{{asset('assets/img/more.svg')}}" class="more-item1" />
                 <img src="{{asset('assets/img/backslash.svg')}}" class="backslash-item" />
                 <img src="{{asset('assets/img/more.svg')}}" class="more-item2" />
@@ -139,7 +139,7 @@
 
         <section class='content-block2'>
             <div class="images">
-                <img src="{{asset('assets/img/more-translate.png')}}" alt="" class="illustration ">
+                <img src="{{asset('assets/img/more-translate.png')}}" alt="" class="illustration reveal-left ">
                 <img src="{{asset('assets/img/orange-triangle.svg')}}" class="child-triangle" alt=''/>
                 <img src="{{asset('assets/img/carre.svg')}}" class="child-square1" alt=''/>
                 <img src="{{asset('assets/img/carre.svg')}}" class="child-square2" alt=''/>
@@ -147,7 +147,7 @@
                 <img src="{{asset('assets/img/carre.svg')}}" class="child-square4" alt=''/>
                 <img src="{{asset('assets/img/carre.svg')}}" class="child-square5" alt=''/>
             </div>
-            <div class='title-text'>
+            <div class='title-text reveal-right'>
                 <img src="{{asset('assets/img/translation.svg')}}" class="icon"alt="">
                 <h2>{{ trans('lang.STR_TITLE_HOMEPAGE_7') }}</h2>
                 <p>{{trans('lang.STR_TEXT_2')}}</p>
@@ -155,13 +155,13 @@
         </section>
 
         <section class='content-block3 '>
-            <div class='title-text '>
+            <div class='title-text reveal-left '>
                 <img src="{{asset('assets/img/operator.svg')}}" class="icon"alt="">
                 <h2>{{ trans('lang.STR_TITLE_HOMEPAGE_8') }}</h2>
                 <p>{{trans('lang.STR_TEXT_3')}}</p>
             </div>
-            <div class="images element">
-                <img src="{{asset('assets/img/more-assist.png')}}" alt="" class="illustration">
+            <div class="images">
+                <img src="{{asset('assets/img/more-assist.png')}}" alt="" class="illustration reveal-right">
                 <img src="{{asset('assets/img/orange-triangle.svg')}}" class="child-triangle" alt=''/>
                 <img src="{{asset('assets/img/carre.svg')}}" class="child-square1" alt=''/>
                 <img src="{{asset('assets/img/carre.svg')}}" class="child-square2" alt=''/>

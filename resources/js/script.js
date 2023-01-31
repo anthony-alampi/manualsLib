@@ -157,4 +157,49 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 /*--------------------------------*/
+const ratio = 0.1;
+const option = {
+    root: null, //element racine
+    rootMargin: "0px", // depasse cette marge pour etre visible
+    threshold: ratio // a quel moment l'élément doit etre detecter  ici 10%
+};
+/*-------------------------------REVEAL RIGHT-------------------------------------*/
+const handleIntersectRight = function (entries, observerRight) {
+    entries.forEach(function (entry) {
+        if (entry.intersectionRatio > ratio) {
+            entry.target.classList.add("reveal-visible");
+            observerRight.unobserve(entry.target);
+        }
+    });
+};
+const observerRight = new IntersectionObserver(handleIntersectRight, option);
+document.querySelectorAll('[class*="reveal-right"]').forEach(function (r) {
+    observerRight.observe(r);
+});
 
+/*-------------------------------REVEAL LEFT------------------------------------*/
+const handleIntersectLeft = function (entries, observerLeft) {
+    entries.forEach(function (entry) {
+        if (entry.intersectionRatio > ratio) {
+            entry.target.classList.add("reveal-visible");
+            observerLeft.unobserve(entry.target);
+        }
+    });
+};
+const observerLeft = new IntersectionObserver(handleIntersectLeft, option);
+document.querySelectorAll('[class*="reveal-left"]').forEach(function (r) {
+    observerLeft.observe(r);
+});
+/*-------------------------------REVEAL BOTTOM------------------------------------*/
+const handleIntersectBottom = function (entries, observerBottom) {
+    entries.forEach(function (entry) {
+        if (entry.intersectionRatio > ratio) {
+            entry.target.classList.add("reveal-visible-forBottom");
+            observerBottom.unobserve(entry.target);
+        }
+    });
+};
+const observerBottom = new IntersectionObserver(handleIntersectBottom, option);
+document.querySelectorAll('[class*="reveal-bottom"]').forEach(function (r) {
+    observerBottom.observe(r);
+});

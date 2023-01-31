@@ -10,14 +10,14 @@
     <article>
         <div class="pricing-table">
             <img src="{{asset('assets/img/triangle-effect-1.svg')}}" class="triangle-item" />
-            <div class="pricing-container1">
+            <div class="pricing-container1 reveal-left">
                 <img src="{{asset('assets/img/free.svg')}}" class="icons-plan" />
                 <h2>{{ trans('lang.STR_TITLE_PRICING_2') }}</h2>
                 <div class="separate-custom"></div>
                 {{-- <p class="includes">{{ trans('lang.STR_TEXT_1_CARD_1') }}</p> --}}
                 <p class="manuals custom-position">{{ trans('lang.STR_TEXT_2_CARD_1') }}</p>
             </div>
-            <div class="pricing-container2">
+            <div class="pricing-container2 reveal-bottom">
                 <img src="{{asset('assets/img/trial.svg')}}" class="icons-plan" />
                 <h2>{{ trans('lang.STR_TITLE_PRICING_3') }}</h2>
                 <div class="separate-custom"></div>
@@ -25,7 +25,7 @@
                 <p class="manuals">{{ trans('lang.STR_TEXT_2_CARD_2') }}</p>
                 <p class="includes">{{ trans('lang.STR_TEXT_3_CARD_2') }}</p>
             </div>
-            <div class="pricing-container3">
+            <div class="pricing-container3 reveal-right">
                 <img src="{{asset('assets/img/premium.svg')}}" class="icons-plan" />
                 <h2>{{ trans('lang.STR_TITLE_PRICING_4') }}</h2>
                 <div class="separate-custom"></div>
@@ -79,7 +79,7 @@
         </section>
         <section class="pricing-containers">
             <article class="pricing-section1">
-                <div class="pricing-block">
+                <div class="pricing-block reveal-right">
                     <h2>{{ trans('lang.STR_TITLE_PRICING_5') }}</h2>
                     <p> {{ trans('lang.STR_TEXT_21') }} </p>
                 </div>
@@ -91,14 +91,14 @@
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item2" />
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item3" />
                 <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="circle-item" />
-                <img src="{{asset('assets/img/free-manuals.jpeg')}}" alt="">
+                <img src="{{asset('assets/img/free-manuals.jpeg')}}" class="reveal-left" alt="">
             </article>
             <article class="pricing-section2">
-                <div class="pricing-block">
+                <div class="pricing-block reveal-left">
                     <h2>{{ trans('lang.STR_TITLE_PRICING_6') }}</h2>
                     <p> {{ trans('lang.STR_TEXT_22') }} </p>
                 </div>
-                <img src="{{ asset('assets/img/test.jpeg') }}" class="image-block" alt="">
+                <img src="{{ asset('assets/img/test.jpeg') }}" class="image-block reveal-right" alt="">
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item1" />
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item2" />
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item3" />
@@ -106,8 +106,8 @@
                 <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="circle-item" />
             </article>
             <article class="pricing-section3">
-                <img src="{{ asset('assets/img/service-plan.jpg') }}" class="image-block" alt="">
-                <div class="pricing-block">
+                <img src="{{ asset('assets/img/service-plan.jpg') }}" class="image-block reveal-right" alt="">
+                <div class="pricing-block reveal-left">
                     <h2>{{ trans('lang.STR_TITLE_PRICING_7') }}</h2>
                     <p> {{ trans('lang.STR_TEXT_22') }} </p>
                 </div>
@@ -118,8 +118,8 @@
                 <img src="{{asset('assets/img/triangle-effect-1.svg')}}" class="circle-item" />
             </article>
             <article class="pricing-section5">
-                <img src="{{ asset('assets/img/product-company.png') }}" class="image-block" alt="">
-                <div class="pricing-block">
+                <img src="{{ asset('assets/img/product-company.png') }}" class="image-block reveal-left" alt="">
+                <div class="pricing-block reveal-right">
                     <h2>{{ trans('lang.STR_TITLE_PRICING_8') }}</h2>
                     <p> {{ trans('lang.STR_TEXT_24') }} </p>
                 </div>
@@ -131,11 +131,11 @@
             </article>
 
             <article class="pricing-section6">
-                <div class="pricing-block">
+                <div class="pricing-block reveal-left">
                     <h2>{{ trans('lang.STR_TITLE_PRICING_9') }}</h2>
                     <p> {{ trans('lang.STR_TEXT_25') }} </p>
                 </div>
-                <img src="{{ asset('assets/img/switch.svg') }}" class="image-block" alt="">
+                <img src="{{ asset('assets/img/switch.svg') }}" class="image-block reveal-right" alt="">
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item1" />
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item2" />
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item3" />
@@ -144,8 +144,8 @@
             </article>
             
             <article class="pricing-section7">
-                <img src="{{ asset('assets/img/payment-calendar.svg') }}" class="image-block" alt="">
-                <div class="pricing-block">
+                <img src="{{ asset('assets/img/payment-calendar.svg') }}" class="image-block reveal-left" alt="">
+                <div class="pricing-block reveal-right">
                     <h2>{{ trans('lang.STR_TITLE_PRICING_10') }}</h2>
                     <p> {{ trans('lang.STR_TEXT_26') }} </p>
                 </div>

@@ -10,7 +10,7 @@
             <img src="{{asset('assets/img/line-shape-1.svg')}}" class="shape-header" alt="">
 
         <div class="btns-container">
-            <a href="{{ url('download/file') }}" class="btn-manual" id="download-btn"><img src="{{asset('assets/img/download.svg')}}" alt="">Download</a>
+            <a href="#" class="btn-manual" id="download-btn"><img src="{{asset('assets/img/download.svg')}}" alt="">Download</a>
             <a href="#" class="btn-manual" id="preview-btn"><img src="{{asset('assets/img/preview.svg')}}" alt="">Preview</a>
         </div>
     </div>
@@ -32,21 +32,21 @@
             </div>
         </div>
         <div class="picture-manual">
-            <img src="{{asset('assets/img/new-research.svg')}}" class="separate-image" alt="">
+            <img src="{{asset('assets/img/new-research.svg')}}" class="separate-image reveal-bottom" alt="">
         </div>
 
           <article class="features-listing-container">
-                <div class="item">
+                <div class="item reveal-left">
                     <img src="{{ asset('assets/img/book.svg') }}" alt="">
                     <h2> {{ trans('lang.STR_TITLE_MANUAL_3') }} </h2>
                     <p> {{trans('lang.STR_TEXT_MANUAL_1')}} </p>
                 </div>
-                <div class="item">
+                <div class="item reveal-bottom">
                     <img src="{{ asset('assets/img/service-clients.svg') }}" alt="">
                     <h2> {{ trans('lang.STR_TITLE_MANUAL_4') }} </h2>
                     <p> {{trans('lang.STR_TEXT_MANUAL_2')}} </p>
                 </div>
-                <div class="item">
+                <div class="item reveal-right">
                     <img src="{{ asset('assets/img/translation.svg') }}" alt="">
                     <h2> {{ trans('lang.STR_TITLE_MANUAL_5') }} </h2>
                     <p> {{trans('lang.STR_TEXT_MANUAL_3')}} </p>

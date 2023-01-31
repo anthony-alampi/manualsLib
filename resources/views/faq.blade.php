@@ -18,7 +18,7 @@
         </section>
         <section>
             <section>
-                <article class="faq-container reveal-1">
+                <article class="faq-container reveal-bottom">
                     <div class="faq-block">
                         <h2>{{ trans('lang.STR_TITLE_53') }}</h2>
                         <p> {{ trans('lang.STR_TEXT_41') }} </p>
@@ -26,7 +26,7 @@
                     <img src="{{ asset('assets/img/add-docs.svg') }}" alt="">
                 </article>
                 
-                <article class="faq-container reveal-1">
+                <article class="faq-container reveal-bottom">
                     <img src="{{ asset('assets/img/question-mark.svg') }}" alt="">
                     <div class="faq-block">
                         <h2>{{ trans('lang.STR_TITLE_54') }}</h2>
@@ -34,7 +34,7 @@
                     </div>
                 </article>
 
-                <article class="faq-container reveal-1">
+                <article class="faq-container reveal-bottom">
                     <div class="faq-block">
                         <h2>{{ trans('lang.STR_TITLE_55') }}</h2>
                         <p> {{ trans('lang.STR_TEXT_42/1') }} </p>

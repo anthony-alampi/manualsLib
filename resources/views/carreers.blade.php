@@ -27,12 +27,12 @@
             <div class="carreers-container">
                 <img src="{{asset('assets/img/triangle-effect-1.svg')}}" class="triangle-item" />
                 <img src="{{asset('assets/img/triangle-effect-1.svg')}}" class="triangle-item1" />
-                <article class="carreers-block">
+                <article class="carreers-block reveal-left">
                     <img src="{{asset('assets/img/job-offer.svg')}}" class="icons-plan" />
                     <h2>{{ trans('lang.STR_TITLE_CARREERS_4') }}</h2>
                     <p class="includes">{{ trans('lang.STR_TEXT_CARREERS_2') }}</p>
                 </article>
-                <article class="carreers-block">
+                <article class="carreers-block reveal-right">
                     <img src="{{asset('assets/img/job-offer.svg')}}" class="icons-plan" />
                     <h2>{{ trans('lang.STR_TITLE_CARREERS_5') }}</h2>
                     <p class="includes">{{ trans('lang.STR_TEXT_CARREERS_3') }}</p>

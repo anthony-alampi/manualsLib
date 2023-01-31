@@ -1873,9 +1873,6 @@ row-gap: 100px;
 
 }
 
-
-
-
 }
 
 
@@ -1925,3 +1922,27 @@ row-gap: 100px;
         transform: translateY(0%);
     }
 } */
+
+[class*="reveal-right"] {
+    opacity: 0;
+    transform: translatex(100px);
+}
+[class*="reveal-left"] {
+    opacity: 0;
+    transform: translatex(-100px);
+}
+[class*="reveal-bottom"] {
+    opacity: 0;
+    transform: translateY(100px);
+}
+
+.reveal-visible {
+    opacity: 1;
+    transform: translateX(0);
+    transition: 1s cubic-bezier(.74, 0, 0, 1);
+}
+.reveal-visible-forBottom {
+    opacity: 1;
+    transform: translateY(0);
+    transition: 1s cubic-bezier(.74, 0, 0, 1);
+}

@@ -7,7 +7,7 @@
         <h1>{{ trans('lang.STR_TITLE_MANUALS_1') }}</h1>
         <h2>{{ trans('lang.STR_TITLE_MANUALS_2') }}</h2>
         @include('incs.formManuals')
-        <img src="{{asset('assets/img/image-header-manuals.svg')}}" class='block-image' alt="">
+        <img src="{{asset('assets/img/image-header-manuals.svg')}}" class='block-image reveal-bottom' alt="">
     </div>
         <img src="{{asset('assets/img/68.svg')}}" class='square-left' alt="">
         <img src="{{asset('assets/img/69.svg')}}" class='bs-left' alt="">
@@ -25,11 +25,11 @@
 <main>
     <article>
         <section class="top-15-container">
-            <h2>{{trans('lang.STR_TITLE_MANUALS_3')}}</h2>
-            <img src="{{asset('assets/img/line-shape-3.svg')}}" class='line-custom'alt="">
+            <h2 class="reveal-bottom">{{trans('lang.STR_TITLE_MANUALS_3')}}</h2>
+            <img src="{{asset('assets/img/line-shape-3.svg')}}" class='line-custom reveal-bottom'alt="">
             <div class="most-manuals-container">
 
-                <div class="download custom-border-left1">
+                <div class="download custom-border-left1 reveal-bottom">
                     <div class="icons-manualsTop">
                         <img src="{{asset('assets/img/amplifier.svg')}}" alt="">
                     </div>
@@ -39,7 +39,7 @@
                     </div>
                 </div>
 
-                <div class="download custom-border-left2">
+                <div class="download custom-border-left2 reveal-bottom">
                     <div class="icons-manualsTop">
                         <img src="{{asset('assets/img/casque-audio.svg')}}" alt="">
                     </div>
@@ -49,7 +49,7 @@
                     </div>
                 </div>
 
-                <div class="download custom-border-left3">
+                <div class="download custom-border-left3 reveal-bottom">
                     <div class="icons-manualsTop">
                         <img src="{{asset('assets/img/computer.svg')}}" alt="">
                     </div>
@@ -59,7 +59,7 @@
                     </div>
                 </div>
 
-                <div class="download custom-border-left4">
+                <div class="download custom-border-left4 reveal-bottom">
                     <div class="icons-manualsTop">
                         <img src="{{asset('assets/img/electric-appliance.svg')}}" alt="">
                     </div>
@@ -69,7 +69,7 @@
                     </div>
                 </div>
 
-                <div class="download custom-border-left5">
+                <div class="download custom-border-left5 reveal-bottom">
                     <div class="icons-manualsTop">
                         <img src="{{asset('assets/img/ipad.svg')}}" alt="">
                     </div>
@@ -79,7 +79,7 @@
                     </div>
                 </div>
 
-                <div class="download custom-border-left6">
+                <div class="download custom-border-left6 reveal-bottom">
                     <div class="icons-manualsTop">
                         <img src="{{asset('assets/img/remote-control.svg')}}" alt="">
                     </div>
@@ -89,7 +89,7 @@
                     </div>
                 </div>
 
-                <div class="download custom-border-left7">
+                <div class="download custom-border-left7 reveal-bottom">
                     <div class="icons-manualsTop">
                         <img src="{{asset('assets/img/wifi.svg')}}" alt="">
                     </div>
@@ -99,7 +99,7 @@
                     </div>
                 </div>
 
-                <div class="download custom-border-left8">
+                <div class="download custom-border-left8 reveal-bottom">
                     <div class="icons-manualsTop">
                         <img src="{{asset('assets/img/watch-tv.svg')}}" alt="">
                     </div>
@@ -109,7 +109,7 @@
                     </div>
                 </div>
 
-                <div class="download custom-border-left9">
+                <div class="download custom-border-left9 reveal-bottom">
                     <div class="icons-manualsTop">
                         <img src="{{asset('assets/img/smartphone.svg')}}" alt="">
                     </div>
@@ -119,7 +119,7 @@
                     </div>
                 </div>
 
-                <div class="download custom-border-left10">
+                <div class="download custom-border-left10 reveal-bottom">
                     <div class="icons-manualsTop">
                         <img src="{{asset('assets/img/laptop.svg')}}" alt="">
                     </div>
@@ -132,11 +132,11 @@
         </section>
         
         <section class="manuals-block">
-            <div class="text-block">
+            <div class="text-block reveal-left">
                 <h2>{{trans('lang.STR_TITLE_MANUALS_4')}}</h2>
                 <p>{{trans('lang.STR_TEXT_MANUALS_1')}}</p>
             </div>
-            <img src="{{asset('assets/img/get-full.svg')}}" alt="">
+            <img src="{{asset('assets/img/get-full.svg')}}" class="reveal-right" alt="">
         </section>
         <img src="{{asset('assets/img/line-shape-9.svg')}}" class="separate-line-custom-manuals" alt="">
 
@@ -188,8 +188,8 @@
             {{-- <div class="rotating-slider">.Rotating images - 2rows</div> --}}
         </div>
         <section class="manuals-block">
-            <img src="{{asset('assets/img/needs-questions.svg')}}" alt="">
-            <div class="text-block">
+            <img src="{{asset('assets/img/needs-questions.svg')}}" class="reveal-left" alt="">
+            <div class="text-block reveal-right">
                 <h2>{{trans('lang.STR_TITLE_MANUALS_6')}}</h2>
                 <p>{{trans('lang.STR_TEXT_MANUALS_2')}}</p>
             </div>

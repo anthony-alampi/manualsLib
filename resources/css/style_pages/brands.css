@@ -39,7 +39,7 @@
 }
 .brands-header .line-shape{
     position: absolute;
-    top: 36%;
+    top: 200px;
     width: 40%;
     z-index: -1;
 }
