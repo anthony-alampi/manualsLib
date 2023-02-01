@@ -35,6 +35,7 @@ nav.scrolled {
 }
 .navlinks-container{
     display: flex;
+    align-items: center;
     column-gap: 50px;
 }
 .navlinks-container .separate{
@@ -51,11 +52,6 @@ nav.scrolled {
 }
 .navlinks-container a:hover{
     color: var(--color-btn);
-}
-
-.nav-authentication {
-    text-align: center;
-
 }
 
 .signs-btn button{
@@ -93,11 +89,12 @@ nav.scrolled {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 400px;
+    width: 500px;
     height: 500px;
     background: #fff;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 999;
 
 }
 
@@ -121,13 +118,16 @@ nav.scrolled {
 }
 
 .onglets {
-    width: 200px;
+    width: 100%;
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     background: #f1f1f1;
     cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
 }
 
 .onglets:nth-child(1) {
@@ -139,23 +139,43 @@ nav.scrolled {
     width: 100%;
     position: absolute;
     text-align: center;
-    top: 30%;
+    top: 35%;
     transform: translateY(-25%);
     opacity: 0;
+    font-family: 'Rubik', sans-serif;
+    font-size: 13px;
 }
 
 .login input {
-    width: 80%;
+    width: 90%;
     padding: 15px;
     margin-top: 30px;
     z-index: 999;
+    border: solid 2px rgba(167, 167, 167, 0.329);
+    border-radius: 5px;
 }
-
+.fm .fld:before {
+    transition: .3s;
+    font-size: 16px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-user:before {
+    content: "\f007";
+}
 .signup input {
     width: 80%;
     padding: 15px;
     margin-top: 30px;
     z-index: 999;
+    border: solid 2px rgba(167, 167, 167, 0.329);
+    border-radius: 5px;
 }
 
 .contenu button {
@@ -198,11 +218,6 @@ nav.scrolled {
         padding: 15px 20px;
         position: fixed;
     }
-
-    /* .nav-icon {
-        order: 2;
-        margin: 0 auto;
-    } */
 
     .nav-icon span {
         font-size: 22px;
@@ -293,13 +308,9 @@ nav.scrolled {
         height: 0.5px;
         background: #000;
     }
-
-    
-
-    .signs-btn {
-        display: none;
-    }
-
+.signs-btn button{
+   margin: 50px;
+}
 }
 
 @media (max-width: 500px) {

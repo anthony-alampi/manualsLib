@@ -3,7 +3,10 @@
 @section('content')
 
 <header class="features-header">
-    <h1>{{ trans('lang.STR_TITLE_12/5') }}</h1>
+    <div class="content-block">
+        <h1>{{ trans('lang.STR_TITLE_12/5') }}</h1>
+        <img src="{{asset('assets/img/line-shape-11.svg')}}" class="line-shape" alt="">
+    </div>
     <img src="{{asset('assets/img/carre.svg')}}" class="square-item1" />
     <img src="{{asset('assets/img/carre.svg')}}" class="square-item2" />
     <img src="{{asset('assets/img/carre.svg')}}" class="square-item3" />

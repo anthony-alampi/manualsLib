@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>ManualsLib</title>
         <link rel="shortcut icon" href="{{ asset('assets/img/favicon.ico') }}">
+<link rel="stylesheet" href="https://kit.fontawesome.com/7c618327f6.css" crossorigin="anonymous">
         @vite(['resources/css/style.css', 'resources/js/script.js'])
         
     </head>
@@ -15,7 +16,6 @@
         @yield('content')
 
         @include('incs.footer')
-
 <script src="https://cdn.jsdelivr.net/npm/micro-slider@1.0.9/dist/micro-slider.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
     </body>

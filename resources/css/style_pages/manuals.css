@@ -1,24 +1,9 @@
-.manuals-header:before{
-    background-image: url(/public/assets/img/67.svg);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-    height: 83%;
-    width: 100%;
-    content: "";
-    position: absolute;
-    bottom: -120px;
-    left: 0;
-    z-index: -1;
-    padding: 40px 0 0;
-
-}
-
-.manuals-header .content-block{
-    display: flex;
-    flex-direction: column;
+.manuals-header{
+    height: auto;
     position: relative;
-    width: 50%;
+}
+.manuals-header .content-block{
+    position: relative;
     margin: 150px auto 0;
 }
 .manuals-header .content-block h1{
@@ -28,9 +13,23 @@
     font-weight: var(--home-weight-h1);
     color: var(--home-color-h1);
     text-align: center;
-
 }
-.manuals-header .content-block h2{
+.manuals-header .content-block .line-custom{
+    position: absolute;
+    width: 40%;
+    top: 60px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: -1;
+}
+
+.searchForm-manuals{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.manuals-header .searchForm-manuals h2 {
     font-family: 'Rubik', sans-serif;
     font-size: 28px;
     font-weight: 300;
@@ -38,31 +37,33 @@
     text-align: center;
     padding: 25px 0 45px 0;
 }
-.manuals-header .content-block .block-image{
-    width: 150%;
-    margin:  165px 0 120px -25%;
-}
-.square-left{position: absolute; left: 11%;
-    top: 82%; width: 45px; animation: rotation 25s infinite; }
-.bs-left{position: absolute;left: 21%;
-    top: 65%;}
+.square-left{position: absolute; left: 5%;
+    top: 100%; width: 45px; animation: rotation 25s infinite; }
+.bs-left{position: absolute;left: 20%;
+    top: 80%; animation: floating 5s infinite; width: 100px;}
 .middle-left{position: absolute;left: 5%;
     top: 54%;}
 .circle-left{position: absolute;left: 16%;
     top: 57%;animation: floating 2s infinite;}
 .alternate-left{position: absolute;left: 7%;
-    top: 24%;}
-.square-right{position: absolute; right: 15%;
-    top: 24%; width: 35px; animation: rotation 25s infinite;}
+    top: 0%; animation: rotation 40s infinite; width: 100px;}
+    
+.square-right{position: absolute; right: 10%;
+    top: 0%; width: 35px; animation: rotation 25s infinite; width: 100px; z-index: -1;}
 .bs-right{position: absolute;right: 5%;
     top: 35%;}
 .sl-right{position: absolute;right: 20%;
     top: 54%;}
 .circle-right{position: absolute;right: 16%;
-    top: 57%; animation: floating 2s infinite;}
-.alternate-right{position: absolute;right:4%;
-    top: 65%; width: 280px;}
+    top: 80%; animation: floating 3s infinite; width: 50px;}
+.alternate-right{position: absolute;right:10%;
+    top: 65%; width: 15px; opacity: 0.5;}
 
+.block-image-manuals {
+    display: block;
+    width: 70%;
+    margin: 100px auto 0;
+}
 /*--------------MOST DOWNLOADED MANUALS------------------*/
 .top-15-container{
     position: relative;
@@ -82,19 +83,28 @@
 }
 .top-15-container .most-manuals-container{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     row-gap: 20px;
+}
+.top-15-container .most-manuals-container .sub-container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    /* width: 100%; */
+    justify-content: center;
+    align-items: center;
 }
 .top-15-container .most-manuals-container .download{
     width: 500px;
-    height: 170px;
+    height: 100px;
     background: #fff;
     border-left-style: solid;
     border-left-width: 5px;
     border-radius: 10px;
     box-shadow: 0 20px 60px rgb(10 30 81 / 4%);
-    margin-top: 35px;
+    margin-top: 20px;
     padding: 37px 50px;
     display: flex;
     align-items: center;
@@ -103,15 +113,15 @@
 }
 
 .download .icons-manualsTop img{
-    width: 50px;
+    width: 40px;
 }
 .download .text-block h2{
     font-family: 'Gilroy-semibold', sans-serif;
-    font-size: 28px;
+    font-size: 25px;
 }
 .download .text-block h3{
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 13px;
     color: var(--color-text);
     font-weight: var(--weight-text);
 }
@@ -128,7 +138,8 @@
     width: 40%;
 }
 .manuals-block .text-block h2{
-    font-family: 'Rubik', sans-serif;
+    /* font-family: 'Rubik', sans-serif; */
+    font-family: 'gilroy-black', sans-serif;
     font-size: 42px;
     padding: 20px 0px 30px 0px;
     line-height: 1.28em;
@@ -189,6 +200,9 @@
 }
 
 /*---------------------*/
+.download-category{
+    position: relative
+}
 .download-category h2{
     font-family: 'gilroy-black', sans-serif;
     font-size: 50px;
@@ -197,7 +211,7 @@
 }
 
 .download-category .line-custom{
-    width: 40%;
+    width: 45%;
     margin-top: -20px;
     margin-left: 50%;
     transform: translateX(-50%);

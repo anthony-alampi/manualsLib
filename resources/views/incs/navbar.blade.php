@@ -26,15 +26,9 @@
                 <div class="separate"></div>
                 <a href="{{route('about')}}">About</a>
                 <div class="separate"></div>
-                {{-- <a href="{{route('about')}}">Login</a> --}}
-            </div>
-        </div>
-            <div class="nav-authentication">
-                {{-- <a href="#" class="sign-user" aria-label="Sign in page">
-                    <img src=" {{asset('assets/img/user-avatar-filled.svg')}} " alt="user-icon">
-                </a> --}}
                 <div class="signs-btn">
-                <button type="button" class='btn-form' id="openModalBtn">Sign Up</button>
+                    <button type="button" class='btn-form' id="openModalBtn">Sign Up</button>
+                </div>
             </div>
         </div>
     </nav>
@@ -50,7 +44,10 @@
         <div class="contenu login startContenu" data-anim="1">
             <h2>Authentication</h2>
             <form>
+                <fieldset class=" fal fa-user fld">
                 <input type="email" placeholder="Email address">
+                </fieldset>
+                {{-- <img src="{{asset('assets/img/amplifier.svg')}}" alt=""> --}}
                 <input type="password" placeholder="Enter password">
                 <a href="#">Forgot a password</a>
                 <button>Log in</button>

@@ -5,6 +5,7 @@
 <header class="about-header">
     <div class="title-text">
         <h1>{{trans('lang.STR_TITLE_60')}}</h1>
+        <img src="{{asset('assets/img/line-shape-11.svg')}}" class="line-shape" alt="">
         <p>{{trans('lang.STR_TEXT_46')}}</p>
     </div>
     <div class="circle-anim1"></div>
@@ -56,6 +57,7 @@
             <article class="our-team">
                 <div class="text-block reveal-left" >
                     <h2>{{trans('lang.STR_TITLE_63')}}</h2>
+                    <img src="{{asset('assets/img/line-shape-11.svg')}}" class="line-shape" alt="">
                     <p>{{trans('lang.STR_TEXT_49')}}</p>
                 </div>
                 <div class="team-custom-line"></div>

@@ -5,16 +5,21 @@
 <header class="brands-header">
         <h1>{{trans('lang.STR_TITLE_BRANDS_1')}}</h1>
         <p>{{trans('lang.STR_TEXT_BRANDS_1')}}</p>
-        <img src="{{asset('assets/img/95.svg')}}" class="geometric1" alt="">
-        <img src="{{asset('assets/img/96.svg')}}" class="geometric2" alt="">
+        <img src="{{asset('assets/img/triangle-effect-1.svg')}}" class="geometric1" alt="">
+        <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="geometric2" alt="">
+        <img src="{{asset('assets/img/carre.svg')}}" class="geometric3" alt="">
+        <img src="{{asset('assets/img/carre.svg')}}" class="geometric4" alt="">
+        <img src="{{asset('assets/img/orange-triangle.svg')}}" class="geometric5" alt="">
         <img src="{{asset('assets/img/line-shape-11.svg')}}" class="line-shape" alt="">
 </header>
 
 <main>
     <article class='brands-custom-bg'>
         <section>
+            <div class="content-sub-block">
             <h2>{{trans('lang.STR_TITLE_BRANDS_2')}}</h2>
-
+            <img src="{{asset('assets/img/line-shape-11.svg')}}" class="line-shape" alt="">
+            </div>
             <div class="brands-logo-container">
                 <div class="brand-item reveal-left">
                     <h3>{{trans('lang.STR_TITLE_BRAND_ITEM_1')}}</h3>

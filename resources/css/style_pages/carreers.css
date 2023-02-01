@@ -1,16 +1,33 @@
 .carreers-header {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    margin-bottom: 200px;
-    padding: 250px 0 50px 0;
+}
+
+.carreers-header .title-text {
+    margin-top: 150px;
+    text-align: center;
+    position: relative;
 }
 
 .carreers-header .title-text h1 {
     font-family: var(--home-font-h1);
-    font-size: 78px;
+    font-size: 80px;
     line-height: var(--home-line-h1);
     font-weight: var(--home-weight-h1);
     color: var(--home-color-h1);
     text-align: center;
+}
+
+.carreers-header .title-text .line-shape {
+    position: absolute;
+    width: 70%;
+    top: 60px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: -1;
 }
 .carreers-header .circle-anim1 {
     position: absolute;
@@ -81,7 +98,7 @@
 .content-carreers h2{
     text-align: center;
     font-family: 'gilroy-black', sans-serif;
-    font-size: 32px;
+    font-size: 42px;
     color: #101621;
     margin: 100px auto 100px;
     width: 50%;
@@ -92,6 +109,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 200px 0 200px;
+    margin-top: 100px;
 }
 /*------- TEXT BLOCK--------------*/
 .fullContain .text-block{

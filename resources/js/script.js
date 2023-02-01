@@ -29,7 +29,8 @@ closeModalBtn.addEventListener("click", function () {
 });
 
 let index = 0;
-
+let i = 0;
+let j = 0;
 onglets.forEach((onglet) => {
     onglet.addEventListener("click", () => {
         if (onglet.classList.contains("start")) {

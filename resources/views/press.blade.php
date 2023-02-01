@@ -5,6 +5,7 @@
  <header class="press-header">
     <div class="title-text">
         <h1>{{trans('lang.STR_TITLE_PRESS_1')}}</h1>
+        <img src="{{asset('assets/img/line-shape-11.svg')}}" class="line-shape" alt="">
     </div>
     <div class="circle-anim1"></div>
     <div class="circle-anim2"></div>
@@ -17,7 +18,8 @@
     <main>
         <article>
             <section class="press-container">
-                <article class="article">
+                <div class="sub-container">
+<article class="article">
                     <div class="image-container">
                         <img src="{{asset('assets/img/bbc.jpg')}}" alt="">
                     </div>
@@ -38,6 +40,8 @@
                     <h3>{{trans('lang.STR_TITLE_CITATION_3')}}</h3>
                     <a href="#" class="read-article">Read the article</a>
                 </article>
+                </div>
+                <div class="sub-container">
                 <article class="article">
                     <div class="image-container">
                         <img src="{{asset('assets/img/bfm.jpg')}}" alt="">
@@ -52,6 +56,15 @@
                     <h3>{{trans('lang.STR_TITLE_CITATION_5')}}</h3>
                     <a href="#" class="read-article">Read the article</a>
                 </article>
+                <article class="article">
+                    <div class="image-container">
+                        <img src="{{asset('assets/img/bbc.jpg')}}" alt="">
+                    </div>
+                    <h3>{{trans('lang.STR_TITLE_CITATION_5')}}</h3>
+                    <a href="#" class="read-article">Read the article</a>
+                </article>
+                </div>
+
             </section>
 
             <article class="features-container1 bg-block">

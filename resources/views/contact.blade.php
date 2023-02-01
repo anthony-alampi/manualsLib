@@ -5,6 +5,7 @@
 <header class="contact-header">
     <div class="title-text">
         <h1>{{trans('lang.STR_TITLE_CONTACT_1')}}</h1>
+        <img src="{{asset('assets/img/line-shape-11.svg')}}" class="line-shape" alt="">
     </div>
     <div class="circle-anim1"></div>
     <div class="circle-anim2"></div>
@@ -15,7 +16,7 @@
 </header>
 
 <main>
-    <article>
+    <article class="contact-form">
         @include('incs.formContactCarreers')
     </article>
     <article>
