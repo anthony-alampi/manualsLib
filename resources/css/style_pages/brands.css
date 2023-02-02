@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
     position: relative;
+    margin: 225px auto 0;
 }
 
 .brands-header h1 {
@@ -15,7 +16,6 @@
     text-align: center;
     width: 60%;
     color: #101621;
-    margin-top: 150px;
 }
 
 .brands-header p {
@@ -66,7 +66,7 @@
 }
 .brands-header .line-shape{
     position: absolute;
-    top: 210px;
+    top: 60px;
     width: 40%;
     z-index: -1;
 }
@@ -121,7 +121,7 @@
 
 
 .brands-logo-container .brand-item h3{
-    font-family: 'Rubik', sans-serif;
+    font-family: var(--home-font-h1);
     font-size: 28px;
     color: #2A2A2A;
     font-weight: 800;

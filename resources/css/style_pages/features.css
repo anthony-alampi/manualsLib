@@ -1,14 +1,9 @@
 .features-header{
-
     height: auto;
-    /* padding: 225px 0 180px 0; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: relative;
 }
 .features-header .content-block{
-    margin: 150px auto 0;
+    margin: 225px auto 0;
     position: relative;
 }
 .features-header .content-block h1{
@@ -18,10 +13,11 @@
     font-weight: var(--home-weight-h1);
     color: var(--home-color-h1);
     letter-spacing: 5px;
+    text-align: center;
 }
 .features-header .content-block .line-shape {
     position: absolute;
-    width: 100%;
+    width: 40%;
     top: 60px;
     left: 50%;
     transform: translate(-50%);
@@ -82,7 +78,7 @@
 }
 
 .features-block h2{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Gilroy-black', sans-serif;
     color: #202020;
     font-size: 42px;
     line-height: 1.35em;
@@ -154,7 +150,7 @@
 }
 
 .features-block h2 {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Gilroy-black', sans-serif;
     color: #202020;
     font-size: 42px;
     line-height: 1.35em;
@@ -232,7 +228,7 @@
 }
 
 .features-container2 .features-block h2 {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Gilroy-black', sans-serif;
     color: #202020;
     font-size: 42px;
     line-height: 1.35em;
@@ -327,7 +323,7 @@
 }
 
 .features-container4 .features-block h2 {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Gilroy-black', sans-serif;
     color: #202020;
     font-size: 42px;
     line-height: 1.35em;
@@ -399,10 +395,10 @@
 }
 
 .features-block h2 {
-    font-family: 'Rubik', sans-serif;
-        color: #202020;
-        font-size: 42px;
-        line-height: 1.35em;
+    font-family: 'Gilroy-black', sans-serif;
+    color: #202020;
+    font-size: 42px;
+    line-height: 1.35em;
         margin-bottom: 20px;
 }
 

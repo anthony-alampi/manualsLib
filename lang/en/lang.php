@@ -8,7 +8,7 @@ return
         //* Home - Title *//
         'STR_TITLE_HOMEPAGE_1' => 'Find the user manual for your device',
         'STR_TITLE_HOMEPAGE_2' => 'Search by brand, model or serial number',
-        'STR_TITLE_HOMEPAGE_3' => 'Access more than 50 000 Manuals available from our database',
+        'STR_TITLE_HOMEPAGE_3' => 'To access more than 50 000 Manuals available from our database',
         'STR_TITLE_HOMEPAGE_4' => 'Get remote assistance for all your devices',
         'STR_TITLE_HOMEPAGE_5' => 'Some of the devices we cover',
         'STR_TITLE_HOMEPAGE_6' => 'We\'ve got user manuals and troubleshooting guides for all devices',    
@@ -86,7 +86,7 @@ return
 
         //* Brands - Title *//
         'STR_TITLE_BRANDS_1' => 'More than XXX Brands supported',    
-        'STR_TITLE_BRANDS_2' => 'The top 15 most searched brands',    
+        'STR_TITLE_BRANDS_2' => 'Top 15 most searched brands',    
         'STR_TITLE_BRANDS_3' => 'Get all user manuals for a specific brand',    
         'STR_TITLE_BRANDS_4' => 'Need assistance for a specific brand ?',    
             //* Brands item listing *//
@@ -116,16 +116,19 @@ return
         //* Pricing - Title *//
         'STR_TITLE_PRICING_1' => 'Choose the plan that suits your needs',    
 
-        'STR_TITLE_PRICING_2' => 'Free plan',    
+        'STR_TITLE_PRICING_2' => 'FREE',    
+            'STR_PRICE_CARD_1' => '0',    
             'STR_TEXT_1_CARD_1' => 'Includes :',    
             'STR_TEXT_2_CARD_1' => 'X manuals / month',    
 
-        'STR_TITLE_PRICING_3' => 'Trial plan',    
+        'STR_TITLE_PRICING_3' => 'STANDARD',    
+            'STR_PRICE_CARD_2' => '29',    
             'STR_TEXT_1_CARD_2' => 'X€ / manual',    
             'STR_TEXT_2_CARD_2' => 'Then X€ / month',    
             'STR_TEXT_3_CARD_2' => 'X Assistance',    
             
-        'STR_TITLE_PRICING_4' => 'Premium plan',    
+        'STR_TITLE_PRICING_4' => 'BUSINESS',    
+            'STR_PRICE_CARD_3' => '65',    
             'STR_TEXT_1_CARD_3' => 'X€ / month :',    
             'STR_TEXT_2_CARD_3' => 'Unlimited access',    
             'STR_TEXT_3_CARD_3' => 'X Assistance',    

@@ -1,16 +1,11 @@
 .contact-header {
     height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+        position: relative;
 }
 
 .contact-header .title-text {
-    margin-top: 150px;
-    width: 60%;
-    text-align: center;
     position: relative;
+        margin: 225px auto 0;
 }
 .contact-header .title-text h1 {
     font-family: var(--home-font-h1);
@@ -124,7 +119,7 @@
 }
 
 .contact-block h2 {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Gilroy-black', sans-serif;
     color: #202020;
     font-size: 23px;
     line-height: 1.35em;

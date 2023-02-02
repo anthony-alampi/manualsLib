@@ -20,7 +20,8 @@
 </header>
 
 <main>
-<section>
+</article>
+        <section>
                 <div class="slider">
 	                <div class="slide-track">
 		                <div class="slide">
@@ -59,10 +60,40 @@
                         <div class="slide">
 			                <img src="{{asset('assets/img/Toshiba-Logo.png')}}" alt="Brands logo" />
 	                    </div>
+                        <div class="slide">
+			                <img src="{{asset('assets/img/Toshiba-Logo.png')}}" alt="Brands logo" />
+	                    </div>
+                        <div class="slide">
+			                <img src="{{asset('assets/img/Toshiba-Logo.png')}}" alt="Brands logo" />
+	                    </div>
+                        <div class="slide">
+			                <img src="{{asset('assets/img/Toshiba-Logo.png')}}" alt="Brands logo" />
+	                    </div>
+                        <div class="slide">
+			                <img src="{{asset('assets/img/Toshiba-Logo.png')}}" alt="Brands logo" />
+	                    </div>
+                        <div class="slide">
+			                <img src="{{asset('assets/img/Toshiba-Logo.png')}}" alt="Brands logo" />
+	                    </div>
+                        <div class="slide">
+			                <img src="{{asset('assets/img/Toshiba-Logo.png')}}" alt="Brands logo" />
+	                    </div>
+                        <div class="slide">
+			                <img src="{{asset('assets/img/Toshiba-Logo.png')}}" alt="Brands logo" />
+	                    </div>
+                        <div class="slide">
+			                <img src="{{asset('assets/img/Toshiba-Logo.png')}}" alt="Brands logo" />
+	                    </div>
+                        <div class="slide">
+			                <img src="{{asset('assets/img/Toshiba-Logo.png')}}" alt="Brands logo" />
+	                    </div>
+                        <div class="slide">
+			                <img src="{{asset('assets/img/Toshiba-Logo.png')}}" alt="Brands logo" />
+	                    </div>
                     </div>
                 </div>
             </section>
-    <article>
+
         <div class="homepage-subtitle">
             <div class="device-title-custom">
                 <h2>{{ trans('lang.STR_TITLE_HOMEPAGE_3') }}</h2>
@@ -76,7 +107,7 @@
             <div class="devices-container">
             <img src="{{asset('assets/img/triangle-effect-1.svg')}}" class="floating-triangle" />
 
-            <div class="devices-sub">
+            {{-- <div class="devices-sub"> --}}
                 <div class="device">
                     <img src="{{asset('assets/img/electric-appliance.svg')}}" alt="">
                     <h2>{{ trans('lang.STR_TITLE_DEVICE_1') }}</h2>
@@ -93,9 +124,9 @@
                     <img src="{{asset('assets/img/computer.svg')}}" alt="">
                     <h2>{{ trans('lang.STR_TITLE_DEVICE_4') }}</h2>
                 </div>
-            </div>
+            {{-- </div> --}}
 
-            <div class="devices-sub">
+            {{-- <div class="devices-sub"> --}}
                 <div class="device">
                     <img src="{{asset('assets/img/watch-tv.svg')}}" alt="">
                     <h2>{{ trans('lang.STR_TITLE_DEVICE_5') }}</h2>
@@ -114,7 +145,7 @@
                 </div> 
                 <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="rotate-circle"/>
 
-            </div>
+            {{-- </div> --}}
         </div>
 
 
@@ -123,7 +154,7 @@
 
         <section class='content-block3 '>
             <div class='title-text reveal-left '>
-                <img src="{{asset('assets/img/operator.svg')}}" class="icon"alt="">
+                {{-- <img src="{{asset('assets/img/operator.svg')}}" class="icon"alt=""> --}}
                 <h2>{{ trans('lang.STR_TITLE_HOMEPAGE_8') }}</h2>
                 <p>{{trans('lang.STR_TEXT_3')}}</p>
             </div>
@@ -149,7 +180,7 @@
                 <img src="{{asset('assets/img/carre.svg')}}" class="child-square5" alt=''/>
             </div>
             <div class='title-text reveal-right'>
-                <img src="{{asset('assets/img/translation.svg')}}" class="icon"alt="">
+                {{-- <img src="{{asset('assets/img/translation.svg')}}" class="icon"alt=""> --}}
                 <h2>{{ trans('lang.STR_TITLE_HOMEPAGE_7') }}</h2>
                 <img src="{{asset('assets/img/line-shape-3.svg')}}" class="line-shape" alt="">
                 <p>{{trans('lang.STR_TEXT_2')}}</p>
@@ -157,7 +188,7 @@
         </section>
         <section class='content-block1 '>
             <div class='title reveal-left'>
-                <img src="{{asset('assets/img/manual.svg')}}" alt="">
+                {{-- <img src="{{asset('assets/img/manual.svg')}}" alt=""> --}}
                 <h2>{{ trans('lang.STR_TITLE_HOMEPAGE_6') }}</h2>
                 <p>{{trans('lang.STR_TEXT_1')}}</p>
             </div>

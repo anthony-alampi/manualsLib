@@ -14,23 +14,35 @@
         <div class="pricing-table">
             <img src="{{asset('assets/img/triangle-effect-1.svg')}}" class="triangle-item" />
             <div class="pricing-container1 reveal-left">
-                <img src="{{asset('assets/img/free.svg')}}" class="icons-plan" />
+                {{-- <img src="{{asset('assets/img/free.svg')}}" class="icons-plan" /> --}}
                 <h2>{{ trans('lang.STR_TITLE_PRICING_2') }}</h2>
+                <div class="pricing-plan">
+                    <span>$</span>
+                    <h3>{{trans('lang.STR_PRICE_CARD_1')}}</h3>
+                </div>
                 <div class="separate-custom"></div>
                 {{-- <p class="includes">{{ trans('lang.STR_TEXT_1_CARD_1') }}</p> --}}
                 <p class="manuals custom-position">{{ trans('lang.STR_TEXT_2_CARD_1') }}</p>
             </div>
             <div class="pricing-container2 reveal-bottom">
-                <img src="{{asset('assets/img/trial.svg')}}" class="icons-plan" />
+                {{-- <img src="{{asset('assets/img/trial.svg')}}" class="icons-plan" /> --}}
                 <h2>{{ trans('lang.STR_TITLE_PRICING_3') }}</h2>
+                <div class="pricing-plan">
+                    <span>$</span>
+                    <h3>{{trans('lang.STR_PRICE_CARD_2')}}</h3>
+                </div>
                 <div class="separate-custom"></div>
                 <p class="includes">{{ trans('lang.STR_TEXT_1_CARD_2') }}</p>
                 <p class="manuals">{{ trans('lang.STR_TEXT_2_CARD_2') }}</p>
                 <p class="includes">{{ trans('lang.STR_TEXT_3_CARD_2') }}</p>
             </div>
             <div class="pricing-container3 reveal-right">
-                <img src="{{asset('assets/img/premium.svg')}}" class="icons-plan" />
+                {{-- <img src="{{asset('assets/img/premium.svg')}}" class="icons-plan" /> --}}
                 <h2>{{ trans('lang.STR_TITLE_PRICING_4') }}</h2>
+                <div class="pricing-plan">
+                    <span>$</span>
+                    <h3>{{trans('lang.STR_PRICE_CARD_3')}}</h3>
+                </div>
                 <div class="separate-custom"></div>
                 <p class="includes">{{ trans('lang.STR_TEXT_1_CARD_3') }}</p>
                 <p class="manuals">{{ trans('lang.STR_TEXT_2_CARD_3') }}</p>

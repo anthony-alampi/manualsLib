@@ -1,11 +1,11 @@
 .press-header {
-    height:60vh;
+    height: auto;
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .title-text{
+    width: 60%;
+    margin: 225px auto 100px;
+    text-align: center;
     position: relative;
 }
 .press-header .title-text h1 {
@@ -18,10 +18,11 @@
 }
 .press-header .title-text .line-shape{
     position: absolute;
-    width: 50%;
+    width: 70%;
     transform: translateX(-50%);
     left: 50%;
     top: 65px;
+    z-index: -1;
 }
 .press-header .circle-anim1 {
     position: absolute;
@@ -124,7 +125,7 @@
 }
 
 .article h3{
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Gilroy-black', sans-serif;
     font-size: 30px;
     line-height: 1.3em;
     margin-bottom: 50px;

@@ -31,8 +31,8 @@
 
 
 .api-container{
-    margin-top: 0px;
-    margin-left: 200px;
+    margin-top: -300px;
+    margin-left: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,12 +40,10 @@
 
 }
 .api-container .title-text{
-    margin-bottom: 100px;
-    margin-left: 50px;
-    width: 50%;
+    margin-bottom: -100px;
 }
 .api-container .title-text h2{
-    font-family: 'gilroy-semibold', sans-serif;
+    font-family: 'Gilroy-black', sans-serif;
     font-size: 28px;
     color: #101621;
     margin-bottom: 20px;

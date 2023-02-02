@@ -17,7 +17,7 @@
 }
 
 .faq .faq-question h2 {
-    font-family: var(--font-h2);
+    font-family: 'Gilroy-black', sans-serif;
     font-size: var(--size-h2);
     color: var(--color-h2);
     margin-bottom: 10px;

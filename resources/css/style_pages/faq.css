@@ -1,16 +1,11 @@
 .faq-header {
     height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+        position: relative;
 }
 
 .faq-header .title-text {
-    margin-top: 150px;
-    width: 60%;
-    text-align: center;
     position: relative;
+    margin: 225px auto 0;
 }
 
 .faq-header .title-text h1 {

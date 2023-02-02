@@ -1,20 +1,16 @@
 .carreers-header {
     height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: relative;
 }
 
 .carreers-header .title-text {
-    margin-top: 150px;
-    text-align: center;
     position: relative;
+    margin: 225px auto 0;
 }
 
 .carreers-header .title-text h1 {
     font-family: var(--home-font-h1);
-    font-size: 80px;
+    font-size: 78px;
     line-height: var(--home-line-h1);
     font-weight: var(--home-weight-h1);
     color: var(--home-color-h1);
@@ -118,7 +114,7 @@
     text-align: center;
 }
 .fullContain .text-block h2{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Gilroy-black', sans-serif;
     line-height: 1.15em;
     font-size: 42px;
 }
@@ -150,7 +146,7 @@
 }
 
 .carreers-block h2 {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Gilroy-black', sans-serif;
     color: #202020;
     font-size: 23px;
     line-height: 1.35em;

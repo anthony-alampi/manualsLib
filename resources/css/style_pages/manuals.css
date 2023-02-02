@@ -4,7 +4,7 @@
 }
 .manuals-header .content-block{
     position: relative;
-    margin: 150px auto 0;
+    margin: 225px auto 0;
 }
 .manuals-header .content-block h1{
     font-family: var(--home-font-h1);
@@ -116,7 +116,7 @@
     width: 40px;
 }
 .download .text-block h2{
-    font-family: 'Gilroy-semibold', sans-serif;
+    font-family: 'Gilroy-black', sans-serif;
     font-size: 25px;
 }
 .download .text-block h3{

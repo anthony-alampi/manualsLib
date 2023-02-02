@@ -1,14 +1,11 @@
 .about-header{
     height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: relative;
 }
 
 .about-header .title-text{
-    margin-top: 100px;
     width: 60%;
+    margin: 225px auto 0;
     text-align: center;
     position: relative;
 }
@@ -237,7 +234,7 @@
     padding-right: 70px;
 }
 .our-mission .text-block h2{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Gilroy-black', sans-serif;
     font-size: 42px;
     color: #181818;
     line-height: 1.15em;
@@ -294,7 +291,7 @@
 }
 
 .our-solution .text-block h2 {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Gilroy-black', sans-serif;
     font-size: 42px;
     color: #101621;
     line-height: 1.15em;

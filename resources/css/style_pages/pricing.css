@@ -1,13 +1,16 @@
 .pricing-header {
-    height: auto;
+    height: 100vh;
     position: relative;
+    background: #ecf6ff;
+    z-index: -2;
 }
 .pricing-header .content-block {
     display: flex;
     flex-direction: column;
     position: relative;
-    width: 80%;
-    margin: 150px auto 0;
+    width: 60%;
+    padding-top: 200px;
+    margin: 0 auto 0;
 }
 
 .pricing-header .content-block h1{
@@ -24,8 +27,8 @@
 }
 .pricing-header .line-shape {
     position: absolute;
-    width: 50%;
-    top: 60px;
+    width: 70%;
+    top: 265px;
     left: 50%;
     transform: translate(-50%);
     z-index: -1;
@@ -62,7 +65,7 @@
     flex-wrap: wrap;
     justify-content: center;
     position: relative;
-    margin-top: 150px;
+    margin-top: -260px;
     /* margin-bottom: 150px; */
 }
 
@@ -87,35 +90,46 @@
 .pricing-container1{
     border: solid 1px rgba(219, 219, 219, 0.356);
     background-color: #fff;
-    padding: 20px 20px 200px 20px;
+    /* padding: 20px 20px 200px 20px; */
+    width: 280px;
     z-index: 1;
 }
-.pricing-table .pricing-container1 .icons-plan {
-    width: 70px;
-    margin-left: 50%;
-    transform: translateX(-50%);
-}
-
-.pricing-container1 h2{
-    font-family: 'gilroy-semibold';
+.pricing-container1 h2 {
+    font-family: 'Gilroy-black', sans-serif;
     font-size: 18px;
     color: #202020;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2.1px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
-.pricing-container1 .includes{
+.pricing-plan{
+    display: flex;
+    justify-content: center;
+}
+.pricing-plan h3{
+    color: #000;
+    font-family: gilroy-semibold;
+    font-size: 72px;
+
+}
+.pricing-plan span{
+    font-family: gilroy-semibold;
+    font-size: 25px;
+}
+
+/* .pricing-container1 .includes{
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
     font-weight: 700;
     color: #202020;
     text-align: center;
     margin: 70px 0 70px 0;
-}
+} */
 .pricing-container1 .manuals{
     font-family: 'gilroy-semibold', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     color: #101621;
     text-align: center;
     margin-top: 170px;
@@ -124,33 +138,31 @@
 .pricing-container2 {
     border: solid 1px rgba(219, 219, 219, 0.356);
     background-color: #fff;
-    padding: 20px 20px 200px 20px;
+    /* padding: 20px 20px 200px 20px; */
+    width: 280px;
 
 }
-.pricing-table .pricing-container2 .icons-plan {
-    width: 70px;
-    margin-left: 50%;
-    transform: translateX(-50%);
-}
+
 .pricing-container2 h2 {
-    font-family: 'gilroy-semibold';
+    font-family: 'Gilroy-black', sans-serif;
     font-size: 18px;
     color: #202020;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2.1px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .separate-custom{
-    /* width: 100%; */
+    width: 100%;
     height: 1px;
     margin: 35px 0 0;
     background: rgb(211, 211, 211);
 }
 .pricing-container2 .includes {
     font-family: 'Roboto', sans-serif;
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 700;
     color: #202020;
     text-align: center;
@@ -158,7 +170,7 @@
 }
 .pricing-container2 .manuals {
     font-family: 'gilroy-semibold', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     color: #101621;
     text-align: center;
 }
@@ -166,26 +178,24 @@
 .pricing-container3 {
     border: solid 1px rgba(219, 219, 219, 0.356);
     background-color: #fff;
-    padding: 20px 20px 200px 20px;
+    /* padding: 20px 20px 200px 20px; */
+    width: 280px;
 
 }
-.pricing-table .pricing-container3 .icons-plan {
-    width: 70px;
-    margin-left: 50%;
-    transform: translateX(-50%);
-}
+
 .pricing-container3 h2 {
-    font-family: 'gilroy-semibold';
+    font-family: 'Gilroy-black', sans-serif;
     font-size: 18px;
     color: #202020;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2.1px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 .pricing-container3 .includes {
     font-family: 'Roboto', sans-serif;
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 700;
     color: #202020;
     text-align: center;
@@ -193,7 +203,7 @@
 }
 .pricing-container3 .manuals {
     font-family: 'gilroy-semibold', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     color: #101621;
     text-align: center;
 }
@@ -217,7 +227,7 @@
     justify-content: center;
 }
 .pricing-containers .pricing-section1 h2{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Gilroy-black', sans-serif;
     color: #202020;
     font-size: 42px;
     line-height: 1.35em;
@@ -316,7 +326,7 @@
 }
 
 .pricing-section2 .pricing-block h2 {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Gilroy-black', sans-serif;
     color: #202020;
     font-size: 42px;
     line-height: 1.35em;
@@ -394,7 +404,7 @@
 }
 
 .pricing-section3 .pricing-block h2 {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Gilroy-black', sans-serif;
     color: #202020;
     font-size: 42px;
     line-height: 1.35em;
@@ -471,7 +481,7 @@
 }
 
 .pricing-section5 .pricing-block h2 {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Gilroy-black', sans-serif;
     color: #202020;
     font-size: 42px;
     line-height: 1.35em;
@@ -547,7 +557,7 @@
 }
 
 .pricing-section6 .pricing-block h2 {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Gilroy-black', sans-serif;
     color: #202020;
     font-size: 42px;
     line-height: 1.35em;
@@ -625,7 +635,7 @@
 }
 
 .pricing-section7 .pricing-block h2 {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Gilroy-black', sans-serif;
     color: #202020;
     font-size: 42px;
     line-height: 1.35em;
