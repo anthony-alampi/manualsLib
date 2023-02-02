@@ -5,7 +5,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>ManualsLib</title>
         <link rel="shortcut icon" href="{{ asset('assets/img/favicon.ico') }}">
-<link rel="stylesheet" href="https://kit.fontawesome.com/7c618327f6.css" crossorigin="anonymous">
         @vite(['resources/css/style.css', 'resources/js/script.js'])
         
     </head>

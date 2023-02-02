@@ -136,6 +136,7 @@
 }
 .manuals-block .text-block{
     width: 40%;
+    margin-left: 10px;
 }
 .manuals-block .text-block h2{
     /* font-family: 'Rubik', sans-serif; */

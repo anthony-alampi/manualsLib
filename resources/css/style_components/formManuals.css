@@ -37,3 +37,19 @@
     background-color: #fff;
     color: #fd6a5e;
 }
+
+@media (max-width: 865px) {
+
+
+    .search-form {
+        width: 100%;
+    }
+    #search-button {
+    width: 70px;
+    height: 54px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    box-shadow: 0px 10px 15px -3px #33333349;
+    }
+
+}

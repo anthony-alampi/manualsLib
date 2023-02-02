@@ -27,14 +27,14 @@
                 <a href="{{route('about')}}">About</a>
                 <div class="separate"></div>
                 <div class="signs-btn">
-                    <button type="button" class='btn-form' id="openModalBtn">Sign Up</button>
+                    <button type="button" class='btn-form' id="openModalBtn">Sign-in/ up</button>
                 </div>
             </div>
         </div>
     </nav>
 
-
-        <div id="modal">
+<div id="opacityModal">
+    <div id="modal">
         <img class="closeModalBtn" src="{{asset('assets/img/annuler.svg')}}" alt="">
             <div class="container-onglets">
                 <div class="onglets start" data-anim="1">Log in</div>
@@ -44,12 +44,12 @@
         <div class="contenu login startContenu" data-anim="1">
             <h2>Authentication</h2>
             <form>
-                <fieldset class=" fal fa-user fld">
+                <img src="{{asset('assets/img/user-regular.svg')}}" class="icon-login" alt="">
                 <input type="email" placeholder="Email address">
-                </fieldset>
-                {{-- <img src="{{asset('assets/img/amplifier.svg')}}" alt=""> --}}
+
+                <img src="{{asset('assets/img/key.svg')}}" class="icon-key" alt="">
                 <input type="password" placeholder="Enter password">
-                <a href="#">Forgot a password</a>
+                <a href="#">I forgot my password</a>
                 <button>Log in</button>
             </form>
         </div>
@@ -57,13 +57,16 @@
         <div class="contenu signup " data-anim="2">
             <h2>Register</h2>
             <form>
+                <img src="{{asset('assets/img/user-regular.svg')}}" class="icon-login" alt="">
                 <input type="email" placeholder="Email address">
+                <img src="{{asset('assets/img/key.svg')}}" class="icon-key" alt="">
                 <input type="password" placeholder="Enter password">
+                <img src="{{asset('assets/img/key.svg')}}" class="icon-key2" alt="">
                 <input type="password" placeholder="Verify password">
                 <button>Sign up</button>
             </form>
         </div>
     </div>
-
+</div>
 
 

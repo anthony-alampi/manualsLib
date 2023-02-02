@@ -21,12 +21,20 @@ const openModalBtn = document.querySelector("#openModalBtn");
 const closeModalBtn = document.querySelector(".closeModalBtn");
 const modal = document.querySelector("#modal");
 
+
 openModalBtn.addEventListener("click", function () {
     modal.style.display = "block";
 });
 closeModalBtn.addEventListener("click", function () {
     modal.style.display = "none";
 });
+window.addEventListener("click", function (event) {
+    if (event.target === modal) {
+        console.log('close');
+        modal.style.display = "none";
+    }
+});
+
 
 let index = 0;
 let i = 0;
@@ -60,46 +68,49 @@ onglets.forEach((onglet) => {
 
 
 //--------------------------------------Hamburger-------------------------------------//
+// const hamburgerToggler = document.querySelector(".hamburger");
+// const navLinksContainer = document.querySelector(".navlinks-container");
+
+// const toggleNav = () => {
+//     hamburgerToggler.classList.toggle("open");
+//     navLinksContainer.classList.toggle("open");
+// }
+// hamburgerToggler.addEventListener("click", toggleNav);
+
+// new ResizeObserver(entries => {
+//     if(entries[0].contentRect.width <= 1024)
+//     {
+//         navLinksContainer.style.transition = "transform 0.3s ease-out";
+//     }else
+//     {
+//         navLinksContainer.style.transition = "none";
+//     }
+// }).observe(document.body)
 const hamburgerToggler = document.querySelector(".hamburger");
 const navLinksContainer = document.querySelector(".navlinks-container");
+const navLinks = document.querySelectorAll(".nav-link");
+const signUpBtn = document.querySelector("#openModalBtn");
 
 const toggleNav = () => {
     hamburgerToggler.classList.toggle("open");
     navLinksContainer.classList.toggle("open");
-}
+};
+
 hamburgerToggler.addEventListener("click", toggleNav);
 
-new ResizeObserver(entries => {
-    if(entries[0].contentRect.width <= 1024)
-    {
+navLinks.forEach((link) => {
+    link.addEventListener("click", toggleNav);
+});
+
+signUpBtn.addEventListener("click", toggleNav);
+
+new ResizeObserver((entries) => {
+    if (entries[0].contentRect.width <= 1024) {
         navLinksContainer.style.transition = "transform 0.3s ease-out";
-    }else
-    {
+    } else {
         navLinksContainer.style.transition = "none";
     }
-}).observe(document.body)
-
-//--------------------Reveal Observer--------------------------//
-// const ratio = 0.1;
-// const option = {
-//     root: null, //element racine
-//     rootMargin: "0px", // depasse cette marge pour etre visible
-//     threshold: 0.1, // a quel moment l'élément doit etre detecter  ici 10%
-// };
-// const handleIntersect = function (entries, observer) {
-//     entries.forEach(function (entry) {
-//         if (entry.intersectionRatio > ratio) {
-//             entry.target.classList.add("reveal-visible");
-//             observer.unobserve(entry.target);
-//         }
-//     });
-// };
-//     const observer = new IntersectionObserver(handleIntersect, option);
-//     document.querySelectorAll('[class*="reveal-"]').forEach(function (r) {
-//     observer.observe(r);
-// });
-
-
+}).observe(document.body);
 
 
 //--------------------Customers Feedback-------------------------//

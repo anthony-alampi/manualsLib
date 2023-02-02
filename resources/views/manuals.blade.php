@@ -9,7 +9,7 @@
     </div>
     <div class="searchForm-manuals">
         <h2>{{ trans('lang.STR_TITLE_MANUALS_2') }}</h2>
-        @include('incs.formManuals')
+        @include('incs.formManualsCustom')
     </div>
 
         <img src="{{asset('assets/img/triangle-effect-1.svg')}}" class='square-left' alt="">

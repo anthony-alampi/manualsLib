@@ -58,7 +58,14 @@
     .device-title-custom .shape-header {
     right: 0%;
     bottom: 50%;
-
+}
+.slider {
+    background: transparent;
+    height: 100px;
+    margin-top: 100px;
+    overflow: hidden;
+    position: relative;
+    /* width: 100%; */
 }
     .device {
         height: 200px;
@@ -586,6 +593,26 @@
         width: 100;
         text-align: center;
     }
+
+.home-header .floating-illustration{
+    position: relative;
+
+}
+.home-header .floating-illustration .illustration{
+    display: none;
+}
+.floating-illustration .float-message1 {
+    display: none;
+}
+
+.floating-illustration .float-message2 {
+    display: none;
+}
+
+.floating-illustration .float-message3 {
+
+    display: none;
+}
    .device-title-custom .shape-header {
        right: 20px;
        top: 70px;
@@ -1799,8 +1826,31 @@ row-gap: 100px;
    display: none;
 }
 }
+/*------------------------- MANUALS RESPONSIVE-----------------------------------*/
 
-/*------------------------- MANUAL RESPONSIVE-----------------------------------*/
+@media (max-width: 1060px) {
+    .manuals-block .text-block {
+        width: 90%;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
+    .manuals-block img{
+        width: 400px;
+    }
+}
+@media (max-width: 500px) {
+
+    .manuals-block img{
+        width: 300px;
+    }
+.top-15-container .most-manuals-container .download {
+    width: 300px;
+    height: 100px;
+}
+}
+
+/*------------------------- MANUAL RESPONSIVE (DETAIL)-----------------------------------*/
 
 @media (max-width: 1024px) {
 .manual-header{
