@@ -33,15 +33,7 @@ return
         'STR_TITLE_MANUALS_4' => 'Get full documentation and guides for your devices',    
         'STR_TITLE_MANUALS_5' => 'Most downloaded Manuals by category',    
         'STR_TITLE_MANUALS_6' => 'Get help using and troubleshooting your devices',
-            
-        
-        //* Manual detail - Title *//
-        'STR_TITLE_MANUAL_1' => 'Here\'s the manual for',    
-        'STR_TITLE_MANUAL_2' => 'Looking for another manual ?',    
-        'STR_TITLE_MANUAL_3' => 'Download or view your manual online',    
-        'STR_TITLE_MANUAL_4' => 'Need further assistance ? We\'re here to help!',    
-        'STR_TITLE_MANUAL_5' => 'Manuals in your own language',
-            //* MOST DOWNLOADED MANUAL *//
+            //* MOST DOWNLOADED MANUALS *//
             'STR_TITLE_DOWNLOADED_1' => 'Amplifier',
             'STR_SUBTITLE_DOWNLOADED_1' => 'MODEL XYZ',
 
@@ -71,6 +63,83 @@ return
 
             'STR_TITLE_DOWNLOADED_10' => 'Laptop',
             'STR_SUBTITLE_DOWNLOADED_10' => 'MODEL XYZ',
+
+            //* MOST DOWNLOADED MANUALS BY CATEGORY *//
+            'STR_TITLE_DOWNLOADED_CATEGORY_1' => 'Manuals category',
+            // 'STR_SUBTITLE_DOWNLOADED_CATEGORY_1' => 'MODEL XYZ',
+
+            'STR_TITLE_DOWNLOADED_CATEGORY_2' => 'Manuals category',
+            // 'STR_SUBTITLE_DOWNLOADED_CATEGORY_2' => 'MODEL XYZ',
+
+            'STR_TITLE_DOWNLOADED_CATEGORY_3' => 'Manuals category',
+            // 'STR_SUBTITLE_DOWNLOADED_CATEGORY_3' => 'MODEL XYZ',
+
+            'STR_TITLE_DOWNLOADED_CATEGORY_4' => 'Manuals category',
+            // 'STR_SUBTITLE_DOWNLOADED_CATEGORY_4' => 'MODEL XYZ',
+
+            'STR_TITLE_DOWNLOADED_CATEGORY_5' => 'Manuals category',
+            // 'STR_SUBTITLE_DOWNLOADED_CATEGORY_5' => 'MODEL XYZ',
+
+            'STR_TITLE_DOWNLOADED_CATEGORY_6' => 'Manuals category',
+            // 'STR_SUBTITLE_DOWNLOADED_CATEGORY_6' => 'MODEL XYZ',
+
+            'STR_TITLE_DOWNLOADED_CATEGORY_7' => 'Manuals category',
+            // 'STR_SUBTITLE_DOWNLOADED_CATEGORY_7' => 'MODEL XYZ',
+
+            'STR_TITLE_DOWNLOADED_CATEGORY_8' => 'Manuals category',
+            // 'STR_SUBTITLE_DOWNLOADED_CATEGORY_8' => 'MODEL XYZ',
+
+            'STR_TITLE_DOWNLOADED_CATEGORY_9' => 'Manuals category',
+            // 'STR_SUBTITLE_DOWNLOADED_CATEGORY_9' => 'MODEL XYZ',
+
+            'STR_TITLE_DOWNLOADED_CATEGORY_10' => 'Manuals category',
+            // 'STR_SUBTITLE_DOWNLOADED_CATEGORY_10' => 'MODEL XYZ',
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        //* Manual detail - Title *//
+        'STR_TITLE_MANUAL_1' => 'Here\'s the manual for',    
+        'STR_TITLE_MANUAL_2' => 'Looking for another manual ?',    
+        'STR_TITLE_MANUAL_3' => 'Download or view your manual online',    
+        'STR_TITLE_MANUAL_4' => 'Need further assistance ? We\'re here to help!',    
+        'STR_TITLE_MANUAL_5' => 'Manuals in your own language',
 
     //* Features - Title *//
         'STR_TITLE_12/5' => 'Our Features',
