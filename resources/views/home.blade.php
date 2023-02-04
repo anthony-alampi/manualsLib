@@ -21,6 +21,61 @@
 
 <main>
 </article>
+        <div class="homepage-subtitle">
+            <div class="device-title-custom">
+                <h2>{{ trans('lang.STR_TITLE_HOMEPAGE_3') }}</h2>
+                <img src="{{asset('assets/img/line-shape-1.svg')}}" class="shape-header" alt="">
+            </div>
+            <h3>{{ trans('lang.STR_TITLE_HOMEPAGE_5') }}</h3>
+            <img src="{{asset('assets/img/flock-1.svg')}}" class="flock-top" />
+
+
+
+            <div class="devices-container">
+            <img src="{{asset('assets/img/triangle-effect-1.svg')}}" class="floating-triangle" />
+
+            {{-- <div class="devices-sub"> --}}
+                <div class="device">
+                    <img src="{{asset('assets/img/electric-appliance.svg')}}" alt="">
+                    <h2>{{ trans('lang.STR_TITLE_DEVICE_1') }}</h2>
+                </div>
+                <div class="device">
+                    <img src="{{asset('assets/img/amplifier.svg')}}" alt="">
+                    <h2>{{ trans('lang.STR_TITLE_DEVICE_2') }}</h2>
+                </div>
+                <div class="device">
+                    <img src="{{asset('assets/img/ipad.svg')}}" alt="">
+                    <h2>{{ trans('lang.STR_TITLE_DEVICE_3') }}</h2>
+                </div>
+                <div class="device">
+                    <img src="{{asset('assets/img/computer.svg')}}" alt="">
+                    <h2>{{ trans('lang.STR_TITLE_DEVICE_4') }}</h2>
+                </div>
+            {{-- </div> --}}
+
+            {{-- <div class="devices-sub"> --}}
+                <div class="device">
+                    <img src="{{asset('assets/img/watch-tv.svg')}}" alt="">
+                    <h2>{{ trans('lang.STR_TITLE_DEVICE_5') }}</h2>
+                </div>
+                <div class="device">
+                    <img src="{{asset('assets/img/remote-control.svg')}}" alt="">
+                    <h2>{{ trans('lang.STR_TITLE_DEVICE_6') }}</h2>
+                </div>
+                <div class="device">
+                    <img src="{{asset('assets/img/wifi.svg')}}" alt="">
+                    <h2>{{ trans('lang.STR_TITLE_DEVICE_7') }}</h2>
+                </div>
+                <div class="device">
+                    <img src="{{asset('assets/img/casque-audio.svg')}}" alt="">
+                    <h2>{{ trans('lang.STR_TITLE_DEVICE_8') }}</h2>
+                </div> 
+                <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="rotate-circle"/>
+
+            {{-- </div> --}}
+        </div>
+            <img src="{{asset('assets/img/flock-3.svg')}}" class="flock-bottom" />
+        </div>
         <section>
                 <div class="slider">
 	                <div class="slide-track">
@@ -93,65 +148,6 @@
                     </div>
                 </div>
             </section>
-
-        <div class="homepage-subtitle">
-            <div class="device-title-custom">
-                <h2>{{ trans('lang.STR_TITLE_HOMEPAGE_3') }}</h2>
-                <img src="{{asset('assets/img/line-shape-1.svg')}}" class="shape-header" alt="">
-            </div>
-            <h3>{{ trans('lang.STR_TITLE_HOMEPAGE_5') }}</h3>
-            <img src="{{asset('assets/img/flock-1.svg')}}" class="flock-top" />
-
-
-
-            <div class="devices-container">
-            <img src="{{asset('assets/img/triangle-effect-1.svg')}}" class="floating-triangle" />
-
-            {{-- <div class="devices-sub"> --}}
-                <div class="device">
-                    <img src="{{asset('assets/img/electric-appliance.svg')}}" alt="">
-                    <h2>{{ trans('lang.STR_TITLE_DEVICE_1') }}</h2>
-                </div>
-                <div class="device">
-                    <img src="{{asset('assets/img/amplifier.svg')}}" alt="">
-                    <h2>{{ trans('lang.STR_TITLE_DEVICE_2') }}</h2>
-                </div>
-                <div class="device">
-                    <img src="{{asset('assets/img/ipad.svg')}}" alt="">
-                    <h2>{{ trans('lang.STR_TITLE_DEVICE_3') }}</h2>
-                </div>
-                <div class="device">
-                    <img src="{{asset('assets/img/computer.svg')}}" alt="">
-                    <h2>{{ trans('lang.STR_TITLE_DEVICE_4') }}</h2>
-                </div>
-            {{-- </div> --}}
-
-            {{-- <div class="devices-sub"> --}}
-                <div class="device">
-                    <img src="{{asset('assets/img/watch-tv.svg')}}" alt="">
-                    <h2>{{ trans('lang.STR_TITLE_DEVICE_5') }}</h2>
-                </div>
-                <div class="device">
-                    <img src="{{asset('assets/img/remote-control.svg')}}" alt="">
-                    <h2>{{ trans('lang.STR_TITLE_DEVICE_6') }}</h2>
-                </div>
-                <div class="device">
-                    <img src="{{asset('assets/img/wifi.svg')}}" alt="">
-                    <h2>{{ trans('lang.STR_TITLE_DEVICE_7') }}</h2>
-                </div>
-                <div class="device">
-                    <img src="{{asset('assets/img/casque-audio.svg')}}" alt="">
-                    <h2>{{ trans('lang.STR_TITLE_DEVICE_8') }}</h2>
-                </div> 
-                <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="rotate-circle"/>
-
-            {{-- </div> --}}
-        </div>
-
-
-            <img src="{{asset('assets/img/flock-3.svg')}}" class="flock-bottom" />
-        </div>
-
         <section class='content-block3 '>
             <div class='title-text reveal-left '>
                 {{-- <img src="{{asset('assets/img/operator.svg')}}" class="icon"alt=""> --}}

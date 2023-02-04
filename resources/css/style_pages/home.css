@@ -480,6 +480,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    margin-top: -100px;
 }
 .content-block3 .title-text {
     width: 40%;

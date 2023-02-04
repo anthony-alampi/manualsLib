@@ -34,24 +34,6 @@
         <div class="picture-manual">
             <img src="{{asset('assets/img/new-research.svg')}}" class="separate-image reveal-bottom" alt="">
         </div>
-
-          <article class="features-listing-container">
-                <div class="item reveal-bottom">
-                    <img src="{{ asset('assets/img/book.svg') }}" alt="">
-                    <h2> {{ trans('lang.STR_TITLE_MANUAL_3') }} </h2>
-                    <p> {{trans('lang.STR_TEXT_MANUAL_1')}} </p>
-                </div>
-                <div class="item reveal-bottom">
-                    <img src="{{ asset('assets/img/service-clients.svg') }}" alt="">
-                    <h2> {{ trans('lang.STR_TITLE_MANUAL_4') }} </h2>
-                    <p> {{trans('lang.STR_TEXT_MANUAL_2')}} </p>
-                </div>
-                <div class="item reveal-bottom">
-                    <img src="{{ asset('assets/img/translation.svg') }}" alt="">
-                    <h2> {{ trans('lang.STR_TITLE_MANUAL_5') }} </h2>
-                    <p> {{trans('lang.STR_TEXT_MANUAL_3')}} </p>
-                </div>
-            </article>
          <section>
                 <div class="slider">
 	                <div class="slide-track">
@@ -94,6 +76,23 @@
                     </div>
                 </div>
             </section>
+          <article class="features-listing-container manual-listing">
+                <div class="item reveal-bottom">
+                    <img src="{{ asset('assets/img/book.svg') }}" alt="">
+                    <h2> {{ trans('lang.STR_TITLE_MANUAL_3') }} </h2>
+                    <p> {{trans('lang.STR_TEXT_MANUAL_1')}} </p>
+                </div>
+                <div class="item reveal-bottom">
+                    <img src="{{ asset('assets/img/service-clients.svg') }}" alt="">
+                    <h2> {{ trans('lang.STR_TITLE_MANUAL_4') }} </h2>
+                    <p> {{trans('lang.STR_TEXT_MANUAL_2')}} </p>
+                </div>
+                <div class="item reveal-bottom">
+                    <img src="{{ asset('assets/img/translation.svg') }}" alt="">
+                    <h2> {{ trans('lang.STR_TITLE_MANUAL_5') }} </h2>
+                    <p> {{trans('lang.STR_TEXT_MANUAL_3')}} </p>
+                </div>
+            </article>
     </article>
 </main>
 @endsection

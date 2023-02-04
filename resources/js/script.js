@@ -134,25 +134,25 @@ document.addEventListener("DOMContentLoaded", () => {
     __ms.onmouseleave = function (e) {
         clearInterval(__msAutoplay);
         __msAutoplay = setInterval(() => __msSlider.next(), __msTimer);
-        console.log(e.type + " mouse detected");
+        // console.log(e.type + " mouse detected");
     };
 
 
     __ms.onclick = function (e) {
         clearInterval(__msAutoplay);
-        console.log(e.type + " mouse detected");
+        // console.log(e.type + " mouse detected");
     };
 
 
     hammer.on("tap", function (e) {
         clearInterval(__msAutoplay);
-        console.log(e.type + " gesture detected");
+        // console.log(e.type + " gesture detected");
     });
 
     hammer.on("swipe", function (e) {
         clearInterval(__msAutoplay);
         __msAutoplay = setInterval(() => __msSlider.next(), __msTimer);
-        console.log(e.type + " gesture detected");
+        // console.log(e.type + " gesture detected");
     });
 
     let slideLink = document.querySelectorAll(".slider-item");
@@ -215,3 +215,8 @@ const observerBottom = new IntersectionObserver(handleIntersectBottom, option);
 document.querySelectorAll('[class*="reveal-bottom"]').forEach(function (r) {
     observerBottom.observe(r);
 });
+
+// const pricingBtn = document.querySelector('.switch-pricing');
+//     pricingBtn.addEventListener('click', () => {
+//         console.log(pricingBtn);
+//     })

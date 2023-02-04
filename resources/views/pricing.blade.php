@@ -4,6 +4,10 @@
     <div class="content-block">
         <h1>{{ trans('lang.STR_TITLE_PRICING_1') }}</h1>
         <img src="{{asset('assets/img/line-shape-11.svg')}}" class="line-shape" alt="">
+        <div class="switch-pricing">
+            <button class="custom-btn">Monthly</button>
+            <button class="custom-btn">Yearly</button>
+        </div>
     </div>
     <img src="{{asset('assets/img/carre.svg')}}" class="square-item1" />
     <img src="{{asset('assets/img/carre.svg')}}" class="square-item2" />
@@ -13,36 +17,39 @@
     <article>
         <div class="pricing-table">
             <img src="{{asset('assets/img/triangle-effect-1.svg')}}" class="triangle-item" />
-            <div class="pricing-container1 reveal-left">
+            <div class="pricing-container1">
                 {{-- <img src="{{asset('assets/img/free.svg')}}" class="icons-plan" /> --}}
                 <h2>{{ trans('lang.STR_TITLE_PRICING_2') }}</h2>
                 <div class="pricing-plan">
                     <span>$</span>
                     <h3>{{trans('lang.STR_PRICE_CARD_1')}}</h3>
                 </div>
+                <button class="sign-up-pricing">Sign Up</button>
                 <div class="separate-custom"></div>
                 {{-- <p class="includes">{{ trans('lang.STR_TEXT_1_CARD_1') }}</p> --}}
                 <p class="manuals custom-position">{{ trans('lang.STR_TEXT_2_CARD_1') }}</p>
             </div>
-            <div class="pricing-container2 reveal-bottom">
+            <div class="pricing-container2">
                 {{-- <img src="{{asset('assets/img/trial.svg')}}" class="icons-plan" /> --}}
                 <h2>{{ trans('lang.STR_TITLE_PRICING_3') }}</h2>
                 <div class="pricing-plan">
                     <span>$</span>
                     <h3>{{trans('lang.STR_PRICE_CARD_2')}}</h3>
                 </div>
+                <button class="sign-up-pricing">Sign Up</button>
                 <div class="separate-custom"></div>
                 <p class="includes">{{ trans('lang.STR_TEXT_1_CARD_2') }}</p>
                 <p class="manuals">{{ trans('lang.STR_TEXT_2_CARD_2') }}</p>
                 <p class="includes">{{ trans('lang.STR_TEXT_3_CARD_2') }}</p>
             </div>
-            <div class="pricing-container3 reveal-right">
+            <div class="pricing-container3">
                 {{-- <img src="{{asset('assets/img/premium.svg')}}" class="icons-plan" /> --}}
                 <h2>{{ trans('lang.STR_TITLE_PRICING_4') }}</h2>
                 <div class="pricing-plan">
                     <span>$</span>
                     <h3>{{trans('lang.STR_PRICE_CARD_3')}}</h3>
                 </div>
+                <button class="sign-up-pricing">Sign Up</button>
                 <div class="separate-custom"></div>
                 <p class="includes">{{ trans('lang.STR_TEXT_1_CARD_3') }}</p>
                 <p class="manuals">{{ trans('lang.STR_TEXT_2_CARD_3') }}</p>
@@ -133,11 +140,11 @@
                 <img src="{{asset('assets/img/triangle-effect-1.svg')}}" class="circle-item" />
             </article>
             <article class="pricing-section5">
-                <img src="{{ asset('assets/img/product-company.png') }}" class="image-block reveal-left" alt="">
                 <div class="pricing-block reveal-right">
                     <h2>{{ trans('lang.STR_TITLE_PRICING_8') }}</h2>
                     <p> {{ trans('lang.STR_TEXT_24') }} </p>
                 </div>
+                <img src="{{ asset('assets/img/product-company.png') }}" class="image-block reveal-left" alt="">
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item1" />
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item2" />
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item3" />
@@ -146,11 +153,11 @@
             </article>
 
             <article class="pricing-section6">
+                <img src="{{ asset('assets/img/switch.svg') }}" class="image-block reveal-right" alt="">
                 <div class="pricing-block reveal-left">
                     <h2>{{ trans('lang.STR_TITLE_PRICING_9') }}</h2>
                     <p> {{ trans('lang.STR_TEXT_25') }} </p>
                 </div>
-                <img src="{{ asset('assets/img/switch.svg') }}" class="image-block reveal-right" alt="">
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item1" />
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item2" />
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item3" />
@@ -159,11 +166,11 @@
             </article>
             
             <article class="pricing-section7">
-                <img src="{{ asset('assets/img/payment-calendar.svg') }}" class="image-block reveal-left" alt="">
                 <div class="pricing-block reveal-right">
                     <h2>{{ trans('lang.STR_TITLE_PRICING_10') }}</h2>
                     <p> {{ trans('lang.STR_TEXT_26') }} </p>
                 </div>
+                <img src="{{ asset('assets/img/payment-calendar.svg') }}" class="image-block reveal-left" alt="">
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item1" />
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item2" />
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item3" />

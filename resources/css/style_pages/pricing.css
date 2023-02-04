@@ -2,15 +2,17 @@
     height: 100vh;
     position: relative;
     background: #ecf6ff;
-    z-index: -2;
-}
-.pricing-header .content-block {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: solid 1px green;
+}
+
+.pricing-header .content-block {
     position: relative;
     width: 60%;
-    padding-top: 200px;
-    margin: 0 auto 0;
+    padding-top: 225px;
+    border: solid 1px orange;
 }
 
 .pricing-header .content-block h1{
@@ -20,19 +22,38 @@
     font-weight: var(--home-weight-h1);
     color: var(--home-color-h1);
     text-align: center;
-    /* width: 70%; */
-    /* margin-top: 00px; */
-    /* text-align: center; */
-    /* position: relative; */
 }
+
 .pricing-header .line-shape {
     position: absolute;
     width: 70%;
-    top: 265px;
+    top: 280px;
     left: 50%;
     transform: translate(-50%);
-    z-index: -1;
 }
+
+.pricing-header .switch-pricing{
+    border: solid 1px red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.switch-pricing .custom-btn{
+    padding: 15px 50px 15px 50px;
+    cursor: pointer;
+    color: #fd6a5e;
+    font-family: var(--font-btn);
+    font-size: var(--size-text-btn);
+    border: 2px solid #fd6a5e;
+    border-radius: 2px;
+    background: transparent;
+}
+.active-pricing-btns{
+    background-color: #fd6a5e;
+    color: #fff;
+}
+
 
 .pricing-header .square-item1 {
     position: absolute;
@@ -67,6 +88,7 @@
     position: relative;
     margin-top: -260px;
     /* margin-bottom: 150px; */
+    border: solid 1px violet;
 }
 
 .pricing-table .triangle-item {
@@ -86,6 +108,26 @@
     z-index: -1;
 }
 /*----------Pricing container1----------*/
+.sign-up-pricing{
+    background: rgba(255, 255, 255, 0.07);
+    padding:12px 30px 12px 30px;
+    cursor: var(--pointer-btn);
+    transition:  0.5s;
+    color: var(--color-btn);
+    font-family: var(--font-btn);
+    font-size: 18px;
+    font-weight: var(--weight-btn);
+    border-radius: var(--radius-btn);
+    border: 2px solid #fd6a5e;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 30px;
+    width: 50%;
+}
+.sign-up-pricing:hover{
+    color: #fff;
+    background: #FD6A5E;
+}
 
 .pricing-container1{
     border: solid 1px rgba(219, 219, 219, 0.356);
@@ -112,6 +154,7 @@
     color: #000;
     font-family: gilroy-semibold;
     font-size: 72px;
+    margin-bottom: 10px;
 
 }
 .pricing-plan span{
@@ -157,7 +200,7 @@
 .separate-custom{
     width: 100%;
     height: 1px;
-    margin: 35px 0 0;
+    margin: 0px 0 -40px 0;
     background: rgb(211, 211, 211);
 }
 .pricing-container2 .includes {
