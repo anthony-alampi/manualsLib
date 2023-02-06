@@ -33,6 +33,20 @@
                     <h2> {{ trans('lang.STR_TITLE_15') }} </h2>
                     <p> {{trans('lang.STR_TEXT_12')}} </p>
                 </div>
+            <article class="features-container5 ">
+                <div class="features-block reveal-left">
+                    <h2>{{ trans('lang.STR_TITLE_21/1') }}</h2>
+                    <p> {{ trans('lang.STR_TEXT_17') }} </p>
+                </div>
+                <img class="image-block reveal-right" src="{{ asset('assets/img/more-assist.png') }}" alt="">
+                <img src="{{asset('assets/img/carre.svg')}}" class="square-item1" />
+                <img src="{{asset('assets/img/carre.svg')}}" class="square-item2" />
+                <img src="{{asset('assets/img/carre.svg')}}" class="square-item3" />
+                <img src="{{asset('assets/img/backslash.svg')}}" class="backslash-item" />
+                <img src="{{asset('assets/img/more.svg')}}" class="more-item1" />
+                <img src="{{asset('assets/img/more.svg')}}" class="more-item2" />
+                <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="circle-item" />
+            </article>
             </article>
             <article class="features-container">
                 <img class="illustration reveal-left" src="{{ asset('assets/img/need-user-manual.jpg') }}" alt="">
@@ -41,6 +55,7 @@
                     <p> {{ trans('lang.STR_TEXT_9') }} </p>
                 </div>
             </article>
+
             <article class="features-container1 bg-block ">
                 <div class="features-block reveal-left">
                     <h2>{{ trans('lang.STR_TITLE_16') }}</h2>
@@ -83,20 +98,6 @@
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item2" />
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item3" />
                 <img src="{{asset('assets/img/triangle-effect-1.svg')}}" class="triangle-item" />
-            </article>
-            <article class="features-container5 ">
-                <div class="features-block reveal-left">
-                    <h2>{{ trans('lang.STR_TITLE_21/1') }}</h2>
-                    <p> {{ trans('lang.STR_TEXT_17') }} </p>
-                </div>
-                <img class="image-block reveal-right" src="{{ asset('assets/img/more-assist.png') }}" alt="">
-                <img src="{{asset('assets/img/carre.svg')}}" class="square-item1" />
-                <img src="{{asset('assets/img/carre.svg')}}" class="square-item2" />
-                <img src="{{asset('assets/img/carre.svg')}}" class="square-item3" />
-                <img src="{{asset('assets/img/backslash.svg')}}" class="backslash-item" />
-                <img src="{{asset('assets/img/more.svg')}}" class="more-item1" />
-                <img src="{{asset('assets/img/more.svg')}}" class="more-item2" />
-                <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="circle-item" />
             </article>
         </section>
     </article>

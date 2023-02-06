@@ -1,0 +1,275 @@
+.brand-header {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 225px auto 0;
+}
+
+.brand-header h1 {
+    font-family: var(--home-font-h1);
+    font-size: 78px;
+    line-height: var(--home-line-h1);
+    font-weight: var(--home-weight-h1);
+    color: var(--home-color-h1);
+    text-align: center;
+    width: 60%;
+    color: #101621;
+}
+
+.brand-header p {
+    margin-top: 30px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    line-height: 1.75em;
+    width: 70%;
+    text-align: center;
+    color: #73737B;
+}
+
+.brand-header a{
+    padding: 20px 40px 20px 40px;
+    margin-top: 20px;
+    cursor: var(--pointer-btn);
+    transition: 0.5s;
+    color: var(--color-text-btn);
+    font-family: var(--font-btn);
+    font-size: var(--size-text-btn);
+    border: 2px solid #fd6a5e;
+    border-radius: 6px;
+    letter-spacing: 2px;
+    background-color: var(--color-btn);
+    box-shadow: 0px 10px 15px -3px #33333349;
+    text-decoration: none;
+}
+.brand-header a:hover{
+    background: transparent;
+    color: #fd6a5e;
+}
+
+.brand-header .geometric1 {
+    position: absolute;
+    top: 200px;
+    right: 60px;
+    z-index: -1;
+    animation: floating 5s infinite;
+}
+
+.brand-header .geometric3 {
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    z-index: -1;
+    animation: floating 2s infinite;
+}
+
+.brand-header .geometric4 {
+    position: absolute;
+    top: 500px;
+    right: 200px;
+    z-index: -1;
+    animation: floating 2s infinite;
+}
+
+.brand-header .geometric5 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: -1;
+    animation: floating 5s infinite;
+    width: 100px;
+}
+
+.brand-header .line-shape {
+    position: absolute;
+    top: 60px;
+    width: 40%;
+    z-index: -1;
+}
+
+.content-sub-brand-block {
+    position: relative;
+}
+
+.content-sub-brand-block h2 {
+    text-align: center;
+    font-family: 'Gilroy-black', sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    color: #101621;
+    margin-bottom: 70px;
+}
+.content-sub-brand-block p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    line-height: 1.75em;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto 0;
+    color: #73737B;
+}
+.content-sub-brand-block .line-shape {
+    position: absolute;
+    width: 40%;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: -1;
+}
+
+/*------------- Brands text block-----------------*/
+.brand-details-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 16px 50px 16px;
+    position: relative;
+}
+
+.brand-details-container .brand-block {
+    width: 40%;
+}
+
+.brand-details-container .brand-block h2 {
+    font-family: 'gilroy-black', sans-serif;
+    color: #202020;
+    font-size: 42px;
+    line-height: 1.35em;
+    margin-bottom: 20px;
+}
+.brand-details-container .brand-block p {
+    margin-top: 30px;
+    font-family: var(--font-text);
+    font-size: var(--size-text);
+    color: var(--color-text);
+    line-height: var(--line-text);
+    font-weight: var(--weight-text);
+    width: 90%;
+}
+
+.brand-details-container .image-block {
+    width: 600px;
+    border-radius: 20px;
+}
+
+.brand-details-container .circle-item {
+    position: absolute;
+    width: 150px;
+    bottom: 0;
+    right: 5%;
+    animation: rotation 35s infinite;
+}
+
+.brand-details-container .square-item1 {
+    position: absolute;
+    width: 10px;
+    top: 15%;
+    left: 5%;
+    animation: float-item 5s infinite;
+}
+
+.brand-details-container .square-item2 {
+    position: absolute;
+    width: 15px;
+    bottom: 0;
+    left: 10%;
+    opacity: 0.5;
+    animation: float-item 5s infinite;
+}
+
+.brand-details-container .square-item3 {
+    position: absolute;
+    width: 13px;
+    top: 10%;
+    left: 45%;
+    animation: float-item 5s infinite;
+}
+
+.brand-details-container .backslash-item {
+    position: absolute;
+    width: 15px;
+    top: 10%;
+    right: 25%;
+}
+
+.brand-details-container .more-item1 {
+    position: absolute;
+    width: 20px;
+    top: 10%;
+    right: 35%;
+    animation: rotation 35s infinite;
+}
+
+.brand-details-container .more-item2 {
+    position: absolute;
+    width: 20px;
+    bottom: 10%;
+    left: 50%;
+    animation: rotation 35s infinite;
+}
+
+/*---------------------*/
+/*--------------MOST DOWNLOADED MANUALS------------------*/
+.top-10-container{
+    position: relative;
+    margin-top: 100px;
+}
+.top-10-container h2{
+    font-family: 'gilroy-black', sans-serif;
+    font-size: 42px;
+    color: #2A2A2A;
+    text-align: center;
+
+}
+.top-10-container .line-custom{
+    width: 40%;
+    margin-top: -20px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.top-10-container .most-brand-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+}
+.top-10-container .most-brand-container .sub-container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    /* width: 100%; */
+    justify-content: center;
+    align-items: center;
+}
+.top-10-container .most-brand-container .download{
+    width: 500px;
+    height: 100px;
+    background: #fff;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-radius: 10px;
+    box-shadow: 0 20px 60px rgb(10 30 81 / 4%);
+    margin-top: 20px;
+    padding: 37px 50px;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    cursor: pointer;
+}
+
+.download .icons-manualsTop img{
+    width: 40px;
+}
+.download .text-block h2{
+    font-family: 'Gilroy-black', sans-serif;
+    font-size: 25px;
+}
+.download .text-block h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: var(--color-text);
+    font-weight: var(--weight-text);
+}

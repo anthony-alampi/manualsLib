@@ -2,17 +2,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    column-gap: 20px;
+    column-gap: 10px;
 }
 .title-text .plans-container .plan{
-    width: 300px;
+    width: 270px;
     border-radius: 7px;
-    box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.8);
-    margin: 16px;
-}
-.title-text .plans-container .plan .icons-plan {
-    width: 70px;
-    margin-left: 50%;
-    padding-top: 50px;
-    transform: translateX(-50%);
+    box-shadow: 0px 0px 6px -3px rgba(0, 0, 0, 1);
 }

@@ -108,6 +108,7 @@
 
 .sub-container .article{
     margin-top: 30px;
+    border: solid 1px red;
 }
 .article .image-container{
     overflow: hidden;
@@ -131,9 +132,8 @@
     margin-bottom: 50px;
     font-weight: 200;
     padding: 30px;
-
 }
- .read-article {
+.read-article {
     text-decoration: none;
     color: #fff;
     background: var(--color-btn);
@@ -145,10 +145,9 @@
     border-radius: 5px;
     transition: .5s;
 }
- .read-article:hover{
+.read-article:hover{
     background-color: #fff;
     color: #fd6a5e;
-        
 }
 /*----------------- TEXT BLOCK------------------------*/
 

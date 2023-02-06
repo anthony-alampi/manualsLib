@@ -131,16 +131,6 @@
                 </div>
             </div>
         </section>
-        
-        <section class="manuals-block">
-            <div class="text-block reveal-left">
-                <h2>{{trans('lang.STR_TITLE_MANUALS_4')}}</h2>
-                <p>{{trans('lang.STR_TEXT_MANUALS_1')}}</p>
-            </div>
-            <img src="{{asset('assets/img/get-full.svg')}}" class="reveal-right" alt="">
-        </section>
-        <img src="{{asset('assets/img/line-shape-9.svg')}}" class="separate-line-custom-manuals" alt="">
-
         <section>
                 <div class="slider">
 	                <div class="slide-track">
@@ -183,6 +173,16 @@
                     </div>
                 </div>
             </section>
+        <section class="manuals-block">
+            <div class="text-block reveal-left">
+                <h2>{{trans('lang.STR_TITLE_MANUALS_4')}}</h2>
+                <p>{{trans('lang.STR_TEXT_MANUALS_1')}}</p>
+            </div>
+            <img src="{{asset('assets/img/get-full.svg')}}" class="reveal-right" alt="">
+        </section>
+        <img src="{{asset('assets/img/line-shape-9.svg')}}" class="separate-line-custom-manuals" alt="">
+
+
         <div class="download-category">
         <section class="top-15-container">
             <h2>{{trans('lang.STR_TITLE_MANUALS_5')}}</h2>

@@ -18,6 +18,11 @@ footer .link-footer-container .links-container{
     flex-direction: column;
     text-align: left;
 }
+footer .link-footer-container .links-container h2{
+    font-family: 'gilroy-semibold', sans-serif;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
 
 .link-footer-container .links-container .link-item{
     text-decoration: none;
@@ -36,7 +41,7 @@ footer .link-footer-container .links-container{
 }
 .copyright{
     font-family: var(--font-text);
-    margin-top: 30vh;
+    margin-top: 15vh;
     margin-bottom: 5vh;
 }
 .copyright a{

@@ -2,7 +2,7 @@
 
 @section('content')
 
-<header class='moreInfo-header'>
+{{-- <header class='moreInfo-header'>
     <h1>{{trans('lang.STR_TITLE_TERMS_1')}}</h1>
     <div class="circle-anim1"></div>
     <div class="circle-anim2"></div>
@@ -10,16 +10,16 @@
     <div class="circle-anim4"></div>
     <div class="circle-anim5"></div>
     <div class="circle-anim6"></div>
-</header>
+</header> --}}
 
 <main class="main-bg-custom-1">
     <article class='moreInfo-container'>
-            <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="rotate-circle1"/>
+            {{-- <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="rotate-circle1"/>
             <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="rotate-circle2"/>
             <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="rotate-circle3"/>
             <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="rotate-circle4"/>
             <div class="circle-scale1"></div>
-            <div class="circle-scale2"></div>
+            <div class="circle-scale2"></div> --}}
 
         <section class='title-text'>
             <h2>{{trans('lang.STR_TITLE_TERMS_2')}}</h2>

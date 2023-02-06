@@ -33,7 +33,7 @@
 /*----------------------Homepage Responsive----------------------*/
 @media (max-width: 1170px){
     .title-and-form{
-        width: 40%;
+        width: 50%;
     }
    .title-and-form h1 {
     font-family: var(--font-h1);
@@ -59,10 +59,8 @@
 .slider {
     background: transparent;
     height: 100px;
-    /* margin-top: 100px; */
     overflow: hidden;
     position: relative;
-    /* width: 100%; */
 }
 .homepage-subtitle {
 
@@ -84,42 +82,25 @@
     }
 
 /*----- CONTENT BLOCK 1------*/
-    .content-block1{
-        margin-top: 50px;
-        padding: 0 16px 0 16px;
+    .content-block1 .title-text h2 {
+        font-size: 33px;
     }
 
-    .content-block1 .title img {
-        width: 35px;
-        margin-bottom: 0px;
-    }
-
-    .content-block1 .title h2 {
-        font-size: 35px;
-    }
-
-    .content-block1 .title p {
+    .content-block1 .title-text p {
         font-size: 15px;
     }
 
     .content-block1 .right-block .illustration {
-        width: 550px;
+        width: 400px;
     }
 
 /*-----CONTENT-BLOCK N°2---*/
-    .content-block2{
-        margin-top: 50px;
-        padding: 0 16px 0 16px;
-    }
-    .content-block2 .title-text .icon {
-        width: 35px;
-    }
     .content-block2 .title-text h2 {
-        font-size: 35px;
+        font-size: 33px;
     }
     .content-block2 .title-text .line-shape {
     width: 50%;
-    top:90px;
+    top:70px;
 }
     .content-block2 .title-text p {
         font-size: 15px;
@@ -129,14 +110,6 @@
     }
 
 /*----CONTENT BLOCK 3------*/
-    .content-block3 {
-        margin-top: 50px;
-        padding: 0 16px 0 16px;
-    }
-
-    .content-block3 .title-text .icon {
-        width: 35px;
-    }
 
     .content-block3 .title-text h2 {
         font-size: 33px;
@@ -147,7 +120,7 @@
     }
 
     .content-block3 .images .illustration {
-        width: 550px;
+        width: 400px;
     }
 
 /*-------- FEEDBACK CUSTOMERS-----------*/
@@ -156,12 +129,16 @@
     }
 }
 @media (max-width: 1024px) {
+.home-header{
+    margin:0px;
+    height: 70vh;
+}
     .title-and-form {
-        width: 43%;
+        width: 50%;
     }
 
     .title-and-form h1 {
-        font-size: 40px;
+        font-size: 50px;
     }
 
     .home-header .floating-illustration .illustration {
@@ -211,7 +188,7 @@
 
     .device {
         height: 200px;
-            margin-right: 0px;
+        margin-right: 0px;
     }
 
     .device img {
@@ -228,47 +205,22 @@
     }
 
     /*----- CONTENT BLOCK 1------*/
-    .content-block1 {
-        margin-top: 50px;
-        padding: 0 16px 0 16px;
-    }
-
-    .content-block1 .title img {
-        width: 35px;
-        margin-bottom: 0px;
-    }
-
-    .content-block1 .title h2 {
+    .content-block1 .title-text h2 {
         font-size: 25px;
     }
-
-    .content-block1 .title p {
+    .content-block1 .title-text p {
         font-size: 15px;
     }
-
     .content-block1 .right-block .illustration {
         width: 400px;
     }
-
     /*-----CONTENT-BLOCK N°2---*/
-    .content-block2 {
-        margin-top: 50px;
-        padding: 0 16px 0 16px;
-    }
-
-    .content-block2 .title-text .icon {
-        width: 35px;
-    }
-
     .content-block2 .title-text h2 {
         font-size: 25px;
     }
     .content-block2 .title-text .line-shape {
-    width: 30%;
-    top:85px;
-    left: 190px;
-    z-index: -1;
-}
+    display: none;
+    }
     .content-block2 .title-text p {
         font-size: 15px;
         padding-bottom: 50px;
@@ -279,15 +231,6 @@
     }
 
     /*----CONTENT BLOCK 3------*/
-    .content-block3 {
-        margin-top: 50px;
-        padding: 0 16px 0 16px;
-    }
-
-    .content-block3 .title-text .icon {
-        width: 35px;
-    }
-
     .content-block3 .title-text h2 {
         font-size: 30px;
     }
@@ -337,9 +280,10 @@
         left: 40%;
         }
 }
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .home-header {
-        margin-top: 150px;
+        margin-top: 100px;
+        margin-bottom: 100px;
         padding: 0 16px 0 16px;
         text-align: center;
     }
@@ -353,52 +297,29 @@
     }
     .header-title-custom {
     text-align: center;
-}
+    }
     .header-title-custom .shape-header{
     width: 80%;
     top: 40%;
     left: 10%;
-}
-    .home-header .floating-illustration .illustration {
-        width: 500px;
     }
-    .floating-illustration .float-message1 {
-        width: 150px;
-        bottom: 10%;
-        left: 0;
+    .floating-illustration{
+    display: none;
     }
-
-    .floating-illustration .float-message2 {
-        width: 150px;
-        top: 20%;
-        left: 0;
+/*----------Devices------*/
+    .homepage-subtitle {
+        margin: 0;
+    }
+    .homepage-subtitle .device-title-custom h2 {
+        font-size: 30px;
     }
 
-    .floating-illustration .float-message3 {
-        width: 150px;
-        bottom: 20%;
-        left: 50%;
-    }
-
-    .homepage-subtitle h2 {
-        font-size: 25px;
-    }
-    .homepage-subtitle h3 {
-    font-size: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    }
     .homepage-subtitle .device-title-custom {
         position: relative;
-        width: 97%;
-        text-align: center;
+        width: 100%;
     }
    .device-title-custom .shape-header {
-       right: 10%;
-       bottom: 58%;
-   }
-   .homepage-subtitle h3 {
-       text-align: center;
+       display: none;
    }
     .device {
         height: 200px;
@@ -422,21 +343,13 @@
     }
 
     /*----- CONTENT BLOCK 1------*/
-    .content-block1 {
-        margin-top: 50px;
-        padding: 0 16px 0 16px;
-    }
-    .content-block1 .title {
-        width: 100%;
+
+    .content-block1 .title-text {
+        width: 90%;
         text-align: center;
     }
-    .content-block1 .title img {
-        width: 30px;
-        margin-bottom: 0px;
-    }
-
     .content-block1 .title h2 {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .content-block1 .title p {
@@ -448,21 +361,15 @@
     }
 
     /*-----CONTENT-BLOCK N°2---*/
-    .content-block2 {
-        margin-top: 0px;
-        padding: 0 16px 0 16px;
-    }
+
     .content-block2 .title-text {
-        width: 100%;
+        width: 90%;
         text-align: center;
         margin: 0;
     }
-    .content-block2 .title-text .icon {
-        width: 30px;
-    }
 
     .content-block2 .title-text h2 {
-        font-size: 20px;
+        font-size: 25px;
     }
     .content-block2 .title-text .line-shape {
     display: none;
@@ -480,18 +387,13 @@
             margin-left: 0px;
     }
     /*----CONTENT BLOCK 3------*/
-    .content-block3 {
-        margin-top: 50px;
-        padding: 0 16px 0 16px;
-    }
+
     .content-block3 .title-text {
-        width: 100%;
+        width: 90%;
         text-align: center;
         margin: 0;
     }
-    .content-block3 .title-text .icon {
-        width: 30px;
-    }
+
 
     .content-block3 .title-text h2 {
         width: 100%;
@@ -504,7 +406,7 @@
     }
 
     .content-block3 .images .illustration {
-        width: 300px;
+        width: 250px;
     }
 
     /*-------- FEEDBACK CUSTOMERS-----------*/
@@ -579,6 +481,10 @@
     }
 }
 @media (max-width: 500px){
+    .home-header {
+        height: 40vh;
+
+    }
 .homepage-subtitle {
     margin: 0 0px 0 0px;
 }

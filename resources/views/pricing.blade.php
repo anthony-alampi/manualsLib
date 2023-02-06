@@ -4,10 +4,11 @@
     <div class="content-block">
         <h1>{{ trans('lang.STR_TITLE_PRICING_1') }}</h1>
         <img src="{{asset('assets/img/line-shape-11.svg')}}" class="line-shape" alt="">
-        <div class="switch-pricing">
+        <h2>{{ trans('lang.STR_SUBTITLE_PRICING_1') }}</h2>
+        {{-- <div class="switch-pricing">
             <button class="custom-btn">Monthly</button>
             <button class="custom-btn">Yearly</button>
-        </div>
+        </div> --}}
     </div>
     <img src="{{asset('assets/img/carre.svg')}}" class="square-item1" />
     <img src="{{asset('assets/img/carre.svg')}}" class="square-item2" />
@@ -17,34 +18,31 @@
     <article>
         <div class="pricing-table">
             <img src="{{asset('assets/img/triangle-effect-1.svg')}}" class="triangle-item" />
+            
             <div class="pricing-container1">
-                {{-- <img src="{{asset('assets/img/free.svg')}}" class="icons-plan" /> --}}
-                <h2>{{ trans('lang.STR_TITLE_PRICING_2') }}</h2>
+                <h2>{{ trans('lang.STR_TITLE_PRICING_CARD_1') }}</h2>
                 <div class="pricing-plan">
                     <span>$</span>
                     <h3>{{trans('lang.STR_PRICE_CARD_1')}}</h3>
                 </div>
                 <button class="sign-up-pricing">Sign Up</button>
                 <div class="separate-custom"></div>
-                {{-- <p class="includes">{{ trans('lang.STR_TEXT_1_CARD_1') }}</p> --}}
                 <p class="manuals custom-position">{{ trans('lang.STR_TEXT_2_CARD_1') }}</p>
             </div>
-            <div class="pricing-container2">
-                {{-- <img src="{{asset('assets/img/trial.svg')}}" class="icons-plan" /> --}}
-                <h2>{{ trans('lang.STR_TITLE_PRICING_3') }}</h2>
+
+            <div class="pricing-container1">
+                <h2>{{ trans('lang.STR_TITLE_PRICING_CARD_2') }}</h2>
                 <div class="pricing-plan">
                     <span>$</span>
                     <h3>{{trans('lang.STR_PRICE_CARD_2')}}</h3>
                 </div>
                 <button class="sign-up-pricing">Sign Up</button>
                 <div class="separate-custom"></div>
-                <p class="includes">{{ trans('lang.STR_TEXT_1_CARD_2') }}</p>
-                <p class="manuals">{{ trans('lang.STR_TEXT_2_CARD_2') }}</p>
-                <p class="includes">{{ trans('lang.STR_TEXT_3_CARD_2') }}</p>
+                <p class="manuals custom-position">{{ trans('lang.STR_TEXT_2_CARD_2') }}</p>
             </div>
-            <div class="pricing-container3">
-                {{-- <img src="{{asset('assets/img/premium.svg')}}" class="icons-plan" /> --}}
-                <h2>{{ trans('lang.STR_TITLE_PRICING_4') }}</h2>
+
+            <div class="pricing-container2">
+                <h2>{{ trans('lang.STR_TITLE_PRICING_CARD_3') }}</h2>
                 <div class="pricing-plan">
                     <span>$</span>
                     <h3>{{trans('lang.STR_PRICE_CARD_3')}}</h3>
@@ -55,7 +53,21 @@
                 <p class="manuals">{{ trans('lang.STR_TEXT_2_CARD_3') }}</p>
                 <p class="includes">{{ trans('lang.STR_TEXT_3_CARD_3') }}</p>
             </div>
-                <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="circle-item" />
+
+            <div class="pricing-container3">
+                <h2>{{ trans('lang.STR_TITLE_PRICING_CARD_4') }}</h2>
+                <div class="pricing-plan">
+                    <span>$</span>
+                    <h3>{{trans('lang.STR_PRICE_CARD_4')}}</h3>
+                </div>
+                <button class="sign-up-pricing">Sign Up</button>
+                <div class="separate-custom"></div>
+                <p class="includes">{{ trans('lang.STR_TEXT_1_CARD_4') }}</p>
+                <p class="manuals">{{ trans('lang.STR_TEXT_2_CARD_4') }}</p>
+                <p class="includes">{{ trans('lang.STR_TEXT_3_CARD_4') }}</p>
+            </div>
+
+        <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="circle-item" />
         </div>
         <section class="feedback">
             <div class="container1">

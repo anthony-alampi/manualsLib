@@ -15,6 +15,7 @@ use App\Http\Controllers\PricingController;
 use App\Http\Controllers\PrivacyController;
 use App\Http\Controllers\CarreersController;
 use App\Http\Controllers\FeaturesController;
+use App\Http\Controllers\BrandDetailsController;
 use App\Http\Controllers\CancellationController;
 use App\Http\Controllers\SubscriptionController;
 
@@ -30,6 +31,7 @@ Route::get('/manuals', [ManualsController::class, 'manuals'])->name('manuals');
 
 /*------API------*/
 Route::get('/manual', [ManualController::class, 'getManual'])->name('manual'); /*-- Cette route est chargé d'affiché le manuel rechérché vie les search bar*/
+Route::get('/brand-details', [BrandDetailsController::class, 'brandDetails'])->name('brandDetails'); /*-- Cette route est chargé d'affiché le manuel rechérché vie les search bar*/
 
 
 Route::get('/terms', [TermsController::class, 'terms'])->name('terms');

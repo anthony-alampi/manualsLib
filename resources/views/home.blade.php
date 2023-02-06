@@ -150,7 +150,6 @@
             </section>
         <section class='content-block3 '>
             <div class='title-text reveal-left '>
-                {{-- <img src="{{asset('assets/img/operator.svg')}}" class="icon"alt=""> --}}
                 <h2>{{ trans('lang.STR_TITLE_HOMEPAGE_8') }}</h2>
                 <p>{{trans('lang.STR_TEXT_3')}}</p>
             </div>
@@ -183,7 +182,7 @@
             </div>
         </section>
         <section class='content-block1 '>
-            <div class='title reveal-left'>
+            <div class='title-text reveal-left'>
                 {{-- <img src="{{asset('assets/img/manual.svg')}}" alt=""> --}}
                 <h2>{{ trans('lang.STR_TITLE_HOMEPAGE_6') }}</h2>
                 <p>{{trans('lang.STR_TEXT_1')}}</p>
