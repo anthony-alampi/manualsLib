@@ -535,6 +535,8 @@
 @media (max-width: 1024px){
 .features-header{
     font-size: 30px;
+
+
 }
 
 /*---features container----*/
@@ -757,18 +759,17 @@
 }
 @media (max-width: 768px) {
 .features-header {
-        font-size: 25px;
-        height: 50vh;
+        height: 20vh;
     }
-/* .features-header .line-shape {
-    position: absolute;
-    top: 300px;
-    width: 40%;
-    z-index: -1;
-} */
+.features-header .content-block h1{
+    font-size: 50px;
+}
+.features-header .line-shape {
+    display: none;
+}
     /*---features container----*/
     .features-container .features-block {
-        width: 100%;
+        width: 90%;
         text-align: center;
     }
 
@@ -786,18 +787,18 @@
 
     /*------------FEATURES LISTING X3-----------*/
     .features-listing-container .item {
-        width: 250px;
+        width: 50%;
+        text-align: center;
     }
 
     /*---------------Features container1 BG-block 1 ----------*/
     .features-container1 {
         margin-top: 50px;
-        padding: 0 16px 0 16px;
         text-align: center;
     }
 
     .features-block {
-        width: 100%;
+        width: 90%;
         margin-top: 50px;
     }
 
@@ -820,13 +821,11 @@
 
     /*---------- FEATURES container 2 -----------------*/
     .features-container2 {
-        margin-top: 50px;
-        padding: 0px 16px 0px 16px;
         text-align: center;
     }
 
     .features-container2 .features-block {
-        width: 100%;
+        width: 90%;
     }
 
     .features-container2 .features-block h2 {
@@ -845,8 +844,6 @@
 
     /*-----------FEATURE CONTAINER 3 ---------*/
     .features-container3 {
-        margin-top: 50px;
-        padding: 0px 16px 0px 16px;
         text-align: center;
     }
     .features-container3 .features-block h2{
@@ -877,14 +874,12 @@
 
     /*---------- FEATURES container 4-----------------*/
     .features-container4 {
-        margin-top: 50px;
-        padding: 0px 16px 0px 16px;
         text-align: center;
 
     }
 
     .features-container4 .features-block {
-        width: 100%;
+        width: 90%;
     }
 
     .features-container4 .features-block h2 {
@@ -914,7 +909,7 @@
     }
 
     .features-container5 .features-block {
-        width: 100%;
+        width: 90%;
     }
 
     .features-container5 .features-block h2 {
@@ -1637,9 +1632,9 @@ margin-top: -200px;
 }
 
 /*-------------BRANDS RESPONSIVE-----------*/
-@media (max-width: 1040px){
+@media (max-width: 1024px){
 .brand-container1 {
-        padding: 50px 16px 50px 0px;
+        padding: 0px;
     }
 .brand-container1 .brand-block {
         width: 100%;
@@ -1670,6 +1665,50 @@ margin-top: -200px;
 
 .brand-container1 .more-item1 {
     top: 0;
+}
+@media (max-width: 768px) {
+.brand-container1 .title-text {
+    width: 90%;
+    text-align: center;
+    margin: 0;
+}
+.brand-container1 .title-text p {
+    margin-top: 20px;
+    font-family: var(--font-text);
+    font-size: var(--size-text);
+    color: var(--color-text);
+    line-height: var(--line-text);
+    font-weight: var(--weight-text);
+    width: 100%;
+}
+
+.brand-container2 .title-text {
+    width: 90%;
+    text-align: center;
+    margin: 0;
+}
+
+.brand-container2 .title-text h2 {
+    font-family: 'gilroy-black', sans-serif;
+    color: #202020;
+    font-size: 42px;
+    line-height: 1.35em;
+    margin-bottom: 20px;
+}
+
+.brand-container2 .title-text p {
+    margin-top: 20px;
+    font-family: var(--font-text);
+    font-size: var(--size-text);
+    color: var(--color-text);
+    line-height: var(--line-text);
+    font-weight: var(--weight-text);
+    width: 100%;
+}
+
+.brand-container2 .images .illustration {
+    width: 300px;
+}
 }
 @media (max-width: 500px) {
 .brands-header .line-shape {

@@ -84,9 +84,9 @@
             </div>
         </section>
     </article>
-            <section class="brands-blocks-container">
+        <section class="brands-blocks-container">
             <article class="brand-container1">
-                <div class="brand-block">
+                <div class="title-text">
                     <h2>{{ trans('lang.STR_TITLE_BRANDS_3') }}</h2>
                     <p> {{ trans('lang.STR_TEXT_BRANDS_2') }} </p>
                 </div>
@@ -100,15 +100,9 @@
                 <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="circle-item" />
             </article>
 
-            <section class='content-block2 '>
+            <section class='brand-container2'>
             <div class="images">
                 <img src="{{asset('assets/img/helpdesk.jpg')}}" alt="" class="illustration">
-                <img src="{{asset('assets/img/orange-triangle.svg')}}" class="child-triangle" alt=''/>
-                <img src="{{asset('assets/img/carre.svg')}}" class="child-square1" alt=''/>
-                <img src="{{asset('assets/img/carre.svg')}}" class="child-square2" alt=''/>
-                <img src="{{asset('assets/img/carre.svg')}}" class="child-square3" alt=''/>
-                <img src="{{asset('assets/img/carre.svg')}}" class="child-square4" alt=''/>
-                <img src="{{asset('assets/img/carre.svg')}}" class="child-square5" alt=''/>
             </div>
             <div class='title-text'>
                 <h2>{{ trans('lang.STR_TITLE_BRANDS_4') }}</h2>

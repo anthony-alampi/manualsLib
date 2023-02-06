@@ -87,7 +87,7 @@
 }
 .content-sub-block .line-shape{
     position: absolute;
-    width: 40%;
+    width: 30%;
     top: 40px;
     left: 50%;
     transform: translate(-50%);
@@ -136,23 +136,24 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 50px 16px 50px 16px;
     position: relative;
 }
 
-.brand-container1 .brand-block {
+.brand-container1 .title-text {
     width: 40%;
+    text-align: left;
+    margin: 0;
 }
 
-.brand-container1 .brand-block h2 {
+.brand-container1 .title-text h2 {
     font-family: 'gilroy-black', sans-serif;
     color: #202020;
     font-size: 42px;
     line-height: 1.35em;
     margin-bottom: 20px;
 }
-.brand-container1 .brand-block p {
-    margin-top: 30px;
+.brand-container1 .title-text p {
+    margin-top: 20px;
     font-family: var(--font-text);
     font-size: var(--size-text);
     color: var(--color-text);
@@ -163,14 +164,13 @@
 
 .brand-container1 .image-block {
     width: 600px;
-    border-radius: 20px;
 }
 
 .brand-container1 .circle-item {
     position: absolute;
     width: 150px;
     bottom: 0;
-    right: 5%;
+    right: 20%;
     animation: rotation 35s infinite;
 }
 
@@ -218,6 +218,44 @@
     position: absolute;
     width: 20px;
     bottom: 10%;
-    left: 50%;
+    right: 20%;
     animation: rotation 35s infinite;
+}
+
+/*----*/
+.brand-container2 {
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.brand-container2 .title-text {
+    width: 40%;
+    text-align: left;
+    margin: 0;
+}
+
+.brand-container2 .title-text h2 {
+    font-family: 'gilroy-black', sans-serif;
+    color: #202020;
+    font-size: 42px;
+    line-height: 1.35em;
+    margin-bottom: 20px;
+}
+
+.brand-container2 .title-text p {
+    margin-top: 20px;
+    font-family: var(--font-text);
+    font-size: var(--size-text);
+    color: var(--color-text);
+    line-height: var(--line-text);
+    font-weight: var(--weight-text);
+    width: 90%;
+}
+
+.brand-container2 .image-block {
+    width: 600px;
 }
