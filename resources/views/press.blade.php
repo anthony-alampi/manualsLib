@@ -67,7 +67,7 @@
 
             </section>
 
-            <article class="features-container1 bg-block">
+            <article class="features-container1">
                 <div class="features-block reveal-left">
                     <h2>{{ trans('lang.STR_TITLE_PRESS_2') }}</h2>
                     <p> {{ trans('lang.STR_TEXT_PRESS_1') }} </p>

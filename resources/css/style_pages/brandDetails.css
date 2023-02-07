@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
     position: relative;
+    text-align: center;
     margin: 225px auto 0;
 }
 
@@ -13,7 +14,6 @@
     line-height: var(--home-line-h1);
     font-weight: var(--home-weight-h1);
     color: var(--home-color-h1);
-    text-align: center;
     width: 60%;
     color: #101621;
 }
@@ -24,7 +24,6 @@
     font-size: 22px;
     line-height: 1.75em;
     width: 70%;
-    text-align: center;
     color: #73737B;
 }
 
@@ -90,28 +89,28 @@
 
 .content-sub-brand-block {
     position: relative;
+    text-align: center;
 }
 
 .content-sub-brand-block h2 {
-    text-align: center;
     font-family: 'Gilroy-black', sans-serif;
     font-size: 42px;
     font-weight: 600;
     color: #101621;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
+    margin-top: 150px;
 }
 .content-sub-brand-block p{
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
     line-height: 1.75em;
-    width: 70%;
-    text-align: center;
+    width: 60%;
     margin: 0 auto 0;
     color: #73737B;
 }
 .content-sub-brand-block .line-shape {
     position: absolute;
-    width: 40%;
+    width: 35%;
     top: 40px;
     left: 50%;
     transform: translate(-50%);
@@ -122,10 +121,10 @@
 .brand-details-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    padding: 50px 16px 50px 16px;
     position: relative;
+    margin-top: 50px;
 }
 
 .brand-details-container .brand-block {
@@ -146,7 +145,6 @@
     color: var(--color-text);
     line-height: var(--line-text);
     font-weight: var(--weight-text);
-    width: 90%;
 }
 
 .brand-details-container .image-block {
@@ -158,7 +156,7 @@
     position: absolute;
     width: 150px;
     bottom: 0;
-    right: 5%;
+    right: 10%;
     animation: rotation 35s infinite;
 }
 
@@ -224,7 +222,7 @@
 
 }
 .top-10-container .line-custom{
-    width: 40%;
+    width: 30%;
     margin-top: -20px;
     margin-left: 50%;
     transform: translateX(-50%);
@@ -240,7 +238,6 @@
     display: flex;
     flex-direction: column;
     margin: 10px;
-    /* width: 100%; */
     justify-content: center;
     align-items: center;
 }

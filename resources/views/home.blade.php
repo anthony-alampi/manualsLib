@@ -116,19 +116,19 @@
 			                <img src="{{asset('assets/img/Toshiba-Logo.png')}}" alt="Brands logo" />
 	                    </div>
                         <div class="slide">
-			                <img src="{{asset('assets/img/Toshiba-Logo.png')}}" alt="Brands logo" />
+			                <img src="{{asset('assets/img/Iiyama.png')}}" alt="Brands logo" />
 	                    </div>
                         <div class="slide">
-			                <img src="{{asset('assets/img/Toshiba-Logo.png')}}" alt="Brands logo" />
+			                <img src="{{asset('assets/img/marshall-brand.jpg')}}" alt="Brands logo" />
 	                    </div>
                         <div class="slide">
-			                <img src="{{asset('assets/img/Toshiba-Logo.png')}}" alt="Brands logo" />
+			                <img src="{{asset('assets/img/Nintendo.png')}}" alt="Brands logo" />
 	                    </div>
                         <div class="slide">
-			                <img src="{{asset('assets/img/Toshiba-Logo.png')}}" alt="Brands logo" />
+			                <img src="{{asset('assets/img/valberg.png')}}" alt="Brands logo" />
 	                    </div>
                         <div class="slide">
-			                <img src="{{asset('assets/img/Toshiba-Logo.png')}}" alt="Brands logo" />
+			                <img src="{{asset('assets/img/ViewSonic.png')}}" alt="Brands logo" />
 	                    </div>
                         <div class="slide">
 			                <img src="{{asset('assets/img/Toshiba-Logo.png')}}" alt="Brands logo" />

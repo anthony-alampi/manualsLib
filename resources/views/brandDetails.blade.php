@@ -12,7 +12,7 @@
         <img src="{{asset('assets/img/line-shape-11.svg')}}" class="line-shape" alt="">
 </header>
 <main>
-    <article class='brands-custom-bg'>
+    <article>
         <section>
             <div class="content-sub-brand-block">
                 <h2>{{trans('lang.STR_TITLE_BRAND_2')}}</h2>
@@ -124,11 +124,11 @@
             </div>
         </section>
             <article class="brand-details-container">
-                <div class="brand-block">
+                <div class="brand-block reveal-left">
                     <h2>{{ trans('lang.STR_TITLE_BRAND_3') }}</h2>
                     <p> {{ trans('lang.STR_TEXT_BRAND_3') }} </p>
                 </div>
-                <img class="image-block" src="{{ asset('assets/img/brand-block1.jpg') }}" alt="">
+                <img class="image-block reveal-right" src="{{ asset('assets/img/brand-block1.jpg') }}" alt="">
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item1" />
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item2" />
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item3" />

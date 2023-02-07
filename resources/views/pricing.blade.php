@@ -113,7 +113,7 @@
         </section>
         <section class="pricing-containers">
             <article class="pricing-section1">
-                <div class="pricing-block reveal-right">
+                <div class="pricing-block reveal-bottom">
                     <h2>{{ trans('lang.STR_TITLE_PRICING_5') }}</h2>
                     <p> {{ trans('lang.STR_TEXT_21') }} </p>
                 </div>
@@ -125,7 +125,7 @@
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item2" />
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item3" />
                 <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="circle-item" />
-                <img src="{{asset('assets/img/free-manuals.jpeg')}}" class="reveal-left" alt="">
+                <img src="{{asset('assets/img/free-manuals.jpeg')}}" class="reveal-bottom image" alt="">
             </article>
             <article class="pricing-section2">
                 <div class="pricing-block reveal-left">

@@ -1174,60 +1174,28 @@
 } */
 }
 @media (max-width: 1024px) {
-.pricing-header .content-block h1{
-    font-size: 78px;
-}
-/* .pricing-header .line-shape {
-    position: absolute;
-    top: 320px;
-    width: 60%;
-    z-index: -1;
-} */
-.pricing-header .square-item1 {
-    width: 15px;
-    top: 50%;
-    left: 3%;
-}
-.pricing-table{
-margin-top: -200px;
-}
-.pricing-container1{
-    height: 500px;
-}
-.pricing-container2{
-    height: 500px;
-}
-.pricing-container3{
-    height: 500px;
-}
+
 .pricing-containers .pricing-section1 .triangle-item {
     width: 150px;
     position: absolute;
     top: 35%;
     left: 3%;
 }
-/*--------- section text-block  -----------------*/
-.pricing-section2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    padding: 100px 16px 50px 16px;
-    position: relative;
+.pricing-containers .pricing-section1 .pricing-block{
+    width: 70%;
 }
+.pricing-containers .pricing-section1 .image{
+    width: 400px;
+}
+/*--------- section text-block  -----------------*/
+
 
 .pricing-section2 .pricing-block {
     width: 70%;
+    text-align: center;
+    margin-top: 100px;
 }
 
-.pricing-section2 .pricing-block h2 {
-    text-align: center;
-}
-
-.pricing-section2 .pricing-block p {
-    text-align: center;
-    margin-bottom: 20px;
-}
 
 .pricing-section2 .image-block {
     width: 400px;
@@ -1235,145 +1203,93 @@ margin-top: -200px;
 /*----*/
 .pricing-section3 .pricing-block {
     width: 70%;
-}
-
-.pricing-section3 .pricing-block h2 {
     text-align: center;
-}
-
-.pricing-section3 .pricing-block p {
-    text-align: center;
+    margin-top: 100px;
 }
 
 .pricing-section3 .image-block {
     width: 400px;
+    order: 2;
 }
 /*----*/
-.pricing-section4 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    padding: 100px 16px 50px 16px;
-    position: relative;
-}
-
-.pricing-section4 .pricing-block {
-    width: 70%;
-}
-
-.pricing-section4 .pricing-block h2 {
-    text-align: center;
-}
-
-.pricing-section4 .pricing-block p {
-    text-align: center;
-}
-.pricing-section4 .image-block {
-    width: 400px;
-}
-/*-----*/
 
 .pricing-section5 .pricing-block {
     width: 70%;
+    text-align: center;
+    margin-top: 100px;
 }
 
-.pricing-section5 .pricing-block h2 {
-    text-align: center;
-}
-.pricing-section5 .pricing-block p {
-    text-align: center;
-}
 .pricing-section5 .image-block {
     width: 400px;
 }
 /*-----*/
 .pricing-section6 .pricing-block {
     width: 70%;
-}
-
-.pricing-section6 .pricing-block h2 {
     text-align: center;
-}
-
-.pricing-section6 .pricing-block p {
-    text-align: center;
+    margin-top: 100px;
 }
 
 .pricing-section6 .image-block {
-    width: 200px;
+    width: 400px;
+    order: 2;
 }
 /*-----*/
 .pricing-section7 .pricing-block {
     width: 70%;
-}
-
-.pricing-section7 .pricing-block h2 {
     text-align: center;
-}
-
-.pricing-section7 .pricing-block p {
-    text-align: center;
+    margin-top: 100px;
 }
 
 .pricing-section7 .image-block {
-    width: 200px;
+    width: 400px;
 }
 }
 @media (max-width: 768px) {
-.pricing-table{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    margin-top: 0px;
-    margin-bottom: 150px;
-    padding: 0 16px 0 16px;
-}
 .pricing-header {
-        margin-bottom: 50px;
+        height: 70vh;
     }
-/* .pricing-header h1 {
-        width: 100%;
+.pricing-header .content-block {
+        position: relative;
+        width: 90%;
+        padding-top: 225px;
+    }
+.pricing-header .content-block h1 {
         font-size: 50px;
-        margin-top:100px;
-        text-align: center;
-        padding: 16px;
-    } */
-
+    }
+.pricing-header .line-shape {
+    top: 265px;
+}
+.pricing-header .content-block h2 {
+    font-size: 32px;
+}
 }
 
 @media (max-width: 500px) {
-/* .pricing-table{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    margin-top: -100px;
-    margin-bottom: 150px;
-    padding: 0 16px 0 16px;
-} */
-/* .pricing-header {
-        height: 60vh;
-        display: flex;
-        justify-content: center;
-        align-items: unset;
-        background: #ecf6ff;
-    } */
-.pricing-header .content-block h1 {
-        width: 100%;
-        font-size: 30px;
-        margin-top: 0px;
-        text-align: center;
-    }
 
-    .pricing-header .square-item1 {
-        width: 15px;
-        top: 50%;
-        left: 3%;
+.pricing-header .content-block h1 {
+        font-size: 30px;
     }
+.pricing-header .line-shape {
+    display: none;
+}
+.pricing-header .content-block h2 {
+    font-size: 20px;
+}
+.pricing-containers .pricing-section1 .image {
+    width: 250px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+.pricing-containers .pricing-section1 .circle-item {
+    display: none;
+}
+
+.pricing-header .square-item1 {
+    width: 15px;
+    top: 50%;
+    left: 3%;
+}
 
     .pricing-table {
         margin-top: 100px;
@@ -1383,20 +1299,7 @@ margin-top: -200px;
 .pricing-table .triangle-item {
     width: 100px;
     }
-    
-    .pricing-container1 {
-        height: 500px;
-        margin-top: -100px;
-        z-index: 0;
-    }
 
-    .pricing-container2 {
-        height: 500px;
-    }
-
-    .pricing-container3 {
-        height: 500px;
-    }
     .pricing-containers .pricing-section1 h2{
     font-size: 23px;
 }
@@ -1425,7 +1328,7 @@ margin-top: -200px;
     }
 
     .pricing-section2 .pricing-block {
-        width: 100%;
+        width: 90%;
         text-align: center;
     }
 
@@ -1438,16 +1341,13 @@ margin-top: -200px;
     }
 
     .pricing-section2 .image-block {
-    width: 250px;
+        width: 250px;
     }
     
 /*--------- section text-block 3 -----------------*/
-.pricing-section3 {
-    padding: 50 16px 50px 16px;
-}
 
 .pricing-section3 .pricing-block {
-    width: 100%;
+    width: 90%;
     text-align: center;
 }
 
@@ -1463,46 +1363,11 @@ margin-top: -200px;
     width: 250px;
 }
 
-/*--------- section text-block 4 -----------------*/
-.pricing-section4 {
-    padding: 50px 16px 50px 16px;
-
-}
-
-.pricing-section4 .pricing-block {
-    width: 100%;
-    text-align: center;
-}
-
-.pricing-section4 .pricing-block h2 {
-    font-size: 23px;
-}
-
-.pricing-section4 .pricing-block p {
-    font-size: 15px;
-    color: var(--font-color);
-}
-
-.pricing-section4 .image-block {
-    width: 250px;
-}
-.pricing-section4 .circle-item {
-    width: 70px;
-    top: 12%;
-    left: 65%;
-}
-.pricing-section4 .square-item1 {
-    width: 15px;
-    top: 5%;
-    left: 25%;
-}
 /*--------- section text-block 5 -----------------*/
-.pricing-section5 {
-    padding: 50px 16px 0px 16px;
-}
+
 
 .pricing-section5 .pricing-block {
-    width: 100%;
+    width: 90%;
     text-align: center;
 }
 
@@ -1511,7 +1376,6 @@ margin-top: -200px;
 }
 
 .pricing-section5 .pricing-block p {
-    margin-top: 30px;
     font-size: 15px;
 }
 
@@ -1519,14 +1383,42 @@ margin-top: -200px;
     width: 250px;
 }
 /**----*/
+.pricing-section6 .pricing-block {
+    width: 90%;
+    text-align: center;
+}
+
 .pricing-section6 .pricing-block h2 {
     font-size: 23px;
 }
+
+.pricing-section6 .pricing-block p {
+    font-size: 15px;
+}
+
+.pricing-section6 .image-block {
+    width: 100px;
+}
+/**----*/
+.pricing-section7 .pricing-block {
+    width: 90%;
+    text-align: center;
+}
+
 .pricing-section7 .pricing-block h2 {
     font-size: 23px;
 }
+
+.pricing-section7 .pricing-block p {
+    font-size: 15px;
 }
 
+.pricing-section7 .image-block {
+    width: 100px;
+}
+}
+
+/*---------CONTACT RESPONSIVE-------------------*/
 
 @media (max-width: 768px) {
 .contact-block {
@@ -1895,6 +1787,40 @@ margin-top: -200px;
 
 }
 
+/*-----------------BRAND DETAILS-----------------------*/
+
+@media (max-width: 1024px) {
+.brand-details-container .brand-block {
+        width: 90%;
+        text-align: center;
+    }
+}
+@media (max-width: 800px) {
+.brand-header h1 {
+        font-size: 50px;
+    }
+}
+@media (max-width: 600px) {
+.brand-header h1 {
+        font-size: 40px;
+    }
+.top-10-container .most-brand-container .download {
+    width: 350px;
+}
+
+}
+@media (max-width: 500px) {
+.brand-header h1 {
+        font-size: 30px;
+    }
+.top-10-container .most-brand-container .download {
+    width: 300px;
+}
+.brand-header a {
+    padding: 20px 10px 20px 10px;
+    width: 80%;
+}
+}
 
 
 
