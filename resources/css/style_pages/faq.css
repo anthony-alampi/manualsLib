@@ -91,3 +91,38 @@
     animation: moveCircle 14s infinite linear;
 }
 
+.faq-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0 0 0;
+}
+
+.faq-block {
+    width: 40%;
+    padding: 0 16px 0 16px;
+}
+
+.faq-container img {
+    width: 300px;
+    padding: 0 25px 0 25px;
+}
+
+.faq-container .image-block {
+    width: 600px;
+}
+.faq-block h2 {
+    font-family: var(--font-h1);
+    font-size: 40px;
+    color: var(--color-h2);
+}
+
+.faq-block p {
+    margin-top: 30px;
+    font-family: var(--font-text);
+    font-weight: var(--weight-text);
+    font-size: var(--size-text);
+    color: var(--font-color);
+    line-height: var(--height-line-text);
+}

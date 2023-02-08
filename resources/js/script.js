@@ -64,28 +64,7 @@ onglets.forEach((onglet) => {
         }
     });
 });
-
-
-
 //--------------------------------------Hamburger-------------------------------------//
-// const hamburgerToggler = document.querySelector(".hamburger");
-// const navLinksContainer = document.querySelector(".navlinks-container");
-
-// const toggleNav = () => {
-//     hamburgerToggler.classList.toggle("open");
-//     navLinksContainer.classList.toggle("open");
-// }
-// hamburgerToggler.addEventListener("click", toggleNav);
-
-// new ResizeObserver(entries => {
-//     if(entries[0].contentRect.width <= 1024)
-//     {
-//         navLinksContainer.style.transition = "transform 0.3s ease-out";
-//     }else
-//     {
-//         navLinksContainer.style.transition = "none";
-//     }
-// }).observe(document.body)
 const hamburgerToggler = document.querySelector(".hamburger");
 const navLinksContainer = document.querySelector(".navlinks-container");
 const navLinks = document.querySelectorAll(".nav-link");
@@ -111,8 +90,6 @@ new ResizeObserver((entries) => {
         navLinksContainer.style.transition = "none";
     }
 }).observe(document.body);
-
-
 //--------------------Customers Feedback-------------------------//
 document.addEventListener("DOMContentLoaded", () => {
 
@@ -129,30 +106,22 @@ document.addEventListener("DOMContentLoaded", () => {
         clearInterval(__msAutoplay);
         console.log(e.type + " mouse detected");
     };
-
-
     __ms.onmouseleave = function (e) {
         clearInterval(__msAutoplay);
         __msAutoplay = setInterval(() => __msSlider.next(), __msTimer);
-        // console.log(e.type + " mouse detected");
     };
-
 
     __ms.onclick = function (e) {
         clearInterval(__msAutoplay);
-        // console.log(e.type + " mouse detected");
     };
-
 
     hammer.on("tap", function (e) {
         clearInterval(__msAutoplay);
-        // console.log(e.type + " gesture detected");
     });
 
     hammer.on("swipe", function (e) {
         clearInterval(__msAutoplay);
         __msAutoplay = setInterval(() => __msSlider.next(), __msTimer);
-        // console.log(e.type + " gesture detected");
     });
 
     let slideLink = document.querySelectorAll(".slider-item");
@@ -216,7 +185,11 @@ document.querySelectorAll('[class*="reveal-bottom"]').forEach(function (r) {
     observerBottom.observe(r);
 });
 
-// const pricingBtn = document.querySelector('.switch-pricing');
-//     pricingBtn.addEventListener('click', () => {
-//         console.log(pricingBtn);
-//     })
+//-----------------------FAQ MODULE------------------------------------*/
+const faqs = document.querySelectorAll(".faq");
+
+faqs.forEach( faq => {
+    faq.addEventListener('click', () => {
+        faq.classList.toggle("active");
+    })
+})
