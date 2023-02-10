@@ -96,7 +96,7 @@
 }
 
 .features-container .illustration {
-    width: 500px;
+    width: 400px;
     border-radius: 20px;
 }
 /*------------FEATURES LISTING X3-----------*/
@@ -246,7 +246,7 @@
 }
 
 .features-container2 .image-block {
-    width: 600px;
+    width: 500px;
     border-radius: 20px;
 }
 
@@ -283,7 +283,6 @@
 }
 .features-container3 .image-block {
     width: 500px;
-    border-radius: 20px;
 }
 .bg-block2{
     background-color: #FFF6EC;;
@@ -341,8 +340,7 @@
 }
 
 .features-container4 .image-block {
-    width: 600px;
-    border-radius: 20px;
+    width: 500px;
 }
 
 .features-container4 .triangle-item {

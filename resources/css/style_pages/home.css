@@ -293,7 +293,7 @@
     position: relative;
 }
 .content-block1 .right-block .illustration{
-    width: 700px;
+    width: 600px;
 }
 .right-block .more-item1{
     position: absolute;
@@ -408,7 +408,7 @@
     position: relative;
 }
 .content-block2 .images .illustration{
-    width: 700px;
+    width: 400px;
 }
 .content-block2 .images .child-triangle{
     width: 100px;
@@ -491,7 +491,7 @@
 }
 
 .content-block3 .images .illustration {
-    width: 600px;
+    width: 400px;
 
 }
 

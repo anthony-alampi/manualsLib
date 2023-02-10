@@ -36,7 +36,7 @@
                     <p>{{trans('lang.STR_TEXT_47')}}</p>
                 </div>
                 <div class="image-block reveal-right">
-                    <img src="{{asset('assets/img/our-mission.jpeg')}}" alt="">
+                    <img src="{{asset('assets/img/our-mission.svg')}}" alt="">
                 </div>
                 <div class="circle-scale1"></div>
                 <div class="circle-scale2"></div>
@@ -46,7 +46,7 @@
                 <div class="circle-scale1"></div>
                 <div class="circle-scale2"></div>
                 <div class="image-block reveal-left">
-                    <img src="{{asset('assets/img/our-solution.jpeg')}}" alt="">
+                    <img src="{{asset('assets/img/our_solution.svg')}}" alt="">
                 </div>
                 <div class="text-block reveal-right">
                     <h2>{{trans('lang.STR_TITLE_62')}}</h2>

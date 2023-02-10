@@ -42,7 +42,7 @@
                         <h2>{{ trans('lang.STR_TITLE_FAQ_4') }}</h2>
                         <p> {{ trans('lang.STR_TEXT_FAQ_3') }} </p>
                     </div>
-                    <img src="{{ asset('assets/img/business.jpeg') }}" class="image-block" alt="">
+                    <img src="{{ asset('assets/img/business.svg') }}" class="image-block" alt="">
                 </article>
                 </article>
             </section>

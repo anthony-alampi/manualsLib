@@ -61,7 +61,7 @@
 
 .block-image-manuals {
     display: block;
-    width: 70%;
+    width: 30%;
     margin: 100px auto 0;
 }
 /*--------------MOST DOWNLOADED MANUALS------------------*/
@@ -157,6 +157,9 @@
     width: 70%;
     margin: 0 15% 0;
     margin-top: 100px;
+}
+.manuals-block img{
+    width: 500px;
 }
 /*----------HEADBAND ANIMATION-----------------*/
 

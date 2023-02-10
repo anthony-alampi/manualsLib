@@ -154,7 +154,7 @@
                 <p>{{trans('lang.STR_TEXT_3')}}</p>
             </div>
             <div class="images">
-                <img src="{{asset('assets/img/more-assist.png')}}" alt="" class="illustration reveal-right">
+                <img src="{{asset('assets/img/idee.svg')}}" alt="" class="illustration reveal-right">
                 <img src="{{asset('assets/img/orange-triangle.svg')}}" class="child-triangle" alt=''/>
                 <img src="{{asset('assets/img/carre.svg')}}" class="child-square1" alt=''/>
                 <img src="{{asset('assets/img/carre.svg')}}" class="child-square2" alt=''/>
@@ -166,7 +166,7 @@
 
         <section class='content-block2'>
             <div class="images">
-                <img src="{{asset('assets/img/more-translate.png')}}" alt="" class="illustration reveal-left ">
+                <img src="{{asset('assets/img/manuals3.svg')}}" alt="" class="illustration reveal-left ">
                 <img src="{{asset('assets/img/orange-triangle.svg')}}" class="child-triangle" alt=''/>
                 <img src="{{asset('assets/img/carre.svg')}}" class="child-square1" alt=''/>
                 <img src="{{asset('assets/img/carre.svg')}}" class="child-square2" alt=''/>

@@ -72,7 +72,7 @@
                     <h2>{{ trans('lang.STR_TITLE_PRESS_2') }}</h2>
                     <p> {{ trans('lang.STR_TEXT_PRESS_1') }} </p>
                 </div>
-                <img src="{{ asset('assets/img/press.jpg') }}" class="image-block reveal-right" alt="">
+                <img src="{{ asset('assets/img/talk-press.svg') }}" class="image-block reveal-right" alt="">
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item1" />
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item2" />
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item3" />
@@ -80,7 +80,7 @@
                 <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="circle-item" />
             </article>
             <article class="features-container2">
-                <img src="{{ asset('assets/img/brand-tel.jpg') }}" class="aboutBrand reveal-left" alt="">
+                <img src="{{ asset('assets/img/about-marque.svg') }}" class="aboutBrand reveal-left" alt="">
                 <div class="features-block reveal-right">
                     <h2>{{ trans('lang.STR_TITLE_PRESS_3') }}</h2>
                     <p> {{ trans('lang.STR_TEXT_PRESS_2') }} </p>
@@ -92,7 +92,7 @@
                     <h2>{{ trans('lang.STR_TITLE_PRESS_4') }}</h2>
                     <p> {{ trans('lang.STR_TEXT_PRESS_3') }} </p>
                 </div>
-                <img class="image-block reveal-right" src="{{ asset('assets/img/tools-media.jpg') }}" alt="">
+                <img class="image-block reveal-right" src="{{ asset('assets/img/tools-logo.svg') }}" alt="">
                 <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="circle-item" />
             </article>
 

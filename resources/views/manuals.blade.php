@@ -27,7 +27,7 @@
 
 <main>
     <article>
-        <img src="{{asset('assets/img/image-header-manuals.svg')}}" class='block-image-manuals reveal-bottom' alt="">
+        <img src="{{asset('assets/img/interface_for_manuals.svg')}}" class='block-image-manuals reveal-bottom' alt="">
         <section class="top-15-container">
             <h2>{{trans('lang.STR_TITLE_MANUALS_3')}}</h2>
             <img src="{{asset('assets/img/line-shape-3.svg')}}" class='line-custom'alt="">
@@ -178,7 +178,7 @@
                 <h2>{{trans('lang.STR_TITLE_MANUALS_4')}}</h2>
                 <p>{{trans('lang.STR_TEXT_MANUALS_1')}}</p>
             </div>
-            <img src="{{asset('assets/img/get-full.svg')}}" class="reveal-right" alt="">
+            <img src="{{asset('assets/img/manual.svg')}}" class="reveal-right" alt="">
         </section>
         <img src="{{asset('assets/img/line-shape-9.svg')}}" class="separate-line-custom-manuals" alt="">
 
@@ -289,7 +289,7 @@
         </section>
         </div>
         <section class="manuals-block">
-            <img src="{{asset('assets/img/needs-questions.svg')}}" class="reveal-left" alt="">
+            <img src="{{asset('assets/img/faq.svg')}}" class="reveal-left" alt="">
             <div class="text-block reveal-right">
                 <h2>{{trans('lang.STR_TITLE_MANUALS_6')}}</h2>
                 <p>{{trans('lang.STR_TEXT_MANUALS_2')}}</p>

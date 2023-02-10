@@ -32,7 +32,7 @@
             </div>
         </div>
         <div class="picture-manual">
-            <img src="{{asset('assets/img/new-research.svg')}}" class="separate-image reveal-bottom" alt="">
+            <img src="{{asset('assets/img/new-search.svg')}}" class="separate-image reveal-bottom" alt="">
         </div>
          <section>
                 <div class="slider">

@@ -90,7 +90,7 @@
                     <h2>{{ trans('lang.STR_TITLE_BRANDS_3') }}</h2>
                     <p> {{ trans('lang.STR_TEXT_BRANDS_2') }} </p>
                 </div>
-                <img class="image-block" src="{{ asset('assets/img/brand-block1.jpg') }}" alt="">
+                <img class="image-block" src="{{ asset('assets/img/specific-manual.svg') }}" alt="">
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item1" />
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item2" />
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item3" />
