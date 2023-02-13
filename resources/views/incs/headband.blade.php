@@ -8,7 +8,7 @@
 			                <img src="{{asset('assets/img/Electrolux-Logo.png')}}" alt="Brands logo" />
 		                </div>
 		                <div class="slide">
-			                <img src="{{asset('assets/img/beko.png')}}"  alt="Brands logo" />
+			                <img src="{{asset('assets/img/asus.png')}}"  alt="Brands logo" />
 		                </div>
 		                <div class="slide">
 			                <img src="{{asset('assets/img/HIGH-ONE-Logo.png')}}"  alt="Brands logo" />
@@ -59,7 +59,7 @@
 			                <img src="{{asset('assets/img/Liebherr-Logo.png')}}" alt="Brands logo" />
 	                    </div>
                         <div class="slide">
-			                <img src="{{asset('assets/img/beko.png')}}" alt="Brands logo" />
+			                <img src="{{asset('assets/img/asus.png')}}" alt="Brands logo" />
 	                    </div>
                         <div class="slide">
 			                <img src="{{asset('assets/img/HIGH-ONE-Logo.png')}}" alt="Brands logo" />
