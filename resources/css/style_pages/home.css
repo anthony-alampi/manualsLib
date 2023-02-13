@@ -118,7 +118,7 @@
 }
 
 .slider .slide-track {
-    animation: scroll 100s linear infinite;
+    animation: scroll 130s linear infinite;
     display: flex;
     justify-content: center;
     align-items: center;
