@@ -134,7 +134,7 @@ return
             'STR_TITLE_BRAND_ITEM_10' => 'Whirlpool',    
             'STR_TITLE_BRAND_ITEM_11' => 'Bosch',    
             'STR_TITLE_BRAND_ITEM_12' => 'JBL',    
-            'STR_TITLE_BRAND_ITEM_13' => 'Beats By Dre',    
+            'STR_TITLE_BRAND_ITEM_13' => 'Bose',    
             'STR_TITLE_BRAND_ITEM_14' => 'GoPro',    
             'STR_TITLE_BRAND_ITEM_15' => 'Dyson',    
 

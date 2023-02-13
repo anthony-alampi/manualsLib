@@ -71,7 +71,7 @@
                 </div>
                 <div class="brand-item reveal-bottom">
                     <h3>{{trans('lang.STR_TITLE_BRAND_ITEM_13')}}</h3>
-                    <img src="{{asset('assets/img/beats-brand.png')}}" alt="">
+                    <img src="{{asset('assets/img/bose-brand.jpg')}}" alt="">
                 </div>
                 <div class="brand-item reveal-bottom">
                     <h3>{{trans('lang.STR_TITLE_BRAND_ITEM_14')}}</h3>
