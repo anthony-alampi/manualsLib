@@ -92,7 +92,9 @@
     /* margin: 0px 0 0px 0; */
     overflow: hidden;
     position: relative;
-    /* width: 100%; */
+    width: 100%;
+    border-left: solid 2px rgb(89, 89, 89);
+    border-right: solid 2px rgb(89, 89, 89);
 }
 
 .slider::before,
@@ -116,17 +118,17 @@
 }
 
 .slider .slide-track {
-    animation: scroll 150s linear infinite;
+    animation: scroll 100s linear infinite;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .slider .slide-track .slide img {
-    width: 150px;
+    width: 120px;
     margin-right: 100px;
     filter: grayscale(100%);
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
 @keyframes scroll {

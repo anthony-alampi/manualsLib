@@ -19,26 +19,26 @@
         <article>
             <section class="press-container">
                 <div class="sub-container">
-<article class="article">
+                <article class="article">
                     <div class="image-container">
                         <img src="{{asset('assets/img/bbc.jpg')}}" alt="">
                     </div>
                     <h3>{{trans('lang.STR_TITLE_CITATION_1')}}</h3>
-                    <a href="#" class="read-article">Read the article</a>
+                    <button class="read-article">Read the article</button>
                 </article>
                 <article class="article">
                     <div class="image-container">
                         <img src="{{asset('assets/img/bfm.jpg')}}" alt="">
                     </div>
                     <h3>{{trans('lang.STR_TITLE_CITATION_2')}}</h3>
-                    <a href="#" class="read-article">Read the article</a>
+                    <button class="read-article">Read the article</button>
                 </article>
                 <article class="article">
                     <div class="image-container">
                         <img src="{{asset('assets/img/bbc.jpg')}}" alt="">
                     </div>
                     <h3>{{trans('lang.STR_TITLE_CITATION_3')}}</h3>
-                    <a href="#" class="read-article">Read the article</a>
+                    <button class="read-article">Read the article</button>
                 </article>
                 </div>
                 <div class="sub-container">
@@ -47,21 +47,21 @@
                         <img src="{{asset('assets/img/bfm.jpg')}}" alt="">
                     </div>
                     <h3>{{trans('lang.STR_TITLE_CITATION_4')}}</h3>
-                    <a href="#" class="read-article">Read the article</a>
+                    <button class="read-article">Read the article</button>
                 </article>
                 <article class="article">
                     <div class="image-container">
                         <img src="{{asset('assets/img/bbc.jpg')}}" alt="">
                     </div>
                     <h3>{{trans('lang.STR_TITLE_CITATION_5')}}</h3>
-                    <a href="#" class="read-article">Read the article</a>
+                    <button class="read-article">Read the article</button>
                 </article>
                 <article class="article">
                     <div class="image-container">
                         <img src="{{asset('assets/img/bbc.jpg')}}" alt="">
                     </div>
                     <h3>{{trans('lang.STR_TITLE_CITATION_5')}}</h3>
-                    <a href="#" class="read-article">Read the article</a>
+                    <button class="read-article">Read the article</button>
                 </article>
                 </div>
 

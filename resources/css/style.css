@@ -1509,10 +1509,21 @@
 }
 
 }
+@media (max-width: 768px) {
+.article h3 {
+       font-size: 20px;
+    }
+.press-header {
+    height: 20vh;
+
+}
+.press-header .title-text h1 {
+    font-size:40px;
+}
+}
 @media (max-width: 500px) {
-.article .image-container img {
-        width: 250px;
-        height: 150px;
+.article h3 {
+        font-size: 15px;
     }
 .press-header {
     height: 50vh;
