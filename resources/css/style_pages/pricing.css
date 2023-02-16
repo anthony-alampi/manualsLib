@@ -141,7 +141,7 @@
     z-index: 1;
 }
 .pricing-container1 h2 {
-    font-family: 'Gilroy-black', sans-serif;
+    font-family: 'Gilroy-semibold', sans-serif;
     font-size: 18px;
     color: #202020;
     text-align: center;
@@ -191,7 +191,7 @@
 }
 
 .pricing-container2 h2 {
-    font-family: 'Gilroy-black', sans-serif;
+    font-family: 'Gilroy-semibold', sans-serif;
     font-size: 18px;
     color: #202020;
     text-align: center;
@@ -231,8 +231,8 @@
 }
 
 .pricing-container3 h2 {
-    font-family: 'Gilroy-black', sans-serif;
-    font-size: 18px;
+    font-family: 'Gilroy-semibold', sans-serif;
+        font-size: 18px;
     color: #202020;
     text-align: center;
     text-transform: uppercase;
@@ -369,6 +369,7 @@
     align-items: center;
     /* padding: 100px 16px 50px 16px; */
     position: relative;
+    padding: 50px 0 50px 0;
 }
 
 .pricing-section2 .pricing-block {
@@ -445,7 +446,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    /* padding: 100px 16px 50px 16px; */
+    padding: 50px 0 50px 0;
     position: relative;
     /* background:#fdf3e7 ; */
 }
@@ -523,7 +524,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    /* padding: 100px 16px 50px 16px; */
+    padding: 50px 0 50px 0;
     position: relative;
     /* background: #fdf3e7; */
 }
@@ -600,7 +601,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    /* padding: 100px 16px 50px 16px; */
+    padding: 50px 0 50px 0;
     position: relative;
 }
 
@@ -677,7 +678,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    /* padding: 100px 16px 50px 16px; */
+    padding: 100px 0;
     position: relative;
     background: #fdf3e7;
 }

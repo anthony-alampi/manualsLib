@@ -89,12 +89,12 @@
 .slider {
     background: transparent;
     height: 100px;
-    /* margin: 0px 0 0px 0; */
     overflow: hidden;
     position: relative;
     width: 100%;
     border-left: solid 2px rgb(89, 89, 89);
     border-right: solid 2px rgb(89, 89, 89);
+    margin: 50px 0 0 0;
 }
 
 .slider::before,
@@ -268,6 +268,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    padding: 100px 0 0 0;
 }
 
 .content-block1 .title-text {
@@ -373,6 +374,7 @@
     background-image: url(/public/assets/img/bg.svg);
     background-size: cover;
     background-repeat: no-repeat;
+    padding: 100px 0;
 }
 
 .content-block2 .title-text{
@@ -466,6 +468,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+        padding: 100px 0 100px 0;
 }
 .content-block3 .title-text {
     width: 40%;

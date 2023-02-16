@@ -4,7 +4,7 @@
     padding: 15px;
     border: solid 2px black;
     border-radius: 10px;
-    box-shadow: 2px 4px 8px -5px rgba(0, 0, 0, 0.381);
+    /* box-shadow: 2px 4px 8px -5px rgba(0, 0, 0, 0.381); */
     width: 50%;
 }
 
@@ -35,7 +35,6 @@
     border: 2px solid #000000;
     border-radius: 6px;
     background-color: rgb(0, 0, 0);
-    box-shadow: 0px 10px 15px -3px #33333349;
 }
 
 .search-formCustom #search-button:hover {
