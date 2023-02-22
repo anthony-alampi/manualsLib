@@ -6,6 +6,8 @@ export default defineConfig({
         laravel({
             input: ['resources/css/style.css', 'resources/js/script.js'],
             refresh: true,
+            // async: true,
+            // defer:true,
         }),
     ],
 });

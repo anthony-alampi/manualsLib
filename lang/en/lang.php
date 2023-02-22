@@ -139,11 +139,11 @@ return
             'STR_TITLE_BRAND_ITEM_15' => 'Dyson',    
 
         //* Brand details - Title *//
-        'STR_TITLE_BRAND_1' => 'About [Brandname] ',    
-        'STR_TITLE_BRAND_2' => 'All [Brandname] User guides and Manuals',    
-        'STR_TITLE_BRAND_3' => 'Most searched [Brand] manuals',    
-        'STR_TITLE_BRAND_4' => 'Popular [Brand] product categories',    
-        'STR_TITLE_BRAND_5' => 'Get support for [Brandname] products',
+        'STR_TITLE_BRAND_1' => 'About Brand name ',    
+        'STR_TITLE_BRAND_2' => 'All Brand name User guides and Manuals',    
+        'STR_TITLE_BRAND_3' => 'Most searched Brand manuals',    
+        'STR_TITLE_BRAND_4' => 'Popular Brand product categories',    
+        'STR_TITLE_BRAND_5' => 'Get support for Brand name products',
             //* MOST DOWNLOADED BRAND *//
             'STR_TITLE_DOWNLOADED_BRAND_1' => 'SAMSUNG',
             'STR_SUBTITLE_DOWNLOADED_1' => 'MODEL XYZ',
@@ -180,23 +180,23 @@ return
         'STR_SUBTITLE_PRICING_1' => 'Get unlimited access and remote assistance',    
 
         'STR_TITLE_PRICING_CARD_1' => 'FREE',    
-            'STR_PRICE_CARD_1' => '0',    
+            'STR_PRICE_CARD_1' => 'X',    
             'STR_TEXT_1_CARD_1' => 'Includes :',    
             'STR_TEXT_2_CARD_1' => 'X manuals / month',    
 
         'STR_TITLE_PRICING_CARD_2' => 'TRIAL',    
-            'STR_PRICE_CARD_2' => '35',    
+            'STR_PRICE_CARD_2' => 'XX',    
             'STR_TEXT_1_CARD_2' => 'Includes :',    
             'STR_TEXT_2_CARD_2' => 'X€ for 3 days full access',    
 
         'STR_TITLE_PRICING_CARD_3' => 'STANDARD',    
-            'STR_PRICE_CARD_3' => '29',    
+            'STR_PRICE_CARD_3' => 'XX',    
             'STR_TEXT_1_CARD_3' => 'X€ / manual',    
             'STR_TEXT_2_CARD_3' => 'Then X€ / month',    
             'STR_TEXT_3_CARD_3' => 'X Assistance',    
             
         'STR_TITLE_PRICING_CARD_4' => 'BUSINESS',    
-            'STR_PRICE_CARD_4' => '65',    
+            'STR_PRICE_CARD_4' => 'XX',    
             'STR_TEXT_1_CARD_4' => 'X€ / month :',    
             'STR_TEXT_2_CARD_4' => 'Unlimited access',    
             'STR_TEXT_3_CARD_4' => 'X Assistance',    

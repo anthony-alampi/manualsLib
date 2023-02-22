@@ -1,5 +1,7 @@
 @extends('base')
 @section('content')
+
+
 <header class="pricing-header">
     <div class="content-block">
         <h1>{{ trans('lang.STR_TITLE_PRICING_1') }}</h1>
@@ -25,7 +27,11 @@
                     <span>$</span>
                     <h3>{{trans('lang.STR_PRICE_CARD_1')}}</h3>
                 </div>
-                <button class="sign-up-pricing">Sign Up</button>
+               @if (Auth::user())
+                                   <button class="sign-up-pricing">Susbscribe</button>
+               @else
+                                   <button class="sign-up-pricing">Sign Up</button>
+               @endif
                 <div class="separate-custom"></div>
                 <p class="manuals custom-position">{{ trans('lang.STR_TEXT_2_CARD_1') }}</p>
             </div>
@@ -36,7 +42,11 @@
                     <span>$</span>
                     <h3>{{trans('lang.STR_PRICE_CARD_2')}}</h3>
                 </div>
-                <button class="sign-up-pricing">Sign Up</button>
+               @if (Auth::user())
+                    <button class="sign-up-pricing">Susbscribe</button>
+               @else
+                    <button class="sign-up-pricing">Sign Up</button>
+               @endif
                 <div class="separate-custom"></div>
                 <p class="manuals custom-position">{{ trans('lang.STR_TEXT_2_CARD_2') }}</p>
             </div>
@@ -47,7 +57,11 @@
                     <span>$</span>
                     <h3>{{trans('lang.STR_PRICE_CARD_3')}}</h3>
                 </div>
-                <button class="sign-up-pricing">Sign Up</button>
+               @if (Auth::user())
+                    <button class="sign-up-pricing">Susbscribe</button>
+               @else
+                    <button class="sign-up-pricing">Sign Up</button>
+               @endif
                 <div class="separate-custom"></div>
                 <p class="includes">{{ trans('lang.STR_TEXT_1_CARD_3') }}</p>
                 <p class="manuals">{{ trans('lang.STR_TEXT_2_CARD_3') }}</p>
@@ -60,7 +74,11 @@
                     <span>$</span>
                     <h3>{{trans('lang.STR_PRICE_CARD_4')}}</h3>
                 </div>
-                <button class="sign-up-pricing">Sign Up</button>
+               @if (Auth::user())
+                    <button class="sign-up-pricing">Susbscribe</button>
+               @else
+                    <button class="sign-up-pricing">Sign Up</button>
+               @endif
                 <div class="separate-custom"></div>
                 <p class="includes">{{ trans('lang.STR_TEXT_1_CARD_4') }}</p>
                 <p class="manuals">{{ trans('lang.STR_TEXT_2_CARD_4') }}</p>

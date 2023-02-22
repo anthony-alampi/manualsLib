@@ -27,46 +27,47 @@
                 <a href="{{route('about')}}">About</a>
                 <div class="separate"></div>
                 <div class="signs-btn">
-                    <button type="button" class='btn-form' id="openModalBtn">Sign-in/ up</button>
+                @if (Auth::user())
+                <button type="button" class='btn-form' id="openModalBtn" style="display:none">Sign-in/ up</button> <!-- not visible, display none on the button if connect -->
+                   <div class="dropdown-user">
+                       <button class="btn-top">My Account</button>
+                       <div class="list">
+                           <a href="#" class="links">
+                               Dashboard
+                           </a>
+                           <a href="{{route('dashboardAccount')}}" class="links">
+                               Account
+                           </a>
+                           <a href="{{route('dashboardAffiliation')}}" class="links">
+                               Affiliation
+                           </a>
+                            <a href="#" class="links" onclick="document.getElementById('logout-form').submit()">
+                                <form action="{{ route('logout') }}" method="POST" id="logout-form">
+                                    @csrf
+                                </form>
+                                    Disconnect</a>
+                       </div>
+                   </div>
+                    @else
+                        <button type="button" class='btn-form' id="openModalBtn">Sign-in/ up</button>
+                @endif
                 </div>
             </div>
         </div>
     </nav>
 
-<div id="opacityModal">
+
     <div id="modal">
         <img class="closeModalBtn" src="{{asset('assets/img/annuler.svg')}}" alt="">
             <div class="container-onglets">
                 <div class="onglets start" data-anim="1">Log in</div>
-                <div class="onglets" data-anim="2">Sign up</div>
+                <div class="onglets" data-anim="2">Sign Up</div>
+                {{-- <div class="onglets" data-anim="3">Forgot</div> --}}
             </div>
-            
-        <div class="contenu login startContenu" data-anim="1">
-            <h2>Authentication</h2>
-            <form>
-                <img src="{{asset('assets/img/user-regular.svg')}}" class="icon-login" alt="">
-                <input type="email" placeholder="Email address">
-
-                <img src="{{asset('assets/img/key.svg')}}" class="icon-key" alt="">
-                <input type="password" placeholder="Enter password">
-                <a href="#">I forgot my password</a>
-                <button>Log in</button>
-            </form>
-        </div>
-
-        <div class="contenu signup " data-anim="2">
-            <h2>Register</h2>
-            <form>
-                <img src="{{asset('assets/img/user-regular.svg')}}" class="icon-login" alt="">
-                <input type="email" placeholder="Email address">
-                <img src="{{asset('assets/img/key.svg')}}" class="icon-key" alt="">
-                <input type="password" placeholder="Enter password">
-                <img src="{{asset('assets/img/key.svg')}}" class="icon-key2" alt="">
-                <input type="password" placeholder="Verify password">
-                <button>Sign up</button>
-            </form>
-        </div>
+            @include('auth.login')
+            @include('auth.register')
+            @include('auth.forgotPassword')
     </div>
-</div>
+
 
 

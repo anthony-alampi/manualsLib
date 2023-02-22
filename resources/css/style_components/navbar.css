@@ -86,7 +86,6 @@ nav.scrolled {
 #modal {
     display: none;
     position: fixed;
-    z-index: 1;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -94,8 +93,8 @@ nav.scrolled {
     height: 500px;
     background: #fcfdff;
     border-radius: 5px;
-    box-shadow: 0 15px 20px rgb(0 0 0 / 20%);
-    z-index: 9999;
+    box-shadow: 0 0 0  2500px #00000036;
+    z-index: 999;
 
 }
 
@@ -131,7 +130,27 @@ nav.scrolled {
     font-size: 15px;
     font-weight: 600;
 }
-
+.forgotPassword{
+    cursor: pointer;
+}
+#reset{
+    width:auto;
+    /* padding: 20px 40px 20px 40px; */
+    margin-top: 20px;
+    cursor: var(--pointer-btn);
+    transition: 0.5s;
+    color: var(--color-text-btn);
+    font-family: var(--font-btn);
+    font-size: var(--size-text-btn);
+    border: 2px solid #fd6a5e;
+    border-radius: 6px;
+    letter-spacing: 2px;
+    background-color: var(--color-btn);
+}
+#reset:hover{
+    background: #fff;
+    color: #fd6a5e;
+}
 .onglets:nth-child(1) {
     border-right: 1px solid rgba(177, 177, 177, 0.178);
 }
@@ -141,7 +160,7 @@ nav.scrolled {
     width: 100%;
     position: absolute;
     text-align: center;
-    top: 35%;
+    top: 24%;
     transform: translateY(-25%);
     opacity: 0;
     font-family: 'Rubik', sans-serif;
@@ -151,7 +170,7 @@ nav.scrolled {
 .login input {
     width: 90%;
     padding: 15px;
-    margin-top: 30px;
+    margin-top: 20px;
     z-index: 999;
     border: solid 2px rgba(167, 167, 167, 0.329);
     border-radius: 5px;
@@ -164,14 +183,14 @@ nav.scrolled {
 .login form .icon-login{
     width: 13px;
     position: absolute;
-    top: 70px;
+    top: 60px;
     left: 45px;
     opacity: 0.5;
 }
 .login form .icon-key{
     width: 20px;
     position: absolute;
-    top: 147px;
+    top: 129px;
     left: 40px;
     opacity: 0.8;
 }
@@ -208,7 +227,12 @@ nav.scrolled {
     font-weight: 400;
     letter-spacing: 1.2px;
 }
+.captcha-style-login{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
 
+}
 .contenu button {
     display: block;
     margin: 10px auto 0;
@@ -231,7 +255,7 @@ nav.scrolled {
 .contenu a {
     display: block;
     text-decoration: none;
-    margin-top: 50px;
+    margin-top: 30px;
     font-family: 'Rubik', sans-serif;
     font-weight: bold;
     font-size: 12px;
@@ -260,6 +284,65 @@ nav.scrolled {
         opacity: 1;
     }
 }
+/*---------------------------- IF USER CONNECTED NAV STYLE--------------------*/
+.dropdown-user {
+    width: 200px;
+    position: relative;
+    margin-top: 180px;
+
+}
+
+.btn-top {
+    background-color: #f85f73;
+}
+
+.btn-top:hover {
+    background-color: #B71C1C;
+}
+
+.btn-top,
+.links {
+    padding: 12px;
+    font-size: 1.2em;
+    font-family: futura Md BT;
+    border: none;
+    outline: none;
+    width: 200px;
+    color: #fff;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: 0.3s;
+    margin-top: 5px;
+}
+
+.newlist {
+    transform: scaleY(1);
+}
+
+.links {
+
+    background-color: #ffffff;
+    text-align: center;
+    color: #f1f1f1;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.links:hover {
+    transform: scale(1.1);
+
+}
+
+
 
 /*-----------Responsive navbar---------*/
 @media (max-width: 1024px) {

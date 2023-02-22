@@ -1,7 +1,11 @@
 <?php
+
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Actions\Fortify\CreateNewUser;
 use App\Http\Controllers\ApiController;
 use App\Http\Controllers\FaqController;
+use App\Http\Controllers\AuthController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\PressController;
@@ -18,10 +22,20 @@ use App\Http\Controllers\FeaturesController;
 use App\Http\Controllers\BrandDetailsController;
 use App\Http\Controllers\CancellationController;
 use App\Http\Controllers\SubscriptionController;
+use App\Http\Controllers\DashboardAffiliationController;
+use App\Http\Controllers\Auth\DashboardAccountController;
 
 Route::get('/', [ HomeController::class, 'home' ])->name('home');
-Route::get('/features', [ FeaturesController::class, 'features' ])->name('features');
-Route::get('/faq', [ FaqController::class, 'faq' ])->name('faq');
+// Route::post('authenticate', [AuthController::class, 'authenticate'])->name('authenticate'); // permet d'envoyer la requete HTTP plus précisement les données d'AUTH
+
+/*-- Fortify route--- */
+Route::get('/home', function () {
+    return view('home');
+})->name('home');   //->middleware('auth')
+
+
+Route::get('/features', [FeaturesController::class, 'features'])->name('features');
+Route::get('/faq', [FaqController::class, 'faq'])->name('faq');
 Route::get('/about', [AboutController::class, 'about'])->name('about');
 Route::get('/api', [ApiController::class, 'viewApi'])->name('api');
 Route::get('/pricing', [PricingController::class, 'pricing'])->name('pricing');
@@ -29,7 +43,7 @@ Route::get('/press', [PressController::class, 'press'])->name('press');
 Route::get('/brands', [BrandsController::class, 'brands'])->name('brands');
 Route::get('/manuals', [ManualsController::class, 'manuals'])->name('manuals');
 
-/*------API------*/
+/*---------------------------------------------------API----------------------------------------------------------------------------------*/
 Route::get('/manual', [ManualController::class, 'getManual'])->name('manual'); /*-- Cette route est chargé d'affiché le manuel rechérché vie les search bar*/
 Route::get('/brand-details', [BrandDetailsController::class, 'brandDetails'])->name('brandDetails'); /*-- Cette route est chargé d'affiché le manuel rechérché vie les search bar*/
 
@@ -39,6 +53,19 @@ Route::get('/privacy', [PrivacyController::class, 'privacy'])->name('privacy');
 Route::get('/cookies', [CookiesController::class, 'cookies'])->name('cookies');
 Route::get('/subscription', [SubscriptionController::class, 'subscription'])->name('subscription');
 
-Route::get('/contact', [ContactController::class, 'contact'])->name('contact');
-Route::get('/cancellation', [CancellationController::class, 'cancellation'])->name('cancellation');
-Route::get('/carreers', [CarreersController::class, 'carreers'])->name('carreers');
+/*--------------------------------------------------EMAILS------------------------------------------------------------------------*/
+Route::get('/cancellation', [CancellationController::class, 'show'])->name('cancellation');
+Route::post('/cancellation', [CancellationController::class, 'submit'])->name('cancellation.submit');
+
+Route::get('/contact', [ContactController::class, 'show'])->name('contact');
+Route::post('/contact', [ContactController::class, 'submit'])->name('contact.submit'); // This Route send mail to Contact and Carreer form
+
+Route::get('/carreers', [CarreersController::class, 'show'])->name('carreers');
+
+/*--------------------------------------------------USER DASHBOARDS------------------------------------------------------------------------*/
+Route::get('/dashboard-account', [DashboardAccountController::class, 'show'])->name('dashboardAccount')->middleware('auth');
+Route::get('/dashboard-affiliation', [DashboardAffiliationController::class, 'show'])->name('dashboardAffiliation')->middleware('auth');
+
+
+
+

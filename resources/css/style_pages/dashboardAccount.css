@@ -1,0 +1,70 @@
+.updated-password-form{
+    text-align: center;
+}
+.modify-password-container{
+    width: 35%;
+    margin: 200px;
+    padding: 20px 0;
+    font-family: 'Rubik', sans-serif;
+    box-shadow: 0 0 10px -1px #00000036;
+}
+.modify-password-container h2{
+    text-align: center;
+}
+
+.modify-password-container input {
+    /* width: 50%; */
+    padding: 15px;
+    margin-bottom: 20px;
+    border: solid 2px rgba(167, 167, 167, 0.329);
+    border-radius: 5px;
+    text-indent: 40px;
+    font-family: 'rubik', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+}
+.modify-password-container button {
+    display: block;
+    /* margin: 10px 0 0 0; */
+    padding: 15px 40px 15px 40px;
+    cursor: var(--pointer-btn);
+    transition: 0.5s;
+    color: var(--color-text-btn);
+    font-family: var(--font-btn);
+    font-size: 15px;
+    border: 2px solid #fd6a5e;
+    border-radius: 6px;
+    letter-spacing: 2px;
+    background-color: var(--color-btn);
+    margin: 10px auto 0;
+}
+
+.modify-password-container button:hover {
+    color: #fd6a5e;
+    background: #fff;
+}
+
+.success{
+    background: rgba(165, 240, 165, 0.678);
+    /* width: 95%; */
+    height: 50px;
+    text-align: center;
+    padding: 15px 0 20px 0;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    margin: 10px auto 0;
+    color: rgb(7, 163, 7);
+
+}
+
+.error{
+    background: rgba(252, 182, 54, 0.562);
+    margin: 25px 0 0 0;
+    text-align: center;
+    padding: 15px 1px 20px 1px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    color: rgb(102, 102, 102);
+}

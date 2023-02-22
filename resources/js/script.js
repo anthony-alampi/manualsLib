@@ -13,10 +13,10 @@ window.addEventListener("scroll", () => {
   }
 });
 
-//---------------------------------Modal SIGN IN / SIGN UP----------------------------//
-const onglets = document.querySelectorAll(".onglets");
-const contenu = document.querySelectorAll(".contenu");
 
+//---------------------------------Modal SIGN IN / SIGN UP----------------------------//
+const onglets = document.querySelectorAll([".onglets", ".forgotPassword"]);
+const contenu = document.querySelectorAll(".contenu");
 const openModalBtn = document.querySelector("#openModalBtn");
 const closeModalBtn = document.querySelector(".closeModalBtn");
 const modal = document.querySelector("#modal");
@@ -27,12 +27,6 @@ openModalBtn.addEventListener("click", function () {
 });
 closeModalBtn.addEventListener("click", function () {
     modal.style.display = "none";
-});
-window.addEventListener("click", function (event) {
-    if (event.target === modal) {
-        console.log('close');
-        modal.style.display = "none";
-    }
 });
 
 
@@ -140,9 +134,9 @@ document.addEventListener("DOMContentLoaded", () => {
 /*--------------------------------*/
 const ratio = 0.1;
 const option = {
-    root: null, //element racine
-    rootMargin: "0px", // depasse cette marge pour etre visible
-    threshold: ratio // a quel moment l'élément doit etre detecter  ici 10%
+    root: null,
+    rootMargin: "0px",
+    threshold: ratio
 };
 /*-------------------------------REVEAL RIGHT-------------------------------------*/
 const handleIntersectRight = function (entries, observerRight) {
@@ -193,3 +187,11 @@ faqs.forEach( faq => {
         faq.classList.toggle("active");
     })
 })
+//---------------------------------USER LIST MENU NAVBAR-------------------------------//
+let btnDrop = document.querySelector(".btn-top");
+let list = document.querySelector(".list");
+
+btnDrop.addEventListener("click", () => {
+    list.classList.toggle("newlist");
+});
+/*--------------------------------------------------------------*/

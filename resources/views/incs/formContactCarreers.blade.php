@@ -1,15 +1,15 @@
-<form action="" class='contactCarreers-form-container'>
+<form action={{route('contact.submit')}} method="POST" class='contactCarreers-form-container'>
     @csrf
 
     <div class="identity-container">
         <div class="first-name-container">
             <label for="first-name">First Name</label>
-            <input type="text" id="first-name" name="first-name" placeholder="First Name">
+            <input type="text" id="first-name" name="firstName" placeholder="First Name">
         </div>
 
         <div class="last-name-container">
             <label for="last-name">Last name</label>
-            <input type="text" id="last-name" name="last-name" placeholder="Last Name">
+            <input type="text" id="last-name" name="lastName" placeholder="Last Name">
         </div>
     </div>
 
@@ -25,7 +25,7 @@
         </div>
         
     </div>
-
+    <div class="g-recaptcha captcha-style-login" data-sitekey="6LfHfJUkAAAAAJYVy4QWAPGCoXMl5wpSVNLXptM8"></div>
     <button type="submit" id="send-button">Send Message
     </button>
 
