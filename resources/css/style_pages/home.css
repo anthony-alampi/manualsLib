@@ -558,12 +558,16 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    background-image: url('../../../public/assets/img/39.svg');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 .feedback .container1{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    width: 40%;
+    width: 30%;
     text-align: center;
     background-image: url(/public/assets/img/bg-grey.png);
     background-size: contain;

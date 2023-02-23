@@ -9,7 +9,15 @@
         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     </head>
     <body>
-        
+
+        @if (session('status'))
+        <div class="custom-position-success">
+            <div class="success success-paypal reveal-right">
+                <p>Paypal address updated successfully.</p>
+            </div>
+        </div>
+        @endif
+
         @include('incs.navbar')
         
         @yield('content')

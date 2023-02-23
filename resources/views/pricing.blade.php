@@ -33,7 +33,10 @@
                                    <button class="sign-up-pricing">Sign Up</button>
                @endif
                 <div class="separate-custom"></div>
-                <p class="manuals custom-position">{{ trans('lang.STR_TEXT_2_CARD_1') }}</p>
+                <div class="include-plan-container">
+                    <img src="{{asset('assets/img/43.svg')}}" alt="">
+                    <p class="manuals custom-position">{{ trans('lang.STR_TEXT_2_CARD_1') }}</p>
+                </div>
             </div>
 
             <div class="pricing-container1">
@@ -48,7 +51,11 @@
                     <button class="sign-up-pricing">Sign Up</button>
                @endif
                 <div class="separate-custom"></div>
-                <p class="manuals custom-position">{{ trans('lang.STR_TEXT_2_CARD_2') }}</p>
+                <div class="include-plan-container">
+                    <img src="{{asset('assets/img/43.svg')}}" alt="">
+                    <p class="manuals custom-position">{{ trans('lang.STR_TEXT_2_CARD_2') }}</p>
+                </div>
+                
             </div>
 
             <div class="pricing-container2">
@@ -63,9 +70,22 @@
                     <button class="sign-up-pricing">Sign Up</button>
                @endif
                 <div class="separate-custom"></div>
-                <p class="includes">{{ trans('lang.STR_TEXT_1_CARD_3') }}</p>
-                <p class="manuals">{{ trans('lang.STR_TEXT_2_CARD_3') }}</p>
-                <p class="includes">{{ trans('lang.STR_TEXT_3_CARD_3') }}</p>
+
+                <div class="include-plan-container">
+                    <div class="offers">
+                    <img src="{{asset('assets/img/43.svg')}}" alt="">
+                    <p class="includes">{{ trans('lang.STR_TEXT_1_CARD_3') }}</p>
+                    </div>
+                    <div class="offers">
+                    <img src="{{asset('assets/img/43.svg')}}" alt="">
+                    <p class="manuals">{{ trans('lang.STR_TEXT_2_CARD_3') }}</p>
+                    </div>
+                    <div class="offers">
+                    <img src="{{asset('assets/img/43.svg')}}" alt="">
+                    <p class="includes">{{ trans('lang.STR_TEXT_3_CARD_3') }}</p>
+                    </div>
+
+                </div>
             </div>
 
             <div class="pricing-container3">
@@ -80,9 +100,20 @@
                     <button class="sign-up-pricing">Sign Up</button>
                @endif
                 <div class="separate-custom"></div>
-                <p class="includes">{{ trans('lang.STR_TEXT_1_CARD_4') }}</p>
-                <p class="manuals">{{ trans('lang.STR_TEXT_2_CARD_4') }}</p>
-                <p class="includes">{{ trans('lang.STR_TEXT_3_CARD_4') }}</p>
+                    <div class="include-plan-container">
+                        <div class="offers">
+                        <img src="{{asset('assets/img/43.svg')}}" alt="">
+                        <p class="includes">{{ trans('lang.STR_TEXT_1_CARD_4') }}</p>
+                    </div>
+                    <div class="offers">
+                        <img src="{{asset('assets/img/43.svg')}}" alt="">
+                        <p class="includes">{{ trans('lang.STR_TEXT_2_CARD_4') }}</p>
+                    </div>
+                    <div class="offers">
+                        <img src="{{asset('assets/img/43.svg')}}" alt="">
+                        <p class="includes">{{ trans('lang.STR_TEXT_3_CARD_4') }}</p>
+                    </div>
+                </div>
             </div>
 
         <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="circle-item" />
