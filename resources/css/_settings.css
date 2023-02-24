@@ -41,13 +41,13 @@
     font-weight: normal;
     font-style: normal;
 }
-@font-face {
+/* @font-face {
     font-family: 'gilroy-bold';
     src: url('/public/assets/fonts/gilroy/gilroy-bold-webfont.woff2') format('woff2'),
          url('/public/assets/fonts/gilroy/gilroy-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}
+} */
 @font-face {
     font-family: 'gilroy-semibold';
     src: url('/public/assets/fonts/gilroy/gilroy-semibold-webfont.woff2') format('woff2'),
@@ -55,20 +55,7 @@
     font-weight: normal;
     font-style: normal;
 }
-@font-face {
-    font-family: 'gilroy-light';
-    src: url('/public/assets/fonts/gilroy/gilroy-light-webfont.woff2') format('woff2'),
-         url('/public/assets/fonts/gilroy/gilroy-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'gilroy-ultralight';
-    src: url('/public/assets/fonts/gilroy/gilroy-ultralight-webfont.woff2') format('woff2'),
-         url('/public/assets/fonts/gilroy/gilroy-ultralight-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+
 /*-------------- Reset CSS---------------------*/
 *,::before,::after {
     scroll-behavior: smooth;
@@ -80,7 +67,147 @@ body{
         background-color: #fff;
         overflow-x: hidden ;
 }
+
+
+
+
+
 /*---------------Custom properties -------------*/
+/* CUSTOM PROPERTIES FOR HEADER WITH TITLE AND SUBTITLE */
+.primary-header {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 225px 0 auto 0;
+}
+.title-in-header {
+    font-family: var(--home-font-h1);
+    font-size: 4.9rem;
+    line-height: var(--home-line-h1);
+    font-weight: var(--home-weight-h1);
+    color: var(--home-color-h1);
+    text-align: center;
+    width: 60%;
+    margin: 0 auto 0;
+    color: #101621;
+}
+.title-line {
+    width: 60%;
+    z-index: -1;
+}
+.text-in-header {
+    margin-top: 30px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    line-height: 1.75em;
+    width: 70%;
+    text-align: center;
+    color: #73737B;
+}
+/* CUSTOM RESPONSIVE PROPERTIES FOR HEADER - TITLE - LINE CONTENT ALL PAGES */
+@media (max-width: 800px) {
+.primary-header {
+    margin: 100px 0 0 0;
+}
+.title-in-header {
+    font-family: var(--home-font-h1);
+    font-size: 2.6rem;
+    line-height: var(--home-line-h1);
+    font-weight: var(--home-weight-h1);
+    color: var(--home-color-h1);
+    text-align: center;
+    width: 80%;
+    margin: 0 auto 0;
+    color: #101621;
+}
+.title-line {
+    /* position: absolute; */
+    /* top: 60px; */
+    width: 60%;
+    z-index: -1;
+}
+
+.text-in-header{
+    margin-top: 30px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    line-height: 1.75em;
+    width: 70%;
+    text-align: center;
+    color: #73737B;
+}
+}
+
+
+
+
+
+/* CUSTOM PROPERTIES FOR TEXT AND IMAGE BLOCK CONTENT ALL PAGES */
+.primary-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0 100px 0;
+    position: relative;
+    
+}
+.text-block-contain{
+    position: relative;
+    width: 40%;
+}
+.title-in-block{
+    font-family: 'Gilroy-black', sans-serif;
+    color: #202020;
+    font-size: 42px;
+    line-height: 1.35em;
+    margin-bottom: 20px;
+}
+.primary-container .text-in-block{
+    font-family: var(--font-text);
+    font-weight: var(--weight-text);
+    font-size: 1.3rem;
+    color: #73737b;
+    line-height: var(--height-line-text);
+    width: 90%;
+}
+.image-in-block{
+    width: 400px;
+}
+/* CUSTOM RESPONSIVE PROPERTIES FOR TEXT AND IMAGE BLOCK CONTENT ALL PAGES */
+@media (max-width: 800px) {
+    .text-block-contain {
+        width: 100%;
+        text-align: center;
+        padding: 0 16px 0 16px;
+    }
+    .title-in-block {
+        font-size: 2rem;
+    }
+    .primary-container .text-in-block {
+        font-size: 1.3rem;
+        margin: 0 auto 0;
+    }
+    .image-in-block {
+        width: 300px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------*/
+
 :root{
     /* Global colors of website */
     --primary-color: #F28C28;
@@ -88,28 +215,18 @@ body{
     --third-color : #333;
     --footer-bg : #dddddd;
 
-
     /*h1*/
     --home-size-h1 : 42px;
     --home-font-h1 : 'gilroy-black', sans-serif;
     --home-line-h1 : 1.11em;
     --home-weight-h1 : 400;
     --home-color-h1 : #101621;
-
-    /* font-family: var(--home-size-h1);
-    font-size: var(--home-size-h1);
-    line-height: var(--home-line-h1);
-    font-weight: var(--home-weight-h1);
-    color: var(--home-color-h1); */
-
-
     /*TEXT ALL WEBSITE*/
     --font-text: 'Roboto', sans-serif;
     --size-text: 20px;
     --color-text: #73737b;
     --line-text : 1.54em;
     --weight-text: 600;
-
 
     --size-h1 : 78px;
     --color-h1 : #333;

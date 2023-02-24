@@ -1,4 +1,4 @@
-.press-header {
+/* .press-header {
     height: auto;
     position: relative;
 }
@@ -15,13 +15,13 @@
     font-weight: var(--home-weight-h1);
     color: var(--home-color-h1);
     text-align: center;
-}
-.press-header .title-text .line-shape{
+}*/
+.press-header .line-shape{
     position: absolute;
-    width: 70%;
+    width: 40%;
     transform: translateX(-50%);
     left: 50%;
-    top: 65px;
+    top: 60px;
     z-index: -1;
 }
 .press-header .circle-anim1 {
@@ -94,16 +94,18 @@
 .press-container{
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 100%;
     background: linear-gradient(45deg, #fff9ec, #e4fdfa);
-    padding: 0px 0 100px 0;
-    margin: 0 auto 0;
+    padding: 100px 0 100px 0;
+    margin: 100px auto 0;
 }
 .sub-container{
+    width: 60%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     column-gap: 20px;
+    margin: 0 auto 0;
 
 
 }
@@ -151,6 +153,5 @@
 /*----------------- TEXT BLOCK------------------------*/
 
 .aboutBrand{
-    width: 320px;
-    border-radius: 20px;
+    width: 300px;
 }

@@ -2,15 +2,16 @@
 
 @section('content')
 
-<header class="brands-header">
-        <h1>{{trans('lang.STR_TITLE_BRANDS_1')}}</h1>
-        <p>{{trans('lang.STR_TEXT_BRANDS_1')}}</p>
+<header class="brands-header primary-header">
+        <h1 class="title-in-header">{{trans('lang.STR_TITLE_BRANDS_1')}}</h1>
+        <img src="{{asset('assets/img/line-shape-11.svg')}}" class="line-shape" alt="">
+        <p class="text-in-header">{{trans('lang.STR_TEXT_BRANDS_1')}}</p>
         <img src="{{asset('assets/img/triangle-effect-1.svg')}}" class="geometric1" alt="">
         <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="geometric2" alt="">
         <img src="{{asset('assets/img/carre.svg')}}" class="geometric3" alt="">
         <img src="{{asset('assets/img/carre.svg')}}" class="geometric4" alt="">
         <img src="{{asset('assets/img/orange-triangle.svg')}}" class="geometric5" alt="">
-        <img src="{{asset('assets/img/line-shape-11.svg')}}" class="line-shape" alt="">
+
 </header>
 
 <main>
@@ -85,12 +86,12 @@
         </section>
     </article>
         <section class="brands-blocks-container">
-            <article class="brand-container1">
-                <div class="title-text">
-                    <h2>{{ trans('lang.STR_TITLE_BRANDS_3') }}</h2>
-                    <p> {{ trans('lang.STR_TEXT_BRANDS_2') }} </p>
+            <article class="brand-container1 primary-container">
+                <div class="text-block-contain">
+                    <h2 class="title-in-block">{{ trans('lang.STR_TITLE_BRANDS_3') }}</h2>
+                    <p class="text-in-block"> {{ trans('lang.STR_TEXT_BRANDS_2') }} </p>
                 </div>
-                <img class="image-block" src="{{ asset('assets/img/specific-manual.svg') }}" alt="">
+                <img class="image-in-block" src="{{ asset('assets/img/specific-manual.svg') }}" alt="">
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item1" />
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item2" />
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item3" />
@@ -100,13 +101,13 @@
                 <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="circle-item" />
             </article>
 
-            <section class='brand-container2'>
+            <section class='brand-container2 primary-container'>
             <div class="images">
-                <img src="{{asset('assets/img/helpdesk.jpg')}}" alt="" class="illustration">
+                <img src="{{asset('assets/img/needs.svg')}}" alt="" class="image-in-block">
             </div>
-            <div class='title-text'>
-                <h2>{{ trans('lang.STR_TITLE_BRANDS_4') }}</h2>
-                <p>{{trans('lang.STR_TEXT_BRANDS_2')}}</p>
+            <div class="text-block-contain">
+                <h2 class="title-in-block">{{ trans('lang.STR_TITLE_BRANDS_4') }}</h2>
+                <p class="text-in-block">{{trans('lang.STR_TEXT_BRANDS_2')}}</p>
             </div>
         </section>
     </section>

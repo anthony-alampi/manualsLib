@@ -1,17 +1,17 @@
 .moreInfo-header{
-    height: 30vh;
-    margin-top: 225px;
+    /* height: 30vh; */
+    /* margin-top: 225px;
     font-size: var(--home-size-h1);
     color: #101621;
     text-align: center;
     font-family: var(--home-font-h1);
     line-height: var(--home-line-h1);
     font-weight: var(--home-weight-h1);
-    color: var(--home-color-h1);
+    color: var(--home-color-h1); */
 }
-.main-bg-custom-1{
+/* .main-bg-custom-1{
     background-color: #fbf3ec;
-}
+} */
 /* .main-bg-custom-2{
     background-image: url(/public/assets/img/bg4.png);
     background-position: center;
@@ -19,7 +19,7 @@
     background-size: cover;
 } */
 .moreInfo-container{
-    /* padding: 100px 0 100px 0; */
+    padding: 100px 200px 100px 200px;
     position: relative;
 }
 /* .moreInfo-container .title-text{ */

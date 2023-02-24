@@ -1,4 +1,4 @@
-.brands-header {
+/* .brands-header {
     height: auto;
     display: flex;
     flex-direction: column;
@@ -16,9 +16,9 @@
     text-align: center;
     width: 60%;
     color: #101621;
-}
+} */
 
-.brands-header p {
+/* .brands-header p {
     margin-top: 30px;
     font-family: 'Rubik', sans-serif;
     font-size: 22px;
@@ -26,7 +26,7 @@
     width: 70%;
     text-align: center;
     color: #73737B;
-}
+} */
 
 .brands-header .geometric1{
     position: absolute;
@@ -131,10 +131,10 @@
 }
 
 /*------------- Brands text block-----------------*/
-.brand-container1 {
+/* .brand-container1 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     position: relative;
 }
@@ -165,7 +165,7 @@
 .brand-container1 .image-block {
     width: 600px;
 }
-
+*/
 .brand-container1 .circle-item {
     position: absolute;
     width: 150px;
@@ -223,11 +223,11 @@
 }
 
 /*----*/
-.brand-container2 {
-    margin-top: 150px;
+/* .brand-container2 {
+    padding-top: 100px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     position: relative;
 }
@@ -256,6 +256,6 @@
     width: 90%;
 }
 
-.brand-container2 .image-block {
-    width: 600px;
-}
+.brand-container2 img {
+    width: 400px;
+} */

@@ -1,4 +1,4 @@
-.carreers-header {
+/* .carreers-header {
     height: auto;
     position: relative;
 }
@@ -15,11 +15,11 @@
     font-weight: var(--home-weight-h1);
     color: var(--home-color-h1);
     text-align: center;
-}
+} */
 
-.carreers-header .title-text .line-shape {
+.carreers-header .line-shape {
     position: absolute;
-    width: 70%;
+    width: 40%;
     top: 60px;
     left: 50%;
     transform: translate(-50%);
@@ -104,7 +104,7 @@
     background: url(/public/assets/img/bg4.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 200px 0 200px;
+    padding: 100px 0 100px 0;
     margin-top: 100px;
 }
 /*------- TEXT BLOCK--------------*/
@@ -116,7 +116,7 @@
 .fullContain .text-block h2{
     font-family: 'Gilroy-black', sans-serif;
     line-height: 1.15em;
-    font-size: 42px;
+    font-size: 2rem;
 }
 .fullContain .text-block p{
     font-family: var(--font-text);
@@ -144,7 +144,9 @@
     padding: 25px;
     cursor: pointer;
 }
-
+.carreers-block img{
+    margin-bottom: -40px;
+}
 .carreers-block h2 {
     font-family: 'Gilroy-black', sans-serif;
     color: #202020;

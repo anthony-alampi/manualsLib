@@ -2,9 +2,9 @@
 
 @section('content')
 
-<header class='manuals-header'>
+<header class='manuals-header primary-header'>
     <div class="content-block">
-        <h1>{{ trans('lang.STR_TITLE_MANUALS_1') }}</h1>
+        <h1 class="title-in-header">{{ trans('lang.STR_TITLE_MANUALS_1') }}</h1>
         <img src="{{asset('assets/img/line-shape-3.svg')}}" class='line-custom'alt="">
     </div>
     <div class="searchForm-manuals">
@@ -134,12 +134,12 @@
         
         @include('incs.headband')
 
-        <section class="manuals-block">
-            <div class="text-block reveal-left">
-                <h2>{{trans('lang.STR_TITLE_MANUALS_4')}}</h2>
-                <p>{{trans('lang.STR_TEXT_MANUALS_1')}}</p>
+        <section class="primary-container">
+            <div class="text-block-contain  reveal-left">
+                <h2 class="title-in-block">{{trans('lang.STR_TITLE_MANUALS_4')}}</h2>
+                <p class="text-in-block">{{trans('lang.STR_TEXT_MANUALS_1')}}</p>
             </div>
-            <img src="{{asset('assets/img/manual.svg')}}" class="reveal-right" alt="">
+            <img src="{{asset('assets/img/manual.svg')}}" class="image-in-block reveal-right" alt="">
         </section>
         <img src="{{asset('assets/img/line-shape-9.svg')}}" class="separate-line-custom-manuals" alt="">
 
@@ -249,11 +249,11 @@
             </div>
         </section>
         </div>
-        <section class="manuals-block">
-            <img src="{{asset('assets/img/faq.svg')}}" class="reveal-left" alt="">
-            <div class="text-block reveal-right">
-                <h2>{{trans('lang.STR_TITLE_MANUALS_6')}}</h2>
-                <p>{{trans('lang.STR_TEXT_MANUALS_2')}}</p>
+        <section class="primary-container">
+            <img src="{{asset('assets/img/faq.svg')}}" class="image-in-block reveal-left" alt="">
+            <div class="text-block-contain reveal-right">
+                <h2 class="title-in-block">{{trans('lang.STR_TITLE_MANUALS_6')}}</h2>
+                <p class="text-in-block">{{trans('lang.STR_TEXT_MANUALS_2')}}</p>
             </div>
         </section>
 

@@ -2,9 +2,9 @@
 
 
 @section('content')
-<header class="brand-header">
-        <h1>{{trans('lang.STR_TITLE_BRAND_1')}}</h1>
-        <p>{{trans('lang.STR_TEXT_BRAND_1')}}</p>
+<header class="brand-header primary-header">
+        <h1 class="title-in-header">{{trans('lang.STR_TITLE_BRAND_1')}}</h1>
+        <p class="text-in-header">{{trans('lang.STR_TEXT_BRAND_1')}}</p>
         <a href="{{route('home')}}">Search for Brandname manuals</a>
         <img src="{{asset('assets/img/triangle-effect-1.svg')}}" class="geometric1" alt="">
         <img src="{{asset('assets/img/carre.svg')}}" class="geometric3" alt="">
@@ -123,12 +123,12 @@
                 </div>
             </div>
         </section>
-            <article class="brand-details-container">
-                <div class="brand-block reveal-left">
-                    <h2>{{ trans('lang.STR_TITLE_BRAND_3') }}</h2>
-                    <p> {{ trans('lang.STR_TEXT_BRAND_3') }} </p>
+            <article class="brand-details-container primary-container">
+                <div class="brand-block text-block-contain reveal-left">
+                    <h2 class="title-in-block">{{ trans('lang.STR_TITLE_BRAND_3') }}</h2>
+                    <p class="text-in-block"> {{ trans('lang.STR_TEXT_BRAND_3') }} </p>
                 </div>
-                <img class="image-block reveal-right" src="{{ asset('assets/img/brand-block1.jpg') }}" alt="">
+                <img class="image-in-block reveal-right" src="{{ asset('assets/img/brand-block1.jpg') }}" alt="">
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item1" />
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item2" />
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item3" />

@@ -2,12 +2,12 @@
 
 @section('content')
 
-<header class="about-header">
-    <div class="title-text">
-        <h1>{{trans('lang.STR_TITLE_60')}}</h1>
+<header class="about-header primary-header">
+    {{-- <div class="title-in-header"> --}}
+        <h1 class="title-in-header">{{trans('lang.STR_TITLE_60')}}</h1>
         <img src="{{asset('assets/img/line-shape-11.svg')}}" class="line-shape" alt="">
-        <p>{{trans('lang.STR_TEXT_46')}}</p>
-    </div>
+        <p class="text-in-header">{{trans('lang.STR_TEXT_46')}}</p>
+    {{-- </div> --}}
     <div class="circle-anim1"></div>
     <div class="circle-anim2"></div>
     <div class="circle-anim3"></div>
@@ -30,27 +30,27 @@
         </div>
 
         <section>
-            <article class="our-mission">
-                <div class="text-block reveal-left">
-                    <h2>{{trans('lang.STR_TITLE_61')}}</h2>
-                    <p>{{trans('lang.STR_TEXT_47')}}</p>
+            <article class="our-mission primary-container">
+                <div class="text-block-contain reveal-left">
+                    <h2 class="title-in-block">{{trans('lang.STR_TITLE_61')}}</h2>
+                    <p class="text-in-block">{{trans('lang.STR_TEXT_47')}}</p>
                 </div>
-                <div class="image-block reveal-right">
-                    <img src="{{asset('assets/img/our-mission.svg')}}" alt="">
-                </div>
+                {{-- <div class="image-block reveal-right"> --}}
+                    <img src="{{asset('assets/img/our-mission.svg')}}" class="image-in-block" alt="">
+                {{-- </div> --}}
                 <div class="circle-scale1"></div>
                 <div class="circle-scale2"></div>
             </article>
 
-            <article class="our-solution">
+            <article class="our-solution primary-container">
                 <div class="circle-scale1"></div>
                 <div class="circle-scale2"></div>
-                <div class="image-block reveal-left">
-                    <img src="{{asset('assets/img/our_solution.svg')}}" alt="">
-                </div>
-                <div class="text-block reveal-right">
-                    <h2>{{trans('lang.STR_TITLE_62')}}</h2>
-                    <p>{{trans('lang.STR_TEXT_48')}}</p>
+                {{-- <div class="text-block-contain reveal-left"> --}}
+                    <img src="{{asset('assets/img/our_solution.svg')}}" class="image-in-block" alt="">
+                {{-- </div> --}}
+                <div class="text-block-contain reveal-right">
+                    <h2 class="title-in-block">{{trans('lang.STR_TITLE_62')}}</h2>
+                    <p class="text-in-block">{{trans('lang.STR_TEXT_48')}}</p>
                 </div>
             </article>
 

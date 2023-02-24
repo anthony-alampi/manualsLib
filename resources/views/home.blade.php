@@ -34,7 +34,6 @@
             <div class="devices-container">
             <img src="{{asset('assets/img/triangle-effect-1.svg')}}" class="floating-triangle" />
 
-            {{-- <div class="devices-sub"> --}}
                 <div class="device">
                     <img src="{{asset('assets/img/electric-appliance.svg')}}" alt="">
                     <h2>{{ trans('lang.STR_TITLE_DEVICE_1') }}</h2>
@@ -51,9 +50,7 @@
                     <img src="{{asset('assets/img/computer.svg')}}" alt="">
                     <h2>{{ trans('lang.STR_TITLE_DEVICE_4') }}</h2>
                 </div>
-            {{-- </div> --}}
 
-            {{-- <div class="devices-sub"> --}}
                 <div class="device">
                     <img src="{{asset('assets/img/watch-tv.svg')}}" alt="">
                     <h2>{{ trans('lang.STR_TITLE_DEVICE_5') }}</h2>
@@ -71,21 +68,19 @@
                     <h2>{{ trans('lang.STR_TITLE_DEVICE_8') }}</h2>
                 </div> 
                 <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="rotate-circle"/>
-
-            {{-- </div> --}}
         </div>
             <img src="{{asset('assets/img/flock-3.svg')}}" class="flock-bottom" />
         </div>
         
         @include('incs.headband')
 
-        <section class='content-block3 '>
-            <div class='title-text reveal-left '>
-                <h2>{{ trans('lang.STR_TITLE_HOMEPAGE_8') }}</h2>
-                <p>{{trans('lang.STR_TEXT_3')}}</p>
+        <section class='content-block3 primary-container '>
+            <div class='text-block-contain reveal-left '>
+                <h2 class="title-in-block">{{ trans('lang.STR_TITLE_HOMEPAGE_8') }}</h2>
+                <p class="text-in-block">{{trans('lang.STR_TEXT_3')}}</p>
             </div>
             <div class="images">
-                <img src="{{asset('assets/img/idee.svg')}}" alt="" class="illustration reveal-right">
+                <img src="{{asset('assets/img/idee.svg')}}" alt="" class="image-in-block reveal-right">
                 <img src="{{asset('assets/img/orange-triangle.svg')}}" class="child-triangle" alt=''/>
                 <img src="{{asset('assets/img/carre.svg')}}" class="child-square1" alt=''/>
                 <img src="{{asset('assets/img/carre.svg')}}" class="child-square2" alt=''/>
@@ -95,9 +90,9 @@
             </div>
         </section>
 
-        <section class='content-block2'>
+        <section class='content-block2 primary-container '>
             <div class="images">
-                <img src="{{asset('assets/img/manuals3.svg')}}" alt="" class="illustration reveal-left ">
+                <img src="{{asset('assets/img/manuals3.svg')}}" alt="" class="image-in-block reveal-left ">
                 <img src="{{asset('assets/img/orange-triangle.svg')}}" class="child-triangle" alt=''/>
                 <img src="{{asset('assets/img/carre.svg')}}" class="child-square1" alt=''/>
                 <img src="{{asset('assets/img/carre.svg')}}" class="child-square2" alt=''/>
@@ -105,22 +100,22 @@
                 <img src="{{asset('assets/img/carre.svg')}}" class="child-square4" alt=''/>
                 <img src="{{asset('assets/img/carre.svg')}}" class="child-square5" alt=''/>
             </div>
-            <div class='title-text reveal-right'>
-                {{-- <img src="{{asset('assets/img/translation.svg')}}" class="icon"alt=""> --}}
-                <h2>{{ trans('lang.STR_TITLE_HOMEPAGE_7') }}</h2>
+
+            <div class='text-block-contain reveal-right'>
+                <h2 class="title-in-block">{{ trans('lang.STR_TITLE_HOMEPAGE_7') }}</h2>
                 <img src="{{asset('assets/img/line-shape-3.svg')}}" class="line-shape" alt="">
-                <p>{{trans('lang.STR_TEXT_2')}}</p>
+                <p class="text-in-block">{{trans('lang.STR_TEXT_2')}}</p>
             </div>
         </section>
-        <section class='content-block1 '>
-            <div class='title-text reveal-left'>
-                {{-- <img src="{{asset('assets/img/manual.svg')}}" alt=""> --}}
-                <h2>{{ trans('lang.STR_TITLE_HOMEPAGE_6') }}</h2>
-                <p>{{trans('lang.STR_TEXT_1')}}</p>
+
+        <section class='content-block1 primary-container '>
+            <div class=' text-block-contain  reveal-left'>
+                <h2 class="title-in-block">{{ trans('lang.STR_TITLE_HOMEPAGE_6') }}</h2>
+                <p class="text-in-block">{{trans('lang.STR_TEXT_1')}}</p>
             </div>
 
             <div class="right-block">
-                <img src="{{asset('assets/img/user-manual-block1.png')}}" class="illustration reveal-right" alt="">
+                <img src="{{asset('assets/img/trooble.svg')}}" class="image-in-block reveal-right" alt="">
                 <img src="{{asset('assets/img/more.svg')}}" class="more-item1" />
                 <img src="{{asset('assets/img/backslash.svg')}}" class="backslash-item" />
                 <img src="{{asset('assets/img/more.svg')}}" class="more-item2" />

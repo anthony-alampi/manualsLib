@@ -2,7 +2,7 @@
 
 @section('content')
 
-{{-- <header class='moreInfo-header'>
+<header class='moreInfo-header'>
     <h1>{{trans('lang.STR_TITLE_TERMS_1')}}</h1>
     <div class="circle-anim1"></div>
     <div class="circle-anim2"></div>
@@ -10,7 +10,7 @@
     <div class="circle-anim4"></div>
     <div class="circle-anim5"></div>
     <div class="circle-anim6"></div>
-</header> --}}
+</header>
 
 <main class="main-bg-custom-1">
     <article class='moreInfo-container'>

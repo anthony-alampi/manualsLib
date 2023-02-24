@@ -1,11 +1,9 @@
 @extends('base')
 
 @section('content')
-<header class="carreers-header">
-    <div class="title-text">
-        <h1>{{trans('lang.STR_TITLE_CARREERS_1')}}</h1>
+<header class="carreers-header primary-header">
+        <h1 class="title-in-header">{{trans('lang.STR_TITLE_CARREERS_1')}}</h1>
         <img src="{{asset('assets/img/line-shape-11.svg')}}" class="line-shape" alt="">
-    </div>
     <div class="circle-anim1"></div>
     <div class="circle-anim2"></div>
     <div class="circle-anim3"></div>

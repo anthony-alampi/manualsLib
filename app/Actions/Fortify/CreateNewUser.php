@@ -3,6 +3,7 @@
 namespace App\Actions\Fortify;
 
 use App\Models\User;
+use Illuminate\Support\Str;
 use Illuminate\Validation\Rule;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
@@ -20,6 +21,8 @@ class CreateNewUser implements CreatesNewUsers
      */
     public function create(array $input): User
     {
+        $affiliate_link = 'https://www.manualslib.com/?partner=' . Str::random(24);
+
         Validator::make($input, [
             'email' => [
                 'required',
@@ -35,6 +38,7 @@ class CreateNewUser implements CreatesNewUsers
             // 'name' => $input['name'],
             'email' => $input['email'],
             'password' => Hash::make($input['password']),
+            'affiliate_link' => $affiliate_link,
         ]);
         
     }

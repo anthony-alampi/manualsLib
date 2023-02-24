@@ -31,24 +31,25 @@
 
 
 .api-container{
-    margin-top: -300px;
-    margin-left: 300px;
+    /* margin-top: -300px; */
+    /* margin-left: 300px; */
+    margin: 0 150px 0 450px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 
 }
-.api-container .title-text{
-    margin-bottom: -100px;
+.api-container .title-text-api{
+    margin-bottom: 100px;
 }
-.api-container .title-text h2{
+.api-container .title-text-api h2{
     font-family: 'Gilroy-black', sans-serif;
     font-size: 28px;
     color: #101621;
     margin-bottom: 20px;
 }
-.api-container .title-text p{
+.api-container .title-text-api p{
     font-family: var(--font-text);
     font-size: var(--size-text);
     color: #2A2A2A;

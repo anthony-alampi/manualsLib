@@ -15,8 +15,8 @@
 
 .pricing-header .content-block h1{
     font-family: var(--home-font-h1);
-    font-size: 78px;
-    line-height: var(--home-line-h1);
+    font-size: 4.9rem;
+    /* line-height: var(--home-line-h1); */
     font-weight: var(--home-weight-h1);
     color: var(--home-color-h1);
     text-align: center;
@@ -25,7 +25,7 @@
 .pricing-header .line-shape {
     position: absolute;
     width: 70%;
-    top: 280px;
+    top: 300px;
     left: 50%;
     transform: translate(-50%);
 }
@@ -271,7 +271,7 @@
 /*--------- section text-block 1 -----------------*/
 .pricing-containers .pricing-section1{
     text-align: center;
-    padding: 100px 0 0 0;
+    padding: 100px 0 100px 0;
     position: relative;
     /* margin-top: 50px; */
     background-image: url(/public/assets/img/bg4.png);
@@ -303,9 +303,9 @@
     /* width: 60%; */
 }
 .pricing-containers .pricing-section1 img {
-    width: 600px;
+    width: 500px;
     border-radius: 10px;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
     margin-top: 20px;
 }
 .pricing-containers .pricing-section1 .more-item1{
@@ -374,14 +374,13 @@
 
 
 /*--------- section text-block 2 -----------------*/
-.pricing-section2 {
+/* .pricing-section2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    /* padding: 100px 16px 50px 16px; */
     position: relative;
-    padding: 50px 0 50px 0;
+    padding: 100px 0 100px 0;
 }
 
 .pricing-section2 .pricing-block {
@@ -408,7 +407,7 @@
 
 .pricing-section2 .image-block {
     width: 400px;
-}
+} */
 
 .pricing-section2 .square-item1 {
     position: absolute;
@@ -453,14 +452,13 @@
 }
 
 /*--------- section text-block 3 -----------------*/
-.pricing-section3 {
+/* .pricing-section3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    padding: 50px 0 50px 0;
+    padding: 0 0 100px 0;
     position: relative;
-    /* background:#fdf3e7 ; */
 }
 
 .pricing-section3 .pricing-block {
@@ -485,9 +483,8 @@
 }
 
 .pricing-section3 .image-block {
-    width: 600px;
-    /* order: 2; */
-}
+    width: 400px;
+} */
 
 .pricing-section3 .square-item1 {
     position: absolute;
@@ -531,14 +528,13 @@
 }
 
 /*--------- section text-block 5 -----------------*/
-.pricing-section5 {
+/* .pricing-section5 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    padding: 50px 0 50px 0;
+    padding: 0 0 100px 0;
     position: relative;
-    /* background: #fdf3e7; */
 }
 
 .pricing-section5 .pricing-block {
@@ -560,7 +556,7 @@
     color: var(--color-text);
     line-height: var(--line-text);
     font-weight: var(--weight-text);
-}
+} */
 
 .pricing-section5 .image-block {
     width: 400px;
@@ -608,12 +604,12 @@
 }
 
 /*--------- section text-block 6 -----------------*/
-.pricing-section6 {
+/* .pricing-section6 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    padding: 50px 0 50px 0;
+    padding: 0 0 100px 0;
     position: relative;
 }
 
@@ -639,8 +635,8 @@
 }
 
 .pricing-section6 .image-block {
-    width: 500px;
-}
+    width: 400px;
+} */
 
 .pricing-section6 .square-item1 {
     position: absolute;
@@ -686,15 +682,15 @@
 
 /*--------- section text-block 7 -----------------*/
 .pricing-section7 {
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     padding: 100px 0;
-    position: relative;
+    position: relative; */
     background: #fdf3e7;
 }
-
+/* 
 .pricing-section7 .pricing-block {
     width: 40%;
     margin: 0;
@@ -717,8 +713,8 @@
 }
 
 .pricing-section7 .image-block {
-    width: 450px;
-}
+    width: 400px;
+} */
 
 .pricing-section7 .square-item1 {
     position: absolute;
