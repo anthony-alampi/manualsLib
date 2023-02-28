@@ -17,6 +17,7 @@ footer .link-footer-container .links-container{
     display: flex;
     flex-direction: column;
     text-align: left;
+    margin-bottom: 25px;
 }
 footer .link-footer-container .links-container h2{
     font-family: 'gilroy-semibold', sans-serif;
@@ -41,7 +42,7 @@ footer .link-footer-container .links-container h2{
 }
 .copyright{
     font-family: var(--font-text);
-    margin-top: 3vh;
+    /* margin-top: 3vh; */
     /* margin-bottom: 5vh; */
 }
 .copyright a{
@@ -51,15 +52,15 @@ footer .link-footer-container .links-container h2{
 }
 .triangle-item-footer{
     position:absolute;
-    top: 60%;
-    left: 10%;
-    width: 200px;
-    /* animation: floating 8s infinite; */
+    top: 50%;
+    left: 5%;
+    width: 150px;
+    animation: floating 8s infinite;
 }
 .square-item-footer{
     position:absolute;
     top: 0%;
     right: 20%;
-    width: 10px;
+    width: 12px;
     animation: floating 5s infinite;
 }

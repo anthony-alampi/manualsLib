@@ -25,6 +25,7 @@
 @import './style_pages/brandDetails.css';
 @import './style_pages/dashboardAccount.css';
 @import './style_pages/dashboardAffiliation.css';
+@import './style_pages/politics.css';
 
 /* Import online font*/
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');

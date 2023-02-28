@@ -1,6 +1,6 @@
 <footer>
-    <div class="link-footer-container reveal-bottom">
-        <img src="{{asset('assets/img/logo 3 Vector file.svg')}}" alt="">
+    <div class="link-footer-container reveal-left">
+        <a href={{route('home')}}><img src="{{asset('assets/img/logo 3 Vector file.svg')}}" alt="Icon manualsLib"></a>
         <div class="links-container">
             <h2>Manuals</h2>
             <a href="{{route('home')}}" class="link-item">Home</a>
@@ -38,7 +38,7 @@
     </div>
     </div>
 
-    <p class="copyright">Copyright 2023 - <a href="#">ManualsLib</a></p>
+    <span class="copyright">Copyright 2023 - <a href={{route('home')}}>ManualsLib</a></span>
     <img src="{{asset('assets/img/triangle-effect-1.svg')}}" class="triangle-item-footer" alt="">
     <img src="{{asset('assets/img/carre.svg')}}" class="square-item-footer" alt="">
 </footer>
