@@ -1,4 +1,4 @@
-{{-- @props([
+@props([
     'url',
     'color' => 'primary',
     'align' => 'center',
@@ -21,4 +21,4 @@
 </table>
 </td>
 </tr>
-</table> --}}
+</table>

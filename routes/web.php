@@ -34,6 +34,7 @@ Route::get('/home', function () {
 })->name('home');   //->middleware('auth')
 
 
+
 Route::get('/features',             [FeaturesController::class, 'features'])->name('features');
 Route::get('/faq',                  [FaqController::class, 'faq'])->name('faq');
 Route::get('/about',                [AboutController::class, 'about'])->name('about');
@@ -62,6 +63,7 @@ Route::post('/contact',             [ContactController::class, 'submit'])->name(
 
 Route::get('/carreers',             [CarreersController::class, 'show'])->name('carreers');
 
+// Route::get('/reset-password', [])
 /*--------------------------------------------------USER DASHBOARDS------------------------------------------------------------------------*/
 Route::get('/dashboard-account',    [DashboardAccountController::class, 'show'])->name('dashboardAccount')->middleware('auth');
 Route::get('/dashboard-affiliation',[DashboardAffiliateController::class, 'show'])->name('dashboardAffiliation')->middleware('auth');
