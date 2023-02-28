@@ -9,11 +9,11 @@
             <form class="affiliate-link" action="#" method="dialog">
                 @csrf
                 
-                                        {{-- @if (session('status'))
+                                        @if (session('status'))
                             <div class="success success-paypal">
                                 <p>Paypal address updated successfully.</p>
                             </div>
-                        @endif --}}
+                        @endif
                 <label for="affiliate_link">Your affiliate link</label>
                 <input type="text" id="affiliateInput" name="affiliate_link" value="{{ old('affiliate_link') ?? auth()->user()->affiliate_link }}" disabled >
                 <button id="linkCopy">Copy</button>

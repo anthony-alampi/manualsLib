@@ -41,13 +41,13 @@ class FortifyServiceProvider extends ServiceProvider
             
         });
 
-        Fortify::resetPasswordView(function(){
+        Fortify::requestPasswordResetLinkView(function(){ //MODAL
             return view('auth.forgotPassword');
         });
 
-        // Fortify::resetPasswordView(function (Request $request){
-        //     return view('auth.reset-password', ['request' => $request]);
-        // }); //permet de créer une view pour changer le mot de passe après avoir reçu un email de reset
+        Fortify::resetPasswordView(function (Request $request){// vue envoyé par email pour new password
+            return view('auth.reset-password', ['request' => $request]);
+        });
 
 
 
