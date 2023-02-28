@@ -27,7 +27,7 @@
             <div class="circle-scale4"></div>
             <div class="circle-scale5"></div>
             <div class="circle-scale6"></div>
-        </div>
+        
 
         <section>
             <article class="our-mission primary-container">
@@ -35,12 +35,14 @@
                     <h2 class="title-in-block">{{trans('lang.STR_TITLE_61')}}</h2>
                     <p class="text-in-block">{{trans('lang.STR_TEXT_47')}}</p>
                 </div>
+        
                 {{-- <div class="image-block reveal-right"> --}}
                     <img src="{{asset('assets/img/our-mission.svg')}}" class="image-in-block" alt="">
                 {{-- </div> --}}
                 <div class="circle-scale1"></div>
                 <div class="circle-scale2"></div>
             </article>
+        </div>
 
             <article class="our-solution primary-container">
                 <div class="circle-scale1"></div>

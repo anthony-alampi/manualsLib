@@ -40,15 +40,15 @@
                 </div>
                 <div class="brand-item reveal-bottom">
                     <h3>{{trans('lang.STR_TITLE_BRAND_ITEM_5')}}</h3>
-                    <img src="{{asset('assets/img/phillips-brand.jpg')}}" alt="">
+                    <img src="{{asset('assets/img/philips-brand.jpg')}}" alt="">
                 </div>
                 <div class="brand-item reveal-bottom">
                     <h3>{{trans('lang.STR_TITLE_BRAND_ITEM_6')}}</h3>
-                    <img src="{{asset('assets/img/electrolux-brand.jpg')}}" alt="">
+                    <img src="{{asset('assets/img/lg-brand.jpg')}}" alt="">
                 </div>
                 <div class="brand-item reveal-bottom">
                     <h3>{{trans('lang.STR_TITLE_BRAND_ITEM_7')}}</h3>
-                    <img src="{{asset('assets/img/tcl-brand.jpg')}}" alt="">
+                    <img src="{{asset('assets/img/valberg.jpg')}}" alt="">
                 </div>
                 <div class="brand-item reveal-bottom">
                     <h3>{{trans('lang.STR_TITLE_BRAND_ITEM_8')}}</h3>
@@ -60,7 +60,7 @@
                 </div>
                 <div class="brand-item reveal-bottom">
                     <h3>{{trans('lang.STR_TITLE_BRAND_ITEM_10')}}</h3>
-                    <img src="{{asset('assets/img/whirlpool-brand.jpg')}}" alt="">
+                    <img src="{{asset('assets/img/toshiba-brand.png')}}" alt="">
                 </div>
                 <div class="brand-item reveal-bottom">
                     <h3>{{trans('lang.STR_TITLE_BRAND_ITEM_11')}}</h3>
@@ -91,7 +91,7 @@
                     <h2 class="title-in-block">{{ trans('lang.STR_TITLE_BRANDS_3') }}</h2>
                     <p class="text-in-block"> {{ trans('lang.STR_TEXT_BRANDS_2') }} </p>
                 </div>
-                <img class="image-in-block" src="{{ asset('assets/img/specific-manual.svg') }}" alt="">
+                <img class="image-in-block" src="{{ asset('assets/img/folder2.svg') }}" alt="">
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item1" />
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item2" />
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item3" />
@@ -103,7 +103,7 @@
 
             <section class='brand-container2 primary-container'>
             <div class="images">
-                <img src="{{asset('assets/img/needs.svg')}}" alt="" class="image-in-block">
+                <img src="{{asset('assets/img/active.svg')}}" alt="" class="image-in-block">
             </div>
             <div class="text-block-contain">
                 <h2 class="title-in-block">{{ trans('lang.STR_TITLE_BRANDS_4') }}</h2>

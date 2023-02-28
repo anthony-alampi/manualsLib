@@ -94,17 +94,21 @@
 
 /*---- TEXT BLOCK-----*/
 .custom-bg-cancellation {
-    background: url(/public/assets/img/bg4.png);
+    /* background: url(/public/assets/img/bg4.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 100px 0 100px;
     margin-top: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 50px; */
+}
+.form-container-cancellation{
+    margin: 100px 0;
 }
 .custom-bg-cancellation .text-block {
-    margin: auto auto;
+    margin: 100px auto;
     width: 50%;
     text-align: center;
+    padding: 180px 0 180px 0;
 }
  .custom-bg-cancellation .text-block h2 {
     font-family: 'Gilroy-black', sans-serif;

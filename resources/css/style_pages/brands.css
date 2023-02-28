@@ -93,13 +93,14 @@
     transform: translate(-50%);
     z-index: -1;
 }
+
+/*--------------------BRAND LOGO CONTAINER-------------------------*/
 .brands-logo-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     column-gap: 50px;
     row-gap: 50px;
-
     align-items: center;
 }
 
@@ -117,6 +118,7 @@
     height: 250px;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
+    filter: grayscale(100%);
 }
 
 

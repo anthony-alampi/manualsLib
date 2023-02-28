@@ -26,7 +26,7 @@
                 </article>
                 <article class="article">
                     <div class="image-container">
-                        <img src="{{asset('assets/img/bfm.jpg')}}" alt="">
+                        <img src="{{asset('assets/img/bbc.jpg')}}" alt="">
                     </div>
                     <h3>{{trans('lang.STR_TITLE_CITATION_2')}}</h3>
                     <button class="read-article">Read the article</button>
@@ -42,7 +42,7 @@
                 <div class="sub-container">
                 <article class="article">
                     <div class="image-container">
-                        <img src="{{asset('assets/img/bfm.jpg')}}" alt="">
+                        <img src="{{asset('assets/img/bbc.jpg')}}" alt="">
                     </div>
                     <h3>{{trans('lang.STR_TITLE_CITATION_4')}}</h3>
                     <button class="read-article">Read the article</button>
@@ -89,6 +89,7 @@
                 <div class="text-block-contain reveal-left">
                     <h2 class="title-in-block">{{ trans('lang.STR_TITLE_PRESS_4') }}</h2>
                     <p class="text-in-block"> {{ trans('lang.STR_TEXT_PRESS_3') }} </p>
+                    <button>Download</button>
                 </div>
                 <img class="image-in-block reveal-right" src="{{ asset('assets/img/tools-logo.svg') }}" alt="">
                 <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="circle-item" />

@@ -24,11 +24,11 @@
                         <h2 class="title-in-block">{{ trans('lang.STR_TITLE_FAQ_2') }}</h2>
                         <p class="text-in-block"> {{ trans('lang.STR_TEXT_FAQ_1') }} </p>
                     </div>
-                    <img src="{{ asset('assets/img/add-docs.svg') }}" class="image-in-block" alt="">
+                    <img src="{{ asset('assets/img/add-docs.svg') }}" class="image-block-1" alt="">
                 </article>
                 
                 <article class="primary-container reveal-bottom">
-                    <img src="{{ asset('assets/img/question-mark.svg') }}" alt="">
+                    <img src="{{ asset('assets/img/coding.svg') }}" class="image-block" alt="">
                     <div class="text-block-contain">
                         <h2 class="title-in-block">{{ trans('lang.STR_TITLE_FAQ_3') }}</h2>
                         <p class="text-in-block"> {{ trans('lang.STR_TEXT_FAQ_2') }} </p>

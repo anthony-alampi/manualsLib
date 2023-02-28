@@ -39,10 +39,7 @@
 	                    </div>
                         <div class="slide">
 			                <img src="{{asset('assets/img/Iiyama.png')}}" alt="Brands logo" />
-	                    </div>
-                        <div class="slide">
-			                <img src="{{asset('assets/img/marshall-brand.jpg')}}" alt="Brands logo" />
-	                    </div>
+						</div>
                         <div class="slide">
 			                <img src="{{asset('assets/img/Nintendo.png')}}" alt="Brands logo" />
 	                    </div>

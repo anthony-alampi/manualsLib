@@ -18,11 +18,11 @@
 } */
 
 .faq-header .line-shape {
-    position: absolute;
-    width: 40%;
-    top: 60px;
-    left: 50%;
-    transform: translate(-50%);
+    /* position: absolute; */
+    /* width: 40%; */
+    /* top: 60px; */
+    /* left: 50%; */
+    /* transform: translate(-50%); */
     z-index: -1;
 }
 .faq-header .circle-anim1 {
@@ -90,6 +90,14 @@
     border-radius: 50%;
     animation: moveCircle 14s infinite linear;
 }
+.primary-container .image-block-1 {
+    width: 300px;
+}
+
+.primary-container .image-block{
+    width: 400px;
+}
+
 /* 
 .faq-container {
     display: flex;

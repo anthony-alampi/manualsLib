@@ -14,16 +14,16 @@
 </header>
 <main>
     <article>
+        <article class="form-container-cancellation">
+                @include('incs.formCancellation');
+            </article>
         <section>
-            <section class="custom-bg-cancellation">
+            <section class="custom-bg-cancellation blue-content-block">
                 <div class="text-block">
                     <h2>{{ trans('lang.STR_TITLE_CANCELLATION_2') }}</h2>
                     <p>{{ trans('lang.STR_TEXT_CANCELLATION_1') }}</p>
                 </div>
             </section>
-            <article>
-                @include('incs.formCancellation');
-            </article>
             <article>
                 @include('incs.faqModule');
             </article>

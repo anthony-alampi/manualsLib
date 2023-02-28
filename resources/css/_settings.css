@@ -25,6 +25,7 @@
 @import './style_pages/brandDetails.css';
 @import './style_pages/dashboardAccount.css';
 @import './style_pages/dashboardAffiliation.css';
+@import './style_pages/politics.css';
 
 /* Import online font*/
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
@@ -135,6 +136,8 @@ body{
     /* top: 60px; */
     width: 60%;
     z-index: -1;
+    /* margin-left: 50%;
+    transform: translateX(-50%); */
 }
 
 .text-in-header{
@@ -146,6 +149,17 @@ body{
     text-align: center;
     color: #73737B;
 }
+}
+/*---- CUSTOM BLUE BACKGROUND BLOCK ----*/
+.blue-content-block{ /* ajouter à primary-container*/
+    background-image: url(/public/assets/img/bg.svg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    margin: 0 10% 0 10%;
+}
+.bg-text-padding{ /* ajouter à text-block-contain*/
+    padding: 42px 0 72px 0;
 }
 
 /* CUSTOM PROPERTIES FOR TEXT AND IMAGE BLOCK CONTENT ALL PAGES */

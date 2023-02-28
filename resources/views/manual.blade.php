@@ -28,7 +28,7 @@
             </div>
             <div class="searchForm-manual">
                 <h2>{{trans('lang.STR_TITLE_MANUALS_2')}}</h2>
-                 @include('incs.formManuals')
+@include('incs.formManuals')
             </div>
         </div>
         <div class="picture-manual">

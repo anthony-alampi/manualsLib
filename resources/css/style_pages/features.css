@@ -169,12 +169,12 @@
     width: 400px;
 } */
 
-.bg-block{
+/* .bg-block{
     background-image: url(/public/assets/img/bg4.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-}
+} */
 .features-container1 .square-item1 {
     position: absolute;
     width: 15px;
