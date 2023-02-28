@@ -32,7 +32,7 @@
 
 
             <div class="devices-container">
-            <img src="{{asset('assets/img/triangle-effect-1.svg')}}" class="floating-triangle" />
+                <img src="{{asset('assets/img/triangle-effect-1.svg')}}" class="floating-triangle" />
 
                 <div class="device">
                     <img src="{{asset('assets/img/electric-appliance.svg')}}" alt="">
@@ -70,8 +70,10 @@
                 <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="rotate-circle"/>
         </div>
             <img src="{{asset('assets/img/flock-3.svg')}}" class="flock-bottom" />
+            
         </div>
-        
+        <img src="{{asset('assets/img/17.svg')}}" class="ondulate-bg" />
+
         @include('incs.headband')
 
         <section class='content-block3 primary-container '>
@@ -80,7 +82,7 @@
                 <p class="text-in-block">{{trans('lang.STR_TEXT_3')}}</p>
             </div>
             <div class="images">
-                <img src="{{asset('assets/img/idee.svg')}}" alt="" class="image-in-block reveal-right">
+                <img src="{{asset('assets/img/active.svg')}}" alt="" class="image-in-block reveal-right">
                 <img src="{{asset('assets/img/orange-triangle.svg')}}" class="child-triangle" alt=''/>
                 <img src="{{asset('assets/img/carre.svg')}}" class="child-square1" alt=''/>
                 <img src="{{asset('assets/img/carre.svg')}}" class="child-square2" alt=''/>
@@ -90,9 +92,9 @@
             </div>
         </section>
 
-        <section class='content-block2 primary-container '>
+        <section class='content-block2 blue-content-block primary-container '>
             <div class="images">
-                <img src="{{asset('assets/img/manuals3.svg')}}" alt="" class="image-in-block reveal-left ">
+                <img src="{{asset('assets/img/folder.svg')}}" alt="" class="image-in-block reveal-left ">
                 <img src="{{asset('assets/img/orange-triangle.svg')}}" class="child-triangle" alt=''/>
                 <img src="{{asset('assets/img/carre.svg')}}" class="child-square1" alt=''/>
                 <img src="{{asset('assets/img/carre.svg')}}" class="child-square2" alt=''/>
@@ -101,7 +103,7 @@
                 <img src="{{asset('assets/img/carre.svg')}}" class="child-square5" alt=''/>
             </div>
 
-            <div class='text-block-contain reveal-right'>
+            <div class='text-block-contain  bg-text-padding reveal-right'>
                 <h2 class="title-in-block">{{ trans('lang.STR_TITLE_HOMEPAGE_7') }}</h2>
                 <img src="{{asset('assets/img/line-shape-3.svg')}}" class="line-shape" alt="">
                 <p class="text-in-block">{{trans('lang.STR_TEXT_2')}}</p>
@@ -115,7 +117,7 @@
             </div>
 
             <div class="right-block">
-                <img src="{{asset('assets/img/trooble.svg')}}" class="image-in-block reveal-right" alt="">
+                <img src="{{asset('assets/img/working.svg')}}" class="image-in-block reveal-right" alt="">
                 <img src="{{asset('assets/img/more.svg')}}" class="more-item1" />
                 <img src="{{asset('assets/img/backslash.svg')}}" class="backslash-item" />
                 <img src="{{asset('assets/img/more.svg')}}" class="more-item2" />

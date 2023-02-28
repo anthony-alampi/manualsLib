@@ -95,7 +95,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    background: linear-gradient(45deg, #fff9ec, #e4fdfa);
+    background: linear-gradient(45deg, #fffbf2, #edfffd);
     padding: 100px 0 100px 0;
     margin: 100px auto 0;
 }
@@ -149,6 +149,25 @@
 .read-article:hover{
     background-color: #fff;
     color: #fd6a5e;
+}
+
+.bg-block2 button{
+        padding: 10px 70px 10px 70px;
+        margin-top: 20px;
+        cursor: var(--pointer-btn);
+        transition: 0.5s;
+        color: var(--color-text-btn);
+        font-family: var(--font-btn);
+        font-size: var(--size-text-btn);
+        border: 2px solid #fd6a5e;
+        border-radius: 6px;
+        letter-spacing: 2px;
+        background-color: var(--color-btn);
+        box-shadow: 0px 10px 15px -3px #33333349;
+}
+.bg-block2 button:hover{
+    background: #fff;
+    color: #FD6A5E;
 }
 /*----------------- TEXT BLOCK------------------------*/
 

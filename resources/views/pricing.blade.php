@@ -34,8 +34,16 @@
                @endif
                 <div class="separate-custom"></div>
                 <div class="include-plan-container">
-                    <img src="{{asset('assets/img/43.svg')}}" alt="">
-                    <p class="manuals custom-position">{{ trans('lang.STR_TEXT_2_CARD_1') }}</p>
+                    <ul>
+                        <li class="list-include-plan">
+                            <img src="{{asset('assets/img/43.svg')}}" alt="">
+                            <p class="manuals custom-position">{{ trans('lang.STR_TEXT_1_CARD_1') }}</p>
+                        </li>
+                        <li class="list-include-plan">
+                            <img src="{{asset('assets/img/43.svg')}}" alt="">
+                            <p class="manuals custom-position">{{ trans('lang.STR_TEXT_2_CARD_1') }}</p>
+                        </li>
+                    </ul>
                 </div>
             </div>
 
@@ -52,10 +60,25 @@
                @endif
                 <div class="separate-custom"></div>
                 <div class="include-plan-container">
-                    <img src="{{asset('assets/img/43.svg')}}" alt="">
-                    <p class="manuals custom-position">{{ trans('lang.STR_TEXT_2_CARD_2') }}</p>
+                    <ul>
+                        <li class="list-include-plan">
+                            <img src="{{asset('assets/img/43.svg')}}" alt="">
+                            <p class="manuals custom-position">{{ trans('lang.STR_TEXT_1_CARD_2') }}</p>
+                        </li>
+                        <li class="list-include-plan">
+                            <img src="{{asset('assets/img/43.svg')}}" alt="">
+                            <p class="manuals custom-position">{{ trans('lang.STR_TEXT_2_CARD_2') }}</p>
+                        </li>
+                        <li class="list-include-plan">
+                            <img src="{{asset('assets/img/43.svg')}}" alt="">
+                            <p class="manuals custom-position">{{ trans('lang.STR_TEXT_3_CARD_2') }}</p>
+                        </li>
+                        <li class="list-include-plan">
+                            <img src="{{asset('assets/img/43.svg')}}" alt="">
+                            <p class="manuals custom-position">{{ trans('lang.STR_TEXT_4_CARD_2') }}</p>
+                        </li>
+                    </ul>
                 </div>
-                
             </div>
 
             <div class="pricing-container2">
@@ -73,16 +96,32 @@
 
                 <div class="include-plan-container">
                     <div class="offers">
-                    <img src="{{asset('assets/img/43.svg')}}" alt="">
-                    <p class="includes">{{ trans('lang.STR_TEXT_1_CARD_3') }}</p>
-                    </div>
-                    <div class="offers">
-                    <img src="{{asset('assets/img/43.svg')}}" alt="">
-                    <p class="manuals">{{ trans('lang.STR_TEXT_2_CARD_3') }}</p>
-                    </div>
-                    <div class="offers">
-                    <img src="{{asset('assets/img/43.svg')}}" alt="">
-                    <p class="includes">{{ trans('lang.STR_TEXT_3_CARD_3') }}</p>
+                    <ul>
+                        <li class="list-include-plan">
+                            <img src="{{asset('assets/img/43.svg')}}" alt="">
+                            <p class="manuals custom-position">{{ trans('lang.STR_TEXT_1_CARD_3') }}</p>
+                        </li>
+                        <li class="list-include-plan">
+                            <img src="{{asset('assets/img/43.svg')}}" alt="">
+                            <p class="manuals custom-position">{{ trans('lang.STR_TEXT_2_CARD_3') }}</p>
+                        </li>
+                        <li class="list-include-plan">
+                            <img src="{{asset('assets/img/43.svg')}}" alt="">
+                            <p class="manuals custom-position">{{ trans('lang.STR_TEXT_3_CARD_3') }}</p>
+                        </li>
+                        <li class="list-include-plan">
+                            <img src="{{asset('assets/img/43.svg')}}" alt="">
+                            <p class="manuals custom-position">{{ trans('lang.STR_TEXT_4_CARD_3') }}</p>
+                        </li>
+                        <li class="list-include-plan">
+                            <img src="{{asset('assets/img/43.svg')}}" alt="">
+                            <p class="manuals custom-position">{{ trans('lang.STR_TEXT_5_CARD_3') }}</p>
+                        </li>
+                        <li class="list-include-plan">
+                            <img src="{{asset('assets/img/43.svg')}}" alt="">
+                            <p class="manuals custom-position">{{ trans('lang.STR_TEXT_6_CARD_3') }}</p>
+                        </li>
+                    </ul>
                     </div>
 
                 </div>
@@ -101,18 +140,35 @@
                @endif
                 <div class="separate-custom"></div>
                     <div class="include-plan-container">
-                        <div class="offers">
-                        <img src="{{asset('assets/img/43.svg')}}" alt="">
-                        <p class="includes">{{ trans('lang.STR_TEXT_1_CARD_4') }}</p>
-                    </div>
-                    <div class="offers">
-                        <img src="{{asset('assets/img/43.svg')}}" alt="">
-                        <p class="includes">{{ trans('lang.STR_TEXT_2_CARD_4') }}</p>
-                    </div>
-                    <div class="offers">
-                        <img src="{{asset('assets/img/43.svg')}}" alt="">
-                        <p class="includes">{{ trans('lang.STR_TEXT_3_CARD_4') }}</p>
-                    </div>
+                        <li class="list-include-plan">
+                            <img src="{{asset('assets/img/43.svg')}}" alt="">
+                            <p class="manuals custom-position">{{ trans('lang.STR_TEXT_1_CARD_4') }}</p>
+                        </li>
+                        <li class="list-include-plan">
+                            <img src="{{asset('assets/img/43.svg')}}" alt="">
+                            <p class="manuals custom-position">{{ trans('lang.STR_TEXT_2_CARD_4') }}</p>
+                        </li>
+                        <li class="list-include-plan">
+                            <img src="{{asset('assets/img/43.svg')}}" alt="">
+                            <p class="manuals custom-position">{{ trans('lang.STR_TEXT_3_CARD_4') }}</p>
+                        </li>
+                        <li class="list-include-plan">
+                            <img src="{{asset('assets/img/43.svg')}}" alt="">
+                            <p class="manuals custom-position">{{ trans('lang.STR_TEXT_4_CARD_4') }}</p>
+                        </li>
+                        <li class="list-include-plan">
+                            <img src="{{asset('assets/img/43.svg')}}" alt="">
+                            <p class="manuals custom-position">{{ trans('lang.STR_TEXT_5_CARD_4') }}</p>
+                        </li>
+                        <li class="list-include-plan">
+                            <img src="{{asset('assets/img/43.svg')}}" alt="">
+                            <p class="manuals custom-position">{{ trans('lang.STR_TEXT_6_CARD_4') }}</p>
+                        </li>
+                        <li class="list-include-plan">
+                            <img src="{{asset('assets/img/43.svg')}}" alt="">
+                            <p class="manuals custom-position">{{ trans('lang.STR_TEXT_7_CARD_4') }}</p>
+                        </li>
+                    </ul>
                 </div>
             </div>
 
@@ -161,7 +217,7 @@
             </div>
         </section>
         <section class="pricing-containers">
-            <article class="pricing-section1">
+            <article class="pricing-section1 blue-content-block">
                 <div class="pricing-block reveal-bottom">
                     <h2>{{ trans('lang.STR_TITLE_PRICING_5') }}</h2>
                     <p> {{ trans('lang.STR_TEXT_21') }} </p>
@@ -181,7 +237,7 @@
                     <h2 class="title-in-block">{{ trans('lang.STR_TITLE_PRICING_6') }}</h2>
                     <p class="text-in-block"> {{ trans('lang.STR_TEXT_22') }} </p>
                 </div>
-                <img src="{{ asset('assets/img/service-test.svg') }}" class="image-in-block reveal-right" alt="">
+                <img src="{{ asset('assets/img/file_manager.svg') }}" class="image-in-block reveal-right" alt="">
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item1" />
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item2" />
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item3" />

@@ -127,7 +127,7 @@
 .custom-band{
     position: relative;
     width: 100%;
-    height: 100px;
+    /* height: 100px; */
     background: linear-gradient(45deg, #fff9ec,#e4fdfa);
     margin: 100px 0 0 0;
 }
@@ -340,6 +340,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 100px;
 }
 
 .our-team .text-block {

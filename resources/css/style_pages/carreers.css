@@ -16,7 +16,10 @@
     color: var(--home-color-h1);
     text-align: center;
 } */
-
+.carreers-header .title-text{
+    letter-spacing: -2px;
+    
+}
 .carreers-header .line-shape {
     position: absolute;
     width: 40%;
@@ -101,17 +104,20 @@
 }
 
 .custom-bg-carreers{
-    background: url(/public/assets/img/bg4.png);
+    
+    /* background: url(/public/assets/img/bg4.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 100px 0 100px 0;
-    margin-top: 100px;
+    margin-top: 100px; */
 }
 /*------- TEXT BLOCK--------------*/
 .fullContain .text-block{
-    margin: auto auto;
+
+    margin: 100px auto;
     width: 50%;
     text-align: center;
+    padding: 180px 0 180px 0;
 }
 .fullContain .text-block h2{
     font-family: 'Gilroy-black', sans-serif;

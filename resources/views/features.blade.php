@@ -38,7 +38,7 @@
                     <h2 class="title-in-block">{{ trans('lang.STR_TITLE_21/1') }}</h2>
                     <p class="text-in-block"> {{ trans('lang.STR_TEXT_17') }} </p>
                 </div>
-                <img class="image-block image-in-block reveal-right" src="{{ asset('assets/img/more-assist.png') }}" alt="">
+                <img class="image-block image-in-block reveal-right" src="{{ asset('assets/img/coding.svg') }}" alt="">
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item1" />
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item2" />
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item3" />
@@ -56,8 +56,8 @@
                 </div>
             </article>
 
-            <article class="features-container1 primary-container bg-block ">
-                <div class="text-block-contain reveal-left">
+            <article class="features-container1 blue-content-block primary-container bg-block ">
+                <div class="text-block-contain bg-text-padding reveal-left">
                     <h2 class="title-in-block">{{ trans('lang.STR_TITLE_16') }}</h2>
                     <p class="text-in-block"> {{ trans('lang.STR_TEXT_13') }} </p>
                 </div>

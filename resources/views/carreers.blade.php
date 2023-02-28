@@ -2,7 +2,7 @@
 
 @section('content')
 <header class="carreers-header primary-header">
-        <h1 class="title-in-header">{{trans('lang.STR_TITLE_CARREERS_1')}}</h1>
+        <h1 class="title-in-header title-text">{{trans('lang.STR_TITLE_CARREERS_1')}}</h1>
         <img src="{{asset('assets/img/line-shape-11.svg')}}" class="line-shape" alt="">
     <div class="circle-anim1"></div>
     <div class="circle-anim2"></div>
@@ -14,9 +14,9 @@
 
 
 <main>
-    <article class="fullContain">
-        <section class="custom-bg-carreers">
-        <div class="text-block">
+    <article class="fullContain ">
+        <section class="custom-bg-carreers blue-content-block">
+        <div class="text-block ">
             <h2>{{ trans('lang.STR_TITLE_CARREERS_2') }}</h2>
             <p>{{ trans('lang.STR_TEXT_CARREERS_1') }}</p>
         </div>

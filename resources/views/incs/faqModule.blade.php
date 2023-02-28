@@ -43,7 +43,7 @@
 
 <section class="faq-module">
     <div class="faq">
-        <div class="question">
+        <div class="question start">
             <h3>{{trans('lang.STR_TITLE_QUESTION_1')}}</h3>
             <img src="{{asset('assets/img/down-arrow.svg')}}" alt="arrow-bottom">
         </div>
