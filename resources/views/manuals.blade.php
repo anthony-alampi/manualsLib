@@ -31,103 +31,20 @@
         <section class="top-15-container">
             <h2>{{trans('lang.STR_TITLE_MANUALS_3')}}</h2>
             <img src="{{asset('assets/img/line-shape-3.svg')}}" class='line-custom'alt="">
+            
             <div class="most-manuals-container">
-
-<div class="sub-container">
+                
+                <div class="sub-container">
+                    @foreach ($popularManuals as $name => $count)
                     <div class="download custom-border-left1 reveal-bottom">
                         <div class="icons-manualsTop">
                             <img src="{{asset('assets/img/book-categories.svg')}}" alt="">
                         </div>
                         <div class="text-block">
-                            <h2>{{trans('lang.STR_TITLE_DOWNLOADED_CATEGORY_1')}}</h2>
-                            {{-- <h3>{{trans('lang.STR_SUBTITLE_DOWNLOADED_1')}}</h3> --}}
+                           <p>{{ $name }}</p>
                         </div>
                     </div>
-
-                    <div class="download custom-border-left3 reveal-bottom">
-                        <div class="icons-manualsTop">
-                            <img src="{{asset('assets/img/book-categories.svg')}}" alt="">
-                        </div>
-                        <div class="text-block">
-                            <h2>{{trans('lang.STR_TITLE_DOWNLOADED_CATEGORY_2')}}</h2>
-                            {{-- <h3>{{trans('lang.STR_SUBTITLE_DOWNLOADED_3')}}</h3> --}}
-                        </div>
-                    </div>
-                    <div class="download custom-border-left5 reveal-bottom">
-                        <div class="icons-manualsTop">
-                            <img src="{{asset('assets/img/book-categories.svg')}}" alt="">
-                        </div>
-                        <div class="text-block">
-                            <h2>{{trans('lang.STR_TITLE_DOWNLOADED_CATEGORY_3')}}</h2>
-                            {{-- <h3>{{trans('lang.STR_SUBTITLE_DOWNLOADED_5')}}</h3> --}}
-                        </div>
-                    </div>
-                    <div class="download custom-border-left7 reveal-bottom">
-                        <div class="icons-manualsTop">
-                            <img src="{{asset('assets/img/book-categories.svg')}}" alt="">
-                        </div>
-                        <div class="text-block">
-                            <h2>{{trans('lang.STR_TITLE_DOWNLOADED_CATEGORY_4')}}</h2>
-                            {{-- <h3>{{trans('lang.STR_SUBTITLE_DOWNLOADED_7')}}</h3> --}}
-                        </div>
-                    </div>
-                    <div class="download custom-border-left9 reveal-bottom">
-                        <div class="icons-manualsTop">
-                            <img src="{{asset('assets/img/book-categories.svg')}}" alt="">
-                        </div>
-                        <div class="text-block">
-                            <h2>{{trans('lang.STR_TITLE_DOWNLOADED_CATEGORY_5')}}</h2>
-                            {{-- <h3>{{trans('lang.STR_SUBTITLE_DOWNLOADED_9')}}</h3> --}}
-                        </div>
-                    </div>
-                </div>
-
-                <div class="sub-container">
-                    <div class="download custom-border-left2 reveal-bottom">
-                        <div class="icons-manualsTop">
-                            <img src="{{asset('assets/img/book-categories.svg')}}" alt="">
-                        </div>
-                        <div class="text-block">
-                            <h2>{{trans('lang.STR_TITLE_DOWNLOADED_CATEGORY_6')}}</h2>
-                            {{-- <h3>{{trans('lang.STR_SUBTITLE_DOWNLOADED_2')}}</h3> --}}
-                        </div>
-                    </div>
-                    <div class="download custom-border-left4 reveal-bottom">
-                        <div class="icons-manualsTop">
-                            <img src="{{asset('assets/img/book-categories.svg')}}" alt="">
-                        </div>
-                        <div class="text-block">
-                            <h2>{{trans('lang.STR_TITLE_DOWNLOADED_CATEGORY_7')}}</h2>
-                            {{-- <h3>{{trans('lang.STR_SUBTITLE_DOWNLOADED_4')}}</h3> --}}
-                        </div>
-                    </div>
-                    <div class="download custom-border-left6 reveal-bottom">
-                        <div class="icons-manualsTop">
-                            <img src="{{asset('assets/img/book-categories.svg')}}" alt="">
-                        </div>
-                        <div class="text-block">
-                            <h2>{{trans('lang.STR_TITLE_DOWNLOADED_CATEGORY_8')}}</h2>
-                            {{-- <h3>{{trans('lang.STR_SUBTITLE_DOWNLOADED_6')}}</h3> --}}
-                        </div>
-                    </div>
-                    <div class="download custom-border-left8 reveal-bottom">
-                        <div class="icons-manualsTop">
-                            <img src="{{asset('assets/img/book-categories.svg')}}" alt="">
-                        </div>
-                        <div class="text-block">
-                            <h2>{{trans('lang.STR_TITLE_DOWNLOADED_CATEGORY_9')}}</h2>
-                            {{-- <h3>{{trans('lang.STR_SUBTITLE_DOWNLOADED_8')}}</h3> --}}
-                        </div>
-                    </div>
-                    <div class="download custom-border-left10 reveal-bottom">
-                        <div class="icons-manualsTop">
-                            <img src="{{asset('assets/img/book-categories.svg')}}" alt="">
-                        </div>
-                        <div class="text-block">
-                            <h2>{{trans('lang.STR_TITLE_DOWNLOADED_CATEGORY_10')}}</h2>
-                            {{-- <h3>{{trans('lang.STR_SUBTITLE_DOWNLOADED_10')}}</h3> --}}
-                        </div>
-                    </div>
+                     @endforeach
                 </div>
             </div>
         </section>
@@ -151,55 +68,17 @@
             <div class="most-manuals-container">
 
                 <div class="sub-container">
+                   
+                    @foreach ($categories as $category)
                     <div class="download custom-border-left1 reveal-bottom">
                         <div class="icons-manualsTop">
                             <img src="{{asset('assets/img/amplifier.svg')}}" alt="">
                         </div>
                         <div class="text-block">
-                            <h2>{{trans('lang.STR_TITLE_DOWNLOADED_1')}}</h2>
-                            <h3>{{trans('lang.STR_SUBTITLE_DOWNLOADED_1')}}</h3>
+                            <p>{{ $category  }}</p>
                         </div>
                     </div>
-
-                    <div class="download custom-border-left3 reveal-bottom">
-                        <div class="icons-manualsTop">
-                            <img src="{{asset('assets/img/computer.svg')}}" alt="">
-                        </div>
-                        <div class="text-block">
-                            <h2>{{trans('lang.STR_TITLE_DOWNLOADED_3')}}</h2>
-                            <h3>{{trans('lang.STR_SUBTITLE_DOWNLOADED_3')}}</h3>
-                        </div>
-                    </div>
-
-                    <div class="download custom-border-left5 reveal-bottom">
-                        <div class="icons-manualsTop">
-                            <img src="{{asset('assets/img/ipad.svg')}}" alt="">
-                        </div>
-                        <div class="text-block">
-                            <h2>{{trans('lang.STR_TITLE_DOWNLOADED_5')}}</h2>
-                            <h3>{{trans('lang.STR_SUBTITLE_DOWNLOADED_5')}}</h3>
-                        </div>
-                    </div>
-
-                    <div class="download custom-border-left7 reveal-bottom">
-                        <div class="icons-manualsTop">
-                            <img src="{{asset('assets/img/wifi.svg')}}" alt="">
-                        </div>
-                        <div class="text-block">
-                            <h2>{{trans('lang.STR_TITLE_DOWNLOADED_7')}}</h2>
-                            <h3>{{trans('lang.STR_SUBTITLE_DOWNLOADED_7')}}</h3>
-                        </div>
-                    </div>
-
-                    <div class="download custom-border-left9 reveal-bottom">
-                        <div class="icons-manualsTop">
-                            <img src="{{asset('assets/img/smartphone.svg')}}" alt="">
-                        </div>
-                        <div class="text-block">
-                            <h2>{{trans('lang.STR_TITLE_DOWNLOADED_9')}}</h2>
-                            <h3>{{trans('lang.STR_SUBTITLE_DOWNLOADED_9')}}</h3>
-                        </div>
-                    </div>
+                @endforeach
                 </div>
             </div>
         </section>

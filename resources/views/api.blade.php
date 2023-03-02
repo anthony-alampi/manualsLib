@@ -51,7 +51,7 @@
 
                 <div class="title-text-api">
                     <h2 id="ancre4"> {{trans('lang.STR_TITLE_API_5')}}</h2>
-                    <p>{{trans('lang.STR_TEXT_API_24')}}</p>
+                    <p>{{trans('lang.STR_TEXT_API_4')}}</p>
                 </div>
             </article>
         </section>

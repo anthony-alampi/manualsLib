@@ -1,5 +1,7 @@
 import './bootstrap';
 
+
+
 //--------------------------------Sticky navbar effect--------------------------------//
 
 var navbar = document.querySelector("nav");
@@ -200,3 +202,5 @@ const affiliateInput = document.getElementById("affiliateInput");
 document.getElementById("linkCopy").addEventListener("click", () => {
     navigator.clipboard.writeText(affiliateInput.value);
 });
+
+//------------------------------- LIVE SEARCH -------------------------------------//

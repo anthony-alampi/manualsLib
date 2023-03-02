@@ -9,4 +9,5 @@ class ManualController extends Controller
     public function getManual() {
         return view('manual') ;
     }
+
 }
