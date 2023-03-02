@@ -220,7 +220,7 @@
             <article class="pricing-section1 blue-content-block">
                 <div class="pricing-block reveal-bottom">
                     <h2>{{ trans('lang.STR_TITLE_PRICING_5') }}</h2>
-                    <p> {{ trans('lang.STR_TEXT_21') }} </p>
+                    <p> {{ trans('lang.STR_TEXT_PRICING_1') }} </p>
                 </div>
                 <img src="{{asset('assets/img/orange-triangle.svg')}}" class="triangle-item" alt=''/>
                 <img src="{{asset('assets/img/more.svg')}}" class="more-item1" />
@@ -235,7 +235,7 @@
             <article class="pricing-section2 primary-container ">
                 <div class="text-block-contain reveal-left">
                     <h2 class="title-in-block">{{ trans('lang.STR_TITLE_PRICING_6') }}</h2>
-                    <p class="text-in-block"> {{ trans('lang.STR_TEXT_22') }} </p>
+                    <p class="text-in-block"> {{ trans('lang.STR_TEXT_PRICING_1') }} </p>
                 </div>
                 <img src="{{ asset('assets/img/file_manager.svg') }}" class="image-in-block reveal-right" alt="">
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item1" />
@@ -248,7 +248,7 @@
                 <img src="{{ asset('assets/img/choice-plan.svg') }}" class="image-in-block reveal-right" alt="">
                 <div class="text-block-contain reveal-left">
                     <h2 class="title-in-block">{{ trans('lang.STR_TITLE_PRICING_7') }}</h2>
-                    <p class="text-in-block"> {{ trans('lang.STR_TEXT_22') }} </p>
+                    <p class="text-in-block"> {{ trans('lang.STR_TEXT_PRICING_2') }} </p>
                 </div>
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item1" />
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item2" />
@@ -259,7 +259,7 @@
             <article class="pricing-section5 primary-container">
                 <div class="text-block-contain reveal-right">
                     <h2 class="title-in-block">{{ trans('lang.STR_TITLE_PRICING_8') }}</h2>
-                    <p class="text-in-block"> {{ trans('lang.STR_TEXT_24') }} </p>
+                    <p class="text-in-block"> {{ trans('lang.STR_TEXT_PRICING_3') }} </p>
                 </div>
                 <img src="{{ asset('assets/img/add-manuals.svg') }}" class="image-in-block reveal-left" alt="">
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item1" />
@@ -273,7 +273,7 @@
                 <img src="{{ asset('assets/img/switch-plan.svg') }}" class="image-in-block reveal-right" alt="">
                 <div class="text-block-contain reveal-left">
                     <h2 class="title-in-block">{{ trans('lang.STR_TITLE_PRICING_9') }}</h2>
-                    <p class="text-in-block"> {{ trans('lang.STR_TEXT_25') }} </p>
+                    <p class="text-in-block"> {{ trans('lang.STR_TEXT_PRICING_4') }} </p>
                 </div>
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item1" />
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item2" />
@@ -285,7 +285,7 @@
             <article class="pricing-section7 primary-container">
                 <div class="text-block-contain reveal-right">
                     <h2 class="title-in-block">{{ trans('lang.STR_TITLE_PRICING_10') }}</h2>
-                    <p class="text-in-block"> {{ trans('lang.STR_TEXT_26') }} </p>
+                    <p class="text-in-block"> {{ trans('lang.STR_TEXT_PRICING_5') }} </p>
                 </div>
                 <img src="{{ asset('assets/img/stripe_illustration.svg') }}" class="image-in-block reveal-left" alt="">
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item1" />

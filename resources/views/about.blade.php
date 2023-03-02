@@ -4,9 +4,9 @@
 
 <header class="about-header primary-header">
     {{-- <div class="title-in-header"> --}}
-        <h1 class="title-in-header title-about">{{trans('lang.STR_TITLE_60')}}</h1>
+        <h1 class="title-in-header title-about">{{trans('lang.STR_TITLE_ABOUT_1')}}</h1>
         <img src="{{asset('assets/img/line-shape-11.svg')}}" class="line-shape" alt="">
-        <p class="text-in-header">{{trans('lang.STR_TEXT_46')}}</p>
+        <p class="text-in-header">{{trans('lang.STR_TEXT_ABOUT_1')}}</p>
     {{-- </div> --}}
     <div class="circle-anim1"></div>
     <div class="circle-anim2"></div>
@@ -32,8 +32,8 @@
         <section>
             <article class="our-mission primary-container">
                 <div class="text-block-contain reveal-left">
-                    <h2 class="title-in-block">{{trans('lang.STR_TITLE_61')}}</h2>
-                    <p class="text-in-block">{{trans('lang.STR_TEXT_47')}}</p>
+                    <h2 class="title-in-block">{{trans('lang.STR_TITLE_ABOUT_2')}}</h2>
+                    <p class="text-in-block">{{trans('lang.STR_TEXT_ABOUT_2')}}</p>
                 </div>
         
                 {{-- <div class="image-block reveal-right"> --}}
@@ -51,16 +51,16 @@
                     <img src="{{asset('assets/img/our_solution.svg')}}" class="image-in-block" alt="">
                 {{-- </div> --}}
                 <div class="text-block-contain reveal-right">
-                    <h2 class="title-in-block">{{trans('lang.STR_TITLE_62')}}</h2>
-                    <p class="text-in-block">{{trans('lang.STR_TEXT_48')}}</p>
+                    <h2 class="title-in-block">{{trans('lang.STR_TITLE_ABOUT_3')}}</h2>
+                    <p class="text-in-block">{{trans('lang.STR_TEXT_ABOUT_3')}}</p>
                 </div>
             </article>
 
             <article class="our-team">
                 <div class="text-block reveal-left" >
-                    <h2>{{trans('lang.STR_TITLE_63')}}</h2>
+                    <h2>{{trans('lang.STR_TITLE_ABOUT_4')}}</h2>
                     <img src="{{asset('assets/img/line-shape-11.svg')}}" class="line-shape" alt="">
-                    <p>{{trans('lang.STR_TEXT_49')}}</p>
+                    <p>{{trans('lang.STR_TEXT_ABOUT_4')}}</p>
                 </div>
                 <div class="team-custom-line"></div>
                 <div class="members-block">
