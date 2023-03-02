@@ -99,7 +99,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    column-gap: 100px;
+    column-gap: 50px;
     row-gap: 50px;
     align-items: center;
 }
@@ -114,11 +114,11 @@
 }
 
 .brands-logo-container .brand-item img{
-    width: 230px;
-    height: 200px;
+    width: 300px;
+    height: 250px;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
-    filter: grayscale(50%);
+    filter: grayscale(100%);
 }
 
 
