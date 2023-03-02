@@ -2,14 +2,13 @@
     height: auto;
     position: relative;
 }
-
-.about-header .title-text{
-    width: 60%;
-    margin: 215px auto 0;
-    text-align: center;
+*/
+.about-header .title-about{
+    margin-top: -20px;
+    margin-bottom: 0px;
     position: relative;
 }
-
+/*
 .about-header .title-text h1{
     font-family: var(--home-font-h1);
     font-size: 78px;
@@ -17,11 +16,12 @@
     font-weight: var(--home-weight-h1);
     color: var(--home-color-h1);
     text-align: center;
-} */
+}*/
+
 .about-header .line-shape{
     position: absolute;
     width: 30%;
-    top: 65px;
+    top: 50px;
     left: 50%;
     transform: translate(-50%);
     z-index: -1;

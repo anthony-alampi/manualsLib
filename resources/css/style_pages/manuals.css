@@ -92,6 +92,7 @@
     align-items: center;
     justify-content: center;
     row-gap: 20px;
+    /* padding-bottom: 50px; */
 }
 .top-15-container .most-manuals-container .sub-container{
     display: flex;
@@ -103,7 +104,7 @@
 }
 .top-15-container .most-manuals-container .download{
     width: 500px;
-    height: 100px;
+    /* height: 100px; */
     background: #fff;
     border-left-style: solid;
     border-left-width: 5px;
@@ -120,9 +121,9 @@
 .download .icons-manualsTop img{
     width: 40px;
 }
-.download .text-block h2{
+.download .text-block p{
     font-family: 'Gilroy-black', sans-serif;
-    font-size: 25px;
+    font-size: 16px;
 }
 .download .text-block h3{
     font-family: 'Roboto', sans-serif;
@@ -170,7 +171,7 @@
     width: 500px;
 } */
 /*----------HEADBAND ANIMATION-----------------*/
-
+/* 
 .headband {
     background: white;
     box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
@@ -209,11 +210,11 @@
     height: 100px;
     width: 200px;
     margin-right: 60px;
-}
+} */
 
 /*---------------------*/
 .download-category{
-    position: relative
+    position: relative;
 }
 .download-category h2{
     font-family: 'gilroy-black', sans-serif;

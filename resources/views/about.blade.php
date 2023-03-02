@@ -4,7 +4,7 @@
 
 <header class="about-header primary-header">
     {{-- <div class="title-in-header"> --}}
-        <h1 class="title-in-header">{{trans('lang.STR_TITLE_60')}}</h1>
+        <h1 class="title-in-header title-about">{{trans('lang.STR_TITLE_60')}}</h1>
         <img src="{{asset('assets/img/line-shape-11.svg')}}" class="line-shape" alt="">
         <p class="text-in-header">{{trans('lang.STR_TEXT_46')}}</p>
     {{-- </div> --}}
