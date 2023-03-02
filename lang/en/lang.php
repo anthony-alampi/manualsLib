@@ -105,16 +105,16 @@ return
         'STR_TITLE_MANUAL_5' => 'Manuals in your own language',
 
     //* Features - Title *//
-        'STR_TITLE_12/5' => 'Our Features',
-        'STR_TITLE_12' => 'Get the documentation you need for your device',    
-        'STR_TITLE_13' => 'Access to 50 000+ manuals ',    
-        'STR_TITLE_14' => 'Find manuals and guides in your language ',    
-        'STR_TITLE_15' => 'Get personal assistance',    
-        'STR_TITLE_16' => 'Access to over 50 000 user manuals from our database',    
-        'STR_TITLE_17'=> 'Find all instructions and installation guides for your products',    
-        'STR_TITLE_18' => 'Get manuals translated in your language',    
-        'STR_TITLE_19' => 'Access to your product specifications and maintenance schedules ',    
-        'STR_TITLE_21/1' => 'Get assistance for troubleshooting your devices',    
+        'STR_TITLE_FEATURES_1' => 'Our Features',
+        'STR_TITLE_FEATURES_2' => 'Get the documentation you need for your device',    
+        'STR_TITLE_FEATURES_3' => 'Access to 50 000+ manuals ',    
+        'STR_TITLE_FEATURES_4' => 'Find manuals and guides in your language ',    
+        'STR_TITLE_FEATURES_5' => 'Get personal assistance',    
+        'STR_TITLE_FEATURES_6' => 'Access to over 50 000 user manuals from our database',    
+        'STR_TITLE_FEATURES_7' => 'Find all instructions and installation guides for your products',    
+        'STR_TITLE_FEATURES_8' => 'Get manuals translated in your language',    
+        'STR_TITLE_FEATURES_9' => 'Access to your product specifications and maintenance schedules ',    
+        'STR_TITLE_FEATURES_10'=> 'Get assistance for troubleshooting your devices',    
 
         //* Brands - Title *//
         'STR_TITLE_BRANDS_1' => 'More than XXX Brands supported',    
@@ -127,11 +127,11 @@ return
             'STR_TITLE_BRAND_ITEM_3' => 'Samsung',    
             'STR_TITLE_BRAND_ITEM_4' => 'Apple',    
             'STR_TITLE_BRAND_ITEM_5' => 'Philips',    
-            'STR_TITLE_BRAND_ITEM_6' => 'Electrolux',    
-            'STR_TITLE_BRAND_ITEM_7' => 'TCL',    
+            'STR_TITLE_BRAND_ITEM_6' => 'LG',    
+            'STR_TITLE_BRAND_ITEM_7' => 'Valberg',    
             'STR_TITLE_BRAND_ITEM_8' => 'Marshall',    
             'STR_TITLE_BRAND_ITEM_9' => 'Xiaomi',    
-            'STR_TITLE_BRAND_ITEM_10' => 'Whirlpool',    
+            'STR_TITLE_BRAND_ITEM_10' => 'Toshiba',    
             'STR_TITLE_BRAND_ITEM_11' => 'Bosch',    
             'STR_TITLE_BRAND_ITEM_12' => 'JBL',    
             'STR_TITLE_BRAND_ITEM_13' => 'Bose',    
@@ -256,10 +256,10 @@ return
             'STR_TITLE_CITATION_6' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, illum?',    
 
         //* About - Title *//
-        'STR_TITLE_60' => 'About us',    
-        'STR_TITLE_61' => 'Our mission',    
-        'STR_TITLE_62' => 'Our solutions',    
-        'STR_TITLE_63' => 'Our team',    
+        'STR_TITLE_ABOUT_1' => 'About us',    
+        'STR_TITLE_ABOUT_2' => 'Our mission',    
+        'STR_TITLE_ABOUT_3' => 'Our solutions',    
+        'STR_TITLE_ABOUT_4' => 'Our team',    
             'STR_TITLE_NAME_1' => 'Lorem Ipsum',
             'STR_TITLE_NAME_2' => 'Lorem Ipsum',
             'STR_TITLE_NAME_3' => 'Lorem Ipsum',
@@ -366,12 +366,12 @@ return
         'STR_TEXT_BRAND_3' => 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.p',
 
         //* Pricing - Text *//
-        'STR_TEXT_21' => 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque ',
-        'STR_TEXT_22' => 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. ',
-        'STR_TEXT_23' => 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. ',
-        'STR_TEXT_24' => 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. ',
-        'STR_TEXT_25' => 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. ',
-        'STR_TEXT_26' => 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. ',
+        'STR_TEXT_PRICING_1' => 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque ',
+        'STR_TEXT_PRICING_2' => 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. ',
+        'STR_TEXT_PRICING_3' => 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. ',
+        'STR_TEXT_PRICING_4' => 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. ',
+        'STR_TEXT_PRICING_5' => 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. ',
+        'STR_TEXT_PRICING_6' => 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. ',
 
         //* Api - Text *//
         
@@ -407,10 +407,10 @@ return
         'STR_TEXT_PRESS_3' => 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque',
 
         //* About - Text *//
-        'STR_TEXT_46' => 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.',
-        'STR_TEXT_47' => 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.',
-        'STR_TEXT_48' => 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.',
-        'STR_TEXT_49' => 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.',
+        'STR_TEXT_ABOUT_1' => 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.',
+        'STR_TEXT_ABOUT_2' => 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.',
+        'STR_TEXT_ABOUT_3' => 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.',
+        'STR_TEXT_ABOUT_4' => 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.',
 
 
         //* Carrers - Text  *//
