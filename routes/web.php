@@ -26,6 +26,24 @@ use App\Http\Controllers\SubscriptionController;
 use App\Http\Controllers\Auth\DashboardAccountController;
 use App\Http\Controllers\Auth\DashboardAffiliateController;
 
+/*--------- LIVE SEARCH GET API MANUALS ----------*/
+// Route pour afficher la vue de détails du manuel
+Route::get('/manual/{id}', function ($id) {
+    // Récupérer les données du manuel à partir de l'API
+    $manual = file_get_contents('https://dev3.vanilla.digital/manuals.php?id=' . $id);
+    $manual = json_decode($manual);
+
+    // Charger la vue de détails du manuel avec les données
+    return view('manual')->with('manual', $manual);
+});
+
+
+
+
+
+
+
+
 Route::get('/', [ HomeController::class, 'home' ])->name('home');
 // Route::post('authenticate', [AuthController::class, 'authenticate'])->name('authenticate'); // permet d'envoyer la requete HTTP plus précisement les données d'AUTH
 

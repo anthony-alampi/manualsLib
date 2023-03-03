@@ -1,8 +1,8 @@
 
-    <form method="#" action="#" class="search-form reveal-bottom" id="search-form">
-        @csrf
-        <input type="text" id="search-input" name="brand" placeholder="Example : QLED TV samsung" class="styled-input">
-        <button type="submit" id="search-button">Search</button>
-    </form>
-
+    <div  class="search-form reveal-bottom" id="search-form">
+        {{-- @csrf --}}
+        <input type="text" id="search_dynamic"  placeholder="Example : QLED TV samsung" class="styled-input">
+        <button  id="search_button">Search</button>
+    </div>
+<ul id="searchList"></ul>
     
