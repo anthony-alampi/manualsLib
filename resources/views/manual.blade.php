@@ -1,12 +1,12 @@
 @extends('base')
 
 @section('content')
-
+{{-- {{ dd( $document )}} --}}
 <header class="manual-header">
     <img src="{{asset('assets/img/94.svg')}}" class="shape1" alt="">
     <img src="{{asset('assets/img/93.svg')}}" class="shape2" alt="">
     <div class="left-block-manual">
-            <h1>{{trans('lang.STR_TITLE_MANUAL_1')}} [Product model]</h1>
+            <h1>{{trans('lang.STR_TITLE_MANUAL_1')}} {{ $document['brand'] }}</h1>
             <img src="{{asset('assets/img/line-shape-1.svg')}}" class="shape-header" alt="">
 
         <div class="btns-container">
@@ -15,7 +15,13 @@
         </div>
     </div>
     <div class="right-block-manual">
-        <img src="{{asset('assets/img/brand-tel.jpg')}}" alt="">
+        {{-- <img src="{{asset('assets/img/brand-tel.jpg')}}" alt=""> --}}
+        {{-- <h3>{{ $document['name'] }}</h3> --}}
+        {{-- <h3>{{ $document->name }}</h3> --}}
+        <img src="{{ $document['thumbnail'] }}" alt="">
+        
+
+
         {{-- <iframe id="pdf-preview">Manual preview</iframe> --}}
     </div>
 </header>

@@ -18,6 +18,11 @@
                 <input type="text" id="affiliateInput" name="affiliate_link" value="{{ old('affiliate_link') ?? auth()->user()->affiliate_link }}" disabled >
                 <button id="linkCopy">Copy</button>
             </form>
+
+
+
+
+            
             <form class="update-paypal" action="{{route('user-profile-information.update')}}" method="POST">
                 @csrf
                 @method('PUT')
