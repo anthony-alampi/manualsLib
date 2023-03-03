@@ -18,7 +18,7 @@
 .styled-input:focus {
     outline: 0;
 }
-#search-button {
+#search_button {
     width: 185px;
     height: 54px;
     cursor: var(--pointer-btn);
