@@ -33,7 +33,11 @@ class PasswordResetLinkController extends Controller
      */
     public function store(Request $request): Responsable
     {
-        $request->validate([Fortify::email() => 'required|email']);
+        $recaptcha_secret = "6LfHfJUkAAAAAPPwwYr7vkTPj6hSeqr1-0PXMMFe";
+        $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=" . $recaptcha_secret . "&response=" . $_POST['g-recaptcha-response']);
+        $response = json_decode($response, true);
+
+        $request->validate([Fortify::email() => 'required|email','g-recaptcha-response' => 'required']);
 
         // We will send the password reset link to this user. Once we have attempted
         // to send the link, we will examine the response then see the message we
