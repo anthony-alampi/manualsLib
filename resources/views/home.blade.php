@@ -11,6 +11,7 @@
         <h2>{{ trans('lang.STR_TITLE_HOMEPAGE_2') }}</h2>
         @include('incs.formManuals')
     </div>
+    
     <div class="floating-illustration">
         <img src="{{asset('assets/img/header-illustration.png')}}" class='illustration' />
         <img src="{{asset('assets/img/float-message-1.png')}}" class="float-message1" />
