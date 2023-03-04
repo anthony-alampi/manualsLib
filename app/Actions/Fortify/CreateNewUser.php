@@ -22,6 +22,7 @@ class CreateNewUser implements CreatesNewUsers
     public function create(array $input): User
     {
         $affiliate_link = 'https://www.manualslib.com/?partner=' . Str::random(24);
+        $api_key = Str::random(24);
 
         Validator::make($input, [
             'email' => [
@@ -39,6 +40,7 @@ class CreateNewUser implements CreatesNewUsers
             'email' => $input['email'],
             'password' => Hash::make($input['password']),
             'affiliate_link' => $affiliate_link,
+            'api_key' => $api_key,
         ]);
         
     }

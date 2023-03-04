@@ -29,14 +29,14 @@
     left: 50%;
     transform: translate(-50%);
 }
-.pricing-header .content-block h2 {
-    font-family: var(--home-font-h1);
+.pricing-header .content-block .pricing-subtitle{
+    font-family: "Rubik", sans-serif;
     font-size: 45px;
     line-height: var(--home-line-h1);
-    font-weight: var(--home-weight-h1);
+    font-weight: 500;
     color: var(--home-color-h1);
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 /* .pricing-header .switch-pricing{

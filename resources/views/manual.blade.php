@@ -10,19 +10,15 @@
             <img src="{{asset('assets/img/line-shape-1.svg')}}" class="shape-header" alt="">
 
         <div class="btns-container">
-            <a href="#" class="btn-manual" id="download-btn"><img src="{{asset('assets/img/download.svg')}}" alt="">Download</a>
-            <a href="#" class="btn-manual" id="preview-btn"><img src="{{asset('assets/img/preview.svg')}}" alt="">Preview</a>
+            <div id="id-from-laravel" data-id="{{ $document['id'] }}" data-name="{{ $document['name'] }}"></div>
+            <button class="btn-manual" id="download-btn"><img src="{{asset('assets/img/download.svg')}}" alt="">Download {{ $document['brand'] }} Manual</button>
+            
+            {{-- <a href="#" class="btn-manual" id="download-btn"><img src="{{asset('assets/img/download.svg')}}" alt="">Download</a> --}}
+            {{-- <a href="#" class="btn-manual" id="preview-btn"><img src="{{asset('assets/img/preview.svg')}}" alt="">Preview</a> --}}
         </div>
     </div>
     <div class="right-block-manual">
-        {{-- <img src="{{asset('assets/img/brand-tel.jpg')}}" alt=""> --}}
-        {{-- <h3>{{ $document['name'] }}</h3> --}}
-        {{-- <h3>{{ $document->name }}</h3> --}}
-        <img src="{{ $document['thumbnail'] }}" alt="">
-        
-
-
-        {{-- <iframe id="pdf-preview">Manual preview</iframe> --}}
+        <iframe src="{{ $document['file'] }}#toolbar=0&navpanes=0" frameborder="0" class="frame-preview"></iframe>
     </div>
 </header>
 

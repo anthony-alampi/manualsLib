@@ -6,7 +6,7 @@
     <div class="content-block">
         <h1>{{ trans('lang.STR_TITLE_PRICING_1') }}</h1>
         <img src="{{asset('assets/img/line-shape-11.svg')}}" class="line-shape" alt="">
-        <h2>{{ trans('lang.STR_SUBTITLE_PRICING_1') }}</h2>
+        <h3 class="pricing-subtitle">{{ trans('lang.STR_SUBTITLE_PRICING_1') }}</h3>
         {{-- <div class="switch-pricing">
             <button class="custom-btn">Monthly</button>
             <button class="custom-btn">Yearly</button>

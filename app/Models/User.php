@@ -23,6 +23,7 @@ class User extends Authenticatable
         'password',
         'paypal_address',
         'affiliate_link',
+        'api_key',
     ];
 
     /**

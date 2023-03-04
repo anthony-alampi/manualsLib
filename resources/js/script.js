@@ -181,6 +181,172 @@ const observerBottom = new IntersectionObserver(handleIntersectBottom, option);
 document.querySelectorAll('[class*="reveal-bottom"]').forEach(function (r) {
     observerBottom.observe(r);
 });
+//---------------------- DOWNLOAD BUTTON----------------------------------*/
+
+// document.addEventListener("DOMContentLoaded", function () {
+//     var boutonTelecharger = document.getElementById("download-btn");
+//     boutonTelecharger.addEventListener("click", function (e) {
+//         e.preventDefault();
+
+//         // Récupération de l'ID de la page
+//         var pageId = document
+//             .querySelector("[data-id]")
+//             .getAttribute("data-id");
+//         console.log(pageId);
+//         axios
+//             .get("https://dev3.vanilla.digital/manuals.php")
+//             .then(function (response) {
+//                 var data = response.data;
+//                 var file = null;
+
+//                 // Recherche de l'objet correspondant à l'ID de la page
+//                 for (var i = 0; i < data.length; i++) {
+//                     if (data[i].id == pageId) {
+//                         file = data[i].file;
+//                         break;
+//                     }
+//                 }
+
+//                 if (file == null) {
+//                     console.log(
+//                         "Le fichier correspondant à l'ID " +
+//                             pageId +
+//                             " n'a pas été trouvé."
+//                     );
+//                     return;
+//                 }
+
+//                 axios
+//                     .get(file, { responseType: "blob" })
+//                     .then(function (response) {
+//                         var url = window.URL.createObjectURL(
+//                             new Blob([response.data], {
+//                                 type: "application/pdf",
+//                             })
+//                         );
+
+//                         console.log(url);
+//                         // créer un lien de téléchargement avec le lien de fichier PDF
+//                         var nameNotice = document.querySelector('[data-name]').getAttribute('data-name')
+//                         var link = document.createElement("a");
+//                         link.href = url;
+//                         link.download = nameNotice;
+//                         document.body.appendChild(link);
+
+//                         // déclencher le téléchargement
+//                         link.click();
+//                         document.body.removeChild(link);
+//                     })
+//                     .catch(function (error) {
+//                         console.log(error);
+//                     });
+//             })
+//             .catch(function (error) {
+//                 console.log(error);
+//             });
+//     });
+// });
+document.addEventListener("DOMContentLoaded", function () {
+    var downloadBtn = document.getElementById("download-btn");
+    downloadBtn.addEventListener("click", function (e) {
+        e.preventDefault();
+
+        // Récupération de l'ID du document
+        var pageId = document
+            .querySelector("[data-id]")
+            .getAttribute("data-id");
+        console.log(pageId);
+
+        // Vérifier si l'utilisateur a atteint sa limite quotidienne de téléchargements
+        var downloadsToday = parseInt(getCookie("downloads_today")) || 0;
+        if (downloadsToday >= 3) {
+            console.log(
+                "Vous avez atteint votre limite quotidienne de téléchargements."
+            );
+            return;
+        }
+
+        // Effectuer la requête pour obtenir la liste des documents PDF
+        axios
+            .get("https://dev3.vanilla.digital/manuals.php")
+            .then(function (response) {
+                var data = response.data;
+                var file = null;
+
+                // Recherche de l'objet correspondant à l'ID du document
+                for (var i = 0; i < data.length; i++) {
+                    if (data[i].id == pageId) {
+                        file = data[i].file;
+                        break;
+                    }
+                }
+
+                if (file == null) {
+                    console.log(
+                        "Le fichier correspondant à l'ID " +
+                            pageId +
+                            " n'a pas été trouvé."
+                    );
+                    return;
+                }
+
+                // Télécharger le fichier PDF et créer le cookie
+                axios
+                    .get(file, { responseType: "blob" })
+                    .then(function (response) {
+                        // Créer le cookie
+                        var cookieName = "downloads_today";
+                        var cookieValue = downloadsToday + 1;
+                        document.cookie =
+                            cookieName +
+                            "=" +
+                            cookieValue +
+                            "; max-age=86400; path=/";
+
+                        var url = window.URL.createObjectURL(
+                            new Blob([response.data], {
+                                type: "application/pdf",
+                            })
+                        );
+
+                        console.log(url);
+                        // créer un lien de téléchargement avec le lien de fichier PDF
+                        var nameNotice = document
+                            .querySelector("[data-name]")
+                            .getAttribute("data-name");
+                        var link = document.createElement("a");
+                        link.href = url;
+                        link.download = nameNotice;
+                        document.body.appendChild(link);
+
+                        // déclencher le téléchargement
+                        link.click();
+                        document.body.removeChild(link);
+                    })
+                    .catch(function (error) {
+                        console.log(error);
+                    });
+            })
+            .catch(function (error) {
+                console.log(error);
+            });
+    });
+});
+
+// Fonction pour récupérer la valeur d'un cookie
+function getCookie(name) {
+    var cookies = document.cookie.split(";");
+
+    for (var i = 0; i < cookies.length; i++) {
+        var cookie = cookies[i].trim();
+        if (cookie.indexOf(name + "=") === 0) {
+            return cookie.substring((name + "=").length, cookie.length);
+        }
+    }
+
+    return null;
+}
+
 //------------------------------- LIVE SEARCH -------------------------------------//
 
 let searchInput = document.querySelector("#search_dynamic");
@@ -246,6 +412,8 @@ function searchManuals() {
 }
 
 searchManuals();
+
+
 //-----------------------FAQ MODULE------------------------------------*/
 const faqs = document.querySelectorAll(".faq");
 

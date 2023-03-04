@@ -68,6 +68,8 @@
     display: block;
     width: 30%;
     margin: 100px auto 100px;
+    z-index: -1;
+    position: relative;
 }
 /*--------------MOST DOWNLOADED MANUALS------------------*/
 .top-15-container{
