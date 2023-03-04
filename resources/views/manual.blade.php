@@ -1,22 +1,24 @@
 @extends('base')
 
 @section('content')
-
+{{-- {{ dd( $document )}} --}}
 <header class="manual-header">
     <img src="{{asset('assets/img/94.svg')}}" class="shape1" alt="">
     <img src="{{asset('assets/img/93.svg')}}" class="shape2" alt="">
     <div class="left-block-manual">
-            <h1>{{trans('lang.STR_TITLE_MANUAL_1')}} [Product model]</h1>
+            <h1>{{trans('lang.STR_TITLE_MANUAL_1')}} {{ $document['brand'] }}</h1>
             <img src="{{asset('assets/img/line-shape-1.svg')}}" class="shape-header" alt="">
 
         <div class="btns-container">
-            <a href="#" class="btn-manual" id="download-btn"><img src="{{asset('assets/img/download.svg')}}" alt="">Download</a>
-            <a href="#" class="btn-manual" id="preview-btn"><img src="{{asset('assets/img/preview.svg')}}" alt="">Preview</a>
+            <div id="id-from-laravel" data-id="{{ $document['id'] }}" data-name="{{ $document['name'] }}"></div>
+            <button class="btn-manual" id="download-btn"><img src="{{asset('assets/img/download.svg')}}" alt="">Download {{ $document['brand'] }} Manual</button>
+            
+            {{-- <a href="#" class="btn-manual" id="download-btn"><img src="{{asset('assets/img/download.svg')}}" alt="">Download</a> --}}
+            {{-- <a href="#" class="btn-manual" id="preview-btn"><img src="{{asset('assets/img/preview.svg')}}" alt="">Preview</a> --}}
         </div>
     </div>
     <div class="right-block-manual">
-        <img src="{{asset('assets/img/brand-tel.jpg')}}" alt="">
-        {{-- <iframe id="pdf-preview">Manual preview</iframe> --}}
+        <iframe src="{{ $document['file'] }}#toolbar=0&navpanes=0" frameborder="0" class="frame-preview"></iframe>
     </div>
 </header>
 

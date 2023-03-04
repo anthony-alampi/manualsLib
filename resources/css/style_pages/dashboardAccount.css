@@ -1,9 +1,98 @@
+.container-updatePassword-and-subscribe{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+/*-------- API KEY----------------------*/
+.update-link-container {
+    width: 98%;
+    margin: 200px auto 0;
+    padding: 40px 0;
+    box-shadow: 0px 0px 15px -3px #33333349;
+
+}
+
+.update-link-container h2 {
+    margin: 0 0 0 40px;
+    padding-top: 10px;
+    font-family: 'Gilroy-black', sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+
+}
+
+.update-link-container .affiliate-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.affiliate-container .affiliate-link label {
+    padding-right: 21px;
+    padding-left: 308px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.affiliate-container .affiliate-link input {
+    padding: 8px;
+    width: 60%;
+    margin-bottom: 20px;
+    border: solid 2px rgba(167, 167, 167, 0.329);
+    border-radius: 5px;
+    font-family: 'rubik', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    background: #d6d6d66e;
+}
+
+.affiliate-container .affiliate-link input:focus {
+    outline: none;
+}
+/*---------PRICING CARD----------------*/
+.full-container-other-subscribe{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.select-other-subscribe{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 10px;
+}
+.card-pricing{
+    width: 300px;
+    border-radius: 6px;
+    font-family: 'Gilroy-semibold', sans-serif;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0px 5px 18px -6px rgba(0, 0, 0, 0.15);
+}
+.card-pricing .pricing-plan {
+    display: flex;
+    justify-content: center;
+}
+
+.card-pricing .pricing-plan h3 {
+    color: #000;
+    font-family: "gilroy-semibold",sans-serif;
+    font-size: 35px;
+    margin-bottom: 10px;
+
+}
+
+.card-pricing .pricing-plan span {
+    font-family: 'gilroy-semibold', sans-serif;
+    font-size: 20px;
+}
+
+/*--------------FORM PASSWORD UPDATE---------------*/
 .updated-password-form{
     text-align: center;
 }
 .modify-password-container{
-    width: 35%;
-    margin: 200px;
+    height: 450px;
+    width: 360px;
     padding: 20px 0;
     font-family: 'Rubik', sans-serif;
     box-shadow: 0 0 10px -1px #00000036;
@@ -13,7 +102,6 @@
 }
 
 .modify-password-container input {
-    /* width: 50%; */
     padding: 15px;
     margin-bottom: 20px;
     border: solid 2px rgba(167, 167, 167, 0.329);
