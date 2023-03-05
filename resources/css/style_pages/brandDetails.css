@@ -1,55 +1,9 @@
-/* .brand-header {
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    text-align: center;
-    margin: 225px auto 0;
+.brand-header {
+    padding-bottom: 150px;
 }
-
-.brand-header h1 {
-    font-family: var(--home-font-h1);
-    font-size: 78px;
-    line-height: var(--home-line-h1);
-    font-weight: var(--home-weight-h1);
-    color: var(--home-color-h1);
-    width: 60%;
-    color: #101621;
-}
-
-.brand-header p {
-    margin-top: 30px;
-    font-family: 'Rubik', sans-serif;
-    font-size: 22px;
-    line-height: 1.75em;
-    width: 70%;
-    color: #73737B;
-} */
-
-.brand-header a{
-    padding: 20px 40px 20px 40px;
-    margin-top: 20px;
-    cursor: var(--pointer-btn);
-    transition: 0.5s;
-    color: var(--color-text-btn);
-    font-family: var(--font-btn);
-    font-size: var(--size-text-btn);
-    border: 2px solid #fd6a5e;
-    border-radius: 6px;
-    letter-spacing: 2px;
-    background-color: var(--color-btn);
-    box-shadow: 0px 10px 15px -3px #33333349;
-    text-decoration: none;
-}
-.brand-header a:hover{
-    background: transparent;
-    color: #fd6a5e;
-}
-
 .brand-header .geometric1 {
     position: absolute;
-    top: 200px;
+    top: 100px;
     right: 60px;
     z-index: -1;
     animation: floating 5s infinite;
@@ -118,40 +72,62 @@
 }
 
 /*------------- Brands text block-----------------*/
-/* .brand-details-container {
+.full-container-brand-details {
+    background: #f2fbfd;
+    padding: 80px 80px;
+}
+
+.full-container-brand-details .blocks-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    position: relative;
-    margin-top: 50px;
+    justify-content: center;
 }
 
-.brand-details-container .brand-block {
-    width: 40%;
+.full-container-brand-details .blocks-container .brand-block img {
+    width: 450px;
 }
 
-.brand-details-container .brand-block h2 {
-    font-family: 'gilroy-black', sans-serif;
-    color: #202020;
-    font-size: 42px;
-    line-height: 1.35em;
-    margin-bottom: 20px;
+.brand-text-block {
+    background: #fff;
+    width: 700px;
+    padding: 70px 50px 70px;
 }
-.brand-details-container .brand-block p {
+
+.brand-text-block h2 {
+    font-family: 'gilroy-black';
+    font-size: clamp(22px, 5vw, 27px);
+}
+
+.brand-text-block p {
     margin-top: 30px;
+    margin-bottom: 15%;
     font-family: var(--font-text);
-    font-size: var(--size-text);
+    font-size: clamp(14px, 5vw, 16px);
     color: var(--color-text);
     line-height: var(--line-text);
     font-weight: var(--weight-text);
+
 }
 
-.brand-details-container .image-block {
-    width: 600px;
-    border-radius: 20px;
-} */
+.brand-text-block a {
+    padding: 20px;
+    cursor: var(--pointer-btn);
+    transition: 0.5s;
+    color: var(--color-text-btn);
+    font-family: var(--font-btn);
+    font-size: var(--size-text-btn);
+    border-radius: 6px;
+    border: solid 2px #fd6a5e;
+    letter-spacing: 2px;
+    background-color: var(--color-btn);
+    text-decoration: none;
+}
 
+.brand-text-block a:hover {
+    background: transparent;
+    color: #fd6a5e;
+
+}
 .brand-details-container .circle-item {
     position: absolute;
     width: 150px;

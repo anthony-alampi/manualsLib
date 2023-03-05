@@ -4,15 +4,26 @@
 @section('content')
 <header class="brand-header primary-header">
         <h1 class="title-in-header">{{trans('lang.STR_TITLE_BRAND_1')}}</h1>
-        <p class="text-in-header">{{trans('lang.STR_TEXT_BRAND_1')}}</p>
-        <a href="{{route('home')}}">Search for Brandname manuals</a>
+        {{-- <p class="text-in-header">{{trans('lang.STR_TEXT_BRAND_1')}}</p> --}}
+        {{-- <a href="{{route('home')}}">Search for Brandname manuals</a> --}}
         <img src="{{asset('assets/img/triangle-effect-1.svg')}}" class="geometric1" alt="">
-        <img src="{{asset('assets/img/carre.svg')}}" class="geometric3" alt="">
         <img src="{{asset('assets/img/orange-triangle.svg')}}" class="geometric5" alt="">
         <img src="{{asset('assets/img/line-shape-11.svg')}}" class="line-shape" alt="">
 </header>
 <main>
     <article>
+        <section class="full-container-brand-details">
+            <div class="blocks-container">
+                <div class="brand-block">
+                    <img src="{{ asset('assets/img/dyson-brand.jpg') }}" alt="">
+                </div>
+                <div class="brand-text-block">
+                    <h2>ABOUT [brand]</h2>
+                    <p>{{trans('lang.STR_TEXT_BRAND_1')}}</p>
+                    <a href="{{route('home')}}">Search manuals</a>
+                </div>
+            </div>
+        </section>
         <section>
             <div class="content-sub-brand-block">
                 <h2>{{trans('lang.STR_TITLE_BRAND_2')}}</h2>

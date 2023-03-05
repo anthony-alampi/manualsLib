@@ -1872,22 +1872,39 @@
 }
 
 /*-----------------BRAND DETAILS-----------------------*/
+@media (max-width: 1310px) {
+    .brand-text-block {
+            width: 450px;
+        }
+}
+@media (max-width: 1060px) {
+.full-container-brand-details .blocks-container .brand-block img {
+        width: 50vw;
+    }
+        .brand-text-block {
+            width: 50vw;
+        }
+}
 
-@media (max-width: 1024px) {
-/* .brand-details-container .brand-block {
-        width: 90%;
-        text-align: center;
-    } */
+@media (max-width: 500px) {
+.full-container-brand-details .blocks-container .brand-block img {
+        width: 63vw;
+    }
+ .brand-text-block {
+    width: 100vw;
+    text-align: center;
+    }
+.brand-text-block a {
+    padding: 10px;
+    font-size: 15px;
+
 }
-@media (max-width: 800px) {
-/* .brand-header h1 {
-        font-size: 50px;
-    } */
-}
-@media (max-width: 600px) {
-/* .brand-header h1 {
-        font-size: 40px;
-    } */
+
+
+
+
+
+
 .top-10-container .most-brand-container .download {
     width: 350px;
 }
