@@ -1,7 +1,6 @@
 @extends('base')
 
 @section('content')
-{{-- {{ dd( $document )}} --}}
 <header class="manual-header">
     <img src="{{asset('assets/img/94.svg')}}" class="shape1" alt="">
     <img src="{{asset('assets/img/93.svg')}}" class="shape2" alt="">
@@ -13,7 +12,6 @@
             <div id="id-from-laravel" data-id="{{ $document['id'] }}" data-name="{{ $document['name'] }}"></div>
             <button class="btn-manual" id="download-btn"><img src="{{asset('assets/img/download.svg')}}" alt="">Download {{ $document['brand'] }} Manual</button>
             
-            {{-- <a href="#" class="btn-manual" id="download-btn"><img src="{{asset('assets/img/download.svg')}}" alt="">Download</a> --}}
             {{-- <a href="#" class="btn-manual" id="preview-btn"><img src="{{asset('assets/img/preview.svg')}}" alt="">Preview</a> --}}
         </div>
     </div>

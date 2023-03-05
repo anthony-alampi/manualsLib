@@ -24,6 +24,7 @@ class User extends Authenticatable
         'paypal_address',
         'affiliate_link',
         'api_key',
+        'downloaded_manuals',
     ];
 
     /**

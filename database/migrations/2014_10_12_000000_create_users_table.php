@@ -20,6 +20,7 @@ return new class extends Migration
             $table->string('paypal_address')->nullable()->default('');
             $table->string('affiliate_link')->unique();
             $table->string('api_key')->unique();
+            $table->json('downloaded_manuals')->nullable();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();

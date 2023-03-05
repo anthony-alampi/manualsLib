@@ -32,7 +32,7 @@
                    <div class="dropdown-user">
                        <button class="btn-top">My Account</button>
                        <div class="list">
-                           <a href="#" class="links">
+                           <a href="{{route('dashboard')}}" class="links">
                                Dashboard
                            </a>
                            <a href="{{route('dashboardAccount')}}" class="links">

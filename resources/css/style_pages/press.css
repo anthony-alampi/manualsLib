@@ -1,21 +1,4 @@
-/* .press-header {
-    height: auto;
-    position: relative;
-}
-.title-text{
-    width: 60%;
-    margin: 225px auto 100px;
-    text-align: center;
-    position: relative;
-}
-.press-header .title-text h1 {
-    font-family: var(--home-font-h1);
-    font-size: 85px;
-    line-height: var(--home-line-h1);
-    font-weight: var(--home-weight-h1);
-    color: var(--home-color-h1);
-    text-align: center;
-}*/
+
 .press-header .line-shape{
     position: absolute;
     width: 40%;
@@ -112,7 +95,7 @@
 
 .sub-container .article{
     margin-top: 30px;
-    width: 30%;
+    width: 200px;
 }
 .article .image-container{
     overflow: hidden;
@@ -129,8 +112,8 @@
     transform: scale(1.1);
 }
 .article h3{
-    font-family: 'Gilroy-black', sans-serif;
-    font-size: 25px;
+    font-family: 'Gilroy-semibold', sans-serif;
+    font-size: clamp(10px, 5vw, 22px);
     font-weight: 200;
     margin: 0 0 50px 0;
 }
@@ -141,7 +124,7 @@
     font-size: var(--size-text-btn);
     font-family: var(--font-btn);
     cursor: pointer;
-    padding: 12px 24px;
+    padding: 12px 12px;
     border: solid 2px #FD6A5E;
     border-radius: 5px;
     transition: .5s;
@@ -163,7 +146,6 @@
         border-radius: 6px;
         letter-spacing: 2px;
         background-color: var(--color-btn);
-        box-shadow: 0px 10px 15px -3px #33333349;
 }
 .bg-block2 button:hover{
     background: #fff;

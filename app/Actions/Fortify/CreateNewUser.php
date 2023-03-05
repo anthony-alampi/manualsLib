@@ -24,6 +24,9 @@ class CreateNewUser implements CreatesNewUsers
         $affiliate_link = 'https://www.manualslib.com/?partner=' . Str::random(24);
         $api_key = Str::random(24);
 
+        $data = [];
+        $jsonData = json_encode($data);
+
         Validator::make($input, [
             'email' => [
                 'required',
@@ -41,6 +44,7 @@ class CreateNewUser implements CreatesNewUsers
             'password' => Hash::make($input['password']),
             'affiliate_link' => $affiliate_link,
             'api_key' => $api_key,
+            'downloaded_manuals' => $jsonData,
         ]);
         
     }

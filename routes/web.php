@@ -23,40 +23,14 @@ use App\Http\Controllers\FeaturesController;
 use App\Http\Controllers\BrandDetailsController;
 use App\Http\Controllers\CancellationController;
 use App\Http\Controllers\SubscriptionController;
+
+use App\Http\Controllers\Auth\DashboardController;
 use App\Http\Controllers\Auth\DashboardAccountController;
 use App\Http\Controllers\Auth\DashboardAffiliateController;
 
 /*--------- LIVE SEARCH GET API MANUALS ----------*/
 // Route pour afficher la vue de détails du manuel
-// Route::get('/manual/{id}', function ($id) {
-//     // Récupérer les données du manuel à partir de l'API
-//     $manual = file_get_contents('https://dev3.vanilla.digital/manuals.php?id=' . $id);
-//     $manual = json_decode($manual);
-
-
-//     // Charger la vue de détails du manuel avec les données
-//     return view('manual')->with('manual', $manual);  
-// });
-
-
-
-
-
-
-
-
-
-
-
-/*--------- LIVE SEARCH GET API MANUALS ----------*/
-// Route pour afficher la vue de détails du manuel
 Route::get('/manual/{id}', [ManualController::class, 'show'])->name('manual.show');
-
-
-
-
-
-
 
 
 Route::get('/', [ HomeController::class, 'home' ])->name('home');
@@ -94,6 +68,8 @@ Route::post('/contact',             [ContactController::class, 'submit'])->name(
 Route::get('/carreers',             [CarreersController::class, 'show'])->name('carreers');
 
 /*--------------------------------------------------USER DASHBOARDS------------------------------------------------------------------------*/
+
+Route::get('/dashboard',            [DashboardController::class, 'show'])->name('dashboard')->middleware('auth');
 Route::get('/dashboard-account',    [DashboardAccountController::class, 'show'])->name('dashboardAccount')->middleware('auth');
 Route::get('/dashboard-affiliation',[DashboardAffiliateController::class, 'show'])->name('dashboardAffiliation')->middleware('auth');
 
