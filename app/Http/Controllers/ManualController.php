@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
 use GuzzleHttp\Client;
 use Illuminate\Http\Request;
 
@@ -34,32 +35,39 @@ class ManualController extends Controller
 
         return view('/manual')->with('document', $document);
 
-
-
     }
 
 
+    // public function index($id)
+    // {
+    //     // Récupère l'utilisateur spécifique avec sa colonne download_document_id
+    //     $user = User::findOrFail($id, ['id', 'downloaded_manuals']);
 
-
-
-
-
-
-
-
-
-
-
-
-    // public function show($id){
-    //      // Récupérer les données du manuel à partir de l'API
-    //     $manual = file_get_contents('https://dev3.vanilla.digital/manuals.php?id=' . $id);
-    //     $manual = json_decode($manual);
-
-
-
-    //     // Charger la vue de détails du manuel avec les données
-    //     return view('manual')->with('manual', $manual);  
+    //     return view('manual.index', compact('user'));
     // }
 
+
+
+
+
+
+    public function update(Request $request, $id)
+    {
+        $user = User::findOrFail($id);
+
+        $validated = $request->validate([
+            'downloaded_manuals' => 'required|array',
+        ]);
+
+        $existing_data = json_decode($user->downloaded_manuals, true) ?? []; // récupérer les données existantes ou initialiser un tableau vide
+        $new_data = $validated['downloaded_manuals']; // récupérer les nouvelles données validées
+
+        $merged_data = array_merge($existing_data, $new_data); // fusionner les données existantes et les nouvelles données
+
+        $user->downloaded_manuals = json_encode($merged_data); // enregistrer les données fusionnées
+
+        $user->save();
+
+        return redirect()->route('home');
+    }
 }

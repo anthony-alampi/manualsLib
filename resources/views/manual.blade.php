@@ -8,12 +8,31 @@
             <h1>{{trans('lang.STR_TITLE_MANUAL_1')}} {{ $document['brand'] }}</h1>
             <img src="{{asset('assets/img/line-shape-1.svg')}}" class="shape-header" alt="">
 
-        <div class="btns-container">
-            <div id="id-from-laravel" data-id="{{ $document['id'] }}" data-name="{{ $document['name'] }}"></div>
-            <button class="btn-manual" id="download-btn"><img src="{{asset('assets/img/download.svg')}}" alt="">Download {{ $document['brand'] }} Manual</button>
-            
-            {{-- <a href="#" class="btn-manual" id="preview-btn"><img src="{{asset('assets/img/preview.svg')}}" alt="">Preview</a> --}}
-        </div>
+        {{-- <div class="btns-container">
+            <div id="id-from-laravel" data-id="{{ $document['id'] }}" data-name="{{ $document['name'] }}" data-id_user="{{ Auth::user()->id }}"></div>
+            <button class="btn-manual" id="download-btn"><img src="{{asset('assets/img/download.svg')}}" alt="">Download {{ $document['brand'] }} Manual</button>            
+        </div> --}}
+
+                            @if (Auth::user())
+                            <div class="btns-container">
+                                <button name ="document_id" id="download-btn" class="btn-manual"><img src="{{asset('assets/img/download.svg')}}" alt="">
+                                    <div id="id-from-laravel" data-id="{{ $document['id'] }}" data-name="{{ $document['name'] }}" data-id_user="{{ Auth::user()->id }}">Download</div>
+                                </button>
+                            </div>
+
+                            @else
+                             <div class="btns-container">
+                                <button name ="document_id" id="download-btn" class="btn-manual"><img src="{{asset('assets/img/download.svg')}}" alt="">
+                                    <div id="id-from-laravel" data-id="{{ $document['id'] }}" data-name="{{ $document['name'] }}">Download</div>
+                                </button>
+                            </div>
+                            @endif
+
+
+
+
+
+
     </div>
     <div class="right-block-manual">
         <iframe src="{{ $document['file'] }}#toolbar=0&navpanes=0" frameborder="0" class="frame-preview"></iframe>
