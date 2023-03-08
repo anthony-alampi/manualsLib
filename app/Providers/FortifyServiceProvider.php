@@ -2,15 +2,19 @@
 
 namespace App\Providers;
 
+use App\Models\User;
+use GuzzleHttp\Client;
+use Illuminate\Http\Request;
+use Laravel\Fortify\Fortify;
+use Illuminate\Support\Facades\Hash;
 use App\Actions\Fortify\CreateNewUser;
+use Illuminate\Support\ServiceProvider;
+use Illuminate\Cache\RateLimiting\Limit;
 use App\Actions\Fortify\ResetUserPassword;
 use App\Actions\Fortify\UpdateUserPassword;
-use App\Actions\Fortify\UpdateUserProfileInformation;
-use Illuminate\Cache\RateLimiting\Limit;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\RateLimiter;
-use Illuminate\Support\ServiceProvider;
-use Laravel\Fortify\Fortify;
+use Illuminate\Validation\ValidationException;
+use App\Actions\Fortify\UpdateUserProfileInformation;
 
 class FortifyServiceProvider extends ServiceProvider
 {
@@ -49,7 +53,36 @@ class FortifyServiceProvider extends ServiceProvider
             return view('auth.reset-password', ['request' => $request]);
         });
 
+        Fortify::authenticateUsing(function (Request $request) {
 
+            $client = new Client();
+
+            $response = $client->post('https://www.google.com/recaptcha/api/siteverify', [
+                'form_params' => [
+                    'secret' => env('CAPTCHA_SECRET'),
+                    'response' => $request->input('g-recaptcha-response'),
+                    'remoteip' => $request->ip(),
+                ],
+                'curl' => [
+                    CURLOPT_SSL_VERIFYPEER => false,
+                ],
+            ]);
+
+            $responseData = json_decode($response->getBody(), true);
+
+            if (!$responseData['success']) {
+                throw ValidationException::withMessages(['g-recaptcha-response' => 'reCAPTCHA validation failed.']);
+            }
+
+            $user = User::where('email', $request->email)->first();
+
+            if (
+                $user &&
+                Hash::check($request->password, $user->password)
+            ) {
+                return $user;
+            }
+        });
 
         RateLimiter::for('login', function (Request $request) {
             $email = (string) $request->email;
@@ -58,4 +91,5 @@ class FortifyServiceProvider extends ServiceProvider
         });
 
     }
+
 }

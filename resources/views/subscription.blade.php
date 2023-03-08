@@ -29,7 +29,7 @@
                 <div class="text-container">
                     <h2 id="ancre3">{{trans('lang.STR_TITLE_SUBSCRIPTION_4')}}</h2>
                 </div>
-        <div class="pricing-table">
+        <div class="plans-container">
             <div class="pricing-container1">
                 <h2>{{ trans('lang.STR_TITLE_PRICING_CARD_1') }}</h2>
                 <div class="pricing-plan">
@@ -160,7 +160,7 @@
                     </ul>
                 </div>
             </div>
-
+        </div>
 
                 <div class="text-container">
                     <h2 id="ancre4"> {{trans('lang.STR_TITLE_SUBSCRIPTION_8')}}</h2>
