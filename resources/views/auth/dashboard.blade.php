@@ -2,30 +2,30 @@
 
 @section('content')
 
-
-        <div class="update-link-container">
-        <h2>API Key</h2>
-        <div class="affiliate-container">
-            <form class="affiliate-link" action="#" method="dialog">
-                @csrf
-                <label for="api_key">Your API Key</label>
-                <input type="text" id="affiliateInput" name="api_key" value="{{ old('api_key') ?? auth()->user()->api_key }}" disabled >
-                <button id="linkCopy">Copy</button>
-            </form>
+<main>
+    <article>
+      <section class="history-subscription-container">
+            <h2>{{ trans('lang.STR_TITLE_DASHBOARD_2') }}</h2>
+            <div class="stripe-history-subscription"></div>
+        </section>
+    <div class="downloaded-manuals">
+        <h2>{{ trans('lang.STR_TITLE_DASHBOARD_1') }}</h2>
+        <div class="container-manuals">
+            @foreach ($common_names as $name)
+                <div class="manual custom-border-left1">
+                     <img src="{{asset('assets/img/book-categories.svg')}}" alt="">
+                    <h3>{{ $name }}</h3>
+                </div>
+            @endforeach
         </div>
     </div>
+    <div class="live-search-manuals">
+        @include('incs.formManualsCustom')
+    </div>
 
-        <div class="full-container-manuals-downloaded">
-            <div class="sub-container-manuals-dl">
-                @foreach ($common_names as $name)
-                <div class="dl-manual-card">
-                    <h3>
-                        {{ $name }}
-                    </h3>
-                </div>
-                @endforeach
-            </div>
-        </div>
+      </article>
+</main>
+        
 @endsection
 
 

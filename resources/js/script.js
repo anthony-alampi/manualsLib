@@ -186,10 +186,105 @@ document.querySelectorAll('[class*="reveal-bottom"]').forEach(function (r) {
 
 //---------------------- DOWNLOAD BUTTON----------------------------------*/
 
+// document.addEventListener("DOMContentLoaded", function () {
+//     var boutonTelecharger = document.getElementById("download-btn");
+//     boutonTelecharger.addEventListener("click", function (e) {
+//         e.preventDefault();
+
+//         // Récupération de l'ID de la page
+//         var pageId = document
+//             .querySelector("[data-id]")
+//             .getAttribute("data-id");
+//         var nameNotice = document
+//             .querySelector("[data-name]")
+//             .getAttribute("data-name");
+
+//         console.log(pageId);
+
+//         axios
+//             .get("https://dev3.vanilla.digital/manuals.php")
+//             .then(function (response) {
+//                 var data = response.data;
+//                 var file = null;
+
+//                 // Recherche de l'objet correspondant à l'ID de la page
+//                 for (var i = 0; i < data.length; i++) {
+//                     if (data[i].id == pageId) {
+//                         file = data[i].file;
+//                         break;
+//                     }
+//                 }
+
+//                 if (file == null) {
+//                     console.log(
+//                         "Le fichier correspondant à l'ID " +
+//                             pageId +
+//                             " n'a pas été trouvé."
+//                     );
+//                     return;
+//                 }
+
+//                 axios
+//                     .get(file, { responseType: "blob" })
+//                     .then(function (response) {
+//                         var url = window.URL.createObjectURL(
+//                             new Blob([response.data], {
+//                                 type: "application/pdf",
+//                             })
+//                         );
+
+//                         const idUserElement =
+//                             document.querySelector("[data-id_user]");
+//                         let idUser = null;
+//                         if (idUserElement) {
+//                             idUser = idUserElement.getAttribute("data-id_user");
+//                         }
+//                         // Ajout de la requête POST à la route downloads.update avec l'ID du document et le jeton CSRF
+//                         const csrfToken = document
+//                             .querySelector('meta[name="csrf-token"]')
+//                             .getAttribute("content");
+//                         axios
+//                             .post("/manual/" + (idUser || "null"), {
+//                                 downloaded_manuals: [pageId],
+//                                 _token: csrfToken,
+//                             })
+//                             .then((response) => {
+//                                 console.log(response.data);
+//                             })
+//                             .catch((error) => {
+//                                 console.error(error);
+//                             });
+
+//                         // console.log(url);
+//                         // créer un lien de téléchargement avec le lien de fichier PDF
+//                         var link = document.createElement("a");
+//                         link.href = url;
+//                         link.download = nameNotice;
+//                         document.body.appendChild(link);
+
+//                         // déclencher le téléchargement
+//                         link.click();
+//                         document.body.removeChild(link);
+//                     })
+//                     .catch(function (error) {
+//                         console.log(error);
+//                     });
+//             });
+//     });
+// });
+
 document.addEventListener("DOMContentLoaded", function () {
     var boutonTelecharger = document.getElementById("download-btn");
     boutonTelecharger.addEventListener("click", function (e) {
         e.preventDefault();
+
+        // Vérifier le nombre de téléchargements effectués aujourd'hui
+        var downloadsToday =
+            parseInt(localStorage.getItem("downloadsToday")) || 0;
+        if (downloadsToday >= 999) {
+            alert("You have reached the download limit for today..");
+            return;
+        }
 
         // Récupération de l'ID de la page
         var pageId = document
@@ -199,7 +294,7 @@ document.addEventListener("DOMContentLoaded", function () {
             .querySelector("[data-name]")
             .getAttribute("data-name");
 
-        console.log(pageId);
+        // console.log(pageId);
 
         axios
             .get("https://dev3.vanilla.digital/manuals.php")
@@ -216,10 +311,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
 
                 if (file == null) {
-                    console.log(
-                        "Le fichier correspondant à l'ID " +
+                    alert(
+                        "The file corresponding to the ID " +
                             pageId +
-                            " n'a pas été trouvé."
+                            " was not found."
                     );
                     return;
                 }
@@ -233,15 +328,18 @@ document.addEventListener("DOMContentLoaded", function () {
                             })
                         );
 
-                        const idUser = document
-                            .querySelector("[data-id_user]")
-                            .getAttribute("data-id_user");
+                        const idUserElement =
+                            document.querySelector("[data-id_user]");
+                        let idUser = null;
+                        if (idUserElement) {
+                            idUser = idUserElement.getAttribute("data-id_user");
+                        }
                         // Ajout de la requête POST à la route downloads.update avec l'ID du document et le jeton CSRF
                         const csrfToken = document
                             .querySelector('meta[name="csrf-token"]')
                             .getAttribute("content");
                         axios
-                            .post("/manual/" + idUser, {
+                            .post("/manual/" + (idUser || "null"), {
                                 downloaded_manuals: [pageId],
                                 _token: csrfToken,
                             })
@@ -252,7 +350,10 @@ document.addEventListener("DOMContentLoaded", function () {
                                 console.error(error);
                             });
 
-                        // console.log(url);
+                        // Incrémenter le nombre de téléchargements effectués aujourd'hui
+                        downloadsToday++;
+                        localStorage.setItem("downloadsToday", downloadsToday);
+
                         // créer un lien de téléchargement avec le lien de fichier PDF
                         var link = document.createElement("a");
                         link.href = url;
@@ -266,13 +367,9 @@ document.addEventListener("DOMContentLoaded", function () {
                     .catch(function (error) {
                         console.log(error);
                     });
-            })
-            .catch(function (error) {
-                console.log(error);
             });
     });
 });
-
 //------------------------------- LIVE SEARCH -------------------------------------//
 
 let searchInput = document.querySelector("#search_dynamic");

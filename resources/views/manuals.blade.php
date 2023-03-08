@@ -72,7 +72,7 @@
                     @foreach ($categories as $category)
                     <div class="download custom-border-left1 reveal-bottom">
                         <div class="icons-manualsTop">
-                            <img src="{{asset('assets/img/amplifier.svg')}}" alt="">
+                             <img src="{{asset('assets/img/book-categories.svg')}}" alt="">
                         </div>
                         <div class="text-block">
                             <p>{{ $category  }}</p>

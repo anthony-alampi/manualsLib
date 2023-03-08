@@ -31,7 +31,7 @@ use App\Http\Controllers\Auth\DashboardAffiliateController;
 
 /*---------------------------- LIVE SEARCH GET API MANUALS ---------------------------*/
 
-// Route::get('/manual/{id}',       [ManualController::class, 'index'])->name('manual.index');
+Route::get('/manual/{id}',       [ManualController::class, 'index'])->name('manual.index');
 Route::get('/manual/{id}',          [ManualController::class, 'show'])->name('manual.show');
 Route::post('/manual/{id}',         [ManualController::class, 'update'])->name('dashboard');
 
@@ -54,7 +54,7 @@ Route::get('/carreers',             [CarreersController::class, 'show'])->name('
 // Route::post('authenticate', [AuthController::class, 'authenticate'])->name('authenticate'); // permet d'envoyer la requete HTTP plus précisement les données d'AUTH
 
 
-// Route::get('/',                     [HomeController::class, 'home'])->name('home');/*-- Fortify route--- */
+Route::get('/',                     [HomeController::class, 'home'])->name('home');/*-- Fortify route--- */
 Route::get('/home',                 function () { return view('home'); })->name('home');
 Route::get('/manuals',              [ManualsController::class, 'manuals'])->name('manuals');
 Route::get('/features',             [FeaturesController::class, 'features'])->name('features');
