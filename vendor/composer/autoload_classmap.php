@@ -15,7 +15,6 @@ return array(
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
     'App\\Http\\Controllers\\AboutController' => $baseDir . '/app/Http/Controllers/AboutController.php',
     'App\\Http\\Controllers\\ApiController' => $baseDir . '/app/Http/Controllers/ApiController.php',
-    'App\\Http\\Controllers\\AuthController' => $baseDir . '/app/Http/Controllers/AuthController.php',
     'App\\Http\\Controllers\\Auth\\DashboardAccountController' => $baseDir . '/app/Http/Controllers/Auth/DashboardAccountController.php',
     'App\\Http\\Controllers\\Auth\\DashboardAffiliateController' => $baseDir . '/app/Http/Controllers/Auth/DashboardAffiliateController.php',
     'App\\Http\\Controllers\\Auth\\DashboardController' => $baseDir . '/app/Http/Controllers/Auth/DashboardController.php',

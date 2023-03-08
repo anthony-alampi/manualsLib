@@ -208,7 +208,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    row-gap: 20px;
+    /* row-gap: 20px; */
 }
 .top-10-container .most-brand-container .sub-container{
     display: flex;
@@ -216,10 +216,11 @@
     margin: 10px;
     justify-content: center;
     align-items: center;
+    width: 500px;
 }
 .top-10-container .most-brand-container .download{
-    width: 500px;
-    height: 100px;
+    width: 350px;
+    height: auto;
     background: #fff;
     border-left-style: solid;
     border-left-width: 5px;

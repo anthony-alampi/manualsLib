@@ -538,7 +538,6 @@ class ComposerStaticInit9302fd3fe4dafbcc7429054d8f89f8e7
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\AboutController' => __DIR__ . '/../..' . '/app/Http/Controllers/AboutController.php',
         'App\\Http\\Controllers\\ApiController' => __DIR__ . '/../..' . '/app/Http/Controllers/ApiController.php',
-        'App\\Http\\Controllers\\AuthController' => __DIR__ . '/../..' . '/app/Http/Controllers/AuthController.php',
         'App\\Http\\Controllers\\Auth\\DashboardAccountController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/DashboardAccountController.php',
         'App\\Http\\Controllers\\Auth\\DashboardAffiliateController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/DashboardAffiliateController.php',
         'App\\Http\\Controllers\\Auth\\DashboardController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/DashboardController.php',

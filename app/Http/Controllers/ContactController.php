@@ -26,28 +26,4 @@ class ContactController extends Controller
         Mail::to('contact@manualslib.com')->send(new ContactMail($request->lastName, $request->firstName, $request->email, $request->message));
         return to_route('home');
     }
-
-
-
-
-    // public function send(Request $request)
-    // {
-    //     $recaptcha_secret = "6LfHfJUkAAAAAPPwwYr7vkTPj6hSeqr1-0PXMMFe";
-    //     $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=" . $recaptcha_secret . "&response=" . $_POST['g-recaptcha-response']);
-    //     $response = json_decode($response, true);
-
-    //     $firstName = $request->input('first-name');
-    //     $lastName = $request->input('last-name');
-    //     $email = $request->input('email');
-    //     $message = $request->input('message');
-
-    //     $validate = $request->validate([
-    //         'firstName' => "required",
-    //         'lastName' => "required",
-    //         'email' => "required | email",
-    //         'message' => "required",
-    //     ]);
-
-       
-    // }
 }
