@@ -99,8 +99,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    column-gap: 50px;
-    row-gap: 50px;
+    column-gap: 100px;
+    row-gap: 100px;
     align-items: center;
 }
 
@@ -108,20 +108,19 @@
     background-color: #fff;
     transition: 0.5s;
     border-radius: 15px;
+    cursor: pointer;
 }
 .brands-logo-container .brand-item:hover{
     transform: translateY(-10px);
 }
 
 .brands-logo-container .brand-item img{
-    width: 300px;
+    width: 250px;
     height: 250px;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
     filter: grayscale(100%);
 }
-
-
 .brands-logo-container .brand-item h3{
     font-family: var(--home-font-h1);
     font-size: 28px;
