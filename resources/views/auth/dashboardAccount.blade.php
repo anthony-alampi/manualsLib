@@ -10,6 +10,7 @@
 @endif --}}
 
 @section('content')
+@include('stripe.stripe-form')
     <div class="update-link-container">
         <h2>API Key</h2>
         <div class="affiliate-container">
@@ -83,7 +84,7 @@
                                 <p class="manuals custom-position">{{ trans('lang.STR_TEXT_2_CARD_1') }}</p>
                             </li>
                         </ul>
-                    <button class="sign-up-pricing">Susbscribe</button>
+                            <button class="sign-up-pricing" id="stripe-modal-btn">Susbscribe</button>
                 </div>
             </div>
 
@@ -113,7 +114,7 @@
                                     <p class="manuals custom-position">{{ trans('lang.STR_TEXT_4_CARD_2') }}</p>
                                 </li>
                             </ul>
-                            <button class="sign-up-pricing">Susbscribe</button>
+                            <button class="sign-up-pricing" id="stripe-modal-btn">Susbscribe</button>
                         </div>
                     </div>
                 </div>
@@ -153,10 +154,9 @@
                                 <p class="manuals custom-position">{{ trans('lang.STR_TEXT_6_CARD_3') }}</p>
                             </li>
                         </ul>
-                    <button class="sign-up-pricing">Susbscribe</button>
+                    <button class="sign-up-pricing" id="stripe-modal-btn">Susbscribe</button>
                 </div>
             </div>
-
             <div class="card-pricing">
                 <h2>{{ trans('lang.STR_TITLE_PRICING_CARD_4') }}</h2>
                     <div class="pricing-plan">
@@ -195,7 +195,7 @@
                                     <p class="manuals custom-position">{{ trans('lang.STR_TEXT_7_CARD_4') }}</p>
                                 </li>
                             </ul>
-                            <button class="sign-up-pricing">Susbscribe</button>
+                            <button class="sign-up-pricing" id="stripe-modal-btn">Susbscribe</button>
                         </div>
                     </div>
                 </div>
@@ -206,6 +206,5 @@
         <div class="cancel-incs">
             @include('incs.formCancellation')
         </div>
-         
 
 @endsection

@@ -56,6 +56,7 @@ footer .link-footer-container .links-container h2{
     left: 5%;
     width: 150px;
     animation: floating 8s infinite;
+    z-index: -1;
 }
 .square-item-footer{
     position:absolute;

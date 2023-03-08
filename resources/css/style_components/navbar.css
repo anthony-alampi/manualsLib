@@ -80,7 +80,7 @@ nav.scrolled {
     text-decoration: none;
     color: #414141;
     display: inline-block;
-    margin-right: 20px;
+    /* margin-right: 20px; */
 }
 
 /*---------------MODAL SING IN / SIGN UP------------------*/

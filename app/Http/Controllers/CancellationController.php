@@ -21,6 +21,6 @@ class CancellationController extends Controller
         ]);
 
         Mail::to('contact@manualslib.com')->send(new CancellationMail($request->email));
-        return to_route('home');
+        return to_route('cancellation');
     }
 }

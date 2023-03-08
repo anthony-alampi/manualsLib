@@ -8,6 +8,7 @@
         <link rel="shortcut icon" href="{{ asset('assets/img/favicon.ico') }}">
         @vite(['resources/css/style.css', 'resources/js/script.js'])
         <script src="https://www.google.com/recaptcha/api.js" async defer></script>        
+        <script src="https://js.stripe.com/v3/"></script>
     </head>
     <body>
                         {{-- @if (session('status') != Auth()->user())
