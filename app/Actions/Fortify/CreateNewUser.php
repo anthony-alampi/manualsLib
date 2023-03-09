@@ -46,6 +46,5 @@ class CreateNewUser implements CreatesNewUsers
             'api_key' => $api_key,
             'downloaded_manuals' => $jsonData,
         ]);
-        
     }
 }

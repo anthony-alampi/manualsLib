@@ -72,35 +72,24 @@ return
 
             //* MOST DOWNLOADED MANUALS BY CATEGORY *//
             'STR_TITLE_DOWNLOADED_CATEGORY_1' => 'Manuals category',
-            // 'STR_SUBTITLE_DOWNLOADED_CATEGORY_1' => 'MODEL XYZ',
 
             'STR_TITLE_DOWNLOADED_CATEGORY_2' => 'Manuals category',
-            // 'STR_SUBTITLE_DOWNLOADED_CATEGORY_2' => 'MODEL XYZ',
 
             'STR_TITLE_DOWNLOADED_CATEGORY_3' => 'Manuals category',
-            // 'STR_SUBTITLE_DOWNLOADED_CATEGORY_3' => 'MODEL XYZ',
 
             'STR_TITLE_DOWNLOADED_CATEGORY_4' => 'Manuals category',
-            // 'STR_SUBTITLE_DOWNLOADED_CATEGORY_4' => 'MODEL XYZ',
 
             'STR_TITLE_DOWNLOADED_CATEGORY_5' => 'Manuals category',
-            // 'STR_SUBTITLE_DOWNLOADED_CATEGORY_5' => 'MODEL XYZ',
 
             'STR_TITLE_DOWNLOADED_CATEGORY_6' => 'Manuals category',
-            // 'STR_SUBTITLE_DOWNLOADED_CATEGORY_6' => 'MODEL XYZ',
 
             'STR_TITLE_DOWNLOADED_CATEGORY_7' => 'Manuals category',
-            // 'STR_SUBTITLE_DOWNLOADED_CATEGORY_7' => 'MODEL XYZ',
 
             'STR_TITLE_DOWNLOADED_CATEGORY_8' => 'Manuals category',
-            // 'STR_SUBTITLE_DOWNLOADED_CATEGORY_8' => 'MODEL XYZ',
 
             'STR_TITLE_DOWNLOADED_CATEGORY_9' => 'Manuals category',
-            // 'STR_SUBTITLE_DOWNLOADED_CATEGORY_9' => 'MODEL XYZ',
 
             'STR_TITLE_DOWNLOADED_CATEGORY_10' => 'Manuals category',
-            // 'STR_SUBTITLE_DOWNLOADED_CATEGORY_10' => 'MODEL XYZ',
-
 
 
         //* Manual detail - Title *//

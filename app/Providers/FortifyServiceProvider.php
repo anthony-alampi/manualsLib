@@ -47,12 +47,6 @@ class FortifyServiceProvider extends ServiceProvider
 
         Fortify::requestPasswordResetLinkView(function(){ //MODAL
             return view('home');
-            // $recaptcha_secret = "6LfHfJUkAAAAAPPwwYr7vkTPj6hSeqr1-0PXMMFe";
-            // $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=" . $recaptcha_secret . "&response=" . $_POST['g-recaptcha-response']);
-            // $response = json_decode($response, true);
-
-            // $request->validate([Fortify::email() => 'required|email', 'g-recaptcha-response' => 'required']);
-            // return view('home', ['request' => $request]);
         });
 
         Fortify::resetPasswordView(function (Request $request){ // vue envoyé par email pour new password
