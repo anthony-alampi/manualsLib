@@ -1,6 +1,10 @@
 <form action={{route('contact.submit')}} method="POST" class='contactCarreers-form-container'>
     @csrf
-
+@if (session('message'))
+    <div class="success">
+        {{ session('message') }}
+    </div>
+@endif
     <div class="identity-container">
         <div class="first-name-container">
             <label for="first-name">First Name</label>

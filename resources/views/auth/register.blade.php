@@ -1,15 +1,15 @@
 
         <div class="contenu signup " data-anim="2">
             <h2>Register</h2>
-{{-- @if ($errors->any())
-    <div class="alert alert-danger">
+@if ($errors->any())
+    <div class="error-register-password">
         <ul>
             @foreach ($errors->all() as $error)
                 <li>{{ $error }}</li>
             @endforeach
         </ul>
     </div>
-@endif --}}
+@endif
             <form method="POST" action="{{route('register')}}">
                 @csrf
                 <img src="{{asset('assets/img/user-regular.svg')}}" class="icon-login" alt="">

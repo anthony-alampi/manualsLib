@@ -37,19 +37,28 @@ class FortifyServiceProvider extends ServiceProvider
         Fortify::resetUserPasswordsUsing(ResetUserPassword::class);
 
         Fortify::loginView( function(){
-            return view('auth.login');
+            return view('home');
         });
 
         Fortify::registerView( function(){
-            return view('auth.register');
+            return view('home');
             
         });
 
         Fortify::requestPasswordResetLinkView(function(){ //MODAL
-            return view('auth.forgotPassword');
+            return view('home');
+            // $recaptcha_secret = "6LfHfJUkAAAAAPPwwYr7vkTPj6hSeqr1-0PXMMFe";
+            // $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=" . $recaptcha_secret . "&response=" . $_POST['g-recaptcha-response']);
+            // $response = json_decode($response, true);
+
+            // $request->validate([Fortify::email() => 'required|email', 'g-recaptcha-response' => 'required']);
+            // return view('home', ['request' => $request]);
         });
 
-        Fortify::resetPasswordView(function (Request $request){// vue envoyé par email pour new password
+        Fortify::resetPasswordView(function (Request $request){ // vue envoyé par email pour new password
+            
+            $request->validate([Fortify::email() => 'required|email']);
+
             return view('auth.reset-password', ['request' => $request]);
         });
 

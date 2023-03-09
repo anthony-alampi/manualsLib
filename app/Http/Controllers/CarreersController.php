@@ -24,6 +24,6 @@ class CarreersController extends Controller
         ]);
 
         Mail::to('contact@manualslib.com')->send(new ContactMail($request->lastName, $request->firstName, $request->email, $request->message));
-        return to_route('home');
+        return to_route('carreers')->with('message', 'Message sent successfully');
     }
 }

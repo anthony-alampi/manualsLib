@@ -56,17 +56,6 @@ class AuthenticatedSessionController extends Controller
      */
     public function store(LoginRequest $request)
     {
-        // $recaptcha_secret = "6LfHfJUkAAAAAPPwwYr7vkTPj6hSeqr1-0PXMMFe";
-        // $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=" . $recaptcha_secret . "&response=" . $_POST['g-recaptcha-response']);
-        // $response = json_decode($response, true);
-
-        $request->validate([
-            'email' => 'required | email',
-            'password' => 'required',
-            // 'g-recaptcha-response' => 'required',
-        ]);
-
-        
         return $this->loginPipeline($request)->then(function ($request) {
             return app(LoginResponse::class);
         });
@@ -113,8 +102,7 @@ class AuthenticatedSessionController extends Controller
         $request->session()->invalidate();
 
         $request->session()->regenerateToken();
-        
-        return app(LogoutResponse::class);
 
+        return app(LogoutResponse::class);
     }
 }

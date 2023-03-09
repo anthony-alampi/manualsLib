@@ -205,101 +205,113 @@ window.onclick = function(event) {
 
 //---------------------- DOWNLOAD BUTTON----------------------------------*/
 document.addEventListener("DOMContentLoaded", function () {
-    var boutonTelecharger = document.getElementById("download-btn");
-    boutonTelecharger.addEventListener("click", function (e) {
-        e.preventDefault();
+    var downloadBtn = document.getElementById("download-btn");
+   if (downloadBtn) {
+       downloadBtn.addEventListener("click", function (e) {
+           e.preventDefault();
 
-        // Vérifier le nombre de téléchargements effectués aujourd'hui
-        var downloadsToday =
-            parseInt(localStorage.getItem("downloadsToday")) || 0;
-        if (downloadsToday >= 999) {
-            alert("You have reached the download limit for today..");
-            return;
-        }
+           // Récupération de l'ID de la page
+           var pageId = document
+               .querySelector("[data-id]")
+               .getAttribute("data-id");
+           var nameNotice = document
+               .querySelector("[data-name]")
+               .getAttribute("data-name");
 
-        // Récupération de l'ID de la page
-        var pageId = document
-            .querySelector("[data-id]")
-            .getAttribute("data-id");
-        var nameNotice = document
-            .querySelector("[data-name]")
-            .getAttribute("data-name");
+           function getCookie(name) {
+               const cookieValue = document.cookie.match(
+                   "(^|[^;]+)\\s*" + name + "\\s*=\\s*([^;]+)"
+               );
+               return cookieValue ? cookieValue.pop() : "";
+           }
+           // console.log(pageId);
 
-        // console.log(pageId);
+           // Vérifier si l'utilisateur a atteint sa limite quotidienne de téléchargements
+           var downloadsToday = parseInt(getCookie("downloads_today")) || 0;
+           if (downloadsToday >= 3) {
+               alert("You have reached your daily download limit.");
+               return;
+           }
+           axios
+               .get("https://dev3.vanilla.digital/manuals.php")
+               .then(function (response) {
+                   var data = response.data;
+                   var file = null;
 
-        axios
-            .get("https://dev3.vanilla.digital/manuals.php")
-            .then(function (response) {
-                var data = response.data;
-                var file = null;
+                   // Recherche de l'objet correspondant à l'ID de la page
+                   for (var i = 0; i < data.length; i++) {
+                       if (data[i].id == pageId) {
+                           file = data[i].file;
+                           break;
+                       }
+                   }
 
-                // Recherche de l'objet correspondant à l'ID de la page
-                for (var i = 0; i < data.length; i++) {
-                    if (data[i].id == pageId) {
-                        file = data[i].file;
-                        break;
-                    }
-                }
+                   if (file == null) {
+                       alert(
+                           "The file corresponding to the ID " +
+                               pageId +
+                               " was not found."
+                       );
+                       return;
+                   }
 
-                if (file == null) {
-                    alert(
-                        "The file corresponding to the ID " +
-                            pageId +
-                            " was not found."
-                    );
-                    return;
-                }
+                   axios
+                       .get(file, { responseType: "blob" })
+                       .then(function (response) {
+                           // Créer le cookie
+                           var cookieName = "downloads_today";
+                           var cookieValue = downloadsToday + 1;
+                           document.cookie =
+                               cookieName +
+                               "=" +
+                               cookieValue +
+                               "; max-age=86400; path=/";
 
-                axios
-                    .get(file, { responseType: "blob" })
-                    .then(function (response) {
-                        var url = window.URL.createObjectURL(
-                            new Blob([response.data], {
-                                type: "application/pdf",
-                            })
-                        );
+                           var url = window.URL.createObjectURL(
+                               new Blob([response.data], {
+                                   type: "application/pdf",
+                               })
+                           );
 
-                        const idUserElement =
-                            document.querySelector("[data-id_user]");
-                        let idUser = null;
-                        if (idUserElement) {
-                            idUser = idUserElement.getAttribute("data-id_user");
-                        }
-                        // Ajout de la requête POST à la route downloads.update avec l'ID du document et le jeton CSRF
-                        const csrfToken = document
-                            .querySelector('meta[name="csrf-token"]')
-                            .getAttribute("content");
-                        axios
-                            .post("/manual/" + (idUser || "null"), {
-                                downloaded_manuals: [pageId],
-                                _token: csrfToken,
-                            })
-                            .then((response) => {
-                                console.log(response.data);
-                            })
-                            .catch((error) => {
-                                console.error(error);
-                            });
+                           const idUserElement =
+                               document.querySelector("[data-id_user]");
+                           let idUser = null;
+                           if (idUserElement) {
+                               idUser =
+                                   idUserElement.getAttribute("data-id_user");
+                           }
+                           // Ajout de la requête POST à la route downloads.update avec l'ID du document et le jeton CSRF
+                           const csrfToken = document
+                               .querySelector('meta[name="csrf-token"]')
+                               .getAttribute("content");
+                           axios
+                               .post("/manual/" + (idUser || "null"), {
+                                   downloaded_manuals: [pageId],
+                                   _token: csrfToken,
+                               })
+                               .then((response) => {
+                                   console.log(response.data);
+                               })
+                               .catch((error) => {
+                                   // console.error(error);
+                               });
 
-                        // Incrémenter le nombre de téléchargements effectués aujourd'hui
-                        downloadsToday++;
-                        localStorage.setItem("downloadsToday", downloadsToday);
+                           // créer un lien de téléchargement avec le lien de fichier PDF
+                           var link = document.createElement("a");
+                           link.href = url;
+                           link.download = nameNotice;
+                           document.body.appendChild(link);
 
-                        // créer un lien de téléchargement avec le lien de fichier PDF
-                        var link = document.createElement("a");
-                        link.href = url;
-                        link.download = nameNotice;
-                        document.body.appendChild(link);
-
-                        // déclencher le téléchargement
-                        link.click();
-                        document.body.removeChild(link);
-                    })
-                    .catch(function (error) {
-                        console.log(error);
-                    });
-            });
-    });
+                           // déclencher le téléchargement
+                           link.click();
+                           document.body.removeChild(link);
+                       })
+                       .catch(function (error) {
+                           console.log(error);
+                       });
+               });
+       });
+   }
 });
 //------------------------------- LIVE SEARCH -------------------------------------//
 
@@ -380,9 +392,11 @@ faqs.forEach( faq => {
 let btnDrop = document.querySelector(".btn-top");
 let list = document.querySelector(".list");
 
-btnDrop.addEventListener("click", () => {
-    list.classList.toggle("newlist");
-});
+if (btnDrop) {
+    btnDrop.addEventListener("click", () => {
+        list.classList.toggle("newlist");
+    });
+} 
 //------------------------------- AFFILIATE LINK COPY---------------------------------//
 // const affiliateInput = document.getElementById("affiliateInput");
 // document.getElementById("linkCopy").addEventListener("click", () => {

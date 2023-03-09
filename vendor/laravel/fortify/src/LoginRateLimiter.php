@@ -45,7 +45,7 @@ class LoginRateLimiter
      */
     public function tooManyAttempts(Request $request)
     {
-        return $this->limiter->tooManyAttempts($this->throttleKey($request), 115);
+        return $this->limiter->tooManyAttempts($this->throttleKey($request), 5);
     }
 
     /**

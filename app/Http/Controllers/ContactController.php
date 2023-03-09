@@ -24,6 +24,6 @@ class ContactController extends Controller
         ]);
 
         Mail::to('contact@manualslib.com')->send(new ContactMail($request->lastName, $request->firstName, $request->email, $request->message));
-        return to_route('home');
+        return to_route('contact')->with('message', 'Message sent successfully');
     }
 }

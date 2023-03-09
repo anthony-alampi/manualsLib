@@ -81,7 +81,7 @@ class Fortify
      */
     public static function redirects(string $redirect, $default = null)
     {
-        return config('fortify.redirects.' . $redirect) ?? $default ?? config('fortify.home');
+        return config('fortify.redirects.'.$redirect) ?? $default ?? config('fortify.home');
     }
 
     /**
@@ -92,7 +92,7 @@ class Fortify
      */
     public static function viewNamespace(string $namespace)
     {
-        static::viewPrefix($namespace . '::');
+        static::viewPrefix($namespace.'::');
     }
 
     /**
@@ -103,13 +103,13 @@ class Fortify
      */
     public static function viewPrefix(string $prefix)
     {
-        static::loginView($prefix . 'login');
-        static::twoFactorChallengeView($prefix . 'two-factor-challenge');
-        static::registerView($prefix . 'register');
-        static::requestPasswordResetLinkView($prefix . 'forgot-password');
-        static::resetPasswordView($prefix . 'reset-password');
-        static::verifyEmailView($prefix . 'verify-email');
-        static::confirmPasswordView($prefix . 'confirm-password');
+        static::loginView($prefix.'login');
+        static::twoFactorChallengeView($prefix.'two-factor-challenge');
+        static::registerView($prefix.'register');
+        static::requestPasswordResetLinkView($prefix.'forgot-password');
+        static::resetPasswordView($prefix.'reset-password');
+        static::verifyEmailView($prefix.'verify-email');
+        static::confirmPasswordView($prefix.'confirm-password');
     }
 
     /**
@@ -299,7 +299,7 @@ class Fortify
     public static function confirmsTwoFactorAuthentication()
     {
         return Features::enabled(Features::twoFactorAuthentication()) &&
-            Features::optionEnabled(Features::twoFactorAuthentication(), 'confirm');
+               Features::optionEnabled(Features::twoFactorAuthentication(), 'confirm');
     }
 
     /**

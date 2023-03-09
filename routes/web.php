@@ -19,8 +19,11 @@ use App\Http\Controllers\BrandDetailsController;
 use App\Http\Controllers\CancellationController;
 use App\Http\Controllers\SubscriptionController;
 use App\Http\Controllers\Auth\DashboardController;
+use App\Http\Controllers\CustomForgotPasswordController;
 use App\Http\Controllers\Auth\DashboardAccountController;
 use App\Http\Controllers\Auth\DashboardAffiliateController;
+use App\Http\Controllers\ForgotPasswordController;
+
 /*---------------------------- LIVE SEARCH GET API MANUALS ---------------------------*/
 Route::get('/manual',               [ManualController::class, 'getManual'])->name('manual'); /*-- Cette route est chargé d'affiché le manuel rechérché via les lives-searchs*/
 Route::get('/manual/{id}',       [ManualController::class, 'index'])->name('manual.index');
@@ -52,3 +55,7 @@ Route::get('/terms',                [TermsController::class, 'terms'])->name('te
 Route::get('/privacy',              [PrivacyController::class, 'privacy'])->name('privacy');
 Route::get('/cookies',              [CookiesController::class, 'cookies'])->name('cookies');
 Route::get('/subscription',         [SubscriptionController::class, 'subscription'])->name('subscription');
+
+
+
+Route::post('/forgot-password', [ForgotPasswordController::class, 'storePassword'])->name('password.email');

@@ -9,6 +9,11 @@ use Illuminate\Http\Request;
 class ManualController extends Controller
 {
 
+    public function getManual(){
+
+        return redirect('home');
+    }
+
     public function show($id)
     {
         // Créer une instance de GuzzleHttp\Client

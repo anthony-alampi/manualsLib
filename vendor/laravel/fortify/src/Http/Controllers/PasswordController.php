@@ -19,6 +19,7 @@ class PasswordController extends Controller
     public function update(Request $request, UpdatesUserPasswords $updater)
     {
         $updater->update($request->user(), $request->all());
+
         return app(PasswordUpdateResponse::class);
     }
 }

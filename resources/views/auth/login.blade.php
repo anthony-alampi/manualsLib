@@ -1,12 +1,16 @@
         <div class="contenu login startContenu" data-anim="1">
             <h2>Authentication</h2>
-            {{-- @foreach ( $errors->all() as $error )
+            @foreach ( $errors->all() as $error )
                 @if($error)
-    <script>
-        alert("{{ $error }}");
-    </script>
+    <div class="error-register-password">
+        <ul>
+            @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+    </div>
 @endif
-            @endforeach --}}
+            @endforeach
             <form action="{{ route('login') }}" method="post" id="loginForm">
                 @csrf
                 <img src="{{asset('assets/img/user-regular.svg')}}" class="icon-login" alt="">
