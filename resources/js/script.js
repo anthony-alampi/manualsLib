@@ -137,14 +137,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const __ms = document.querySelector(".micro-slider");
     const __msSlider = new MicroSlider(__ms, {
         // indicators: true,
-        indicatorText: "",
+        // indicatorText: "",
     });
     const __msTimer = 4000;
     let __msAutoplay = setInterval(() => __msSlider.next(), __msTimer);
 
     __ms.onmouseenter = function (e) {
         clearInterval(__msAutoplay);
-        console.log(e.type + " mouse detected");
     };
     __ms.onmouseleave = function (e) {
         clearInterval(__msAutoplay);
