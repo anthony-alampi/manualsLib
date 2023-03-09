@@ -42,8 +42,6 @@ footer .link-footer-container .links-container h2{
 }
 .copyright{
     font-family: var(--font-text);
-    /* margin-top: 3vh; */
-    /* margin-bottom: 5vh; */
 }
 .copyright a{
     text-decoration: none;
@@ -64,4 +62,14 @@ footer .link-footer-container .links-container h2{
     right: 20%;
     width: 12px;
     animation: floating 5s infinite;
+}
+@media (max-width: 600px) {
+    
+        footer .link-footer-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-wrap: nowrap;
+            justify-content: sinherit;
+        }
 }
