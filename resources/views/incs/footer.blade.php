@@ -6,7 +6,7 @@
             <a href="{{route('home')}}" class="link-item">Home</a>
             <a href="{{route('manuals')}}" class="link-item">Manuals</a>
             <a href="{{route('brands')}}" class="link-item">Brands</a>
-            <a href="{{route('manual')}}" class="link-item">Manual-details</a>
+            {{-- <a href="{{route('manual')}}" class="link-item">Manual-details</a> --}}
             <a href="{{route('brandDetails')}}" class="link-item">Brand-details</a>
         </div>
         <div class="links-container">
