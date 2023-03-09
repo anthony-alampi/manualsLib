@@ -1,7 +1,6 @@
 @extends('base')
 
 @section('content')
-
 <header class="brands-header primary-header">
         <h1 class="title-in-header">{{trans('lang.STR_TITLE_BRANDS_1')}}</h1>
         <img src="{{asset('assets/img/line-shape-11.svg')}}" class="line-shape" alt="">
@@ -11,9 +10,7 @@
         <img src="{{asset('assets/img/carre.svg')}}" class="geometric3" alt="">
         <img src="{{asset('assets/img/carre.svg')}}" class="geometric4" alt="">
         <img src="{{asset('assets/img/orange-triangle.svg')}}" class="geometric5" alt="">
-
 </header>
-
 <main>
     <article class='brands-custom-bg'>
         <section>
@@ -100,7 +97,6 @@
                 <img src="{{asset('assets/img/more.svg')}}" class="more-item2" />
                 <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="circle-item" />
             </article>
-
             <section class='brand-container2 primary-container'>
             <div class="images">
                 <img src="{{asset('assets/img/active.svg')}}" alt="" class="image-in-block">
@@ -112,20 +108,4 @@
         </section>
     </section>
 </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @endsection

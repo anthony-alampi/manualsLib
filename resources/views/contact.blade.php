@@ -1,7 +1,6 @@
 @extends('base')
 
 @section('content')
-
 <header class="contact-header">
     <div class="title-text">
         <h1>{{trans('lang.STR_TITLE_CONTACT_1')}}</h1>
@@ -14,7 +13,6 @@
     <div class="circle-anim5"></div>
     <div class="circle-anim6"></div>
 </header>
-
 <main>
     <article class="contact-form">
         @include('incs.formContactCarreers')
@@ -45,16 +43,5 @@
         </article>
         </div>
     </article>
-    {{-- <img src="{{asset('assets/img/92.svg')}}" class="img-line-custom"alt=""> --}}
 </main>
-
-
-
-
-
-
-
-
-
-
 @endsection

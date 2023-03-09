@@ -22,14 +22,9 @@
             </form>
         </div>
     </div>
-
-
-
-
-<div class="container-updatePassword-and-subscribe">
+    <div class="container-updatePassword-and-subscribe">
         <div class=" signup modify-password-container ">
             <h2>Change Password</h2>
-
             <form class="updated-password-form" method="POST" action="{{route('user-password.update')}}">
                 @csrf
                 @method('PUT')
@@ -39,26 +34,19 @@
                                 <p>Password updated successfully.</p>
                             </div>
                         @endif
-
-                {{-- <img src="{{asset('assets/img/key.svg')}}" class="icon-key" alt=""> --}}
                 <input type="password" name="current_password" @error('current_password', 'updatePassword') is-invalid @enderror autocomplete="on" placeholder="Enter current password"><br>
-
-                                @error('current_password', 'updatePassword')
-                                    <span class="error" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-
-                {{-- <img src="{{asset('assets/img/key.svg')}}" class="icon-key2" alt=""> --}}
+ @error('current_password', 'updatePassword')
+    <span class="error" role="alert">
+        <strong>{{ $message }}</strong>
+    </span>
+@enderror
                 <input type="password" name="password" @error('password', 'updatePassword') is-invalid @enderror autocomplete="on" placeholder="Enter new password"><br>
 
-                                @error('password', 'updatePassword')
-                                    <span class="error" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-
-                {{-- <img src="{{asset('assets/img/key.svg')}}" class="icon-key2" alt=""> --}}
+@error('password', 'updatePassword')
+    <span class="error" role="alert">
+        <strong>{{ $message }}</strong>
+    </span>
+@enderror
                 <input type="password" name="password_confirmation" autocomplete="on" placeholder="Confirm new password">
                 <button type="submit">Save</button>
             </form>
@@ -201,10 +189,7 @@
                 </div>
     </div>
 </div>
-
-
-        <div class="cancel-incs">
-            @include('incs.formCancellation')
-        </div>
-
+<div class="cancel-incs">
+    @include('incs.formCancellation')
+</div>
 @endsection

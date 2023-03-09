@@ -1,30 +1,7 @@
-/* .manuals-header{
-    height: auto;
-    position: relative;
-}
-.manuals-header .content-block{
-    position: relative;
-    margin: 225px auto 0;
-}
-.manuals-header .content-block h1{
-    font-family: var(--home-font-h1);
-    font-size: 78px;
-    line-height: var(--home-line-h1);
-    font-weight: var(--home-weight-h1);
-    color: var(--home-color-h1);
-    text-align: center;
-}*/
 .manuals-header .content-block .line-custom{
-    /* position: absolute; */
-    /* width: 40%;
-    top: 60px;
+    position: absolute;
+    top: 150px;
     left: 50%;
-    transform: translate(-50%);
-    z-index: -1; */
-position: absolute;
-top: 150px;
-left: 50%;
-    /* margin-left: 50%;*/
     transform: translateX(-50%); 
     width: 35%;
     z-index: -1;
@@ -97,19 +74,15 @@ left: 50%;
     align-items: center;
     justify-content: center;
     row-gap: 20px;
-    /* padding-bottom: 50px; */
 }
 .top-15-container .most-manuals-container .sub-container{
     display: flex;
-    /* flex-direction: column; */
-    /* margin: 10px; */
     width: 70%;
     justify-content: center;
     align-items: center;
 }
 .top-15-container .most-manuals-container .download{
     width: 500px;
-    /* height: 100px; */
     background: #fff;
     border-left-style: solid;
     border-left-width: 5px;
@@ -143,79 +116,6 @@ left: 50%;
     margin: 0 15% 100px;
 
 }
-/* .manuals-block{
-    margin: 100px 0 100px 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-.manuals-block .text-block{
-    width: 40%;
-
-}
-.manuals-block .text-block h2{
-    font-family: 'gilroy-black', sans-serif;
-    font-size: 42px;
-    padding: 20px 0px 30px 0px;
-    line-height: 1.28em;
-    color: #101621;
-}
-.manuals-block .text-block p{
-    font-family: var(--font-text);
-    font-size: var(--size-text);
-    color: var(--color-text);
-    line-height: var(--line-text);
-    font-weight: var(--weight-text);
-}
-.separate-line-custom-manuals{
-    width: 70%;
-    margin: 0 15% 100px ;
-
-}
-.manuals-block img{
-    width: 500px;
-} */
-/*----------HEADBAND ANIMATION-----------------*/
-/* 
-.headband {
-    background: white;
-    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
-    height: 100px;
-    margin: 100px 0 100px 0;
-    overflow: hidden;
-    position: relative;
-}
-
-.headband::before,
-.headband::after {
-    content: "";
-    height: 100px;
-    position: absolute;
-    width: 200px;
-    z-index: 2;
-}
-
-.headband::after {
-    right: 0;
-    top: 0;
-    transform: rotateZ(180deg);
-}
-
-.headband::before {
-    left: 0;
-    top: 0;
-}
-
-.headband .band-track {
-    animation: scroll 40s linear infinite;
-    display: flex;
-}
-
-.headband .band-track .slide img {
-    height: 100px;
-    width: 200px;
-    margin-right: 60px;
-} */
 
 /*---------------------*/
 .download-category{

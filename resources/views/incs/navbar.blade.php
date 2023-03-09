@@ -62,7 +62,6 @@
             <div class="container-onglets">
                 <div class="onglets start" data-anim="1">Log in</div>
                 <div class="onglets" data-anim="2">Sign Up</div>
-                {{-- <div class="onglets" data-anim="3">Forgot</div> --}}
             </div>
             @include('auth.login')
             @include('auth.register')

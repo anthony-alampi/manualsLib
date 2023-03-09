@@ -13,32 +13,26 @@
             <button class="btn-manual" id="download-btn"><img src="{{asset('assets/img/download.svg')}}" alt="">Download {{ $document['brand'] }} Manual</button>            
         </div> --}}
 
-                            @if (Auth::user())
-                            <div class="btns-container">
-                                <button name ="document_id" id="download-btn" class="btn-manual"><img src="{{asset('assets/img/download.svg')}}" alt="">
-                                    <div id="id-from-laravel" data-id="{{ $document['id'] }}" data-name="{{ $document['name'] }}" data-id_user="{{ Auth::user()->id }}">Download</div>
-                                </button>
-                            </div>
+            @if (Auth::user())
+            <div class="btns-container">
+                <button name ="document_id" id="download-btn" class="btn-manual"><img src="{{asset('assets/img/download.svg')}}" alt="">
+                    <div id="id-from-laravel" data-id="{{ $document['id'] }}" data-name="{{ $document['name'] }}" data-id_user="{{ Auth::user()->id }}">Download</div>
+                </button>
+            </div>
 
-                            @else
-                             <div class="btns-container">
-                                <button name ="document_id" id="download-btn" class="btn-manual"><img src="{{asset('assets/img/download.svg')}}" alt="">
-                                    <div id="id-from-laravel" data-id="{{ $document['id'] }}" data-name="{{ $document['name'] }}">Download</div>
-                                </button>
-                            </div>
-                            @endif
+            @else
+                <div class="btns-container">
+                <button name ="document_id" id="download-btn" class="btn-manual"><img src="{{asset('assets/img/download.svg')}}" alt="">
+                    <div id="id-from-laravel" data-id="{{ $document['id'] }}" data-name="{{ $document['name'] }}">Download</div>
+                </button>
+            </div>
+            @endif
+        </div>
 
-
-
-
-
-
-    </div>
-    <div class="right-block-manual">
-        <iframe src="{{ $document['file'] }}#toolbar=0&navpanes=0" frameborder="0" class="frame-preview"></iframe>
-    </div>
+        <div class="right-block-manual">
+            <iframe src="{{ $document['file'] }}#toolbar=0&navpanes=0" frameborder="0" class="frame-preview"></iframe>
+        </div>
 </header>
-
 <main>
     <article>
         <div class="container-newSearch">
@@ -47,13 +41,13 @@
             </div>
             <div class="searchForm-manual">
                 <h2>{{trans('lang.STR_TITLE_MANUALS_2')}}</h2>
-@include('incs.formManuals')
+                @include('incs.formManuals')
             </div>
         </div>
         <div class="picture-manual">
             <img src="{{asset('assets/img/new-search.svg')}}" class="separate-image reveal-bottom" alt="">
         </div>
-@include('incs.headband')
+        @include('incs.headband')
           <article class="features-listing-container manual-listing">
                 <div class="item reveal-bottom">
                     <img src="{{ asset('assets/img/book.svg') }}" alt="">

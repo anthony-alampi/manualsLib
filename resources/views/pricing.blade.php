@@ -1,16 +1,11 @@
 @extends('base')
+
 @section('content')
-
-
 <header class="pricing-header">
     <div class="content-block">
         <h1>{{ trans('lang.STR_TITLE_PRICING_1') }}</h1>
         <img src="{{asset('assets/img/line-shape-11.svg')}}" class="line-shape" alt="">
         <h3 class="pricing-subtitle">{{ trans('lang.STR_SUBTITLE_PRICING_1') }}</h3>
-        {{-- <div class="switch-pricing">
-            <button class="custom-btn">Monthly</button>
-            <button class="custom-btn">Yearly</button>
-        </div> --}}
     </div>
     <img src="{{asset('assets/img/carre.svg')}}" class="square-item1" />
     <img src="{{asset('assets/img/carre.svg')}}" class="square-item2" />
@@ -28,9 +23,9 @@
                     <h3>{{trans('lang.STR_PRICE_CARD_1')}}</h3>
                 </div>
                @if (Auth::user())
-                                   <button class="sign-up-pricing">Susbscribe</button>
+                    <button class="sign-up-pricing">Susbscribe</button>
                @else
-                                   <button class="sign-up-pricing">Sign Up</button>
+                    <button class="sign-up-pricing">Sign Up</button>
                @endif
                 <div class="separate-custom"></div>
                 <div class="include-plan-container">
@@ -80,7 +75,6 @@
                     </ul>
                 </div>
             </div>
-
             <div class="pricing-container2">
                 <h2>{{ trans('lang.STR_TITLE_PRICING_CARD_3') }}</h2>
                 <div class="pricing-plan">
@@ -126,7 +120,6 @@
 
                 </div>
             </div>
-
             <div class="pricing-container3">
                 <h2>{{ trans('lang.STR_TITLE_PRICING_CARD_4') }}</h2>
                 <div class="pricing-plan">
@@ -171,8 +164,7 @@
                     </ul>
                 </div>
             </div>
-
-        <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="circle-item" />
+            <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="circle-item" />
         </div>
         <section class="feedback">
             <div class="container1">
@@ -294,19 +286,6 @@
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item4" />
                 <img src="{{asset('assets/img/triangle-effect-1.svg')}}" class="circle-item" />
             </article>
-            
-            {{-- <article class="switch-payment-container">
-                <div class="switchPayment reveal-1">
-                    <img src="{{asset('assets/img/switch.svg')}}" alt="">
-                    <h2>{{ trans('lang.STR_TITLE_PRICING_9') }}</h2>
-                    <p> {{ trans('lang.STR_TEXT_25') }} </p>
-                </div>
-                <div class="switchPayment reveal-4">
-                    <img src="{{asset('assets/img/payment-calendar.svg')}}" alt="">
-                    <h2>{{ trans('lang.STR_TITLE_PRICING_10') }}</h2>
-                    <p> {{ trans('lang.STR_TEXT_26') }} </p>
-                </div>
-            </article> --}}
     </article>
 </main>
 @endsection

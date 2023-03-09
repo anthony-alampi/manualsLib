@@ -208,7 +208,6 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    /* row-gap: 20px; */
 }
 .top-10-container .most-brand-container .sub-container{
     display: flex;

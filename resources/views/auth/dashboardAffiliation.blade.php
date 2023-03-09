@@ -42,6 +42,4 @@
         <input type="text" name="affiliates-standard" id="affiliates-plan" disabled>
         <input type="text" name="affiliates-premium" id="affiliates-plan" disabled>
     </div>
-    
-
 @endsection

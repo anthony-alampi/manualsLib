@@ -1,7 +1,6 @@
 @extends('base')
 
 @section('content')
-
  <header class=" press-header primary-header">
         <h1 class="title-in-header">{{trans('lang.STR_TITLE_PRESS_1')}}</h1>
         <img src="{{asset('assets/img/line-shape-11.svg')}}" class="line-shape" alt="">
@@ -12,7 +11,6 @@
     <div class="circle-anim5"></div>
     <div class="circle-anim6"></div>
 </header>
-
     <main>
         <article>
             <section class="press-container">
@@ -68,9 +66,7 @@
                     <button class="read-article">Read article</button>
                 </article>
             </div>
-
             </section>
-
             <article class="features-container1 primary-container">
                 <div class="text-block-contain reveal-left">
                     <h2 class="title-in-block">{{ trans('lang.STR_TITLE_PRESS_2') }}</h2>
@@ -100,20 +96,6 @@
                 <img class="image-in-block reveal-right" src="{{ asset('assets/img/tools-logo.svg') }}" alt="">
                 <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="circle-item" />
             </article>
-
-
-
-
-
         </article>
     </main>
-
-
-
-
-
-
-
-
-
 @endsection

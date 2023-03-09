@@ -1,22 +1,8 @@
-/* .about-header{
-    height: auto;
-    position: relative;
-}
-*/
 .about-header .title-about{
     margin-top: -20px;
     margin-bottom: 0px;
     position: relative;
 }
-/*
-.about-header .title-text h1{
-    font-family: var(--home-font-h1);
-    font-size: 78px;
-    line-height: var(--home-line-h1);
-    font-weight: var(--home-weight-h1);
-    color: var(--home-color-h1);
-    text-align: center;
-}*/
 
 .about-header .line-shape{
     position: absolute;
@@ -26,14 +12,6 @@
     transform: translate(-50%);
     z-index: -1;
 }
-/*
-.about-header .title-text p{
-    margin-top: 30px;
-    font-family: 'Rubik', sans-serif;
-    font-size: 24px;
-    line-height: 1.75em;
-    color: #73737B;
-} */
 
 .about-header .circle-anim1{
     position: absolute;
@@ -127,7 +105,6 @@
 .custom-band{
     position: relative;
     width: 100%;
-    /* height: 100px; */
     background: linear-gradient(45deg, #fff9ec,#e4fdfa);
     margin: 100px 0 0 0;
 }
@@ -219,38 +196,6 @@
 
 }
 
-/*------------MISSION CONTAINER------------*/
-/* 
-.our-mission{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    padding: 100px 0 100px 0
-    
-}
-
-.our-mission .text-block{
-    width: 40%;
-}
-.our-mission .text-block h2{
-    margin-bottom: 20px;
-    font-family: 'Gilroy-black', sans-serif;
-    font-size: 42px;
-    color: #181818;
-    line-height: 1.15em;
-}
-.our-mission .text-block p{
-    font-family: var(--font-text);
-    font-size: var(--size-text);
-    color: var(--color-text);
-    line-height: var(--line-text);
-    font-weight: var(--weight-text);
-}
-
-.our-mission .image-block img{
-    width: 500px;
-} */
 .our-mission .circle-scale1{
     position: absolute;
         top: 80%;
@@ -275,39 +220,7 @@
         transform: scale(1);
         transition: transform 1s ease-out;
 }
-/*------------SOLUTION CONTAINER------------*/
-/* .our-solution {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0 0 100px 0;
-}
 
-.our-solution .text-block {
-    width: 40%;
-}
-
-.our-solution .text-block h2 {
-    margin-bottom: 20px;
-    font-family: 'Gilroy-black', sans-serif;
-    font-size: 42px;
-    color: #101621;
-    line-height: 1.15em;
-}
-
-.our-solution .text-block p {
-    font-family: var(--font-text);
-    font-size: var(--size-text);
-    color: var(--color-text);
-    line-height: var(--line-text);
-    font-weight: var(--weight-text);
-}
-
-.our-solution .image-block img {
-    width: 500px;
-    border-radius: 10px;
-} */
 .our-solution .circle-scale1 {
     position: absolute;
     top: 50%;

@@ -4,8 +4,6 @@
 @section('content')
 <header class="brand-header primary-header">
         <h1 class="title-in-header">{{trans('lang.STR_TITLE_BRAND_1')}}</h1>
-        {{-- <p class="text-in-header">{{trans('lang.STR_TEXT_BRAND_1')}}</p> --}}
-        {{-- <a href="{{route('home')}}">Search for Brandname manuals</a> --}}
         <img src="{{asset('assets/img/triangle-effect-1.svg')}}" class="geometric1" alt="">
         <img src="{{asset('assets/img/orange-triangle.svg')}}" class="geometric5" alt="">
         <img src="{{asset('assets/img/line-shape-11.svg')}}" class="line-shape" alt="">
@@ -43,7 +41,6 @@
                         </div>
                         <div class="text-block">
                             <h2>{{trans('lang.STR_TITLE_DOWNLOADED_BRAND_1')}}</h2>
-                            {{-- <h3>{{trans('lang.STR_SUBTITLE_DOWNLOADED_1')}}</h3> --}}
                         </div>
                     </div>
 
@@ -53,7 +50,6 @@
                         </div>
                         <div class="text-block">
                             <h2>{{trans('lang.STR_TITLE_DOWNLOADED_BRAND_2')}}</h2>
-                            {{-- <h3>{{trans('lang.STR_SUBTITLE_DOWNLOADED_3')}}</h3> --}}
                         </div>
                     </div>
                     <div class="download custom-border-left5 reveal-bottom">
@@ -62,7 +58,6 @@
                         </div>
                         <div class="text-block">
                             <h2>{{trans('lang.STR_TITLE_DOWNLOADED_BRAND_3')}}</h2>
-                            {{-- <h3>{{trans('lang.STR_SUBTITLE_DOWNLOADED_5')}}</h3> --}}
                         </div>
                     </div>
                     <div class="download custom-border-left7 reveal-bottom">
@@ -71,7 +66,6 @@
                         </div>
                         <div class="text-block">
                             <h2>{{trans('lang.STR_TITLE_DOWNLOADED_BRAND_4')}}</h2>
-                            {{-- <h3>{{trans('lang.STR_SUBTITLE_DOWNLOADED_7')}}</h3> --}}
                         </div>
                     </div>
                     <div class="download custom-border-left9 reveal-bottom">
@@ -80,7 +74,6 @@
                         </div>
                         <div class="text-block">
                             <h2>{{trans('lang.STR_TITLE_DOWNLOADED_BRAND_5')}}</h2>
-                            {{-- <h3>{{trans('lang.STR_SUBTITLE_DOWNLOADED_9')}}</h3> --}}
                         </div>
                     </div>
                 </div>
@@ -92,7 +85,6 @@
                         </div>
                         <div class="text-block">
                             <h2>{{trans('lang.STR_TITLE_DOWNLOADED_BRAND_6')}}</h2>
-                            {{-- <h3>{{trans('lang.STR_SUBTITLE_DOWNLOADED_2')}}</h3> --}}
                         </div>
                     </div>
                     <div class="download custom-border-left4 reveal-bottom">
@@ -101,7 +93,6 @@
                         </div>
                         <div class="text-block">
                             <h2>{{trans('lang.STR_TITLE_DOWNLOADED_BRAND_7')}}</h2>
-                            {{-- <h3>{{trans('lang.STR_SUBTITLE_DOWNLOADED_4')}}</h3> --}}
                         </div>
                     </div>
                     <div class="download custom-border-left6 reveal-bottom">
@@ -110,7 +101,6 @@
                         </div>
                         <div class="text-block">
                             <h2>{{trans('lang.STR_TITLE_DOWNLOADED_BRAND_8')}}</h2>
-                            {{-- <h3>{{trans('lang.STR_SUBTITLE_DOWNLOADED_6')}}</h3> --}}
                         </div>
                     </div>
                     <div class="download custom-border-left8 reveal-bottom">
@@ -119,7 +109,6 @@
                         </div>
                         <div class="text-block">
                             <h2>{{trans('lang.STR_TITLE_DOWNLOADED_BRAND_9')}}</h2>
-                            {{-- <h3>{{trans('lang.STR_SUBTITLE_DOWNLOADED_8')}}</h3> --}}
                         </div>
                     </div>
                     <div class="download custom-border-left10 reveal-bottom">
@@ -128,7 +117,6 @@
                         </div>
                         <div class="text-block">
                             <h2>{{trans('lang.STR_TITLE_DOWNLOADED_BRAND_10')}}</h2>
-                            {{-- <h3>{{trans('lang.STR_SUBTITLE_DOWNLOADED_10')}}</h3> --}}
                         </div>
                     </div>
                 </div>

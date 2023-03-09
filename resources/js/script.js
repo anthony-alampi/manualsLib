@@ -1,9 +1,55 @@
 // import './bootstrap';
 import axios from "axios";
 
+/*---------------------------------REVEAL----------------------------------*/
+const ratio = 0.1;
+const option = {
+    root: null,
+    rootMargin: "0px",
+    threshold: ratio
+};
+/*---------RIGHT-------------------------------------*/
+const handleIntersectRight = function (entries, observerRight) {
+    entries.forEach(function (entry) {
+        if (entry.intersectionRatio > ratio) {
+            entry.target.classList.add("reveal-visible");
+            observerRight.unobserve(entry.target);
+        }
+    });
+};
+const observerRight = new IntersectionObserver(handleIntersectRight, option);
+document.querySelectorAll('[class*="reveal-right"]').forEach(function (r) {
+    observerRight.observe(r);
+});
+
+/*--------REVEAL LEFT------------------------------------*/
+const handleIntersectLeft = function (entries, observerLeft) {
+    entries.forEach(function (entry) {
+        if (entry.intersectionRatio > ratio) {
+            entry.target.classList.add("reveal-visible");
+            observerLeft.unobserve(entry.target);
+        }
+    });
+};
+const observerLeft = new IntersectionObserver(handleIntersectLeft, option);
+document.querySelectorAll('[class*="reveal-left"]').forEach(function (r) {
+    observerLeft.observe(r);
+});
+/*-------REVEAL BOTTOM------------------------------------*/
+const handleIntersectBottom = function (entries, observerBottom) {
+    entries.forEach(function (entry) {
+        if (entry.intersectionRatio > ratio) {
+            entry.target.classList.add("reveal-visible-forBottom");
+            observerBottom.unobserve(entry.target);
+        }
+    });
+};
+const observerBottom = new IntersectionObserver(handleIntersectBottom, option);
+document.querySelectorAll('[class*="reveal-bottom"]').forEach(function (r) {
+    observerBottom.observe(r);
+});
 
 //--------------------------------Sticky navbar effect--------------------------------//
-
 var navbar = document.querySelector("nav");
 
 window.addEventListener("scroll", () => {
@@ -16,7 +62,6 @@ window.addEventListener("scroll", () => {
   }
 });
 
-
 //---------------------------------Modal SIGN IN / SIGN UP----------------------------//
 const onglets = document.querySelectorAll([".onglets", ".forgotPassword"]);
 const contenu = document.querySelectorAll(".contenu");
@@ -24,14 +69,12 @@ const openModalBtn = document.querySelector("#openModalBtn");
 const closeModalBtn = document.querySelector(".closeModalBtn");
 const modal = document.querySelector("#modal");
 
-
 openModalBtn.addEventListener("click", function () {
     modal.style.display = "block";
 });
 closeModalBtn.addEventListener("click", function () {
     modal.style.display = "none";
 });
-
 
 let index = 0;
 let i = 0;
@@ -61,6 +104,7 @@ onglets.forEach((onglet) => {
         }
     });
 });
+
 //--------------------------------------Hamburger-------------------------------------//
 const hamburgerToggler = document.querySelector(".hamburger");
 const navLinksContainer = document.querySelector(".navlinks-container");
@@ -87,15 +131,14 @@ new ResizeObserver((entries) => {
         navLinksContainer.style.transition = "none";
     }
 }).observe(document.body);
+
 //--------------------Customers Feedback-------------------------//
 document.addEventListener("DOMContentLoaded", () => {
-
     const __ms = document.querySelector(".micro-slider");
     const __msSlider = new MicroSlider(__ms, {
-        indicators: true,
+        // indicators: true,
         indicatorText: "",
     });
-    const hammer = new Hammer(__ms);
     const __msTimer = 4000;
     let __msAutoplay = setInterval(() => __msSlider.next(), __msTimer);
 
@@ -112,15 +155,6 @@ document.addEventListener("DOMContentLoaded", () => {
         clearInterval(__msAutoplay);
     };
 
-    hammer.on("tap", function (e) {
-        clearInterval(__msAutoplay);
-    });
-
-    hammer.on("swipe", function (e) {
-        clearInterval(__msAutoplay);
-        __msAutoplay = setInterval(() => __msSlider.next(), __msTimer);
-    });
-
     let slideLink = document.querySelectorAll(".slider-item");
     if (slideLink && slideLink !== null && slideLink.length > 0) {
         slideLink.forEach((el) =>
@@ -132,55 +166,6 @@ document.addEventListener("DOMContentLoaded", () => {
             })
         );
     }
-});
-
-
-/*---------------------------------REVEAL----------------------------------*/
-const ratio = 0.1;
-const option = {
-    root: null,
-    rootMargin: "0px",
-    threshold: ratio
-};
-/*-------------------------------REVEAL RIGHT-------------------------------------*/
-const handleIntersectRight = function (entries, observerRight) {
-    entries.forEach(function (entry) {
-        if (entry.intersectionRatio > ratio) {
-            entry.target.classList.add("reveal-visible");
-            observerRight.unobserve(entry.target);
-        }
-    });
-};
-const observerRight = new IntersectionObserver(handleIntersectRight, option);
-document.querySelectorAll('[class*="reveal-right"]').forEach(function (r) {
-    observerRight.observe(r);
-});
-
-/*-------------------------------REVEAL LEFT------------------------------------*/
-const handleIntersectLeft = function (entries, observerLeft) {
-    entries.forEach(function (entry) {
-        if (entry.intersectionRatio > ratio) {
-            entry.target.classList.add("reveal-visible");
-            observerLeft.unobserve(entry.target);
-        }
-    });
-};
-const observerLeft = new IntersectionObserver(handleIntersectLeft, option);
-document.querySelectorAll('[class*="reveal-left"]').forEach(function (r) {
-    observerLeft.observe(r);
-});
-/*-------------------------------REVEAL BOTTOM------------------------------------*/
-const handleIntersectBottom = function (entries, observerBottom) {
-    entries.forEach(function (entry) {
-        if (entry.intersectionRatio > ratio) {
-            entry.target.classList.add("reveal-visible-forBottom");
-            observerBottom.unobserve(entry.target);
-        }
-    });
-};
-const observerBottom = new IntersectionObserver(handleIntersectBottom, option);
-document.querySelectorAll('[class*="reveal-bottom"]').forEach(function (r) {
-    observerBottom.observe(r);
 });
 
 /*--------------------------------------SUBSCRIBE MODAL STRIPE----------------------------------*/
@@ -202,8 +187,7 @@ window.onclick = function(event) {
   }
 }
 
-
-//---------------------- DOWNLOAD BUTTON----------------------------------*/
+//------------------------ DOWNLOAD BUTTON----------------------------------*/
 document.addEventListener("DOMContentLoaded", function () {
     var downloadBtn = document.getElementById("download-btn");
    if (downloadBtn) {
@@ -313,6 +297,7 @@ document.addEventListener("DOMContentLoaded", function () {
        });
    }
 });
+
 //------------------------------- LIVE SEARCH -------------------------------------//
 
 let searchInput = document.querySelector("#search_dynamic");
@@ -376,9 +361,7 @@ function searchManuals() {
         })
         .catch((error) => console.log(error));
 }
-
 searchManuals();
-
 
 //-----------------------FAQ MODULE------------------------------------*/
 const faqs = document.querySelectorAll(".faq");
@@ -388,6 +371,7 @@ faqs.forEach( faq => {
         faq.classList.toggle("active");
     })
 })
+
 //---------------------------------USER LIST MENU NAVBAR-------------------------------//
 let btnDrop = document.querySelector(".btn-top");
 let list = document.querySelector(".list");
@@ -397,11 +381,8 @@ if (btnDrop) {
         list.classList.toggle("newlist");
     });
 } 
+
 //------------------------------- AFFILIATE LINK COPY---------------------------------//
-// const affiliateInput = document.getElementById("affiliateInput");
-// document.getElementById("linkCopy").addEventListener("click", () => {
-//     navigator.clipboard.writeText(affiliateInput.value);
-// });
 const affiliateInput = document.getElementById("affiliateInput");
 const linkCopyBtn = document.getElementById("linkCopy");
 
@@ -416,17 +397,6 @@ var stripe = Stripe(
     "pk_test_51MGkYNFqehIyiqCAswBA4bcAvfS1Jj2En7v6MAEWVCB6AaMKrSALxpAuRjWOEnRd6ECnVYvQBw9BNEXjNDFRHKQT003lnndXaj"
 );
 var elements = stripe.elements();
-
-// // Set up Stripe.js and Elements to use in checkout form
-// var elements = stripe.elements();
-// var style = {
-//   base: {
-//     color: "#32325d",
-//   }
-// };
-
-// var card = elements.create("card", { style: style });
-// card.mount("#card-element");
 (function () {
     "use strict";
 
@@ -467,8 +437,8 @@ var elements = stripe.elements();
         },
     });
     card.mount("#example1-card");
-
     registerElements([card], "example1");
-})();
+})
+();
 
 

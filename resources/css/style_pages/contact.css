@@ -16,9 +16,7 @@
     text-align: center;
 }
 .contact-header .title-text .line-shape {
-    /* position: absolute; */
     width: 39%;
-    /* top: 60px; */
     margin-left: 50%;
     transform: translate(-53%);
     z-index: -1;

@@ -3,9 +3,8 @@
     flex-wrap: wrap;
     justify-content: center;
     column-gap: 10px;
-    /* margin-left: -500px; */
-    
 }
+
 .title-text .plans-container .plan{
     width: 270px;
     border-radius: 7px;

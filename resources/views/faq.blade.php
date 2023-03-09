@@ -1,10 +1,9 @@
 @extends('base');
 
 @section('content')
-
 <header class="faq-header primary-header">
-        <h1 class="title-in-header">{{ trans('lang.STR_TITLE_FAQ_1') }}</h1>
-        <img src="{{asset('assets/img/line-shape-11.svg')}}" class="line-shape" alt="">
+    <h1 class="title-in-header">{{ trans('lang.STR_TITLE_FAQ_1') }}</h1>
+    <img src="{{asset('assets/img/line-shape-11.svg')}}" class="line-shape" alt="">
     <div class="circle-anim1"></div>
     <div class="circle-anim2"></div>
     <div class="circle-anim3"></div>
@@ -47,7 +46,4 @@
         </section>
     </article>
 </main>
-
-
-
 @endsection

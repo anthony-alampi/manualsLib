@@ -63,8 +63,8 @@
     padding: 0;
 }
 body{
-        background-color: #fff;
-        overflow-x: hidden ;
+    background-color: #fff;
+    overflow-x: hidden ;
 }
 
 /*------------------CUSTOM POSITION FOR PASSWORD RESET FORM (EMAIL)-----------------------*/
@@ -106,12 +106,6 @@ body{
     top: 100px;
     
 }
-
-
-
-
-
-
 
 
 /*---------------- FRAME PREVIEW ---------------------------------*/
@@ -189,12 +183,8 @@ body{
     color: #101621;
 }
 .title-line {
-    /* position: absolute; */
-    /* top: 60px; */
     width: 60%;
     z-index: -1;
-    /* margin-left: 50%;
-    transform: translateX(-50%); */
 }
 
 .text-in-header{
@@ -270,17 +260,6 @@ body{
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
 /*------------------------*/
 
 :root{
@@ -337,21 +316,6 @@ body{
     --color-text-btn: #fafafa;
     --padding-btn: 15px;
 }
-
-/* button */
-
-        /* padding: 20px 40px 20px 40px;
-        margin-top: 20px;
-        cursor: var(--pointer-btn);
-        transition: 0.5s;
-        color: var(--color-text-btn);
-        font-family: var(--font-btn);
-        font-size: var(--size-text-btn);
-        border: 2px solid #fd6a5e;
-        border-radius: 6px;
-        letter-spacing: 2px;
-        background-color: var(--color-btn);
-        box-shadow: 0px 10px 15px -3px #33333349; */
 
 /*--------------------MODAL STRIPE ---------------------------*/
 .modal-payment {

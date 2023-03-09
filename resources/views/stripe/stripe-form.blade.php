@@ -1,6 +1,5 @@
 <div id="modal-payment" class="modal-payment">
   <div class="modal-content">
-    
     <div class="pay-stripe-container">
       <div class="cell example example1" id="example-1">
         <form>
@@ -56,7 +55,7 @@
           </a>
         </div> --}}
       </div>
-</div>
+  <div>
   </div>
 </div>
 

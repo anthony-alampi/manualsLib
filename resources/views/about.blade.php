@@ -1,13 +1,11 @@
 @extends('base');
 
 @section('content')
-
 <header class="about-header primary-header">
-    {{-- <div class="title-in-header"> --}}
         <h1 class="title-in-header title-about">{{trans('lang.STR_TITLE_ABOUT_1')}}</h1>
         <img src="{{asset('assets/img/line-shape-11.svg')}}" class="line-shape" alt="">
         <p class="text-in-header">{{trans('lang.STR_TEXT_ABOUT_1')}}</p>
-    {{-- </div> --}}
+
     <div class="circle-anim1"></div>
     <div class="circle-anim2"></div>
     <div class="circle-anim3"></div>
@@ -35,10 +33,7 @@
                     <h2 class="title-in-block">{{trans('lang.STR_TITLE_ABOUT_2')}}</h2>
                     <p class="text-in-block">{{trans('lang.STR_TEXT_ABOUT_2')}}</p>
                 </div>
-        
-                {{-- <div class="image-block reveal-right"> --}}
-                    <img src="{{asset('assets/img/our-mission.svg')}}" class="image-in-block" alt="">
-                {{-- </div> --}}
+                <img src="{{asset('assets/img/our-mission.svg')}}" class="image-in-block" alt="">
                 <div class="circle-scale1"></div>
                 <div class="circle-scale2"></div>
             </article>
@@ -47,9 +42,7 @@
             <article class="our-solution primary-container">
                 <div class="circle-scale1"></div>
                 <div class="circle-scale2"></div>
-                {{-- <div class="text-block-contain reveal-left"> --}}
-                    <img src="{{asset('assets/img/our_solution.svg')}}" class="image-in-block" alt="">
-                {{-- </div> --}}
+                <img src="{{asset('assets/img/our_solution.svg')}}" class="image-in-block" alt="">
                 <div class="text-block-contain reveal-right">
                     <h2 class="title-in-block">{{trans('lang.STR_TITLE_ABOUT_3')}}</h2>
                     <p class="text-in-block">{{trans('lang.STR_TEXT_ABOUT_3')}}</p>
@@ -97,11 +90,8 @@
                         <h3>{{trans('lang.STR_TITLE_NAME_8')}}</h3>
                     </div>
                 </div>
-
             </article>
         </section>
     </article>
 </main>
-
-
 @endsection

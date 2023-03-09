@@ -5,12 +5,11 @@
 <header class='home-header'>
     <div class="title-and-form">
         <div class="header-title-custom">
-        <h1>{{ trans('lang.STR_TITLE_HOMEPAGE_1') }}</h1>
-        <img src="{{asset('assets/img/line-shape-1.svg')}}" class="shape-header" alt="">
+            <h1>{{ trans('lang.STR_TITLE_HOMEPAGE_1') }}</h1>
+            <img src="{{asset('assets/img/line-shape-1.svg')}}" class="shape-header" alt="">
         </div>
         <h2>{{ trans('lang.STR_TITLE_HOMEPAGE_2') }}</h2>
         @include('incs.formManuals')
-        
     </div>
     
     <div class="floating-illustration">
@@ -176,5 +175,4 @@
         </section>
     </article>
 </main>
-
 @endsection

@@ -1,4 +1,5 @@
 @extends('base')
+
 @section('content')
 <main class="">
         <aside class="api-ancre">
