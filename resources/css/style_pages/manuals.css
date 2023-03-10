@@ -15,7 +15,7 @@
     width: 100%;
 }
 .manuals-header .searchForm-manuals h2 {
-    font-family: 'Gilroy-black', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 28px;
     font-weight: 300;
     line-height: 1.39em;
@@ -25,7 +25,7 @@
 .square-left{position: absolute; left: 5%;
     top: 100%; width: 45px; animation: rotation 25s infinite; z-index: -1; }
 .bs-left{position: absolute;left: 20%;
-    top: 80%; animation: floating 5s infinite; width: 100px;z-index: -1;}
+    top: 60%; left: 0; animation: floating 5s infinite; width: 60px;z-index: -1;}
 .middle-left{position: absolute;left: 5%;
     top: 54%;z-index: -1;}
 .circle-left{position: absolute;left: 16%;
@@ -40,7 +40,7 @@
 .sl-right{position: absolute;right: 20%;
     top: 54%;z-index: -1;}
 .circle-right{position: absolute;right: 16%;
-    top: 80%; animation: floating 3s infinite; width: 50px;z-index: -1;}
+    top: 50%; right: 0; animation: floating 3s infinite; width: 50px;z-index: -1;}
 .alternate-right{position: absolute;right:10%;
     top: 65%; width: 15px; opacity: 0.5;z-index: -1;}
 

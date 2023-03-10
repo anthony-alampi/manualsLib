@@ -5,7 +5,7 @@
     <article>
         <section class="history-subscription-container">
             <h2>{{ trans('lang.STR_TITLE_DASHBOARD_2') }}</h2>
-            <div class="stripe-history-subscription"></div>
+            {{-- <div class="stripe-history-subscription"></div> --}}
         </section>
         <div class="downloaded-manuals">
             <h2>{{ trans('lang.STR_TITLE_DASHBOARD_1') }}</h2>

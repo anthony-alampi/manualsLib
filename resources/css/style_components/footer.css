@@ -3,6 +3,7 @@ footer{
     margin-top: 100px;
     text-align: center;
     position: relative;
+    width: 100%;
 }
 footer .link-footer-container{
     display: flex;
@@ -23,6 +24,7 @@ footer .link-footer-container .links-container h2{
     font-family: 'gilroy-semibold', sans-serif;
     font-size: 20px;
     margin-bottom: 20px;
+    color: #101621;
 }
 
 .link-footer-container .links-container .link-item{

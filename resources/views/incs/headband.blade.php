@@ -47,9 +47,6 @@
 			                <img src="{{asset('assets/img/valberg.png')}}" alt="Brands logo" />
 	                    </div>
                         <div class="slide">
-			                <img src="{{asset('assets/img/ViewSonic.png')}}" alt="Brands logo" />
-	                    </div>
-                        <div class="slide">
 			                <img src="{{asset('assets/img/Panasonic-Logo.png')}}" alt="Brands logo" />
 	                    </div>
                         <div class="slide">
