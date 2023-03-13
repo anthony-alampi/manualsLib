@@ -235,7 +235,7 @@ body{
     font-weight: var(--weight-text);
     font-size: 1.3rem;
     color: #73737b;
-    line-height: var(--height-line-text);
+    line-height: 1.55em;
     width: 90%;
 }
 .image-in-block{
