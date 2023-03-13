@@ -32,10 +32,10 @@
     </div>
 
     <div class="affiliate-plan-container">
-        <label for="monthly-revenue">Monthly revenue</label>
-        <input type="text" name="monthly-revenue" id="affiliates-plan" disabled>
+        <label for="monthly-revenue" class="monthly-label">Monthly revenue</label>
+        <input type="text" name="monthly-revenue" id="affiliates-plan" disabled><br>
 
-        <label for="monthly-revenu">Affiliates</label>
+        <label for="monthly-revenue" class="affiliate-label">Affiliates</label>
         <input type="text" name="affiliates-free" id="affiliates-plan" disabled>
 
         <input type="text" name="affiliates-trial" id="affiliates-plan" disabled>
