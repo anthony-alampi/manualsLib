@@ -27,6 +27,14 @@
                 </button>
             </div>
             @endif
+<div class="btns-container">
+            <button id="preview-button" class="btn-manual"><img src="{{asset('assets/img/preview.svg')}}">Preview</button>
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <iframe id="preview-iframe" src="{{ $document['file'] }}#toolbar=0&navpanes=0" frameborder="0"></iframe>
+                    </div>
+                </div>
+            </div> 
         </div>
 
         <div class="right-block-manual">

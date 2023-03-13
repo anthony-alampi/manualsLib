@@ -901,7 +901,9 @@
     justify-content: center;
     
 }
-
+.manual-btn{
+    margin-left: 50%;
+}
 }
 
 }

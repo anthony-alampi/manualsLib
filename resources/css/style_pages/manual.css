@@ -67,8 +67,34 @@
 
 }
 
-.manual-header .right-block-manual img{
+/*----Preview btn -----*/
+/* .manual-header .right-block-manual img{
     width: 300px;
+} */
+
+ .btn-manual {
+    text-decoration: none;
+    padding: 20px 40px 20px 40px;
+    margin-top: 10px;
+    cursor: var(--pointer-btn);
+    transition: 0.5s;
+    color: var(--color-text-btn);
+    font-family: var(--font-btn);
+    font-size: var(--size-text-btn);
+    border: 2px solid #fd6a5e;
+    border-radius: 6px;
+    letter-spacing: 2px;
+    background-color: var(--color-btn);
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+ .btn-manual:hover{
+    background: #f79289;
+    border: 2px solid #fd6a5e;
+}
+.btn-manual img{
+    width: 30px;
 
 }
 
