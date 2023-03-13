@@ -217,6 +217,8 @@ body{
     align-items: center;
     padding: 100px 0 100px 0;
     position: relative;
+    max-width: 1490px;
+    margin: 0 auto;
     
 }
 .text-block-contain{
