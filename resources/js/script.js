@@ -295,28 +295,7 @@ document.addEventListener("DOMContentLoaded", function () {
        });
    }
 });
-//---------- Modal preview doc ----------//
 
-var modalPreview = document.getElementById("myModal");
-var btn = document.getElementById("preview-button");
-var span = document.getElementsByClassName("close")[0];
-var body = document.getElementsByTagName("body")[0];
-
-
-btn.onclick = function() {
-  modalPreview.style.display = "block";
-  body.style.overflow = "hidden";
-  
-}
-
-
-
-window.onclick = function(event) {
-  if (event.target == modalPreview) {
-    modalPreview.style.display = "none";
-    body.style.overflow = "auto";
-  }
-}
 //------------------------------- LIVE SEARCH -------------------------------------//
 
 let searchInput = document.querySelector("#search_dynamic");
@@ -410,7 +389,25 @@ if (linkCopyBtn && affiliateInput) {
         navigator.clipboard.writeText(affiliateInput.value);
     });
 }
+//---------- Modal preview doc ----------//
 
+var modalPreview = document.getElementById("myModal");
+var btn = document.getElementById("preview-button");
+var body = document.getElementsByTagName("body")[0];
+
+
+btn.onclick = function() {
+  modalPreview.style.display = "block";
+  body.style.overflow = "hidden";
+  
+}
+
+window.onclick = function(event) {
+  if (event.target == modalPreview) {
+    modalPreview.style.display = "none";
+    body.style.overflow = "auto";
+  }
+}
 /*------------------------------STRIPE ELEMENTS-----------------------------------------*/
 var stripe = Stripe(
     "pk_test_51MGkYNFqehIyiqCAswBA4bcAvfS1Jj2En7v6MAEWVCB6AaMKrSALxpAuRjWOEnRd6ECnVYvQBw9BNEXjNDFRHKQT003lnndXaj"
