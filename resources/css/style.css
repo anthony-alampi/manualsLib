@@ -31,13 +31,32 @@
 
 
 /*----------------------Homepage Responsive----------------------*/
+@media (max-width: 1675px) {
+    .home-header {
+            margin-top: 90px;
+            margin-bottom: 0px;
+            height: 100vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            column-gap: 100px;
+    
+        }
+        .header-title-custom .shape-header{
+            width: 80%;
+            top: 55%;
+}
+.title-and-form{
+    width: 40%;
+}
+}
 @media (max-width: 1170px){
     .title-and-form{
         width: 50%;
     }
    .title-and-form h1 {
     font-family: var(--font-h1);
-    font-size: 55px;
     color: var(--color-h1);
     font-weight: var(--weight-h1);
     }
@@ -88,7 +107,7 @@
 }
 @media (max-width: 1024px) {
 .home-header{
-    margin:0px;
+    margin-top:90px;
     height: 70vh;
 }
     .title-and-form {
@@ -107,15 +126,15 @@
         font-size: 35px;
     }
     .floating-illustration .float-message1 {
-        width: 150px;
+        width: 50px;
         bottom: 10%;
-        left: 0;
+        left: 100px;
     }
 
     .floating-illustration .float-message2 {
-    width: 150px;
-    top: 20%;
-    left: 0;
+    width: 50px;
+    top: 0;
+    right: 50px;
     }
 
     .floating-illustration .float-message3 {

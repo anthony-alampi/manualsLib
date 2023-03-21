@@ -19,8 +19,6 @@ class ManualsController extends Controller
         arsort($manualCounts);
         $popularManuals = array_slice($manualCounts, 0, 10, true);
 
-
-
         $categories = [];
         foreach ( $data as $item ){
             $category = $item['categories'][0];

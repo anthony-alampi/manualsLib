@@ -6,7 +6,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    column-gap: 170px;
+    column-gap: 100px;
 
 }
 
@@ -19,14 +19,14 @@
     position: relative;
 }
 .header-title-custom .shape-header{
-    width: 80%;
+    width: 92%;
     position: absolute;
     top: 150px;
     z-index: -1;
 }
 .title-and-form h1{
     font-family: var(--home-font-h1) ;
-    font-size: 78px;
+    font-size: clamp(25px, 5vw, 78px);
     color: var(--home-color-h1);
     font-weight: var(--home-weight-h1) ;
     line-height: var(--home-line-h1);
@@ -35,7 +35,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
     font-family: 'Roboto', sans-serif;
-    font-size: 30px;
+    font-size: clamp(20px, 4vw, 30px);
     color: #565657;
     line-height: 1.5em;
 }
@@ -274,9 +274,9 @@
 /*-----CONTENT-BLOCK N 1---*/
 .shape-absolut-troubleshooting{
     position: absolute;
-    width: 60%;
-    top: 100px;
-    left: 50px;
+    width: 76%;
+    top: 95px;
+    left: 0;
     z-index: -1;
 }
 .right-block{
@@ -350,9 +350,9 @@
 
 /*-----CONTENT-BLOCK N°2---*/
 .content-block2 .line-shape {
-    width: 60%;
-    margin-top: -50px;
-    margin-left: 50px;
+    width: 70%;
+    margin-top: -25px;
+    margin-left: 85px;
     z-index: -1;
 }
 .content-block2 .images{

@@ -106,7 +106,7 @@
 
             <div class='text-block-contain  bg-text-padding reveal-right'>
                 <h2 class="title-in-block">{{ trans('lang.STR_TITLE_HOMEPAGE_7') }}</h2>
-                <img src="{{asset('assets/img/line-shape-2.svg')}}" class="line-shape" />
+                <img src="{{asset('assets/img/line-shape-1.svg')}}" class="line-shape" />
                 <p class="text-in-block">{{trans('lang.STR_TEXT_2')}}</p>
             </div>
         </section>
@@ -114,7 +114,7 @@
         <section class='content-block1 primary-container '>
             <div class=' text-block-contain  reveal-left'>
                 <h2 class="title-in-block">{{ trans('lang.STR_TITLE_HOMEPAGE_6') }}</h2>
-                <img src="{{asset('assets/img/line-shape-2.svg')}}" class="shape-absolut-troubleshooting" />
+                <img src="{{asset('assets/img/line-shape-1.svg')}}" class="shape-absolut-troubleshooting" />
                 <p class="text-in-block">{{trans('lang.STR_TEXT_1')}}</p>
             </div>
 
