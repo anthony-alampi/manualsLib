@@ -5,7 +5,7 @@
 <header class="features-header primary-header">
     <div class="content-block title-in-header">
     <h1 class="title-in-header">{{ trans('lang.STR_TITLE_FEATURES_1') }}</h1>
-    <img src="{{asset('assets/img/line-shape-11.svg')}}" class="line-shape title-line" alt="">
+    <img src="{{asset('assets/img/line-shape-11.svg')}}" class="line-shape">
     </div>
     <img src="{{asset('assets/img/carre.svg')}}" class="square-item1" />
     <img src="{{asset('assets/img/carre.svg')}}" class="square-item2" />
@@ -19,7 +19,7 @@
         <section>
             <article class="features-listing-container">
                 <div class="item reveal-left ">
-                    <img src="{{ asset('assets/img/manual-icon.svg') }}" alt="">
+                    <img src="{{ asset('assets/img/manual-icon.svg') }}" />
                     <h2> {{ trans('lang.STR_TITLE_FEATURES_2') }} </h2>
                     <p> {{trans('lang.STR_TEXT_FEATURES_2')}} </p>
                 </div>

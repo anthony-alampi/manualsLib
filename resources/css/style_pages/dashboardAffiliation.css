@@ -48,6 +48,7 @@
     border-bottom-right-radius: 6px;
     border-top-right-radius: 6px;
     background-color: var(--color-btn);
+    width: 100px;
 }
 .affiliate-container .affiliate-link button:hover{
     background-color: #e96458;
@@ -93,6 +94,7 @@
         border-bottom-right-radius: 6px;
         border-top-right-radius: 6px;
         background-color: var(--color-btn);
+        width: 100px;
 }
 .affiliate-container .update-paypal button:hover {
     background-color: #e96458;

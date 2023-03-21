@@ -83,7 +83,7 @@
     margin: 100px auto 0;
 }
 .sub-container{
-    width: 60%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;

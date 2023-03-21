@@ -4,6 +4,15 @@
     position: relative;
 }
 
+.features-header .line-shape{
+    position: absolute;
+    width: 60%;
+    top: 60px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: -1;
+}
+
 .features-header .square-item1{
     position: absolute;
     width: 7px;

@@ -12,7 +12,7 @@
             <div id="id-from-laravel" data-id="{{ $document['id'] }}" data-name="{{ $document['name'] }}" data-id_user="{{ Auth::user()->id }}"></div>
             <button class="btn-manual" id="download-btn"><img src="{{asset('assets/img/download.svg')}}" alt="">Download {{ $document['brand'] }} Manual</button>            
         </div> --}}
-
+    <div class="flex-btns-container">
             @if (Auth::user())
             <div class="btns-container">
                 <button name ="document_id" id="download-btn" class="btn-manual"><img src="{{asset('assets/img/download.svg')}}" alt="">
@@ -27,7 +27,7 @@
                 </button>
             </div>
             @endif
-<div class="btns-container">
+        <div class="btns-container">
             <button id="preview-button" class="btn-manual"><img src="{{asset('assets/img/preview.svg')}}">Preview</button>
                 <div id="myModal" class="modal">
                     <div class="modal-contain">
@@ -36,6 +36,7 @@
                 </div>
             </div> 
         </div>
+    </div>
 
         <div class="right-block-manual">
             <iframe src="{{ $document['file'] }}#toolbar=0&navpanes=0" frameborder="0" class="frame-preview"></iframe>

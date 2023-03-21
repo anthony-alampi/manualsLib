@@ -72,7 +72,7 @@
                                 <p class="manuals custom-position">{{ trans('lang.STR_TEXT_2_CARD_1') }}</p>
                             </li>
                         </ul>
-                            <button class="sign-up-pricing" id="stripe-modal-btn">Susbscribe</button>
+                            <button class="sign-up-pricing btn-bottom1" id="stripe-modal-btn">Susbscribe</button>
                 </div>
             </div>
 
@@ -142,7 +142,7 @@
                                 <p class="manuals custom-position">{{ trans('lang.STR_TEXT_6_CARD_3') }}</p>
                             </li>
                         </ul>
-                    <button class="sign-up-pricing" id="stripe-modal-btn">Susbscribe</button>
+                    <button class="sign-up-pricing btn-bottom2" id="stripe-modal-btn">Susbscribe</button>
                 </div>
             </div>
             <div class="card-pricing">
@@ -191,6 +191,7 @@
     
 </div>
 <div class="cancel-incs">
+    <h2> {{ trans('lang.STR_TITLRE_DASHBOARD_ACCOUNT_1') }} </h2>
     @include('incs.formCancellation')
 </div>
 @endsection

@@ -94,7 +94,7 @@
 }
 
 .brand-text-block h2 {
-    font-family: 'gilroy-black';
+    font-family: 'gilroy-black',sans-serif;
     font-size: clamp(22px, 5vw, 27px);
 }
 
@@ -237,12 +237,12 @@
     width: 40px;
 }
 .download .text-block h2{
-    font-family: 'Gilroy-black', sans-serif;
-    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
 }
-.download .text-block h3{
+/* .download .text-block h3{
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
     color: var(--color-text);
     font-weight: var(--weight-text);
-}
+} */

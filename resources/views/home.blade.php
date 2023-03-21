@@ -13,10 +13,9 @@
     </div>
     
     <div class="floating-illustration">
-        <img src="{{asset('assets/img/header-illustration.png')}}" class='illustration' alt="icons" />
-        <img src="{{asset('assets/img/float-message-1.png')}}" class="float-message1" alt="icons"/>
-        <img src="{{asset('assets/img/float-message-2.png')}}" class="float-message2" alt="icons"/>
-        <img src="{{asset('assets/img/float-message-3.png')}}" class="float-message3" alt="icons"/>
+        <img src="{{asset('assets/img/illustration.svg')}}" class='illustration' alt="icons" />
+        <img src="{{asset('assets/img/float-bubble.svg')}}" class="float-message1" alt="icons"/>
+        <img src="{{asset('assets/img/parameter-dentt.svg')}}" class="float-message2" alt="icons"/>
     </div>
 </header>
 
@@ -80,6 +79,7 @@
         <section class='content-block3 primary-container '>
             <div class='text-block-contain reveal-left '>
                 <h2 class="title-in-block">{{ trans('lang.STR_TITLE_HOMEPAGE_8') }}</h2>
+                <img class="line-title-custom" src="{{ asset('assets/img/line-shape-2.svg') }}" alt="shape line">
                 <p class="text-in-block">{{trans('lang.STR_TEXT_3')}}</p>
             </div>
             <div class="images">
@@ -106,7 +106,7 @@
 
             <div class='text-block-contain  bg-text-padding reveal-right'>
                 <h2 class="title-in-block">{{ trans('lang.STR_TITLE_HOMEPAGE_7') }}</h2>
-                <img src="{{asset('assets/img/line-shape-3.svg')}}" class="line-shape" />
+                <img src="{{asset('assets/img/line-shape-2.svg')}}" class="line-shape" />
                 <p class="text-in-block">{{trans('lang.STR_TEXT_2')}}</p>
             </div>
         </section>
@@ -114,6 +114,7 @@
         <section class='content-block1 primary-container '>
             <div class=' text-block-contain  reveal-left'>
                 <h2 class="title-in-block">{{ trans('lang.STR_TITLE_HOMEPAGE_6') }}</h2>
+                <img src="{{asset('assets/img/line-shape-2.svg')}}" class="shape-absolut-troubleshooting" />
                 <p class="text-in-block">{{trans('lang.STR_TEXT_1')}}</p>
             </div>
 

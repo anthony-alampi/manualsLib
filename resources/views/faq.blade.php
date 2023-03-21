@@ -23,7 +23,7 @@
                         <h2 class="title-in-block">{{ trans('lang.STR_TITLE_FAQ_2') }}</h2>
                         <p class="text-in-block"> {{ trans('lang.STR_TEXT_FAQ_1') }} </p>
                     </div>
-                    <img src="{{ asset('assets/img/add-docs.svg') }}" class="image-block-1" alt="">
+                    <img src="{{ asset('assets/img/adding-files.svg') }}" class="image-block-1" alt="">
                 </article>
                 
                 <article class="primary-container reveal-bottom">

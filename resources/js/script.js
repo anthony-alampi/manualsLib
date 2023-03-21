@@ -398,6 +398,7 @@ var body = document.getElementsByTagName("body")[0];
 
 btn.onclick = function() {
   modalPreview.style.display = "block";
+  modalPreview.style.zIndex = "999";
   body.style.overflow = "hidden";
   
 }

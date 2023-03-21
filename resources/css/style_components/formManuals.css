@@ -1,17 +1,17 @@
 .search-form {
     display: flex;
     align-items: center;
-    padding: 15px;
+    padding: 5px;
     border: solid 2px black;
-    border-radius: 10px;
+    border-radius: 5px;
     /* box-shadow: 2px 4px 8px -5px rgba(0, 0, 0, 0.381); */
 }
 .styled-input {
     padding: 7px;
     border: none;
     width: 80%;
-    height: 54px;
-    font-size: 20px;
+    height: 45px;
+    font-size: 22px;
     background: transparent;
     margin-right: 5px;
 }
@@ -27,7 +27,7 @@
     font-family: var(--font-btn);
     font-size: var(--size-text-btn);
     border: 2px solid #fd6a5e;
-    border-radius: 6px;
+    border-radius: 4px;
     letter-spacing: 2px;
     background-color: var(--color-btn);
     }

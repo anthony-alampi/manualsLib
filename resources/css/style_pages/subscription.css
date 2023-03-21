@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     justify-content: center;
     column-gap: 10px;
+    margin-bottom: 50px;
 }
 
 .title-text .plans-container .plan{

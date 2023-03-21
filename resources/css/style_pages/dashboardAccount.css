@@ -80,6 +80,12 @@
     margin-bottom: 10px;
 
 }
+.btn-bottom1{
+    margin-top: 90px;
+}
+.btn-bottom2{
+    margin-top: 45px;
+}
 
 .card-pricing .pricing-plan span {
     font-family: 'gilroy-semibold', sans-serif;
@@ -153,4 +159,11 @@
     font-weight: 600;
     border-radius: 5px;
     color: rgb(102, 102, 102);
+}
+
+.cancel-incs h2{
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'gilroy-black',sans-serif;
+    font-size: clamp(25px, 8vw, 42px);
 }

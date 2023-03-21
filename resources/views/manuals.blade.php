@@ -34,7 +34,7 @@
                     @foreach ($popularManuals as $name => $count)
                     <div class="download custom-border-left1 reveal-bottom">
                         <div class="icons-manualsTop">
-                            <img src="{{asset('assets/img/book-categories.svg')}}" >
+                            <img src="{{asset('assets/img/manuals-book-card.png')}}" >
                         </div>
                         <div class="text-block">
                            <p>{{ $name }}</p>
@@ -63,7 +63,7 @@
                     @foreach ($categories as $category)
                     <div class="download custom-border-left1 reveal-bottom">
                         <div class="icons-manualsTop">
-                             <img src="{{asset('assets/img/book-categories.svg')}}" >
+                             <img src="{{asset('assets/img/manuals-book-card.png')}}" >
                         </div>
                         <div class="text-block">
                             <p>{{ $category  }}</p>

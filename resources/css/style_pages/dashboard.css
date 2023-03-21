@@ -3,7 +3,7 @@
 }
 .history-subscription-container h2{
         text-align: center;
-        font-family: 'gilroy-black', sans-serif;
+        font-family: 'Rubik', sans-serif;
         font-size: clamp(20px, 8vw, 42px);
         margin-bottom: 50px;
     }
@@ -20,7 +20,7 @@
 }
 .downloaded-manuals h2{
     text-align: center;
-    font-family: 'gilroy-black', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: clamp(20px, 8vw, 42px);
     margin-bottom: 50px;
 }

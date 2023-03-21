@@ -18,6 +18,7 @@
 .contact-header .title-text .line-shape {
     width: 39%;
     margin-left: 50%;
+    margin-top: -20px;
     transform: translate(-53%);
     z-index: -1;
 }

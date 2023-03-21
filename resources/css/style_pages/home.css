@@ -6,6 +6,8 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    column-gap: 170px;
+
 }
 
 .title-and-form{
@@ -43,33 +45,35 @@
 
 }
 .home-header .floating-illustration .illustration{
-    width: 700px;
+    width: 550px;
 }
 .floating-illustration .float-message1 {
 
-    width: 250px;
+    width: 80px;
     position: absolute;
-    bottom: 10%;
-    left: 0;
-    animation: floating 6s infinite;
+    top: 50px;
+    left: 170px;
+    animation: floating 4s infinite;
 }
 
 .floating-illustration .float-message2 {
-
-    width: 250px;
+    width: 60px;
     position: absolute;
-    top: 20%;
-    left: 0;
-    animation: floating 5s infinite;
+    top: 5%;
+    right: 50px;
+    animation-name: rotate;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
 
-.floating-illustration .float-message3 {
-
-    width: 250px;
-    position: absolute;
-    bottom: 20%;
-    left: 50%;
-    animation: floating 4s infinite;
+    100% {
+        transform: rotate(360deg);
+    }
 }
 @keyframes floating {
     0% {
@@ -267,7 +271,14 @@
 }
 
 
-/*-----CONTENT-BLOCK N°1---*/
+/*-----CONTENT-BLOCK N 1---*/
+.shape-absolut-troubleshooting{
+    position: absolute;
+    width: 60%;
+    top: 100px;
+    left: 50px;
+    z-index: -1;
+}
 .right-block{
     position: relative;
 }
@@ -339,10 +350,9 @@
 
 /*-----CONTENT-BLOCK N°2---*/
 .content-block2 .line-shape {
-    position: absolute;
-    width: 50%;
-    top: 75px;
-    left: 150px;
+    width: 60%;
+    margin-top: -50px;
+    margin-left: 50px;
     z-index: -1;
 }
 .content-block2 .images{

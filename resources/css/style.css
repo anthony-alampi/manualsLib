@@ -264,6 +264,18 @@
     top: 10%;
     }
 
+    /*------- Line - custom  in title block-tecxt--------*/
+        .content-block2 .line-shape{
+            margin-left: 0px;
+            width: 50%;
+        }
+        .shape-absolut-troubleshooting{
+            width: 60%;
+            position: relative;
+            top: 0;
+            left: 0;
+            margin-top: -50px;
+        }
     /*-------- FEEDBACK CUSTOMERS-----------*/
 .feedback {
     display: flex;
@@ -976,6 +988,7 @@
 /*-------------------CSS Animation ----------------*/
 [class*="reveal-right"] {
     opacity: 0;
+    transform: translatex(100px); /**-**/
 }
 [class*="reveal-left"] {
     opacity: 0;
