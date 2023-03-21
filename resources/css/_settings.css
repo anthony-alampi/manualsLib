@@ -269,7 +269,7 @@ body{
     color: #202020;
     font-size: 42px;
     line-height: 1.35em;
-    margin-bottom: 20px;
+    margin-bottom: 8px;
 }
 .primary-container .text-in-block{
     font-family: var(--font-text);

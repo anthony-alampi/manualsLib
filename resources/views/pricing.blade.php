@@ -237,8 +237,8 @@
                 <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="circle-item" />
             </article>
             <article class="pricing-section3 primary-container">
-                <img src="{{ asset('assets/img/choice-plan.svg') }}" class="image-in-block reveal-right" alt="">
-                <div class="text-block-contain reveal-left">
+                <img src="{{ asset('assets/img/choice-plan.svg') }}" class="image-in-block reveal-left" alt="">
+                <div class="text-block-contain reveal-right">
                     <h2 class="title-in-block">{{ trans('lang.STR_TITLE_PRICING_7') }}</h2>
                     <p class="text-in-block"> {{ trans('lang.STR_TEXT_PRICING_2') }} </p>
                 </div>
@@ -249,11 +249,11 @@
                 <img src="{{asset('assets/img/triangle-effect-1.svg')}}" class="circle-item" />
             </article>
             <article class="pricing-section5 primary-container">
-                <div class="text-block-contain reveal-right">
+                <div class="text-block-contain reveal-left">
                     <h2 class="title-in-block">{{ trans('lang.STR_TITLE_PRICING_8') }}</h2>
                     <p class="text-in-block"> {{ trans('lang.STR_TEXT_PRICING_3') }} </p>
                 </div>
-                <img src="{{ asset('assets/img/add-manuals.svg') }}" class="image-in-block reveal-left" alt="">
+                <img src="{{ asset('assets/img/add-manuals.svg') }}" class="image-in-block reveal-right" alt="">
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item1" />
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item2" />
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item3" />
@@ -262,8 +262,8 @@
             </article>
 
             <article class="pricing-section6 primary-container">
-                <img src="{{ asset('assets/img/switch-plan.svg') }}" class="image-in-block reveal-right" alt="">
-                <div class="text-block-contain reveal-left">
+                <img src="{{ asset('assets/img/switch-plan.svg') }}" class="image-in-block reveal-left" alt="">
+                <div class="text-block-contain reveal-right">
                     <h2 class="title-in-block">{{ trans('lang.STR_TITLE_PRICING_9') }}</h2>
                     <p class="text-in-block"> {{ trans('lang.STR_TEXT_PRICING_4') }} </p>
                 </div>
@@ -275,11 +275,11 @@
             </article>
             
             <article class="pricing-section7 primary-container">
-                <div class="text-block-contain reveal-right">
+                <div class="text-block-contain reveal-left">
                     <h2 class="title-in-block">{{ trans('lang.STR_TITLE_PRICING_10') }}</h2>
                     <p class="text-in-block"> {{ trans('lang.STR_TEXT_PRICING_5') }} </p>
                 </div>
-                <img src="{{ asset('assets/img/stripe_illustration.svg') }}" class="image-in-block reveal-left" alt="">
+                <img src="{{ asset('assets/img/stripe_illustration.svg') }}" class="image-in-block reveal-right" alt="">
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item1" />
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item2" />
                 <img src="{{asset('assets/img/carre.svg')}}" class="square-item3" />

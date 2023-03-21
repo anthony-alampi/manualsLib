@@ -12,7 +12,7 @@ return
 //----------------------------------------------------------PAGE TITLES--------------------------------------------------------------------------------//
         
         //* Home - Title *//
-        'STR_TITLE_HOMEPAGE_1' => 'Find the user manual for your device',
+        'STR_TITLE_HOMEPAGE_1' => 'Get manuals and Remote assistance For any device',
         'STR_TITLE_HOMEPAGE_2' => 'Search by brand, model or serial number',
         'STR_TITLE_HOMEPAGE_3' => 'Access to more than 50 000 Manuals available from our database',
         'STR_TITLE_HOMEPAGE_4' => 'Get remote assistance for all your devices',

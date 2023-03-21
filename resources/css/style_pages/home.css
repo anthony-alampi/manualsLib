@@ -11,7 +11,7 @@
 }
 
 .title-and-form{
-    width: 35%;
+    width: 31%;
     position: relative;
 }
 .header-title-custom{
@@ -21,7 +21,7 @@
 .header-title-custom .shape-header{
     width: 80%;
     position: absolute;
-    top: 60px;
+    top: 150px;
     z-index: -1;
 }
 .title-and-form h1{

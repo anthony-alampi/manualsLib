@@ -96,8 +96,8 @@
     cursor: pointer;
 }
 
-.download .icons-manualsTop img{
-    width: 40px;
+.download .icons-manualsTop .icon-card{
+    width: 60px;
 }
 .download .text-block p{
     font-family: 'Rubik', sans-serif;
