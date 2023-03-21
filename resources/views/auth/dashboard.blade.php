@@ -12,7 +12,7 @@
             <div class="container-manuals">
                 @foreach ($common_names as $name)
                     <div class="manual custom-border-left1">
-                        <img src="{{asset('assets/img/book-categories.svg')}}" alt="">
+                        <img src="{{asset('assets/img/manuals-book-card.png')}}" />
                         <h3>{{ $name }}</h3>
                     </div>
                 @endforeach
