@@ -7,7 +7,7 @@ const option = {
     rootMargin: "0px",
     threshold: ratio
 };
-/*---------RIGHT-------------------------------------*/
+/*-------------------------------RIGHT-------------------------------------*/
 const handleIntersectRight = function (entries, observerRight) {
     entries.forEach(function (entry) {
         if (entry.intersectionRatio > ratio) {
@@ -21,7 +21,7 @@ document.querySelectorAll('[class*="reveal-right"]').forEach(function (r) {
     observerRight.observe(r);
 });
 
-/*--------REVEAL LEFT------------------------------------*/
+/*----------------------------REVEAL LEFT------------------------------------*/
 const handleIntersectLeft = function (entries, observerLeft) {
     entries.forEach(function (entry) {
         if (entry.intersectionRatio > ratio) {
@@ -34,7 +34,7 @@ const observerLeft = new IntersectionObserver(handleIntersectLeft, option);
 document.querySelectorAll('[class*="reveal-left"]').forEach(function (r) {
     observerLeft.observe(r);
 });
-/*-------REVEAL BOTTOM------------------------------------*/
+/*---------------------------REVEAL BOTTOM------------------------------------*/
 const handleIntersectBottom = function (entries, observerBottom) {
     entries.forEach(function (entry) {
         if (entry.intersectionRatio > ratio) {
@@ -167,18 +167,18 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 /*--------------------------------------SUBSCRIBE MODAL STRIPE----------------------------------*/
-// Récupération des boutons et de la fenêtre modale
+
 var stripeModalBtns = document.querySelectorAll("#stripe-modal-btn");
 var modalStripe = document.getElementById("modal-payment");
 
-// Ouverture de la fenêtre modale au clic sur le bouton
+
 stripeModalBtns.forEach(function(btn) {
   btn.onclick = function() {
     modalStripe.style.display = "block";
   }
 });
 
-// Fermeture de la fenêtre modale au clic en dehors de la fenêtre
+
 window.onclick = function(event) {
   if (event.target == modalStripe) {
     modalStripe.style.display = "none";
@@ -192,7 +192,6 @@ document.addEventListener("DOMContentLoaded", function () {
        downloadBtn.addEventListener("click", function (e) {
            e.preventDefault();
 
-           // Récupération de l'ID de la page
            var pageId = document
                .querySelector("[data-id]")
                .getAttribute("data-id");
@@ -208,7 +207,6 @@ document.addEventListener("DOMContentLoaded", function () {
            }
            // console.log(pageId);
 
-           // Vérifier si l'utilisateur a atteint sa limite quotidienne de téléchargements
            var downloadsToday = parseInt(getCookie("downloads_today")) || 0;
            if (downloadsToday >= 3) {
                alert("You have reached your daily download limit.");
@@ -220,7 +218,6 @@ document.addEventListener("DOMContentLoaded", function () {
                    var data = response.data;
                    var file = null;
 
-                   // Recherche de l'objet correspondant à l'ID de la page
                    for (var i = 0; i < data.length; i++) {
                        if (data[i].id == pageId) {
                            file = data[i].file;
@@ -240,7 +237,7 @@ document.addEventListener("DOMContentLoaded", function () {
                    axios
                        .get(file, { responseType: "blob" })
                        .then(function (response) {
-                           // Créer le cookie
+
                            var cookieName = "downloads_today";
                            var cookieValue = downloadsToday + 1;
                            document.cookie =
@@ -272,24 +269,23 @@ document.addEventListener("DOMContentLoaded", function () {
                                    _token: csrfToken,
                                })
                                .then((response) => {
-                                   console.log(response.data);
+                                //    console.log(response.data);
                                })
                                .catch((error) => {
                                    // console.error(error);
                                });
 
-                           // créer un lien de téléchargement avec le lien de fichier PDF
+
                            var link = document.createElement("a");
                            link.href = url;
                            link.download = nameNotice;
                            document.body.appendChild(link);
 
-                           // déclencher le téléchargement
                            link.click();
                            document.body.removeChild(link);
                        })
                        .catch(function (error) {
-                           console.log(error);
+                        //    console.log(error);
                        });
                });
        });
@@ -316,7 +312,6 @@ function searchManuals() {
                 let valeur = searchInput.value;
 
                 if (valeur === "") {
-                    // Si l'input est vide, masquer la liste
                     searchList.style.display = "none";
                     return;
                 }
@@ -326,17 +321,13 @@ function searchManuals() {
                         .toLowerCase()
                         .includes(valeur.toLowerCase());
                 });
-
-                // Effacez la liste précédente de suggestions
                 searchList.innerHTML = "";
 
-                // Ajouter des éléments li pour chaque suggestion trouvée
                 nameSuggest.slice(0, 25).forEach(function (manual) {
                     let item = document.createElement("li");
                     item.textContent = manual.name;
                     searchList.appendChild(item);
 
-                    // Ajouter un gestionnaire d'événements click pour mettre à jour la valeur de l'input
                     item.addEventListener("click", () => {
                         selectedManualId = manual.id;
                         searchInput.value = manual.name;
@@ -357,7 +348,7 @@ function searchManuals() {
                 }
             });
         })
-        .catch((error) => console.log(error));
+        // .catch((error) => console.log(error));
 }
 searchManuals();
 
