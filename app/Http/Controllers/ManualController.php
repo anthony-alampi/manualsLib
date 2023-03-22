@@ -41,21 +41,7 @@ class ManualController extends Controller
         return view('/manual')->with('document', $document);
 
     }
-
-
-    // public function index($id)
-    // {
-    //     // Récupère l'utilisateur spécifique avec sa colonne download_document_id
-    //     $user = User::findOrFail($id, ['id', 'downloaded_manuals']);
-
-    //     return view('manual.index', compact('user'));
-    // }
-
-
-
-
-
-
+    
     public function update(Request $request, $id)
     {
         $user = User::findOrFail($id);

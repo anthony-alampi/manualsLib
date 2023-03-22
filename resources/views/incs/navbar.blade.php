@@ -14,17 +14,17 @@
                 <div class="separate"></div>
                 <a href="{{route('manuals')}}">Manuals</a>
                 <div class="separate"></div>
-                <a href="{{route('features')}}">Features</a>
+                <a href="/features">Features</a>
                 <div class="separate"></div>
-                <a href="{{route('brands')}}">Brands</a>
+                <a href="/brands">Brands</a>
                 <div class="separate"></div>
-                <a href="{{route('pricing')}}">Pricing</a>
+                <a href="/pricing">Pricing</a>
                 <div class="separate"></div> 
-                <a href="{{route('api')}}">Api</a>
+                <a href="/api">Api</a>
                 <div class="separate"></div>
-                <a href="{{route('press')}}">Press</a>
+                <a href="/press">Press</a>
                 <div class="separate"></div>
-                <a href="{{route('about')}}">About</a>
+                <a href="/about">About</a>
                 <div class="separate"></div>
                 <div class="signs-btn">
                 @if (Auth::user())

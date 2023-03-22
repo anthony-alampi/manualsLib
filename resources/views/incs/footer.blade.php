@@ -5,30 +5,30 @@
             <h2>Manuals</h2>
             <a href="{{route('home')}}" class="link-item">Home</a>
             <a href="{{route('manuals')}}" class="link-item">Manuals</a>
-            <a href="{{route('brands')}}" class="link-item">Brands</a>
+            <a href="/brands" class="link-item">Brands</a>
             {{-- <a href="{{route('manual')}}" class="link-item">Manual-details</a> --}}
             {{-- <a href="{{route('brandDetails')}}" class="link-item">Brand-details</a> --}}
         </div>
         <div class="links-container">
             <h2>Our services</h2>
-            <a href="{{route('features')}}" class="link-item">Features</a>
-            <a href="{{route('pricing')}}" class="link-item">Pricing</a>
-            <a href="{{route('api')}}" class="link-item">Api</a>
-            <a href="{{route('subscription')}}" class="link-item">Subscription</a>
+            <a href="/features" class="link-item">Features</a>
+            <a href="/pricing" class="link-item">Pricing</a>
+            <a href="/api" class="link-item">Api</a>
+            <a href="/subscription" class="link-item">Subscription</a>
             <a href="{{route('cancellation')}}" class="link-item">Cancellation</a>
         </div>
         <div class="links-container">
             <h2>About Us</h2>
-            <a href="{{route('about')}}" class="link-item">About</a>
-            <a href="{{route('press')}}" class="link-item">Press</a>
-            <a href="{{route('cookies')}}" class="link-item">Cookies</a>
-            <a href="{{route('terms')}}" class="link-item">Terms</a>
-            <a href="{{route('privacy')}}" class="link-item">Privacy</a>
+            <a href="/about" class="link-item">About</a>
+            <a href="/press" class="link-item">Press</a>
+            <a href="/cookies" class="link-item">Cookies</a>
+            <a href="/terms" class="link-item">Terms</a>
+            <a href="/privacy" class="link-item">Privacy</a>
         </div>
         <div class="links-container">
             <h2>Contact Us</h2>
             <a href="{{route('contact')}}" class="link-item">Contact</a>
-            <a href="{{route('faq')}}" class="link-item">FAQ</a>
+            <a href="/faq" class="link-item">FAQ</a>
             <a href="{{route('carreers')}}" class="link-item">Carreers</a>
 
         </div>
