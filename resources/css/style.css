@@ -1005,9 +1005,16 @@
 }
 
 /*-------------------CSS Animation ----------------*/
+
 [class*="reveal-right"] {
     opacity: 0;
-    transform: translatex(100px); /**-**/
+    transform: translatex(100px);
+}
+@media (max-width: 500px) {
+    [class*="reveal-right"] {
+        opacity: 0;
+        transform: translatex(0px);
+    }
 }
 [class*="reveal-left"] {
     opacity: 0;

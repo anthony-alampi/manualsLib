@@ -29,8 +29,6 @@
             <h3>{{ trans('lang.STR_TITLE_HOMEPAGE_5') }}</h3>
             <img src="{{asset('assets/img/flock-1.svg')}}" class="flock-top" alt="flock" />
 
-
-
             <div class="devices-container">
                 <img src="{{asset('assets/img/triangle-effect-1.svg')}}" class="floating-triangle" alt="triangle" />
 
@@ -82,7 +80,7 @@
                 <img class="line-title-custom" src="{{ asset('assets/img/line-shape-2.svg') }}" alt="shape line">
                 <p class="text-in-block">{{trans('lang.STR_TEXT_3')}}</p>
             </div>
-            <div class="images">
+            <div class="images ">
                 <img src="{{asset('assets/img/active.svg')}}" alt="need assistance" class="image-in-block reveal-right">
                 <img src="{{asset('assets/img/orange-triangle.svg')}}" class="child-triangle"/>
                 <img src="{{asset('assets/img/carre.svg')}}" class="child-square1" />

@@ -7,7 +7,7 @@ const option = {
     rootMargin: "0px",
     threshold: ratio
 };
-/*-------------------------------RIGHT-------------------------------------*/
+/*-------------------------------REVEAL RIGHT-------------------------------------*/
 const handleIntersectRight = function (entries, observerRight) {
     entries.forEach(function (entry) {
         if (entry.intersectionRatio > ratio) {
@@ -16,6 +16,7 @@ const handleIntersectRight = function (entries, observerRight) {
         }
     });
 };
+
 const observerRight = new IntersectionObserver(handleIntersectRight, option);
 document.querySelectorAll('[class*="reveal-right"]').forEach(function (r) {
     observerRight.observe(r);
