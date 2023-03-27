@@ -1,4 +1,4 @@
-.api-ancre{
+/* .api-ancre{
     position: sticky;
     top: 200px;
     left: 16px;
@@ -26,7 +26,7 @@
     background: var(--secondary-color);
     margin-top: 15px;
     margin-bottom: 15px;
-}
+} */
 
 .api-container{
     margin: 0 150px 0 450px;
@@ -40,17 +40,17 @@
     margin-bottom: 100px;
 }
 .api-container .title-text-api h2{
-    font-family: 'Gilroy-black', sans-serif;
+    /* font-family: 'Gilroy-black', sans-serif;
     font-size: 28px;
-    color: #101621;
+    color: #101621; */
     margin-bottom: 20px;
 }
 .api-container .title-text-api p{
-    font-family: var(--font-text);
+    /* font-family: var(--font-text);
     font-size: var(--size-text);
     color: #2A2A2A;
     line-height: var(--line-text);
-    font-weight: var(--weight-text);
+    font-weight: var(--weight-text); */
 }
 /*---------- ROUTES API -----------------*/
 .routes-container{

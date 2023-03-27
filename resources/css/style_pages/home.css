@@ -7,7 +7,6 @@
     justify-content: center;
     align-items: center;
     column-gap: 100px;
-
 }
 
 .title-and-form{
@@ -23,21 +22,6 @@
     position: absolute;
     top: 150px;
     z-index: -1;
-}
-.title-and-form h1{
-    font-family: var(--home-font-h1) ;
-    font-size: clamp(25px, 5vw, 78px);
-    color: var(--home-color-h1);
-    font-weight: var(--home-weight-h1) ;
-    line-height: var(--home-line-h1);
-}
-.title-and-form h2{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-family: 'Roboto', sans-serif;
-    font-size: clamp(20px, 4vw, 30px);
-    color: #565657;
-    line-height: 1.5em;
 }
 
 .home-header .floating-illustration{
@@ -66,28 +50,7 @@
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
-@keyframes rotate {
-    0% {
-        transform: rotate(0deg);
-    }
 
-    100% {
-        transform: rotate(360deg);
-    }
-}
-@keyframes floating {
-    0% {
-        transform: translateY(0%);
-    }
-
-    50% {
-        transform: translateY(-20%);
-    }
-
-    100% {
-        transform: translateY(0%);
-    }
-}
 /* ---------------Brands animation---------------- */
 
 .slider {
@@ -135,15 +98,7 @@
     opacity: 0.4;
 }
 
-@keyframes scroll {
-    0% {
-        transform: translateX(0);
-    }
 
-    100% {
-        transform: translateX(calc(-200px * 7))
-    }
-}
 /*------------------Devices cards--------------------*/
 .homepage-subtitle {
     display: flex;
@@ -163,13 +118,7 @@
     width: 80%;
 
 }
-.homepage-subtitle .device-title-custom h2 {
-    font-family: 'gilroy-black',sans-serif ;
-    font-size: 50px ;
-    line-height : 1.15em;
-    color: #101621;
-    text-align: center;
-}
+
 .homepage-subtitle .device-title-custom {
     position: relative;
     width: 80%;
@@ -182,15 +131,6 @@
     right: 200px;
     top: 40px;
 
-}
-.homepage-subtitle h3 {
-    font-family: 'Rubik', sans-serif;
-    font-weight: var(--weight-h2);
-    font-size: var(--size-h2);
-    color: var(--color-h2);
-    margin-top: 30px;
-    margin-bottom: 30px;
-    text-align: center;
 }
 
 .devices-container{
@@ -225,11 +165,8 @@
     width: 70px;
 }
 
-.device h2{
+.device h4{
     padding-top: 20px;
-    font-size: 20px;
-    color: var(--color-h1);
-    font-family: 'gilroy-semibold',sans-serif;
     text-decoration: underline var(--primary-color);
     text-decoration-thickness: 3px;
     text-align: center;
@@ -260,15 +197,7 @@
     z-index: 1;
     animation: rotation 40s infinite;
 }
-@keyframes rotation {
-    from {
-        transform: rotate(0deg);
-    }
 
-    to {
-        transform: rotate(360deg);
-    }
-}
 
 
 /*-----CONTENT-BLOCK N 1---*/
@@ -334,19 +263,7 @@
     z-index: -1;
 }
 
-@keyframes float-item {
-    0% {
-        transform: translateY(0%);
-    }
 
-    50% {
-        transform: translateY(-100%);
-    }
-
-    100% {
-        transform: translateY(0%);
-    }
-}
 
 /*-----CONTENT-BLOCK N°2---*/
 .content-block2 .line-shape {
@@ -549,11 +466,8 @@
     padding: 25px;
 }
 .micro-slider .slider-item p {
-    font-family: var(--font-text);
-    font-size: var(--size-text);
-    color: var(--color-text);
+    font-size: 17px;
     font-weight: 600;
-    margin-top: 25px;
 }
 .micro-slider .slider-item .quote{
     width: 90px;

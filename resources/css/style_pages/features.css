@@ -73,19 +73,16 @@
     width: 300px;
 }
 
-.features-listing-container .item h2 {
-    font-family: 'gilroy-bold', sans-serif;
+.features-listing-container .item h4 {
+    /* font-family: 'gilroy-bold', sans-serif;
     font-size: 24px;
-    color: #101621;
+    color: #101621; */
     text-decoration-line: underline;
     text-decoration-color: #FFB840;
     text-decoration-thickness: 3px;
 }
 
 .features-listing-container .item p {
-    font-family: var(--font-text);
-    font-weight: var(--weight-text);
-    color: var(--color-text);
     font-size: 18px;
     margin-top: 10px;
 }

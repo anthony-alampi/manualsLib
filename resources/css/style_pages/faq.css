@@ -1,5 +1,7 @@
 .faq-header .line-shape {
     z-index: -1;
+    margin-top: -20px;
+    width: 40%;
 }
 .faq-header .circle-anim1 {
     position: absolute;

@@ -47,17 +47,10 @@
 }
 
 .content-sub-brand-block h2 {
-    font-family: 'Gilroy-black', sans-serif;
-    font-size: 42px;
-    font-weight: 600;
-    color: #101621;
     margin-bottom: 60px;
     margin-top: 150px;
 }
 .content-sub-brand-block p{
-    font-family: 'Rubik', sans-serif;
-    font-size: 18px;
-    line-height: 1.75em;
     width: 60%;
     margin: 0 auto 0;
     color: #73737B;
@@ -93,20 +86,10 @@
     padding: 70px 50px 70px;
 }
 
-.brand-text-block h2 {
-    font-family: 'gilroy-black',sans-serif;
-    font-size: clamp(22px, 5vw, 27px);
-}
-
 .brand-text-block p {
     margin-top: 30px;
     margin-bottom: 15%;
-    font-family: var(--font-text);
-    font-size: clamp(14px, 5vw, 16px);
-    color: var(--color-text);
-    line-height: var(--line-text);
-    font-weight: var(--weight-text);
-
+    font-size: 14px;
 }
 
 .brand-text-block a {
@@ -184,16 +167,12 @@
     animation: rotation 35s infinite;
 }
 
-/*---------------------*/
 /*--------------MOST DOWNLOADED MANUALS------------------*/
 .top-10-container{
     position: relative;
     margin-top: 100px;
 }
 .top-10-container h2{
-    font-family: 'gilroy-black', sans-serif;
-    font-size: 42px;
-    color: #2A2A2A;
     text-align: center;
 
 }
@@ -240,9 +219,4 @@
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
 }
-/* .download .text-block h3{
-    font-family: 'Roboto', sans-serif;
-    font-size: 13px;
-    color: var(--color-text);
-    font-weight: var(--weight-text);
-} */
+

@@ -1,10 +1,9 @@
 .manuals-header .content-block .line-custom{
-    position: absolute;
-    top: 150px;
-    left: 50%;
+    margin-left: 50%;
     transform: translateX(-50%); 
-    width: 35%;
+    width: 50%;
     z-index: -1;
+    margin-top: -25px;
 }
 
 .searchForm-manuals{
@@ -12,15 +11,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 90%;
 }
 .manuals-header .searchForm-manuals h2 {
-    font-family: 'Rubik', sans-serif;
-    font-size: 28px;
-    font-weight: 300;
-    line-height: 1.39em;
     text-align: center;
-    padding: 45px 0 45px 0;
 }
 .square-left{position: absolute; left: 5%;
     top: 100%; width: 45px; animation: rotation 25s infinite; z-index: -1; }
@@ -56,9 +50,6 @@
     position: relative;
 }
 .top-15-container h2{
-    font-family: 'gilroy-black', sans-serif;
-    font-size: 50px;
-    color: #2A2A2A;
     text-align: center;
 
 }
@@ -123,9 +114,6 @@
     position: relative;
 }
 .download-category h2{
-    font-family: 'gilroy-black', sans-serif;
-    font-size: 50px;
-    color: #2A2A2A;
     text-align: center;
 }
 

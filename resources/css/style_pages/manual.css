@@ -24,8 +24,6 @@
     position: relative;
 }
 .manual-header .left-block-manual h1{
-    font-family: 'gilroy-black', sans-serif ;
-    font-size: 70px;
     text-align: left;
     margin-bottom: 50px;
     z-index: 20;
@@ -75,10 +73,6 @@
 }
 
 /*----Preview btn -----*/
-/* .manual-header .right-block-manual img{
-    width: 300px;
-} */
-
  .btn-manual {
     text-decoration: none;
     padding: 20px 40px 20px 40px;
@@ -104,26 +98,52 @@
     width: 30px;
 
 }
+ #preview-iframe {
+     width: 90%;
+     height: 90%;
+     border: none;
+     align-self: center;
+ }
+ /*---------------- FRAME PREVIEW ---------------------------------*/
+ .frame-preview {
+     height: 500px;
+ }
+ .modal {
+     display: none;
+     position: fixed;
+     z-index: 1;
+     left: 0;
+     top: 0px;
+     width: 100%;
+     height: 100%;
+     background-color: rgba(0, 0, 0, 0.4);
+ }
 
+ .modal-contain {
+     background-color: #fefefe;
+     border-radius: 6px;
+     margin: 50px auto;
+     padding: 20px;
+     border: 1px solid #888;
+     width: 50%;
+     height: 850px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+ }
 /*---------------SEARCH FORM AND TITLES-------------------*/
-
-.container-newSearch{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    column-gap: 50px;
+.container-newSearch .title-block h2 {
+    text-align: center;
 }
 
-.container-newSearch .title-block h2{
-    font-family: 'gilroy-black', sans-serif;
-    font-size: 70px;
-    color: #2A2A2A;
-}
-.container-newSearch .searchForm-manual{
+
+.container-newSearch .searchForm-manual {
     width: 50%;
+    margin: 0 auto;
 }
-.container-newSearch .searchForm-manual h2{
+
+.container-newSearch .searchForm-manual h2 {
     margin-top: 20px;
     margin-bottom: 20px;
     font-family: 'Roboto', sans-serif;
@@ -132,7 +152,6 @@
     line-height: 1.5em;
     text-align: center;
 }
-
 /*---------------------------------------*/
 .picture-manual{
     margin-top: 50px;

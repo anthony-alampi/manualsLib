@@ -62,51 +62,210 @@
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background-color: #fff;
-    overflow-x: hidden ;
+    overflow-x: hidden;
 }
-/*--------------------------*/
- /**** preview doc ****/
- .modal {
-     display: none;
-     position: fixed;
-     z-index: 1;
-     left: 0;
-     top: 0px;
-     width: 100%;
-     height: 100%;
-     /* overflow: auto; */
-     background-color: rgba(0, 0, 0, 0.4);
- }
+/* TItles formalize */
+h1 {
+    font-family: 'Gilroy-black', sans-serif;
+    font-size: clamp(30px, 5vw, 78px);
+    line-height: 1.11em;
+    font-weight: 400;
+    color: #101621;
+}
 
- .modal-contain {
-     background-color: #fefefe;
-     border-radius: 6px;
-     margin: 50px auto;
-     padding: 20px;
-     border: 1px solid #888;
-     width: 50%;
-     height: 850px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     position: relative;
- }
+h2 {
+    /* title block - title FAQ */
+    font-family: 'Gilroy-black', sans-serif;
+    color: #202020;
+    font-size: clamp(22px, 5vw, 42px);
+    line-height: 1.35em;
+}
 
- #preview-iframe {
-     width: 90%;
-     height: 90%;
-     border: none;
-     align-self: center;
- }
+h3 {
+    /*title live search - subtitle device block*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: clamp(20px, 4vw, 35px);
+    color: #565657;
+    line-height: 1.5em;
+}
 
+h4 {
+    /* card device - list x3 features */
+    font-size: clamp(15px, 5vw, 22px);
+    color: #101621;
+    font-family: 'gilroy-bold', sans-serif;
+}
+
+/* Text formalize */
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: clamp(15px, 2vw, 22px);
+    color: #73737b;
+    line-height: 1.55em;
+}
+
+:root {
+    /* Global colors of website */
+    --primary-color: #F28C28;
+    --secondary-color: #FFB942;
+    --third-color: #333;
+    --footer-bg: #dddddd;
+
+    /* Links */
+    --size-links: 18px;
+    --weight-links: 600;
+    --color-links: #2B2C2E;
+    --color-hover-links: #6f55ff;
+    ;
+    --font-links: 'Rubik', sans-serif;
+
+    /* Button */
+    --color-btn: #FD6A5E;
+    --color-hover-btn: #FFB942;
+    --radius-btn: 50px;
+    --size-text-btn: 18px;
+    --weight-btn: 600;
+    --font-btn: 'gilroy-semibold', sans-serif;
+    --pointer-btn: pointer;
+    --color-text-btn: #fafafa;
+    --padding-btn: 15px;
+}
+/*---------------Custom properties -------------*/
+/* CUSTOM PROPERTIES FOR HEADER WITH TITLE AND SUBTITLE */
+.primary-header {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 225px 0 auto 0;
+}
+
+.title-in-header {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto 0;
+}
+
+.title-line {
+    width: 60%;
+    z-index: -1;
+}
+
+.text-in-header {
+    margin-top: 30px;
+    font-family: 'Rubik', sans-serif;
+    font-size: clamp(15px, 2vw, 22px);
+    line-height: 1.75em;
+    width: 70%;
+    text-align: center;
+    color: #73737B;
+}
+
+/* CUSTOM RESPONSIVE PROPERTIES FOR HEADER - TITLE - LINE CONTENT ALL PAGES */
+@media (max-width: 800px) {
+    .primary-header {
+        margin: 100px 0 0 0;
+    }
+
+    .title-in-header {
+        text-align: center;
+        width: 80%;
+        margin: 0 auto 0;
+        color: #101621;
+    }
+
+    .title-line {
+        width: 60%;
+        z-index: -1;
+    }
+
+    .text-in-header {
+        width: 70%;
+        text-align: center;
+        color: #73737B;
+    }
+}
+
+/*---- CUSTOM BLUE BACKGROUND BLOCK ----*/
+.blue-content-block {
+    /* ajouter à primary-container*/
+    background-image: url(/public/assets/img/bg.svg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    margin: 0 10% 0 10%;
+}
+
+.bg-text-padding {
+    /* ajouter à text-block-contain*/
+    padding: 42px 0 72px 0;
+}
+
+/* CUSTOM PROPERTIES FOR TEXT AND IMAGE BLOCK CONTENT ALL PAGES */
+.primary-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0 100px 0;
+    position: relative;
+    max-width: 1490px;
+    margin: 0 auto;
+
+}
+
+.text-block-contain {
+    position: relative;
+    width: 40%;
+}
+
+.title-in-block {
+    margin-bottom: 0px;
+}
+
+.primary-container .text-in-block {
+    width: 90%;
+}
+
+.image-in-block {
+    width: 400px;
+}
+
+/* CUSTOM RESPONSIVE PROPERTIES FOR TEXT AND IMAGE BLOCK CONTENT ALL PAGES */
+@media (max-width: 800px) {
+    .text-block-contain {
+        width: 100%;
+        text-align: center;
+        padding: 0 16px 0 16px;
+    }
+
+    .title-in-block {
+        font-size: 2rem;
+    }
+
+    .primary-container .text-in-block {
+        font-size: 1.3rem;
+        margin: 0 auto 0;
+    }
+
+    .image-in-block {
+        width: 300px;
+    }
+
+}
 
 /*------------------CUSTOM POSITION FOR PASSWORD RESET FORM (EMAIL)-----------------------*/
 .custom-position-password-form{
     margin: 150px auto 0;
 }
-/*---------------- HOMEPAGE CUSTOM LIVE SEARCH SUGGESTION---------------*/
+/*---------------- HOMEPAGE CUSTOM LIVE SEARCH SUGGEST---------------*/
 #searchList{
     list-style-type: none;
     position: absolute;
@@ -147,17 +306,13 @@ body{
     width: 55%;
 }
 
-/*---------------- FRAME PREVIEW ---------------------------------*/
-.frame-preview{
-    height: 500px;
-}
 /*--------------- Custom features notififications-------------------*/
 .success-paypal {
     width: 50%;
-        position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .success-password {
     width: 50%;
@@ -170,192 +325,6 @@ body{
 .error-register-password{
     position: absolute;
     left: 130px;
-}
-/*---------------Custom properties -------------*/
-/* CUSTOM PROPERTIES FOR HEADER WITH TITLE AND SUBTITLE */
-.primary-header {
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    margin: 225px 0 auto 0;
-}
-.title-in-header {
-    font-family: var(--home-font-h1);
-    font-size: 4.9rem;
-    line-height: var(--home-line-h1);
-    font-weight: var(--home-weight-h1);
-    color: var(--home-color-h1);
-    text-align: center;
-    width: 60%;
-    margin: 0 auto 0;
-    color: #101621;
-}
-.title-line {
-    width: 60%;
-    z-index: -1;
-}
-.text-in-header {
-    margin-top: 30px;
-    font-family: 'Rubik', sans-serif;
-    font-size: 22px;
-    line-height: 1.75em;
-    width: 70%;
-    text-align: center;
-    color: #73737B;
-}
-/* CUSTOM RESPONSIVE PROPERTIES FOR HEADER - TITLE - LINE CONTENT ALL PAGES */
-@media (max-width: 800px) {
-.primary-header {
-    margin: 100px 0 0 0;
-}
-.title-in-header {
-    font-family: var(--home-font-h1);
-    font-size: 2.6rem;
-    line-height: var(--home-line-h1);
-    font-weight: var(--home-weight-h1);
-    color: var(--home-color-h1);
-    text-align: center;
-    width: 80%;
-    margin: 0 auto 0;
-    color: #101621;
-}
-.title-line {
-    width: 60%;
-    z-index: -1;
-}
-
-.text-in-header{
-    margin-top: 30px;
-    font-family: 'Rubik', sans-serif;
-    font-size: 22px;
-    line-height: 1.75em;
-    width: 70%;
-    text-align: center;
-    color: #73737B;
-}
-}
-/*---- CUSTOM BLUE BACKGROUND BLOCK ----*/
-.blue-content-block{ /* ajouter à primary-container*/
-    background-image: url(/public/assets/img/bg.svg);
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-    margin: 0 10% 0 10%;
-}
-.bg-text-padding{ /* ajouter à text-block-contain*/
-    padding: 42px 0 72px 0;
-}
-
-/* CUSTOM PROPERTIES FOR TEXT AND IMAGE BLOCK CONTENT ALL PAGES */
-.primary-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    padding: 100px 0 100px 0;
-    position: relative;
-    max-width: 1490px;
-    margin: 0 auto;
-    
-}
-.text-block-contain{
-    position: relative;
-    width: 40%;
-}
-.title-in-block{
-    font-family: 'Gilroy-black', sans-serif;
-    color: #202020;
-    font-size: 42px;
-    line-height: 1.35em;
-    margin-bottom: 0px;
-}
-.primary-container .text-in-block{
-    font-family: var(--font-text);
-    font-weight: var(--weight-text);
-    font-size: 1.3rem;
-    color: #73737b;
-    line-height: 1.55em;
-    width: 90%;
-}
-.image-in-block{
-    width: 400px;
-}
-/* CUSTOM RESPONSIVE PROPERTIES FOR TEXT AND IMAGE BLOCK CONTENT ALL PAGES */
-@media (max-width: 800px) {
-    .text-block-contain {
-        width: 100%;
-        text-align: center;
-        padding: 0 16px 0 16px;
-    }
-    .title-in-block {
-        font-size: 2rem;
-    }
-    .primary-container .text-in-block {
-        font-size: 1.3rem;
-        margin: 0 auto 0;
-    }
-    .image-in-block {
-        width: 300px;
-    }
-
-}
-/*------------------------*/
-
-:root{
-    /* Global colors of website */
-    --primary-color: #F28C28;
-    --secondary-color: #FFB942;
-    --third-color : #333;
-    --footer-bg : #dddddd;
-
-    /*h1*/
-    --home-size-h1 : 42px;
-    --home-font-h1 : 'gilroy-black', sans-serif;
-    --home-line-h1 : 1.11em;
-    --home-weight-h1 : 400;
-    --home-color-h1 : #101621;
-    /*TEXT ALL WEBSITE*/
-    --font-text: 'Roboto', sans-serif;
-    --size-text: 20px;
-    --color-text: #73737b;
-    --line-text : 1.54em;
-    --weight-text: 600;
-
-    --size-h1 : 78px;
-    --color-h1 : #333;
-    --font-h1 : 'gilroy-black';
-
-    --size-h2 : 30px;
-    --weight-h2 : 500px;
-    --color-h2 : #222;
-    --font-h2 : 'Rubik',sans-serif;
-
-    --size-h3 : 25px;
-    --weight-h3 : 500px;
-    --color-h3 : #333;
-    --font-h3 : 'gilroy-bold';
-
-
-
-        /* Links */
-    --size-links: 18px;
-    --weight-links: 600;
-    --color-links: #2B2C2E;
-    --color-hover-links: #6f55ff;;
-    --font-links: 'Rubik', sans-serif;
-
-    /* Button */
-    --color-btn: #FD6A5E;
-    --color-hover-btn: #FFB942;
-    --radius-btn: 50px;
-    --size-text-btn: 18px;
-    --weight-btn: 600;
-    --font-btn: 'gilroy-semibold', sans-serif;
-    --pointer-btn: pointer;
-    --color-text-btn: #fafafa;
-    --padding-btn: 15px;
 }
 
 /*--------------------MODAL STRIPE ---------------------------*/

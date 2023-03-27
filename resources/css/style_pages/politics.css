@@ -13,9 +13,9 @@
 
 .api-ancre ul li a {
     text-decoration: none;
-    font-family: var(--font-h2);
+    font-family: 'Rubik',sans-serif;
     font-size: 20px;
-    color: var(--color-h1);
+    color: #101621;
     font-weight: 700;
     transition: .2s;
 }
@@ -45,16 +45,16 @@
 }
 
 .full-container .text-container h2 {
-    font-family: 'Gilroy-black', sans-serif;
+    /* font-family: 'Gilroy-black', sans-serif;
     font-size: 28px;
-    color: #101621;
+    color: #101621; */
     margin-bottom: 20px;
 }
 
 .full-container .text-container p {
-    font-family: var(--font-text);
+    /* font-family: var(--font-text);
     font-size: var(--size-text);
     color: #2A2A2A;
     line-height: var(--line-text);
-    font-weight: var(--weight-text);
+    font-weight: var(--weight-text); */
 }

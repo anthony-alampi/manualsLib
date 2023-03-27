@@ -20,17 +20,17 @@
             <article class="features-listing-container">
                 <div class="item reveal-left ">
                     <img src="{{ asset('assets/img/manual-icon.svg') }}" />
-                    <h2> {{ trans('lang.STR_TITLE_FEATURES_2') }} </h2>
+                    <h4> {{ trans('lang.STR_TITLE_FEATURES_2') }} </h4>
                     <p> {{trans('lang.STR_TEXT_FEATURES_2')}} </p>
                 </div>
                 <div class="item reveal-bottom">
                     <img src="{{ asset('assets/img/translation.svg') }}" alt="">
-                    <h2> {{ trans('lang.STR_TITLE_FEATURES_3') }} </h2>
+                    <h4> {{ trans('lang.STR_TITLE_FEATURES_3') }} </h4>
                     <p> {{trans('lang.STR_TEXT_FEATURES_3')}} </p>
                 </div>
                 <div class="item reveal-right">
                     <img src="{{ asset('assets/img/operator.svg') }}" alt="">
-                    <h2> {{ trans('lang.STR_TITLE_FEATURES_4') }} </h2>
+                    <h4> {{ trans('lang.STR_TITLE_FEATURES_4') }} </h4>
                     <p> {{trans('lang.STR_TEXT_FEATURES_4')}} </p>
                 </div>
             <article class="features-container5 primary-container ">

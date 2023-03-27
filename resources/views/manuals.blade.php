@@ -7,7 +7,7 @@
         <img src="{{asset('assets/img/line-shape-3.svg')}}" class='line-custom'/>
     </div>
     <div class="searchForm-manuals">
-        <h2>{{ trans('lang.STR_TITLE_MANUALS_2') }}</h2>
+        <h3>{{ trans('lang.STR_TITLE_MANUALS_2') }}</h3>
         @include('incs.formManualsCustom')
     </div>
 

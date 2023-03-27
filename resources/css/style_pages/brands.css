@@ -49,10 +49,6 @@
 }
 .brands-custom-bg .content-sub-block h2{
     text-align: center;
-    font-family: 'Gilroy-black', sans-serif;
-    font-size: 42px;
-    font-weight: 600;
-    color: #101621;
     margin-bottom: 100px;
 }
 .content-sub-block .line-shape{
@@ -92,10 +88,10 @@
     filter: grayscale(100%);
 }
 .brands-logo-container .brand-item h3{
-    font-family: var(--home-font-h1);
-    font-size: 28px;
+    font-family: 'gilroy-bold',sans-serif;
+    font-size: clamp(20px, 5vw, 28px);
     color: #2A2A2A;
-    font-weight: 800;
+    /* font-weight: 800; */
     padding: 30px 0px;
     text-align: center;
 

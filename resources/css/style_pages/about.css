@@ -7,7 +7,7 @@
 .about-header .line-shape{
     position: absolute;
     width: 30%;
-    top: 45px;
+    top: 30px;
     left: 50%;
     transform: translate(-50%);
     z-index: -1;
@@ -263,9 +263,7 @@
 }
 
 .our-team .text-block h2 {
-    font-family: 'gilroy-black', sans-serif;
-    font-size: 60px;
-    color: #101621;
+    font-size: clamp(25px, 5vw, 60px);
 }
 .our-team .text-block .line-shape{
     position: absolute;
@@ -276,11 +274,6 @@
     z-index: -1;
 }
 .our-team .text-block p {
-    font-family: var(--font-text);
-        font-size: var(--size-text);
-        color: var(--color-text);
-        line-height: var(--line-text);
-        font-weight: var(--weight-text);
         margin-top: 20px;
 }
 .team-custom-line{
@@ -304,12 +297,7 @@
 }
 .our-team .members-block .member:hover{
     transform: translateY(-10px);
-    
 }
 .our-team .members-block .member h3{
     margin-top: 20px;
-    font-family: 'Roboto', sans-serif;
-    color: #101621;
-    font-size: 24px;
-
 }

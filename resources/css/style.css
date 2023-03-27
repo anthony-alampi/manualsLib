@@ -1,6 +1,6 @@
 @import '_settings.css';
 
-/*--------------------Form responsive--------------*/
+/*--------------------Form responsive-------------------------*/
 @media (max-width: 1055px) {
 .contactCarreers-form-container{
     padding: 0 10px 0 10px;
@@ -33,42 +33,35 @@
 /*----------------------Homepage Responsive----------------------*/
 @media (max-width: 1675px) {
     .home-header {
-            margin-top: 90px;
-            margin-bottom: 0px;
-            height: 100vh;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-            column-gap: 100px;
-    
-        }
-        .header-title-custom .shape-header{
-            width: 80%;
-            top: 55%;
-}
-.title-and-form{
+        margin-top: 90px;
+        margin-bottom: 0px;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 100px;
+    }
+    .header-title-custom .shape-header{
+        width: 80%;
+        top: 55%;
+    }
+    .title-and-form{
     width: 40%;
+    }
 }
-}
+
 @media (max-width: 1170px){
     .title-and-form{
         width: 50%;
     }
-   .title-and-form h1 {
-    font-family: var(--font-h1);
-    color: var(--color-h1);
-    font-weight: var(--weight-h1);
-    }
+
     .header-title-custom .shape-header{
     width: 80%;
     top: 30%;
 }
     .home-header .floating-illustration .illustration {
         width: 500px;
-    }
-    .homepage-subtitle h2 {
-        font-size: 35px;
     }
 
     .device-title-custom .shape-header {
@@ -92,10 +85,6 @@
     .device img {
         width: 50px;
     }
-    .device h2 {
-        padding-top: 20px;
-        font-size: 22px;
-    }
     .devices-container .rotate-circle {
         right: 6%;
     }
@@ -114,17 +103,10 @@
         width: 50%;
     }
 
-    .title-and-form h1 {
-        font-size: 50px;
-    }
-
     .home-header .floating-illustration .illustration {
         width: 400px;
     }
 
-    .homepage-subtitle h2 {
-        font-size: 35px;
-    }
     .floating-illustration .float-message1 {
         width: 50px;
         bottom: 10%;
@@ -170,11 +152,6 @@
 
     .device img {
         width: 50px;
-    }
-
-    .device h2 {
-        padding-top: 20px;
-        font-size: 22px;
     }
 
     .devices-container .rotate-circle {
@@ -232,9 +209,6 @@
         width: 100%;
     }
 
-    .title-and-form h1 {
-        font-size: 40px;
-    }
     .header-title-custom {
     text-align: center;
     }
@@ -243,16 +217,11 @@
     top: 40%;
     left: 10%;
     }
-    .floating-illustration{
-    /* display: none; */
-    }
+
 /*----------Devices------*/
     .homepage-subtitle {
         margin: 0;
         margin-top: 100px;
-    }
-    .homepage-subtitle .device-title-custom h2 {
-        font-size: 30px;
     }
 
     .homepage-subtitle .device-title-custom {
@@ -268,11 +237,6 @@
 
     .device img {
         width: 50px;
-    }
-
-    .device h2 {
-        padding-top: 20px;
-        font-size: 22px;
     }
 
     .devices-container .rotate-circle {
@@ -375,14 +339,7 @@
 .homepage-subtitle {
     margin: 0 0px 0 0px;
 }
-.homepage-subtitle .device-title-custom h2 {
-    font-family: 'gilroy-black';
-    font-size: 25px;
-    line-height: 1.15em;
-    color: #101621;
-    text-align: center;
-    padding-top: 50px;
-}
+
     .header-title-custom .shape-header{
     top: 30%;
 }
@@ -391,10 +348,7 @@
         width: 100%;
         text-align: center;
     }
-.homepage-subtitle h3{
-    text-align: center;
-    font-size: 22px;
-}
+
 .home-header .floating-illustration{
     position: relative;
 
@@ -420,8 +374,8 @@
 
    }
 }
-/*----------------------Features Responsive--------------*/
 
+/*----------------------Features Responsive--------------*/
 @media (max-width: 1024px){
 
 /*------------FEATURES LISTING X3-----------*/
@@ -430,27 +384,14 @@
 }
 
 .features-listing-container .item {
-    margin: 10px;
     width: 230px;
 }
 
-.features-listing-container .item p {
-    font-size: 16px;
-}
-
 .features-listing-container .item img {
-    width: 45px;
+    width: 40px;
     padding-bottom: 10px;
 }
 
-
-}
-@media (max-width: 768px) {
-    /*------------FEATURES LISTING X3-----------*/
-    .features-listing-container .item {
-        width: 50%;
-        text-align: center;
-    }
 }
 
 /*----------------FAQ RESPONSIVE-------------------*/
@@ -484,17 +425,21 @@
 }
 
 /*----------------ABOUT RESPONSIVE-------------------*/
+@media (max-width: 1100px) {
+    .about-header .line-shape{
+        top: 10px;
+    }
+}
 @media (max-width: 768px) {
-
-/*--*/
 .our-mission{
     text-align: center;
 }
 .our-mission .text-block {
     width: 100%;
 }
-/*----*/
-
+.our-team .text-block .line-shape {
+    top: 30px;
+}
 }
 
 /*----------------API RESPONSIVE-----------------*/
@@ -564,7 +509,7 @@
     font-size: 13px;
 }
 }
-/*------------POLITICS RESPONSIVE*******/
+/*------------POLITICS RESPONSIVE-----------*/
 @media (max-width: 1225px) {
 .api-ancre{
     left: 10px;
@@ -628,11 +573,6 @@
     margin-top:0px;
 }
 .pricing-header .content-block h2 {
-    font-family: var(--home-font-h1);
-    font-size: 45px;
-    line-height: var(--home-line-h1);
-    font-weight: var(--home-weight-h1);
-    color: var(--home-color-h1);
     text-align: center;
     padding-top: 0px;
 }
@@ -662,14 +602,8 @@
         width: 90%;
         padding-top: 225px;
     }
-.pricing-header .content-block h1 {
-        font-size: 50px;
-    }
 .pricing-header .line-shape {
-    top: 265px;
-}
-.pricing-header .content-block h2 {
-    font-size: 32px;
+    top: 255px;
 }
 }
 
@@ -731,7 +665,6 @@
     .pricing-containers .pricing-section1 img{
     width: 250px;
 }
-
 }
 
 /*---------CONTACT RESPONSIVE-------------------*/
@@ -752,7 +685,7 @@
     padding: 25px;
     cursor: pointer;
 }
-.carreers-block p {
+/* .carreers-block p {
     font-size: 18px;
 }
 .content-carreers h2 {
@@ -762,7 +695,7 @@
     color: #101621;
     margin: 50px auto 50px;
     width: 70%;
-}
+} */
 }
 @media (max-width: 768px ){
     .carreers-header .line-shape {
@@ -777,10 +710,6 @@
 }
     .custom-bg-cancellation .text-block {
         width: 80%;
-    }
-
-    .fullContain .text-block h2 {
-        font-size: 30px;
     }
 
     .carreers-block {
@@ -798,25 +727,12 @@
 }
 
 /*-------------PRESS RESPONSIVE --------------*/
-
-@media (max-width: 768px) {
-.article h3 {
-       font-size: 20px;
-    }
-
-}
 @media (max-width: 500px) {
-.article h3 {
-        font-size: 15px;
-    }
 .press-header .line-shape {
     display: none;
 }
 
 }
-
-/*-------------BRANDS RESPONSIVE-----------*/
-
 
 /*------------------------- MANUALS RESPONSIVE-----------------------------------*/
 
@@ -849,9 +765,6 @@
     margin-bottom: 100px;
 }
 
-.manual-header .left-block-manual h1{
-    font-size: 50px;
-}
 .manual-header .left-block-manual .shape-header{
     width: 90%;
     top: 50px;
@@ -871,15 +784,6 @@
     width: 200px;
 }
 
-.container-newSearch .title-block h2{
-    font-family: 'gilroy-black', sans-serif;
-    font-size: 50px;
-    color: #2A2A2A;
-    text-align: center;
-}
-.container-newSearch .searchForm-manual{
-    width: 70%;
-}
 }
 
 @media (max-width: 768px){
@@ -887,19 +791,16 @@
     width: 100%;
     height: auto;
     padding-top: 100px;
-    background-color: #f7faff;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    column-gap: 30px;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 100px;
-}
-.manual-header .left-block-manual h1{
-    font-size: 40px;
+    background: transparent;
 }
 .manual-header .left-block-manual .shape-header{
     width: 90%;
-    top: 40px;
+    top: 20px;
+    z-index: -1;
 }
 
 @media (max-width: 500px){
@@ -910,14 +811,9 @@
     width: 100%;
     position: relative;
 }
-.manual-header .left-block-manual h1{
-    font-size: 40px;
-    text-align: center;
-}
+
 .manual-header .left-block-manual .shape-header{
-    width: 70%;
-    top: 40px;
-    left: 50px;
+    display: none;
 }
 .manual-header .shape1 {
     display: none;
@@ -936,7 +832,10 @@
     margin-left: 50%;
 }
 }
-
+.separate-image {
+    width: 200px;
+    margin-bottom: 50px;
+}
 }
 
 /*-----------------BRAND DETAILS-----------------------*/
@@ -1010,16 +909,19 @@
     opacity: 0;
     transform: translatex(100px);
 }
+
 @media (max-width: 500px) {
     [class*="reveal-right"] {
         opacity: 0;
         transform: translatex(0px);
     }
 }
+
 [class*="reveal-left"] {
     opacity: 0;
     transform: translatex(-100px);
 }
+
 [class*="reveal-bottom"] {
     opacity: 0;
     transform: translateY(100px);
@@ -1030,8 +932,67 @@
     transform: translateX(0);
     transition: 1s cubic-bezier(.74, 0, 0, 1);
 }
+
 .reveal-visible-forBottom {
     opacity: 1;
     transform: translateY(0);
     transition: 1s cubic-bezier(.74, 0, 0, 1);
+}
+
+@keyframes float-item {
+    0% {
+        transform: translateY(0%);
+    }
+
+    50% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-200px * 7))
+    }
+}
+
+@keyframes floating {
+    0% {
+        transform: translateY(0%);
+    }
+
+    50% {
+        transform: translateY(-20%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }

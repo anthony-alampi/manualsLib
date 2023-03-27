@@ -14,28 +14,28 @@
 }
 
 .pricing-header .content-block h1{
-    font-family: var(--home-font-h1);
+    /* font-family: var(--home-font-h1);
     font-size: 4.9rem;
     font-weight: var(--home-weight-h1);
-    color: var(--home-color-h1);
+    color: var(--home-color-h1); */
     text-align: center;
 }
 
 .pricing-header .line-shape {
     position: absolute;
     width: 70%;
-    top: 300px;
+    top: 280px;
     left: 50%;
     transform: translate(-50%);
 }
 .pricing-header .content-block .pricing-subtitle{
-    font-family: "Rubik", sans-serif;
+    /* font-family: "Rubik", sans-serif;
     font-size: 35px;
     line-height: var(--home-line-h1);
     font-weight: 500;
-    color: var(--home-color-h1);
+    color: var(--home-color-h1); */
     text-align: center;
-    padding-top: 50px;
+    /* padding-top: 50px; */
 }
 
 .switch-pricing .custom-btn{
@@ -280,18 +280,9 @@
     width: 70%;
 }
 .pricing-containers .pricing-section1 h2{
-    font-family: 'Gilroy-black', sans-serif;
-    color: #202020;
-    font-size: 42px;
-    line-height: 1.35em;
     margin-bottom: 20px;
 }
 .pricing-containers .pricing-section1 p{
-    font-family: var(--font-text);
-    font-size: var(--size-text);
-    color: var(--color-text);
-    line-height: var(--line-text);
-    font-weight: var(--weight-text);
     width: 70%;
     margin: 0 auto 20px;
 }

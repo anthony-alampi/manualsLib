@@ -8,7 +8,7 @@
             <h1>{{ trans('lang.STR_TITLE_HOMEPAGE_1') }}</h1>
             <img src="{{asset('assets/img/line-shape-1.svg')}}" class="shape-header" alt="home picture">
         </div>
-        <h2>{{ trans('lang.STR_TITLE_HOMEPAGE_2') }}</h2>
+        <h3>{{ trans('lang.STR_TITLE_HOMEPAGE_2') }}</h3>
         @include('incs.formManuals')
     </div>
     
@@ -34,36 +34,36 @@
 
                 <div class="device">
                     <img src="{{asset('assets/img/electric-appliance.svg')}}" alt="appliance">
-                    <h2>{{ trans('lang.STR_TITLE_DEVICE_1') }}</h2>
+                    <h4>{{ trans('lang.STR_TITLE_DEVICE_1') }}</h4>
                 </div>
                 <div class="device">
                     <img src="{{asset('assets/img/amplifier.svg')}}" alt="amplifier">
-                    <h2>{{ trans('lang.STR_TITLE_DEVICE_2') }}</h2>
+                    <h4>{{ trans('lang.STR_TITLE_DEVICE_2') }}</h4>
                 </div>
                 <div class="device">
                     <img src="{{asset('assets/img/ipad.svg')}}" alt="ipad">
-                    <h2>{{ trans('lang.STR_TITLE_DEVICE_3') }}</h2>
+                    <h4>{{ trans('lang.STR_TITLE_DEVICE_3') }}</h4>
                 </div>
                 <div class="device">
                     <img src="{{asset('assets/img/computer.svg')}}" alt="computer">
-                    <h2>{{ trans('lang.STR_TITLE_DEVICE_4') }}</h2>
+                    <h4>{{ trans('lang.STR_TITLE_DEVICE_4') }}</h4>
                 </div>
 
                 <div class="device">
                     <img src="{{asset('assets/img/watch-tv.svg')}}" alt="tv">
-                    <h2>{{ trans('lang.STR_TITLE_DEVICE_5') }}</h2>
+                    <h4>{{ trans('lang.STR_TITLE_DEVICE_5') }}</h4>
                 </div>
                 <div class="device">
                     <img src="{{asset('assets/img/remote-control.svg')}}" alt="remote">
-                    <h2>{{ trans('lang.STR_TITLE_DEVICE_6') }}</h2>
+                    <h4>{{ trans('lang.STR_TITLE_DEVICE_6') }}</h4>
                 </div>
                 <div class="device">
                     <img src="{{asset('assets/img/wifi.svg')}}" alt="wifi">
-                    <h2>{{ trans('lang.STR_TITLE_DEVICE_7') }}</h2>
+                    <h4>{{ trans('lang.STR_TITLE_DEVICE_7') }}</h4>
                 </div>
                 <div class="device">
                     <img src="{{asset('assets/img/casque-audio.svg')}}" alt="audio">
-                    <h2>{{ trans('lang.STR_TITLE_DEVICE_8') }}</h2>
+                    <h4>{{ trans('lang.STR_TITLE_DEVICE_8') }}</h4>
                 </div> 
                 <img src="{{asset('assets/img/circle-effect-1.svg')}}" class="rotate-circle" alt="circle"/>
         </div>

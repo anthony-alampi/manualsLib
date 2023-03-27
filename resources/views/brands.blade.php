@@ -18,6 +18,7 @@
             <h2>{{trans('lang.STR_TITLE_BRANDS_2')}}</h2>
             <img src="{{asset('assets/img/line-shape-11.svg')}}" class="line-shape" alt="">
             </div>
+            
             <div class="brands-logo-container">
                 <div class="brand-item reveal-left">
                     <h3>{{trans('lang.STR_TITLE_BRAND_ITEM_1')}}</h3>
