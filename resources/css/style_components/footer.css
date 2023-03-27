@@ -43,7 +43,7 @@ footer .link-footer-container .links-container h2{
     width: 60px;
 }
 .copyright{
-    font-family: var(--font-text);
+    font-family: 'roboto',sans-serif;
 }
 .copyright a{
     text-decoration: none;
