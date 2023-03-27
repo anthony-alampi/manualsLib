@@ -89,7 +89,7 @@ h3 {
     margin-top: 20px;
     margin-bottom: 20px;
     font-family: 'Roboto', sans-serif;
-    font-size: clamp(20px, 4vw, 35px);
+    font-size: clamp(20px, 4vw, 30px);
     color: #565657;
     line-height: 1.5em;
 }
