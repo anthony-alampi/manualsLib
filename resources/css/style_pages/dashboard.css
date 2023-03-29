@@ -41,13 +41,14 @@
         border-radius: 10px;
         box-shadow: 0 20px 60px rgb(10 30 81 / 8%);
         margin-top: 20px;
-        padding: 30px 20px;
+        padding: 10px 20px;
         display: flex;
         align-items: center;
-        font-family: 'Rubik',sans-serif;
-        font-size: 15px;
-        letter-spacing: 2px;
         column-gap: 20px;
+}
+.container-manuals .manual h3{
+    font-family: 'Rubik',sans-serif;
+    font-size: 15px;
 }
 .manual img{
     width: 60px;

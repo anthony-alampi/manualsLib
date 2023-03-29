@@ -22,7 +22,6 @@ nav.scrolled {
 }
 
 .nav-icon {
-    /* margin-right: auto; */
     text-decoration: none;
 }
 
@@ -38,13 +37,11 @@ nav.scrolled {
     align-items: center;
     column-gap: 50px;
     height: 0px;
-    /* padding: 0 150px 0 150px; */
 }
 .navlinks-container .separate{
     display: none;
 }
 .navlinks-container a {
-    /* margin: 0 50px 0 0; */
     font-size: var(--size-links);
     font-weight: var(--weight-links);
     text-decoration: none;
@@ -80,7 +77,6 @@ nav.scrolled {
     text-decoration: none;
     color: #414141;
     display: inline-block;
-    /* margin-right: 20px; */
 }
 
 /*---------------MODAL SING IN / SIGN UP------------------*/
@@ -426,7 +422,6 @@ nav.scrolled {
         top: 80%;
         left: 0;
         height: 100vh;
-        /* width: 300px; */
         padding: 0 50px 0 20px;
         transform: translate(-100%);
     }
@@ -464,8 +459,6 @@ nav.scrolled {
         font-size: 20px;
     }
 }
-
-
 
 /*----------------------------------RESPONSIVE MODAL------------------------------------*/
 @media (max-width: 670px) {
