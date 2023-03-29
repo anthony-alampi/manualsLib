@@ -271,6 +271,10 @@ nav.scrolled {
     animation: fade 0.5s forwards;
     z-index: 999;
 }
+.startContenu h2{
+    font-size: 18px;
+    letter-spacing: 2px;
+}
 
 @keyframes fade {
     from {
