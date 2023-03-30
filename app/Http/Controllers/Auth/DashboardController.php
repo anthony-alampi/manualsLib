@@ -47,10 +47,11 @@ class DashboardController extends Controller
                 $common_names[] = $dataSelect['name'];
             }
         }
-        // dd($common_names);
+        $nbrDl = count($common_names);
         return view('auth.dashboard', [
             'user' => $user,
             'common_names' => $common_names,
+            'nbrDl' => $nbrDl,
         ]);
     }
 }

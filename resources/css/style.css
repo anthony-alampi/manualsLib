@@ -902,7 +902,37 @@
         border-radius: 10px;
     }
 }
+/*-------------------Affiliate Dashboard--------------------*/
+@media (max-width: 750px) {
+    /*Affiliate-link & Paypal address*/
+.affiliate-link{
+    margin-left: 40px;
 
+}
+.affiliate-container .affiliate-link label {
+    display: block;
+}
+
+.affiliate-container .update-paypal label {
+    display: block;
+}
+.update-paypal{
+    margin-left: 40px;
+}
+}
+@media (max-width: 1400px) {
+    /*---Affiliate input*/
+.custom-position-container .monthly-label {
+        position:inherit;
+        left: auto;
+    }
+
+    .custom-position-container .monthly-revenue {
+        position: inherit;
+        top: auto;
+        left: 0;
+    }
+}
 /*-------------------CSS Animation ----------------*/
 
 [class*="reveal-right"] {

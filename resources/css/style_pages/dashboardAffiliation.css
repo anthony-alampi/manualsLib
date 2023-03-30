@@ -12,11 +12,11 @@
     font-family: 'Gilroy-black', sans-serif;
     letter-spacing: 0.5px;
     font-size: 18px;
-
 }
 .update-link-container .affiliate-container{
     /* display: flex; */
     /* flex-direction: column; */
+    /* text-align: center; */
 }
 .affiliate-container .affiliate-link label{
     padding-right: 30px;
@@ -102,13 +102,32 @@
 
 
 /*-----------------AFFILIATE PER PLAN-------------------*/
-.affiliate-plan-container{
+.affiliate-global-container{
     margin: 100px auto 0;
-    width: 70%;
+    width: 90%;
     box-shadow: 0px 0px 15px -3px #33333349;
     background: #fff;
     padding: 20px;
     font-family: "Rubik",sans-serif;
+}
+.affiliate-global-container h2 {
+    margin: 0 0 50px 40px;
+    padding-top: 10px;
+    font-family: 'Gilroy-black', sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+}
+.custom-position-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
+.affiliate-plan-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
  #affiliates-plan{
@@ -120,12 +139,21 @@
     font-family: 'rubik', sans-serif;
     font-weight: 400;
     letter-spacing: 1.2px;
-    width: 60%;
+    width: 80%;
     background: #dddddd73;
+}
+.custom-position-container .monthly-label{
+    position: absolute;
+    left: 0;
+}
+.custom-position-container .monthly-revenue{
+    position: absolute;
+    top:65px;
+    left: 0;
 }
  #affiliates-plan:focus{
     outline: none;
  }
  .affiliate-label{
-    padding-right: 57px;
+    /* padding-right: 57px; */
  }

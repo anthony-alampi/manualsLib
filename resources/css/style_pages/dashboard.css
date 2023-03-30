@@ -1,5 +1,5 @@
 .history-subscription-container{
-    margin-top: 220px;
+    margin-top: 150px;
 }
 .history-subscription-container h2{
         text-align: center;
@@ -22,7 +22,6 @@
     text-align: center;
     font-family: 'Rubik', sans-serif;
     font-size: clamp(20px, 8vw, 42px);
-    margin-bottom: 50px;
 }
 .container-manuals{
     display: flex;
@@ -57,4 +56,36 @@
 .live-search-manuals{
     display: flex;
     justify-content: center;
+}
+
+
+/*-------------------------------*/
+.global-progress-container{
+    text-align: center;
+}
+.progress-container {
+    display: inline-block;
+}
+
+.circle-back,
+.circle-front {
+    fill: none;
+    stroke-width: 15;
+}
+
+.circle-back {
+    stroke: rgb(187, 158, 140);
+}
+
+.circle-front {
+    stroke: rgb(255, 155, 92);
+    stroke-dasharray: 0 314;
+    transition: stroke-dasharray 1s;
+}
+
+.progress-text {
+    font-family: 'gilroy-semibold',sans-serif;
+    font-size: 30px;
+    text-anchor: middle;
+    fill: rgb(238, 142, 82);
 }

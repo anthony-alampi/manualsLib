@@ -3,12 +3,46 @@
 
 return 
     [
+    //---------------------------------------------------------- incs -> Navigate Links--------------------------------------------------------------------------------//
+    'STR_TITLE_FOOTER_1'            => 'Manuals',
+    'STR_TITLE_FOOTER_2'            => 'Our services',
+    'STR_TITLE_FOOTER_3'            => 'About Us',
+    'STR_TITLE_FOOTER_4'            => 'Contact Us',
+    
+        'STR_LINK_NAV_1'            => 'Home',
+        'STR_LINK_NAV_2'            => 'Manuals',
+        'STR_LINK_NAV_3'            => 'Brands',
+        'STR_LINK_NAV_4'            => 'Features',
+        'STR_LINK_NAV_5'            => 'Pricing',
+        'STR_LINK_NAV_6'            => 'Api',
+        'STR_LINK_NAV_7'            => 'Subscription',
+        'STR_LINK_NAV_8'            => 'Cancellation',
+        'STR_LINK_NAV_9'            => 'About',
+        'STR_LINK_NAV_10'           => 'Press',
+        'STR_LINK_NAV_11'           => 'Cookies',
+        'STR_LINK_NAV_12'           => 'Terms',
+        'STR_LINK_NAV_13'           => 'Privacy',
+        'STR_LINK_NAV_14'           => 'Contact',
+        'STR_LINK_NAV_15'           => 'FAQ',
+        'STR_LINK_NAV_16'           => 'Carreers',
+        'STR_LINK_NAV_MY_ACCOUNT'   => 'My Account',
+        'STR_LINK_NAV_17'           => 'Dashboard',
+        'STR_LINK_NAV_18'           => 'Account',
+        'STR_LINK_NAV_19'           => 'Affiliation',
+        'STR_LINK_NAV_20'           => 'Disconnect',
     //---------------------------------------------------------- DAHSBOARD ---------------------------------------------------------------------------------//
     'STR_TITLE_DASHBOARD_1' => 'Downloaded manuals history',
     'STR_TITLE_DASHBOARD_2' => 'Your subscription billing',
     
     //---------------------------------------------------------- DAHSBOARD-ACCOUNT -------------------------------------------------------------------------//
     'STR_TITLRE_DASHBOARD_ACCOUNT_1' => 'End your Subscription',
+    //---------------------------------------------------------- DAHSBOARD-AFFILIAITON ---------------------------------------------------------------------//
+    'STR_TITLE_DASHBOARD_AFFILIATION_1' => 'Affiliation Settings',
+        'STR_LABEL_1' => 'Your affiliate link',
+        'STR_LABEL_2' => 'Your paypal address',
+    'STR_TITLE_DASHBOARD_AFFILIATION_2' => 'Analytics',
+        'STR_LABEL_3' => 'Monthly revenue',
+        'STR_LABEL_4' => 'Affiliates',
 
     //----------------------------------------------------------PAGE TITLES--------------------------------------------------------------------------------//
         

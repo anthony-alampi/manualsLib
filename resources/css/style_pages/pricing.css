@@ -181,7 +181,8 @@
 .pricing-container1 .manuals{
     font-family: 'Rubik', sans-serif;
     font-size: 17px;
-    color: #101621;
+    color: rgba(0, 0, 0, .7);
+    font-weight: 500;
 }
 /*----------Pricing container2----------*/
 .pricing-container2 {
@@ -224,7 +225,8 @@
 .pricing-container2 .manuals {
     font-family: 'Rubik', sans-serif;
     font-size: 17px;
-    color: #101621;
+    color: rgba(0, 0, 0, .7);
+    font-weight: 500;
 }
 /*----------Pricing container3----------*/
 .pricing-container3 {
@@ -263,7 +265,8 @@
 .pricing-container3 .manuals {
     font-family: 'Rubik', sans-serif;
     font-size: 17px;
-    color: #101621;
+    color: rgba(0, 0, 0, .7);
+    font-weight: 500;
 }
 
 

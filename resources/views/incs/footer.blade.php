@@ -2,34 +2,34 @@
     <div class="link-footer-container reveal-left">
         <a href={{route('home')}}><img src="{{asset('assets/img/logo 3 Vector file.svg')}}" alt="Icon manualsLib"></a>
         <div class="links-container">
-            <h2>Manuals</h2>
-            <a href="{{route('home')}}" class="link-item">Home</a>
-            <a href="{{route('manuals')}}" class="link-item">Manuals</a>
-            <a href="/brands" class="link-item">Brands</a>
+            <h2>{{trans('lang.STR_TITLE_FOOTER_1')}}</h2>
+            <a href="{{route('home')}}" class="link-item">{{trans('lang.STR_LINK_NAV_1')}}</a>
+            <a href="{{route('manuals')}}" class="link-item">{{trans('lang.STR_LINK_NAV_2')}}</a>
+            <a href="/brands" class="link-item">{{trans('lang.STR_LINK_NAV_3')}}</a>
             {{-- <a href="{{route('manual')}}" class="link-item">Manual-details</a> --}}
             {{-- <a href="{{route('brandDetails')}}" class="link-item">Brand-details</a> --}}
         </div>
         <div class="links-container">
-            <h2>Our services</h2>
-            <a href="/features" class="link-item">Features</a>
-            <a href="/pricing" class="link-item">Pricing</a>
-            <a href="/api" class="link-item">Api</a>
-            <a href="/subscription" class="link-item">Subscription</a>
-            <a href="{{route('cancellation')}}" class="link-item">Cancellation</a>
+            <h2>{{trans('lang.STR_TITLE_FOOTER_2')}}</h2>
+            <a href="/features" class="link-item">{{trans('lang.STR_LINK_NAV_4')}}</a>
+            <a href="/pricing" class="link-item">{{trans('lang.STR_LINK_NAV_5')}}</a>
+            <a href="/api" class="link-item">{{trans('lang.STR_LINK_NAV_6')}}</a>
+            <a href="/subscription" class="link-item">{{trans('lang.STR_LINK_NAV_7')}}</a>
+            <a href="{{route('cancellation')}}" class="link-item">{{trans('lang.STR_LINK_NAV_8')}}</a>
         </div>
         <div class="links-container">
-            <h2>About Us</h2>
-            <a href="/about" class="link-item">About</a>
-            <a href="/press" class="link-item">Press</a>
-            <a href="/cookies" class="link-item">Cookies</a>
-            <a href="/terms" class="link-item">Terms</a>
-            <a href="/privacy" class="link-item">Privacy</a>
+            <h2>{{trans('lang.STR_TITLE_FOOTER_3')}}</h2>
+            <a href="/about" class="link-item">{{trans('lang.STR_LINK_NAV_9')}}</a>
+            <a href="/press" class="link-item">{{trans('lang.STR_LINK_NAV_10')}}</a>
+            <a href="/cookies" class="link-item">{{trans('lang.STR_LINK_NAV_11')}}</a>
+            <a href="/terms" class="link-item">{{trans('lang.STR_LINK_NAV_12')}}</a>
+            <a href="/privacy" class="link-item">{{trans('lang.STR_LINK_NAV_13')}}</a>
         </div>
         <div class="links-container">
-            <h2>Contact Us</h2>
-            <a href="{{route('contact')}}" class="link-item">Contact</a>
-            <a href="/faq" class="link-item">FAQ</a>
-            <a href="{{route('carreers')}}" class="link-item">Carreers</a>
+            <h2>{{trans('lang.STR_TITLE_FOOTER_4')}}</h2>
+            <a href="{{route('contact')}}" class="link-item">{{trans('lang.STR_LINK_NAV_14')}}</a>
+            <a href="/faq" class="link-item">{{trans('lang.STR_LINK_NAV_15')}}</a>
+            <a href="{{route('carreers')}}" class="link-item">{{trans('lang.STR_LINK_NAV_16')}}</a>
 
         </div>
             <div class="links-container">

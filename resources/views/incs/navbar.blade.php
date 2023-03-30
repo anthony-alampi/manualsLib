@@ -12,40 +12,40 @@
             <div class="navlinks-container">
                 <a href="#" aria-current="page"></a>
                 <div class="separate"></div>
-                <a href="{{route('manuals')}}">Manuals</a>
+                <a href="{{route('manuals')}}">{{trans('lang.STR_LINK_NAV_2')}}</a>
                 <div class="separate"></div>
-                <a href="/features">Features</a>
+                <a href="/features">{{trans('lang.STR_LINK_NAV_4')}}</a>
                 <div class="separate"></div>
-                <a href="/brands">Brands</a>
+                <a href="/brands">{{trans('lang.STR_LINK_NAV_3')}}</a>
                 <div class="separate"></div>
-                <a href="/pricing">Pricing</a>
+                <a href="/pricing">{{trans('lang.STR_LINK_NAV_5')}}</a>
                 <div class="separate"></div> 
-                <a href="/api">Api</a>
+                <a href="/api">{{trans('lang.STR_LINK_NAV_6')}}</a>
                 <div class="separate"></div>
-                <a href="/press">Press</a>
+                <a href="/press">{{trans('lang.STR_LINK_NAV_10')}}</a>
                 <div class="separate"></div>
-                <a href="/about">About</a>
+                <a href="/about">{{trans('lang.STR_LINK_NAV_9')}}</a>
                 <div class="separate"></div>
                 <div class="signs-btn">
                 @if (Auth::user())
                 <button type="button" class='btn-form' id="openModalBtn" style="display:none">Sign-in/ up</button> <!-- not visible, display none on the button if connect -->
                    <div class="dropdown-user">
-                       <button class="btn-top">My Account</button>
+                       <button class="btn-top">{{trans('lang.STR_LINK_NAV_MY_ACCOUNT')}}</button>
                        <div class="list">
                            <a href="{{route('dashboard')}}" class="links">
-                               Dashboard
+                               {{trans('lang.STR_LINK_NAV_17')}}
                            </a>
                            <a href="{{route('dashboardAccount')}}" class="links">
-                               Account
+                               {{trans('lang.STR_LINK_NAV_18')}}
                            </a>
                            <a href="{{route('dashboardAffiliation')}}" class="links">
-                               Affiliation
+                               {{trans('lang.STR_LINK_NAV_19')}}
                            </a>
                             <a href="#" class="links" onclick="document.getElementById('logout-form').submit()">
                                 <form action="{{ route('logout') }}" method="POST" id="logout-form">
                                     @csrf
                                 </form>
-                                    Disconnect</a>
+                                    {{trans('lang.STR_LINK_NAV_20')}}</a>
                        </div>
                    </div>
                     @else

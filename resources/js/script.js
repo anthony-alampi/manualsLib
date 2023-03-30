@@ -7,7 +7,7 @@ const option = {
     rootMargin: "0px",
     threshold: ratio
 };
-/*-------------------------------REVEAL RIGHT-------------------------------------*/
+/*-------------------------------REVEAL RIGHT------------*/
 const handleIntersectRight = function (entries, observerRight) {
     entries.forEach(function (entry) {
         if (entry.intersectionRatio > ratio) {
@@ -22,7 +22,7 @@ document.querySelectorAll('[class*="reveal-right"]').forEach(function (r) {
     observerRight.observe(r);
 });
 
-/*----------------------------REVEAL LEFT------------------------------------*/
+/*----------------------------REVEAL LEFT--------------*/
 const handleIntersectLeft = function (entries, observerLeft) {
     entries.forEach(function (entry) {
         if (entry.intersectionRatio > ratio) {
@@ -35,7 +35,7 @@ const observerLeft = new IntersectionObserver(handleIntersectLeft, option);
 document.querySelectorAll('[class*="reveal-left"]').forEach(function (r) {
     observerLeft.observe(r);
 });
-/*---------------------------REVEAL BOTTOM------------------------------------*/
+/*---------------------------REVEAL BOTTOM--------------*/
 const handleIntersectBottom = function (entries, observerBottom) {
     entries.forEach(function (entry) {
         if (entry.intersectionRatio > ratio) {
@@ -133,40 +133,27 @@ new ResizeObserver((entries) => {
 }).observe(document.body);
 
 //--------------------Customers Feedback-------------------------//
+// document.addEventListener("DOMContentLoaded", () => {
+//     const ms = document.querySelector(".micro-slider");
+//     const msSlider = new MicroSlider(ms, {
+//         // indicators: true,
+//         // indicatorText: "",
+//     });
+//     const msTimer = 4000;
+//     let msAutoplay = setInterval(() => msSlider.next(), msTimer);
+// });
 document.addEventListener("DOMContentLoaded", () => {
-    const __ms = document.querySelector(".micro-slider");
-    const __msSlider = new MicroSlider(__ms, {
-        // indicators: true,
-        // indicatorText: "",
-    });
-    const __msTimer = 4000;
-    let __msAutoplay = setInterval(() => __msSlider.next(), __msTimer);
+    const ms = document.querySelector(".micro-slider");
 
-    __ms.onmouseenter = function (e) {
-        clearInterval(__msAutoplay);
-    };
-    __ms.onmouseleave = function (e) {
-        clearInterval(__msAutoplay);
-        __msAutoplay = setInterval(() => __msSlider.next(), __msTimer);
-    };
-
-    __ms.onclick = function (e) {
-        clearInterval(__msAutoplay);
-    };
-
-    let slideLink = document.querySelectorAll(".slider-item");
-    if (slideLink && slideLink !== null && slideLink.length > 0) {
-        slideLink.forEach((el) =>
-            el.addEventListener("click", (e) => {
-                e.preventDefault();
-                let href = el.dataset.href;
-                let target = el.dataset.target;
-                if (href !== "#") window.open(href, target);
-            })
-        );
-    }
+    if (ms) {
+        const msSlider = new MicroSlider(ms, {
+            // indicators: true,
+            // indicatorText: "",
+        });
+        const msTimer = 4000;
+        let msAutoplay = setInterval(() => msSlider.next(), msTimer);
+    } 
 });
-
 /*--------------------------------------SUBSCRIBE MODAL STRIPE----------------------------------*/
 
 var stripeModalBtns = document.querySelectorAll("#stripe-modal-btn");
@@ -295,6 +282,63 @@ document.addEventListener("DOMContentLoaded", function () {
 
 //------------------------------- LIVE SEARCH -------------------------------------//
 
+// let searchInput = document.querySelector("#search_dynamic");
+// const searchList = document.querySelector("#searchList");
+// const goToManualButton = document.querySelector("#search_button");
+
+// let nameManuals;
+// let selectedManualId;
+
+// function searchManuals() {
+//     axios
+//         .get(`https://dev3.vanilla.digital/manuals.php`)
+//         .then((response) => {
+//             nameManuals = response.data;
+//             let searchList = document.querySelector("#searchList");
+
+//             searchInput.addEventListener("input", () => {
+//                 let valeur = searchInput.value;
+
+//                 if (valeur === "") {
+//                     searchList.style.display = "none";
+//                     return;
+//                 }
+
+//                 let nameSuggest = nameManuals.filter(function (manuel) {
+//                     return manuel.name
+//                         .toLowerCase()
+//                         .includes(valeur.toLowerCase());
+//                 });
+//                 searchList.innerHTML = "";
+
+//                 nameSuggest.slice(0, 25).forEach(function (manual) {
+//                     let item = document.createElement("li");
+//                     item.textContent = manual.name;
+//                     searchList.appendChild(item);
+
+//                     item.addEventListener("click", () => {
+//                         selectedManualId = manual.id;
+//                         searchInput.value = manual.name;
+//                         searchList.style.display = "none";
+//                     });
+//                 });
+
+//                 if (nameSuggest.length === 0) {
+//                     searchList.style.display = "none";
+//                 } else {
+//                     searchList.style.display = "block";
+//                 }
+//             });
+
+//             goToManualButton.addEventListener("click", () => {
+//                 if (selectedManualId) {
+//                     window.location.href = `/manual/${selectedManualId}`;
+//                 }
+//             });
+//         })
+//         // .catch((error) => console.log(error));
+// }
+// searchManuals();
 let searchInput = document.querySelector("#search_dynamic");
 const searchList = document.querySelector("#searchList");
 const goToManualButton = document.querySelector("#search_button");
@@ -307,50 +351,54 @@ function searchManuals() {
         .get(`https://dev3.vanilla.digital/manuals.php`)
         .then((response) => {
             nameManuals = response.data;
-            let searchList = document.querySelector("#searchList");
 
-            searchInput.addEventListener("input", () => {
-                let valeur = searchInput.value;
+            if (searchInput) {
+                searchInput.addEventListener("input", () => {
+                    let valeur = searchInput.value;
 
-                if (valeur === "") {
-                    searchList.style.display = "none";
-                    return;
-                }
-
-                let nameSuggest = nameManuals.filter(function (manuel) {
-                    return manuel.name
-                        .toLowerCase()
-                        .includes(valeur.toLowerCase());
-                });
-                searchList.innerHTML = "";
-
-                nameSuggest.slice(0, 25).forEach(function (manual) {
-                    let item = document.createElement("li");
-                    item.textContent = manual.name;
-                    searchList.appendChild(item);
-
-                    item.addEventListener("click", () => {
-                        selectedManualId = manual.id;
-                        searchInput.value = manual.name;
+                    if (valeur === "") {
                         searchList.style.display = "none";
+                        return;
+                    }
+
+                    let nameSuggest = nameManuals.filter(function (manuel) {
+                        return manuel.name
+                            .toLowerCase()
+                            .includes(valeur.toLowerCase());
                     });
+                    searchList.innerHTML = "";
+
+                    nameSuggest.slice(0, 25).forEach(function (manual) {
+                        let item = document.createElement("li");
+                        item.textContent = manual.name;
+                        searchList.appendChild(item);
+
+                        item.addEventListener("click", () => {
+                            selectedManualId = manual.id;
+                            searchInput.value = manual.name;
+                            searchList.style.display = "none";
+                        });
+                    });
+
+                    if (nameSuggest.length === 0) {
+                        searchList.style.display = "none";
+                    } else {
+                        searchList.style.display = "block";
+                    }
                 });
+            }
 
-                if (nameSuggest.length === 0) {
-                    searchList.style.display = "none";
-                } else {
-                    searchList.style.display = "block";
-                }
-            });
-
-            goToManualButton.addEventListener("click", () => {
-                if (selectedManualId) {
-                    window.location.href = `/manual/${selectedManualId}`;
-                }
-            });
+            if (goToManualButton) {
+                goToManualButton.addEventListener("click", () => {
+                    if (selectedManualId) {
+                        window.location.href = `/manual/${selectedManualId}`;
+                    }
+                });
+            }
         })
-        // .catch((error) => console.log(error));
+        .catch((error) => console.log(error));
 }
+
 searchManuals();
 
 //-----------------------FAQ MODULE------------------------------------*/
@@ -381,31 +429,162 @@ if (linkCopyBtn && affiliateInput) {
         navigator.clipboard.writeText(affiliateInput.value);
     });
 }
+/*--------------------------------------------------*/
+// let nbrDownload = document.querySelector("[data-nbr]").getAttribute("data-nbr");
+// let maxDownloadPerPlan = 3;
+
+// function updateProgressBar(percentage) {
+//     const circle = document.querySelector(".circle-front");
+//     const progressText = document.querySelector(".progress-text");
+//     const circumference = 2 * Math.PI * circle.getAttribute("r");
+//     const dasharray = ( percentage / 100 ) * circumference;
+
+//     circle.style.strokeDasharray = `${dasharray} ${circumference}`;
+//     progressText.textContent = `${percentage}%`;
+// }
+
+// function getUserUpdateProgressBar() {
+//     const produitEnCroix = (nbrDownload * 100) / maxDownloadPerPlan;
+//     const userInput = produitEnCroix;
+
+//     if (userInput !== null) {
+//         const inputValue = parseInt(userInput, 10);
+
+//         if (inputValue >= 1 && inputValue <= 100) {
+//             updateProgressBar(inputValue);
+//         }
+//     }
+// }
+
+// getUserUpdateProgressBar();
+const element = document.querySelector("[data-nbr]");
+let nbrDownload;
+if (element) {
+    nbrDownload = element.getAttribute("data-nbr");
+}
+let maxDownloadPerPlan = 3;
+
+function updateProgressBar(percentage) {
+    const circle = document.querySelector(".circle-front");
+    const progressText = document.querySelector(".progress-text");
+    const circumference = 2 * Math.PI * circle.getAttribute("r");
+    const dasharray = (percentage / 100) * circumference;
+
+    circle.style.strokeDasharray = `${dasharray} ${circumference}`;
+    progressText.textContent = `${percentage}%`;
+}
+
+function getUserUpdateProgressBar() {
+    const produitEnCroix = (nbrDownload * 100) / maxDownloadPerPlan;
+    const userInput = produitEnCroix;
+
+    if (userInput !== null) {
+        const inputValue = parseInt(userInput, 10);
+
+        if (inputValue >= 1 && inputValue <= 100) {
+            updateProgressBar(inputValue);
+        }
+    }
+}
+
+getUserUpdateProgressBar();
+
 //---------- Modal preview doc ----------//
 
+// var modalPreview = document.getElementById("myModal");
+// var btn = document.getElementById("preview-button");
+// var body = document.getElementsByTagName("body")[0];
+
+
+// btn.onclick = function() {
+//   modalPreview.style.display = "block";
+//   modalPreview.style.zIndex = "999";
+//   body.style.overflow = "hidden";
+  
+// }
+
+// window.onclick = function(event) {
+//   if (event.target == modalPreview) {
+//     modalPreview.style.display = "none";
+//     body.style.overflow = "auto";
+//   }
+// }
 var modalPreview = document.getElementById("myModal");
 var btn = document.getElementById("preview-button");
 var body = document.getElementsByTagName("body")[0];
 
-
-btn.onclick = function() {
-  modalPreview.style.display = "block";
-  modalPreview.style.zIndex = "999";
-  body.style.overflow = "hidden";
-  
+if (btn) {
+    btn.onclick = function () {
+        modalPreview.style.display = "block";
+        modalPreview.style.zIndex = "999";
+        body.style.overflow = "hidden";
+    };
 }
 
-window.onclick = function(event) {
-  if (event.target == modalPreview) {
-    modalPreview.style.display = "none";
-    body.style.overflow = "auto";
-  }
-}
+window.onclick = function (event) {
+    if (event.target == modalPreview) {
+        modalPreview.style.display = "none";
+        body.style.overflow = "auto";
+    }
+};
+
 /*------------------------------STRIPE ELEMENTS-----------------------------------------*/
+// var stripe = Stripe(
+//     "pk_test_51MGkYNFqehIyiqCAswBA4bcAvfS1Jj2En7v6MAEWVCB6AaMKrSALxpAuRjWOEnRd6ECnVYvQBw9BNEXjNDFRHKQT003lnndXaj"
+// );
+// var elements = stripe.elements();
+// (function () {
+//     "use strict";
+
+//     var elements = stripe.elements({
+//         fonts: [
+//             {
+//                 cssSrc: "https://fonts.googleapis.com/css?family=Roboto",
+//             },
+//         ],
+//         // Stripe's examples are localized to specific languages, but if
+//         // you wish to have Elements automatically detect your user's locale,
+//         // use `locale: 'auto'` instead.
+//         locale: window.__exampleLocale,
+//     });
+
+//     var card = elements.create("card", {
+//         iconStyle: "solid",
+//         style: {
+//             base: {
+//                 iconColor: "#c4f0ff",
+//                 color: "#333",
+//                 fontWeight: 500,
+//                 fontFamily: "Roboto, Open Sans, Segoe UI, sans-serif",
+//                 fontSize: "16px",
+//                 fontSmoothing: "antialiased",
+
+//                 ":-webkit-autofill": {
+//                     color: "#333",
+//                 },
+//                 "::placeholder": {
+//                     color: "#333",
+//                 },
+//             },
+//             invalid: {
+//                 iconColor: "#FFC7EE",
+//                 color: "#FFC7EE",
+//             },
+//         },
+//     });
+//     card.mount("#example1-card");
+//     registerElements([card], "example1");
+// })
+// ();
 var stripe = Stripe(
     "pk_test_51MGkYNFqehIyiqCAswBA4bcAvfS1Jj2En7v6MAEWVCB6AaMKrSALxpAuRjWOEnRd6ECnVYvQBw9BNEXjNDFRHKQT003lnndXaj"
 );
+function registerElements(elements, exampleName) {
+    // Ici, vous pouvez ajouter votre code pour gérer l'enregistrement des éléments.
+    console.log(`Enregistrement des éléments ${exampleName}`);
+}
 var elements = stripe.elements();
+
 (function () {
     "use strict";
 
@@ -415,9 +594,6 @@ var elements = stripe.elements();
                 cssSrc: "https://fonts.googleapis.com/css?family=Roboto",
             },
         ],
-        // Stripe's examples are localized to specific languages, but if
-        // you wish to have Elements automatically detect your user's locale,
-        // use `locale: 'auto'` instead.
         locale: window.__exampleLocale,
     });
 
@@ -445,9 +621,21 @@ var elements = stripe.elements();
             },
         },
     });
-    card.mount("#example1-card");
-    registerElements([card], "example1");
-})
-();
 
+    var example1Card = document.getElementById("example1-card");
 
+    if (example1Card) {
+        card.mount("#example1-card");
+        registerElements([card], "example1");
+    }
+
+    // Fermer la fenêtre du formulaire en cliquant en dehors de celle-ci
+    var modalStripe = document.querySelector(".modal-payment"); // Assurez-vous d'avoir la classe 'modal' sur le conteneur du formulaire dans votre HTML
+    if (modalStripe) {
+        document.addEventListener("click", function (event) {
+            if (event.target === modalStripe) {
+                modalStripe.style.display = "none";
+            }
+        });
+    }
+})();
