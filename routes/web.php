@@ -30,10 +30,8 @@ Route::get('/carreers'              ,[CarreersController::class, 'show'])->name(
 Route::post('/forgot-password'      ,[ForgotPasswordController::class, 'storePassword'])->name('password.email');
 /*-------------------------------------------------------------------------------------*/
 
-Route::get('/'              ,[HomeController::class, 'home'])->name('home');/*-- Fortify route--- */
-Route::get('/home'          , function () { return view('home'); })->name('home');
+Route::get('/'              , function() { return view('home'); })->name('home');
 Route::get('/brands'        , function() { return view('brands'); });
-Route::get('/brand-details' , function() { return view('brandDetails'); });
 Route::get('/about'         , function() { return view('about'); });
 Route::get('/features'      , function() { return view('features'); });
 Route::get('/pricing'       , function() { return view('pricing'); });
@@ -44,8 +42,21 @@ Route::get('/subscription'  , function() { return view('subscription'); });
 Route::get('/terms'         , function() { return view('terms'); });
 Route::get('/privacy'       , function() { return view('privacy'); });
 Route::get('/cookies'       , function() { return view('cookies'); });
-
-
-
-
-
+/* ** */
+Route::get('/brand-details'     , function() { return view('brandDetails'); }); /* Example page for brand list*/
+/*BRAND PAGE ROUTING x15  */
+Route::get('/brand/panasonic'   , function () { return view('brandDetails'); });
+Route::get('/brand/sony'        , function () { return view('brandDetails'); });
+Route::get('/brand/samsung'     , function () { return view('brandDetails'); });
+Route::get('/brand/apple'       , function () { return view('brandDetails'); });
+Route::get('/brand/philips'     , function () { return view('brandDetails'); });
+Route::get('/brand/lg'          , function () { return view('brandDetails'); });
+Route::get('/brand/valberg'     , function () { return view('brandDetails'); });
+Route::get('/brand/marshall'    , function () { return view('brandDetails'); });
+Route::get('/brand/xiaomi'      , function () { return view('brandDetails'); });
+Route::get('/brand/toshiba'     , function () { return view('brandDetails'); });
+Route::get('/brand/bosch'       , function () { return view('brandDetails'); });
+Route::get('/brand/jbl'         , function () { return view('brandDetails'); });
+Route::get('/brand/bose'        , function () { return view('brandDetails'); });
+Route::get('/brand/gopro'       , function () { return view('brandDetails'); });
+Route::get('/brand/dyson'       , function () { return view('brandDetails'); });

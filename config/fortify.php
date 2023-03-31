@@ -120,14 +120,14 @@ return [
 
     'views' => true,
 
-    // 'redirects' => [
-    //     'login' => '/home',
-    //     'logout' => null,
-    //     'password-confirmation' => null,
-    //     'register' => '/home',
-    //     'email-verification' => null,
-    //     'password-reset' => null,
-    // ],
+    'redirects' => [
+        'login' => '/dashboard',
+        'logout' => '/',
+        'password-confirmation' => null,
+        'register' => '/dashboard',
+        'email-verification' => null,
+        'password-reset' => null,
+    ],
     /*
     |--------------------------------------------------------------------------
     | Features
