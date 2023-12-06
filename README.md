@@ -1,17 +1,9 @@
-// Mise en fonctionnement de l'application ManualsLib en local ( sans Base de données )
-Note : Consommation API des manuels indisponible en raison de la confidentialité relative à l'entreprise. Egalement le fonctionnement du système de compte agnostique Fortify, Recaptcha et Stripe Payment.
-Le maintien du projet sur GitHub permet d'agrémenter le portfolio de Mr Alampi Anthony. La partie fonctionnelle relevant d'un contrat de confidentialité, elle ne peut être réutilisé un des fins perosnnelles.
+// Deployment of the ManualsLib application locally (without a Database)
+Note: Manual API consumption is unavailable due to company confidentiality. Additionally, the functioning of the agnostic Fortify account system, Recaptcha, and Stripe Payment. Maintaining the project on GitHub enhances Mr. Alampi Anthony's portfolio. The functional part, being subject to a confidentiality agreement, cannot be reused for personal purposes.
 
-1- Mise en fonctionnement du serveur local (WAMP)
-2- Cloner le repository dans le dossier "www" qui se trouve dans "C:\wamp64\www"
-3- Ouvrir le clone dans l'environnement "IDE"
-4- Effectuer les commandes suivantes dans le terminal : 
-    composer update or composer i
-    npm i
-    cp .env.example .env
-    npm run dev
-    artisan php serve
-5- Générer la clé d'accès
-6- rafraichir
-
-
+1- Set up the local server (WAMP).
+2- Clone the repository into the "www" folder located at "C:\wamp64\www".
+3- Open the clone in the "IDE" environment.
+4- Execute the following commands in the terminal: composer update or composer i npm i cp .env.example .env npm run dev artisan php serve
+5- Generate the access key.
+6- Refresh
